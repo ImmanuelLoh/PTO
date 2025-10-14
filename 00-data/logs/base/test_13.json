@@ -1,0 +1,135 @@
+{
+    "query": "Calculate the Operating Efficiency Ratio (Opex \u00f7 Operating Income) for the last 3 fiscal years, showing the working.",
+    "results": [
+        {
+            "rank": 1,
+            "score": 0.8195542693138123,
+            "text": "Financial statement table: , , Year Ended December 31,, \n, , 2023, 2024\nNet cash provided by operating activities, $, 101,746  $, 125,299\nNet cash used in investing activities, $, (27,063)  $, (45,536)\nNet cash used in financing activities, $, (72,093)  $, (79,733)\nCash Provided by Operating Activities, , , ",
+            "markdown": "| 0                                                          | 1   | 2                       | 3        |\n|:-----------------------------------------------------------|:----|:------------------------|:---------|\n| The following table presents our cash flows (in millions): |     |                         |          |\n|                                                            |     | Year Ended December 31, |          |\n|                                                            |     | 2023                    | 2024     |\n| Net cash provided by operating activities                  | $   | 101,746  $              | 125,299  |\n| Net cash used in investing activities                      | $   | (27,063)  $             | (45,536) |\n| Net cash used in financing activities                      | $   | (72,093)  $             | (79,733) |\n| Cash Provided by Operating Activities                      |     |                         |          |",
+            "metadata": {
+                "document": "goog-10-k-2024.pdf",
+                "page_number": "42",
+                "page_section": "mdna",
+                "chunk_type": "table",
+                "table_index": 0
+            }
+        },
+        {
+            "rank": 2,
+            "score": 0.817007839679718,
+            "text": "Financial statement table: , , September 30,, \n, , 2023, 2024\nNet cash provided by operating activities, $, 82,831  $, 86,186\nNet cash used in investing activities, $, (20,896)  $, (29,356)\nNet cash used in financing activities, $, (52,785)  $, (60,697)\nCash Provided by Operating Activities, , , ",
+            "markdown": "| 0                                         | 1   | 2                 | 3        |\n|:------------------------------------------|:----|:------------------|:---------|\n|                                           |     | Nine Months Ended |          |\n|                                           |     | September 30,     |          |\n|                                           |     | 2023              | 2024     |\n| Net cash provided by operating activities | $   | 82,831  $         | 86,186   |\n| Net cash used in investing activities     | $   | (20,896)  $       | (29,356) |\n| Net cash used in financing activities     | $   | (52,785)  $       | (60,697) |\n| Cash Provided by Operating Activities     |     |                   |          |",
+            "metadata": {
+                "document": "goog-10-q-q3-2024.pdf",
+                "page_number": "44",
+                "page_section": "financial_statements",
+                "chunk_type": "table",
+                "table_index": 1
+            }
+        },
+        {
+            "rank": 3,
+            "score": 0.8156529068946838,
+            "text": "Financial statement table: , , June 30,, \n, , 2023, 2024\nNet cash provided by operating activities, $, 52,175  $, 55,488\nNet cash used in investing activities, $, (13,746)  $, (11,345)\nNet cash used in financing activities, $, (34,403)  $, (40,603)\nCash Provided by Operating Activities, , , ",
+            "markdown": "| 0                                         | 1   | 2                | 3        |\n|:------------------------------------------|:----|:-----------------|:---------|\n|                                           |     | Six Months Ended |          |\n|                                           |     | June 30,         |          |\n|                                           |     | 2023             | 2024     |\n| Net cash provided by operating activities | $   | 52,175  $        | 55,488   |\n| Net cash used in investing activities     | $   | (13,746)  $      | (11,345) |\n| Net cash used in financing activities     | $   | (34,403)  $      | (40,603) |\n| Cash Provided by Operating Activities     |     |                  |          |",
+            "metadata": {
+                "document": "goog-10-q-q2-2024.pdf",
+                "page_number": "44",
+                "page_section": "cash_flow",
+                "chunk_type": "table",
+                "table_index": 0
+            }
+        },
+        {
+            "rank": 4,
+            "score": 0.815199613571167,
+            "text": "Financial statement table: , , March 31,, \n, , 2023, 2024\nNet cash provided by operating activities, $, 23,509  $, 28,848\nNet cash used in investing activities, $, (2,946)  $, (8,564)\nNet cash used in financing activities, $, (16,568)  $, (19,714)\nCash Provided by Operating Activities, , , ",
+            "markdown": "| 0                                         | 1   | 2                  | 3        |\n|:------------------------------------------|:----|:-------------------|:---------|\n|                                           |     | Three Months Ended |          |\n|                                           |     | March 31,          |          |\n|                                           |     | 2023               | 2024     |\n| Net cash provided by operating activities | $   | 23,509  $          | 28,848   |\n| Net cash used in investing activities     | $   | (2,946)  $         | (8,564)  |\n| Net cash used in financing activities     | $   | (16,568)  $        | (19,714) |\n| Cash Provided by Operating Activities     |     |                    |          |",
+            "metadata": {
+                "document": "goog-10-q-q1-2024.pdf",
+                "page_number": "39",
+                "page_section": "cash_flow",
+                "chunk_type": "table",
+                "table_index": 0
+            }
+        },
+        {
+            "rank": 5,
+            "score": 0.8144591450691223,
+            "text": "Financial statement table: , , Year Ended December 31,, \n, , 2022, 2023\nNet cash provided by operating activities, $, 91,495  $, 101,746\nNet cash used in investing activities, $, (20,298)  $, (27,063)\nNet cash used in financing activities, $, (69,757)  $, (72,093)\nCash Provided by Operating Activities, , , ",
+            "markdown": "| 0                                                          | 1   | 2                       | 3        |\n|:-----------------------------------------------------------|:----|:------------------------|:---------|\n| The following table presents our cash flows (in millions): |     |                         |          |\n|                                                            |     | Year Ended December 31, |          |\n|                                                            |     | 2022                    | 2023     |\n| Net cash provided by operating activities                  | $   | 91,495  $               | 101,746  |\n| Net cash used in investing activities                      | $   | (20,298)  $             | (27,063) |\n| Net cash used in financing activities                      | $   | (69,757)  $             | (72,093) |\n| Cash Provided by Operating Activities                      |     |                         |          |",
+            "metadata": {
+                "document": "goog-10-k-2023-final.pdf",
+                "page_number": "42",
+                "page_section": "cash_flow",
+                "chunk_type": "table",
+                "table_index": 0
+            }
+        },
+        {
+            "rank": 6,
+            "score": 0.8133469820022583,
+            "text": "Financial statement table: , , June 30,, \n, , 2022, 2023\nNet cash provided by operating activities, $, 44,528  $, 52,175\nNet cash used in investing activities, $, (13,238)  $, (13,746)\nNet cash used in financing activities, $, (34,031)  $, (34,403)\nCash Provided by Operating Activities, , , ",
+            "markdown": "| 0                                         | 1   | 2                | 3        |\n|:------------------------------------------|:----|:-----------------|:---------|\n|                                           |     | Six Months Ended |          |\n|                                           |     | June 30,         |          |\n|                                           |     | 2022             | 2023     |\n| Net cash provided by operating activities | $   | 44,528  $        | 52,175   |\n| Net cash used in investing activities     | $   | (13,238)  $      | (13,746) |\n| Net cash used in financing activities     | $   | (34,031)  $      | (34,403) |\n| Cash Provided by Operating Activities     |     |                  |          |",
+            "metadata": {
+                "document": "goog-10-q-q2-2023.pdf",
+                "page_number": "45",
+                "page_section": "financial_statements",
+                "chunk_type": "table",
+                "table_index": 1
+            }
+        },
+        {
+            "rank": 7,
+            "score": 0.8133134841918945,
+            "text": "Financial statement table: , , September 30,, \n, , 2022, 2023\nNet cash provided by operating activities, $, 67,881  $, 82,831\nNet cash used in investing activities, $, (14,071)  $, (20,896)\nNet cash used in financing activities, $, (52,128)  $, (52,785)\nCash Provided by Operating Activities, , , ",
+            "markdown": "| 0                                         | 1   | 2                 | 3        |\n|:------------------------------------------|:----|:------------------|:---------|\n|                                           |     | Nine Months Ended |          |\n|                                           |     | September 30,     |          |\n|                                           |     | 2022              | 2023     |\n| Net cash provided by operating activities | $   | 67,881  $         | 82,831   |\n| Net cash used in investing activities     | $   | (14,071)  $       | (20,896) |\n| Net cash used in financing activities     | $   | (52,128)  $       | (52,785) |\n| Cash Provided by Operating Activities     |     |                   |          |",
+            "metadata": {
+                "document": "goog-10-q-q3-2023.pdf",
+                "page_number": "46",
+                "page_section": "financial_statements",
+                "chunk_type": "table",
+                "table_index": 1
+            }
+        },
+        {
+            "rank": 8,
+            "score": 0.8097795248031616,
+            "text": "Financial statement table: , , March 31,, \n, , 2022, 2023\nNet cash provided by operating activities, $, 25,106  $, 23,509\nNet cash used in investing activities, $, (9,051)  $, (2,946)\nNet cash used in financing activities, $, (16,214)  $, (16,568)\nCash Provided by Operating Activities, , , ",
+            "markdown": "| 0                                         | 1   | 2                  | 3        |\n|:------------------------------------------|:----|:-------------------|:---------|\n|                                           |     | Three Months Ended |          |\n|                                           |     | March 31,          |          |\n|                                           |     | 2022               | 2023     |\n| Net cash provided by operating activities | $   | 25,106  $          | 23,509   |\n| Net cash used in investing activities     | $   | (9,051)  $         | (2,946)  |\n| Net cash used in financing activities     | $   | (16,214)  $        | (16,568) |\n| Cash Provided by Operating Activities     |     |                    |          |",
+            "metadata": {
+                "document": "goog-10-q-q1-2023.pdf",
+                "page_number": "40",
+                "page_section": "financial_statements",
+                "chunk_type": "table",
+                "table_index": 1
+            }
+        },
+        {
+            "rank": 11,
+            "score": 0.8073176145553589,
+            "text": "Financial statement table: , , Three Months Ended, , Six Months Ended, \n, , June 30,, , June 30,, \n, , 2023 2024, , 2023 2024, \nDerivatives in cash flow hedging relationship:, , , , , \nForeign exchange contracts, , , , , \nAmount included in the assessment of effectiveness, $, 77  $, 277  $, (61)  $, 432\nAmount excluded from the assessment of effectiveness, , 80, (7), 127, 51\nDerivatives in net investment hedging relationship:, , , , , \nForeign exchange contracts, , , , , \nAmount included in the assessment of effectiveness, , (59), 120, (274), 202\nTotal, $, 98  $, 390  $, (208)  $, 685",
+            "markdown": "| 0                                                                    | 1   | 2                  | 3      | 4                | 5   |\n|:---------------------------------------------------------------------|:----|:-------------------|:-------|:-----------------|:----|\n| other comprehensive income (OCI) are summarized below (in millions): |     |                    |        |                  |     |\n|                                                                      |     | Three Months Ended |        | Six Months Ended |     |\n|                                                                      |     | June 30,           |        | June 30,         |     |\n|                                                                      |     | 2023 2024          |        | 2023 2024        |     |\n| Derivatives in cash flow hedging relationship:                       |     |                    |        |                  |     |\n| Foreign exchange contracts                                           |     |                    |        |                  |     |\n| Amount included in the assessment of effectiveness                   | $   | 77  $              | 277  $ | (61)  $          | 432 |\n| Amount excluded from the assessment of effectiveness                 |     | 80                 | (7)    | 127              | 51  |\n| Derivatives in net investment hedging relationship:                  |     |                    |        |                  |     |\n| Foreign exchange contracts                                           |     |                    |        |                  |     |\n| Amount included in the assessment of effectiveness                   |     | (59)               | 120    | (274)            | 202 |\n| Total                                                                | $   | 98  $              | 390  $ | (208)  $         | 685 |",
+            "metadata": {
+                "document": "goog-10-q-q2-2024.pdf",
+                "page_number": "18",
+                "page_section": "cash_flow",
+                "chunk_type": "table",
+                "table_index": 2
+            }
+        },
+        {
+            "rank": 12,
+            "score": 0.8068475723266602,
+            "text": "Financial statement table: , , March 31,, \n, , 2024, 2025\nNet cash provided by operating activities, $, 28,848  $, 36,150\nNet cash used in investing activities, $, (8,564)  $, (16,194)\nNet cash used in financing activities, $, (19,714)  $, (20,201)\nCash Provided by Operating Activities, , , ",
+            "markdown": "| 0                                         | 1   | 2                  | 3        |\n|:------------------------------------------|:----|:-------------------|:---------|\n|                                           |     | Three Months Ended |          |\n|                                           |     | March 31,          |          |\n|                                           |     | 2024               | 2025     |\n| Net cash provided by operating activities | $   | 28,848  $          | 36,150   |\n| Net cash used in investing activities     | $   | (8,564)  $         | (16,194) |\n| Net cash used in financing activities     | $   | (19,714)  $        | (20,201) |\n| Cash Provided by Operating Activities     |     |                    |          |",
+            "metadata": {
+                "document": "goog-10-q-q1-2025.pdf",
+                "page_number": "42",
+                "page_section": "financial_statements",
+                "chunk_type": "table",
+                "table_index": 1
+            }
+        }
+    ]
+}
