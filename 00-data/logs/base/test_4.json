@@ -1,0 +1,103 @@
+{
+    "query": "Show Operating Income for 2023 and 2022",
+    "results": [
+        {
+            "rank": 1,
+            "score": 0.8689351081848145,
+            "text": "Financial statement table: , , September 30,, \n, , 2022, 2023\nNet cash provided by operating activities, $, 67,881  $, 82,831\nNet cash used in investing activities, $, (14,071)  $, (20,896)\nNet cash used in financing activities, $, (52,128)  $, (52,785)\nCash Provided by Operating Activities, , , ",
+            "markdown": "| 0                                         | 1   | 2                 | 3        |\n|:------------------------------------------|:----|:------------------|:---------|\n|                                           |     | Nine Months Ended |          |\n|                                           |     | September 30,     |          |\n|                                           |     | 2022              | 2023     |\n| Net cash provided by operating activities | $   | 67,881  $         | 82,831   |\n| Net cash used in investing activities     | $   | (14,071)  $       | (20,896) |\n| Net cash used in financing activities     | $   | (52,128)  $       | (52,785) |\n| Cash Provided by Operating Activities     |     |                   |          |",
+            "metadata": {
+                "document": "goog-10-q-q3-2023.pdf",
+                "page_number": "46",
+                "page_section": "financial_statements",
+                "chunk_type": "table",
+                "table_index": 1
+            }
+        },
+        {
+            "rank": 2,
+            "score": 0.8677282333374023,
+            "text": "Financial statement table: , , , Year Ended December 31,, , , \n, , 2022, , 2023, , 2024\nDomestic operations, $, 61,307, $, 73,600, $, 108,076\nForeign operations, , 10,021, , 12,117, , 11,739\nTotal, $, 71,328, $, 85,717, $, 119,815",
+            "markdown": "| 0                   | 1                                                                                               | 2      | 3                       | 4      | 5   | 6       |\n|:--------------------|:------------------------------------------------------------------------------------------------|:-------|:------------------------|:-------|:----|:--------|\n|                     | Income from continuing operations before income taxes consisted of the following (in millions): |        |                         |        |     |         |\n|                     |                                                                                                 |        | Year Ended December 31, |        |     |         |\n|                     |                                                                                                 | 2022   |                         | 2023   |     | 2024    |\n| Domestic operations | $                                                                                               | 61,307 | $                       | 73,600 | $   | 108,076 |\n| Foreign operations  |                                                                                                 | 10,021 |                         | 12,117 |     | 11,739  |\n| Total               | $                                                                                               | 71,328 | $                       | 85,717 | $   | 119,815 |",
+            "metadata": {
+                "document": "goog-10-k-2024.pdf",
+                "page_number": "85",
+                "page_section": "financial_statements",
+                "chunk_type": "table",
+                "table_index": 1
+            }
+        },
+        {
+            "rank": 3,
+            "score": 0.8651437759399414,
+            "text": "Financial statement table: , , September 30,, \n, , 2023, 2024\nNet cash provided by operating activities, $, 82,831  $, 86,186\nNet cash used in investing activities, $, (20,896)  $, (29,356)\nNet cash used in financing activities, $, (52,785)  $, (60,697)\nCash Provided by Operating Activities, , , ",
+            "markdown": "| 0                                         | 1   | 2                 | 3        |\n|:------------------------------------------|:----|:------------------|:---------|\n|                                           |     | Nine Months Ended |          |\n|                                           |     | September 30,     |          |\n|                                           |     | 2023              | 2024     |\n| Net cash provided by operating activities | $   | 82,831  $         | 86,186   |\n| Net cash used in investing activities     | $   | (20,896)  $       | (29,356) |\n| Net cash used in financing activities     | $   | (52,785)  $       | (60,697) |\n| Cash Provided by Operating Activities     |     |                   |          |",
+            "metadata": {
+                "document": "goog-10-q-q3-2024.pdf",
+                "page_number": "44",
+                "page_section": "financial_statements",
+                "chunk_type": "table",
+                "table_index": 1
+            }
+        },
+        {
+            "rank": 4,
+            "score": 0.8627820014953613,
+            "text": "Financial statement table: , , Year Ended December 31,, \n, , 2022, 2023\nNet cash provided by operating activities, $, 91,495  $, 101,746\nNet cash used in investing activities, $, (20,298)  $, (27,063)\nNet cash used in financing activities, $, (69,757)  $, (72,093)\nCash Provided by Operating Activities, , , ",
+            "markdown": "| 0                                                          | 1   | 2                       | 3        |\n|:-----------------------------------------------------------|:----|:------------------------|:---------|\n| The following table presents our cash flows (in millions): |     |                         |          |\n|                                                            |     | Year Ended December 31, |          |\n|                                                            |     | 2022                    | 2023     |\n| Net cash provided by operating activities                  | $   | 91,495  $               | 101,746  |\n| Net cash used in investing activities                      | $   | (20,298)  $             | (27,063) |\n| Net cash used in financing activities                      | $   | (69,757)  $             | (72,093) |\n| Cash Provided by Operating Activities                      |     |                         |          |",
+            "metadata": {
+                "document": "goog-10-k-2023-final.pdf",
+                "page_number": "42",
+                "page_section": "cash_flow",
+                "chunk_type": "table",
+                "table_index": 0
+            }
+        },
+        {
+            "rank": 5,
+            "score": 0.8626316785812378,
+            "text": "Financial statement table: , , September 30,, September 30,\n, , 2022 2023, 2022 2023\nOther income (expense), net, $, (902)  $  (146)  $, (2,501)  $  709\n, OI&E  increased  $756  million  from  the  three  months  ended  September  30,  2022  to  the  three  months  ended, , ",
+            "markdown": "| 0                           | 1                                                                                                                    | 2                  | 3                 |\n|:----------------------------|:---------------------------------------------------------------------------------------------------------------------|:-------------------|:------------------|\n|                             |                                                                                                                      | Three Months Ended | Nine Months Ended |\n|                             |                                                                                                                      | September 30,      | September 30,     |\n|                             |                                                                                                                      | 2022 2023          | 2022 2023         |\n| Other income (expense), net | $                                                                                                                    | (902)  $  (146)  $ | (2,501)  $  709   |\n|                             | OI&E  increased  $756  million  from  the  three  months  ended  September  30,  2022  to  the  three  months  ended |                    |                   |",
+            "metadata": {
+                "document": "goog-10-q-q3-2023.pdf",
+                "page_number": "45",
+                "page_section": "financial_statements",
+                "chunk_type": "table",
+                "table_index": 0
+            }
+        },
+        {
+            "rank": 1,
+            "score": 0.8287616968154907,
+            "text": "Q2 2025 Earnings Alphabet\n\nAlphabet Revenues and Operating Income\n\nin Millions, except Percentages; unaudited\n\n$100,000 $96,428\n=\n=\n$90,000 2 $40,000\n> $84,742 = $31,271\n2 $80,000 \u20ac $30,000 $27,425\n~~ Ls)\no \u00a3\ng D\n2 $70,000 2 $20,000\noO =\n8 3\n= = $60,000 2 $10,000\nfe)\n$50,000. \u2014\u2014\u2014\u2014\u2014 i \u2014eo $0\nQ2'24 Q2\u201925 Q2'24 Q2\u201925\n\nY/Y Growth +14% +14% Operating Margin 32.4% 32.4%\n",
+            "metadata": {
+                "source_report": "Q2_2025",
+                "image_path": "slides_q2_2025\\slide_04.png",
+                "slide_number": 4,
+                "chunk_type": "slide"
+            }
+        },
+        {
+            "rank": 2,
+            "score": 0.8287048935890198,
+            "text": "Q2 2025 Earnings Alphabet\n\nTrailing Twelve Months Free Cash Flow*\n\nin Millions, except Percentages; unaudited\n\nQ2'24 Q3'24 Q4'24 Q1'25 Q2'25\n\nNet cash provided by operating activities 26,640 30,698 39,113 36,150 27,747 4%\n\nPurchases of property and equipment (13,186) (13,061) (14,276) (17,197) (22,446) 70%\nFree Cash Flow $13,454 $17,637 $24,837 $18,953 $5,301 (61)%\nTrailing Twelve Months Free Cash Flow $60,787 $55,823 $72,764 $74,881 $66,728 10%\n\n*Non-GAAP measure. See following slide for reconciliation of GAAP to Non-GAAP measures\n",
+            "metadata": {
+                "source_report": "Q2_2025",
+                "image_path": "slides_q2_2025\\slide_09.png",
+                "slide_number": 9,
+                "chunk_type": "slide"
+            }
+        },
+        {
+            "rank": 3,
+            "score": 0.8207707405090332,
+            "text": "Q2 2025 Earnings\n\nAlphabet\n\nNote About Forward-Looking Statements and\nNon-GAAP Financial Measures\n\nThis presentation may contain forward-looking statements regarding our business, operations, and\nfinancial performance. Such statements are based on current expectations and assumptions that are\nsubject to a number of risks and uncertainties. Actual results could differ materially. Please refer to our\nForms 10-K and 10-Q, including the risk factors. We undertake no obligation to update any forward-looking\nstatement, except as required by law. Given these risk and uncertainties, investors are cautioned not to\nplace undue reliance on such forward-looking statements.\n\nWe present both GAAP and non-GAAP financial measures in this presentation. A reconciliation of\nnon-GAAP to GAAP measures is included in this presentation and in the most recent earnings press\nrelease, which is distributed and available to the public through our Investor Relations website located at\nabc.xyz/investor.\n",
+            "metadata": {
+                "source_report": "Q2_2025",
+                "image_path": "slides_q2_2025\\slide_02.png",
+                "slide_number": 2,
+                "chunk_type": "slide"
+            }
+        }
+    ]
+}
