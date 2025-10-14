@@ -1,0 +1,56 @@
+[
+    {
+        "query": "Report the Gross Margin (or Net Interest Margin, if a bank) over the last 3 quarters, with values.",
+        "answer": 
+        [
+            {
+                "document" : "goog-10-q-q1-2025.pdf",
+                "page" : [6, 35]
+            }, 
+            {
+                "document" : "goog-10-q-q2-2025.pdf",
+                "page" : [7, 40]
+            }, 
+            {
+                "document" : "goog-10-q-q3-2024.pdf",
+                "page" : [6, 36] 
+            }
+        ]
+    },
+    {
+        "query": "Show Operating Expenses for the last 3 fiscal years, year-on-year comparison.",
+        "answer": 
+        [
+            {
+                "document" : "goog-10-k-2023-final.pdf",
+                "page" : [53] 
+            },
+            {
+                "document" : "goog-10-k-2024.pdf",
+                "page" : [54] 
+            },
+            {
+                "document" : "goog-10-q-q2-2025.pdf",
+                "page" : [7] 
+            }
+        ]
+    },
+    {
+        "query": "Calculate the Operating Efficiency Ratio (Opex \u00f7 Operating Income) for the last 3 fiscal years, showing the working.",
+        "answer": 
+        [
+            {
+                "document" : "goog-10-k-2023-final.pdf",
+                "page" : [53] 
+            },
+            {
+                "document" : "goog-10-k-2024.pdf",
+                "page" : [54] 
+            },
+            {
+                "document" : "goog-10-q-q2-2025.pdf",
+                "page" : [7] 
+            }
+        ] 
+    }
+]

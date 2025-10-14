@@ -1,0 +1,119 @@
+{
+    "query": "Calculate the Operating Efficiency Ratio (Opex \u00f7 Operating Income) for the last 3 fiscal years, showing the working.",
+    "results": [
+        {
+            "rank": 1,
+            "score": 0.3837587237358093,
+            "text": "Financial filing text section: \u2022 third-party services fees, including audit, consulting, outside legal, and other outsourced administrative\nservices.\nOther Income (Expense), Net\nOI&E, net primarily consists of interest income (expense), the effect of foreign currency exchange gains\n(losses), net gains (losses) and impairment on our marketable and non-marketable securities, performance fees,\nand income (loss) and impairment from our equity method investments.\nFor additional information, including how we account for our investments and factors that can drive fluctuations\nin the value of our investments, see Note 1 of the Notes to Consolidated Financial Statements included in Part II,\nItem 8 and Item 7A, \u201cQuantitative and Qualitative Disclosures About Market Risk\u201d in our Annual Report on Form 10-\nK for the fiscal year ended December 31, 2024 as well as Note 3 of the Notes to Consolidated Financial Statements\nincluded in Item 1 of this Quarterly Report on Form 10-Q.\nProvision for Income Taxes\nProvision for income taxes represents the estimated amount of federal, state, and foreign income taxes\nincurred in the U.S. and the many jurisdictions in which we operate. The provision includes the effect of reserve\nprovisions and changes to reserves that are considered appropriate as well as the related net interest and penalties.\nFor additional information, see Note 1 of the Notes to Consolidated Financial Statements included in Part II,\nItem 8 in our Annual Report on Form 10-K for the fiscal year ended December 31, 2024 as well as Note 14 of the\nNotes to Consolidated Financial Statements included in Item 1 of this Quarterly Report on Form 10-Q.\nExecutive Overview\nThe following table summarizes consolidated financial results (in millions, except per share information and\npercentages):\nThree Months Ended\nMarch 31,\n2024 2025 $ Change % Change\nConsolidated revenues $ 80,539 $ 90,234 $ 9,695 12 %\nChange in consolidated constant currency revenues(1) 14 %\nCost of revenues $ 33,712 $ 36,361 $ 2,649 8 %\nOperating expenses $ 21,355 $ 23,267 $ 1,912 9 %\nOperating income $ 25,472 $ 30,606 $ 5,134 20 %\nOperating margin 32 % 34 % 2 %\nOther income (expense), net $ 2,843 $ 11,183 $ 8,340 293 %\nNet income $ 23,662 $ 34,540 $ 10,878 46 %\nDiluted EPS (2) $ 1.89 $ 2.81 $ 0.92 49 %\n(1) See \"Use of Non-GAAP Constant Currency Information\" below for details relating to our use of constant currency\ninformation.\n(2) For additional information on the calculation of diluted EPS, see Note 12 of the Notes to Consolidated Financial Statements\nincluded in Item 1 of this Quarterly Report on Form 10-Q.\n\u2022 Revenues were $90.2 billion, an increase of 12% year over year, primarily driven by an increase in Google\nServices revenues of $6.9 billion, or 10%, and an increase in Google Cloud revenues of $2.7 billion, or\n28%.\n\u2022 Total constant currency revenues, which exclude the effect of hedging, increased 14% year over year.\n\u2022 Cost of revenues was $36.4 billion, an increase of 8% year over year, primarily driven by increases in\ncontent acquisition costs, TAC, and depreciation expense.\n35",
+            "metadata": {
+                "document": "goog-10-q-q1-2025.pdf",
+                "page_number": "35",
+                "page_section": "income_statement",
+                "chunk_type": "prose"
+            }
+        },
+        {
+            "rank": 2,
+            "score": 0.384822279214859,
+            "text": "Financial filing text section: \u2022 third-party services fees, including audit, consulting, outside legal, and other outsourced administrative\nservices.\nOther Income (Expense), Net\nOI&E, net primarily consists of interest income (expense), the effect of foreign currency exchange gains\n(losses), net gains (losses) and impairment on our marketable and non-marketable securities, performance fees,\nand income (loss) and impairment from our equity method investments.\nFor additional information, including how we account for our investments and factors that can drive fluctuations\nin the value of our investments, see Note 1 of the Notes to Consolidated Financial Statements included in Part II,\nItem 8 and Item 7A, \u201cQuantitative and Qualitative Disclosures About Market Risk\u201d in our Annual Report on Form 10-\nK for the fiscal year ended December 31, 2024 as well as Note 3 of the Notes to Consolidated Financial Statements\nincluded in Item 1 of this Quarterly Report on Form 10-Q.\nProvision for Income Taxes\nProvision for income taxes represents the estimated amount of federal, state, and foreign income taxes\nincurred in the U.S. and the many jurisdictions in which we operate. The provision includes the effect of reserve\nprovisions and changes to reserves that are considered appropriate as well as the related net interest and penalties.\nFor additional information, see Note 1 of the Notes to Consolidated Financial Statements included in Part II,\nItem 8 in our Annual Report on Form 10-K for the fiscal year ended December 31, 2024 as well as Note 14 of the\nNotes to Consolidated Financial Statements included in Item 1 of this Quarterly Report on Form 10-Q.\nExecutive Overview\nThe following table summarizes consolidated financial results (in millions, except per share information and\npercentages):\nThree Months Ended\nJune 30,\n2024 2025 $ Change % Change\nConsolidated revenues $ 84,742 $ 96,428 $ 11,686 14 %\nChange in consolidated constant currency revenues(1) 13 %\nCost of revenues $ 35,507 $ 39,039 $ 3,532 10 %\nOperating expenses $ 21,810 $ 26,118 $ 4,308 20 %\nOperating income $ 27,425 $ 31,271 $ 3,846 14 %\nOperating margin 32 % 32 % 0 %\nOther income (expense), net $ 126 $ 2,662 $ 2,536 2,013 %\nNet income $ 23,619 $ 28,196 $ 4,577 19 %\nDiluted EPS (2) $ 1.89 $ 2.31 $ 0.42 22 %\n(1) See \"Use of Non-GAAP Constant Currency Information\" below for details relating to our use of constant currency\ninformation.\n(2) For additional information on the calculation of diluted EPS, see Note 12 of the Notes to Consolidated Financial Statements\nincluded in Item 1 of this Quarterly Report on Form 10-Q.\n\u2022 Revenues were $96.4 billion, an increase of 14% year over year, primarily driven by an increase in Google\nServices revenues of $8.6 billion, or 12%, and an increase in Google Cloud revenues of $3.3 billion, or\n32%.\n\u2022 Total constant currency revenues, which exclude the effect of hedging, increased 13% year over year.\n\u2022 Cost of revenues was $39.0 billion, an increase of 10% year over year, primarily driven by increases in TAC,\ncontent acquisition costs, and depreciation expense.\n40",
+            "metadata": {
+                "document": "goog-10-q-q2-2025.pdf",
+                "page_number": "40",
+                "page_section": "income_statement",
+                "chunk_type": "prose"
+            }
+        },
+        {
+            "rank": 3,
+            "score": 0.39624547958374023,
+            "text": "Financial statement table: Operating activities, , 2021, , 2022, , 2023\nNet incomeAdjustments:, $, 76,033, $, 59,972, $, 73,795\nDepreciation of property and equipmentStock-based compensation expense, , 10,273, , 13,475, , 11,946\nDeferred income taxes, , 15,376 1,808, , 19,362 (8,081), , 22,460 (7,763)\n(Gain) loss on debt and equity securities, netOther, , (12,270), , 5,519, , 823\nChanges in assets and liabilities, net of effects of acquisitions:, , 1,955, , 3,483, , 4,330\nAccounts receivable, netIncome taxes, net, , (9,095), , (2,317), , (7,833)\nOther assets, , (625) (1,846), , 584 (5,046), , 523 (2,143)\nAccounts payableAccrued expenses and other liabilities, , 283, , 707, , 664\nAccrued revenue share, , 7,304 1,682, , 3,915 (445), , 3,937 482\nDeferred revenueNet cash provided by operating activities, , 774, , 367, , 525\nInvesting activities, , 91,652, , 91,495, , 101,746",
+            "metadata": {
+                "document": "goog-10-k-2023-final.pdf",
+                "page_number": "56",
+                "page_section": "cash_flow",
+                "chunk_type": "table",
+                "table_index": 0
+            }
+        },
+        {
+            "rank": 4,
+            "score": 0.404805451631546,
+            "text": "Financial filing text section: Segment Profitability\nThe following table presents segment operating income (loss) (in millions):\nThree Months Ended Six Months Ended\nJune 30, June 30,\n2023 2024 2023 2024\nOperating income (loss):\nGoogle Services $ 23,454 $ 29,674 $ 45,191 $ 57,571\nGoogle Cloud 395 1,172 586 2,072\nOther Bets (813) (1,134) (2,038) (2,154)\nAlphabet-level activities(1) (1,198) (2,287) (4,486) (4,592)\nTotal income from operations $ 21,838 $ 27,425 $ 39,253 $ 52,897\n(1) In addition to the costs included in Alphabet-level activities, hedging gains (losses) related to revenue were $3 million and\n$102 million for the three months ended June 30, 2023 and 2024, respectively, and $87 million and $174 million for the six\nmonths ended June 30, 2023 and 2024, respectively. For the three and six months ended June 30, 2023 and 2024,\nAlphabet-level activities included substantially all of the charges related to employee severance and our office space\noptimization efforts. For additional information relating to our segments, see Note 13 of the Notes to Consolidated Financial\nStatements included in Item 1 of this Quarterly Report on Form 10-Q.\nGoogle Services\nGoogle Services operating income increased $6.2 billion from the three months ended June 30, 2023 to the\nthree months ended June 30, 2024. The increase in operating income was primarily driven by an increase in\nrevenues, partially offset by increases in content acquisition costs and TAC. Additionally, a reduction in\ncompensation expenses contributed to the increase in operating income.\nGoogle Services operating income increased $12.4 billion from the six months ended June 30, 2023 to the six\nmonths ended June 30, 2024. The increase in operating income was primarily driven by an increase in revenues,\npartially offset by increases in TAC and content acquisition costs. Additionally, a reduction in compensation\nexpenses contributed to the increase in operating income.\nGoogle Cloud\nGoogle Cloud operating income increased $777 million and $1.5 billion from the three and six months ended\nJune 30, 2023 to the three and six months ended June 30, 2024, respectively. The increase in operating income\nwas primarily driven by an increase in revenues, partially offset by increases in usage costs for technical\ninfrastructure assets as well as compensation expenses, largely driven by headcount growth.\nOther Bets\nOther Bets operating loss increased $321 million and $116 million from the three and six months ended June\n30, 2023 to the three and six months ended June 30, 2024, respectively. The increase in operating loss was\nprimarily due to an increase in compensation expenses as a result of the reduction in valuation-based\ncompensation liabilities related to certain Other Bets recognized in the prior year comparable period. Additionally,\ngrowth in revenues partially offset the increase in operating loss from the six months ended June 30, 2023 to the six\nmonths ended June 30, 2024.\n42",
+            "metadata": {
+                "document": "goog-10-q-q2-2024.pdf",
+                "page_number": "42",
+                "page_section": "income_statement",
+                "chunk_type": "prose"
+            }
+        },
+        {
+            "rank": 5,
+            "score": 0.40700623393058777,
+            "text": "Financial statement table: Operating activities, , 2020, , 2021, , 2022\nNet incomeAdjustments:, $, 40,269, $, 76,033, $, 59,972\nDepreciation and impairment of property and equipmentAmortization and impairment of intangible assets, , 12,905 792, , 11,555 886, , 15,287 641\nStock-based compensation expenseDeferred income taxes, , 12,991 1,390, , 15,376 1,808, , 19,362 (8,081)\n(Gain) loss on debt and equity securities, netOther, , (6,317), , (12,270), , 5,519\nChanges in assets and liabilities, net of effects of acquisitions:, , 1,267, , (213), , 1,030\nAccounts receivable, netIncome taxes, net, , (6,524), , (9,095), , (2,317)\nOther assets, , 1,209 (1,330), , (625) (1,846), , 584 (5,046)\nAccounts payableAccrued expenses and other liabilities, , 694, , 283, , 707\nAccrued revenue share, , 5,504 1,639, , 7,304 1,682, , 3,915 (445)\nDeferred revenueNet cash provided by operating activities, , 635, , 774, , 367\nInvesting activities, , 65,124, , 91,652, , 91,495",
+            "metadata": {
+                "document": "goog-10-k-q4-2022.pdf",
+                "page_number": "52",
+                "page_section": "cash_flow",
+                "chunk_type": "table",
+                "table_index": 0
+            }
+        },
+        {
+            "rank": 6,
+            "score": 0.4087081849575043,
+            "text": "Financial statement table: , , Translation Adjustments, Sale Investments, Cash Flow Hedges, Total\nBalance as of December 31, 2023, $, (3,407), $ (965), $ (30)  $, (4,402)\nOther comprehensive income (loss) before reclassifications, , 234, 755, (228), 761\nAmounts excluded from the assessment of hedge effectiveness recorded in AOCI, , 0, 0, (52), (52)\nAmounts reclassified from AOCIOther comprehensive income (loss), , 0 234, 629  1,384, (164)   (444), 465 1,174\nBalance as of September 30, 2024, $, (3,173), $ 419, $ (474)  $, (3,228)\n, The effects on net income of amounts reclassified from AOCI were as follows (in millions):, Three Months Ended, , Nine Months Ended, \nAOCI ComponentsLocation, , September 30,2023, 2024, September 30,2023, 2024",
+            "metadata": {
+                "document": "goog-10-q-q3-2024.pdf",
+                "page_number": "24",
+                "page_section": "cash_flow",
+                "chunk_type": "table",
+                "table_index": 0
+            }
+        },
+        {
+            "rank": 7,
+            "score": 0.4104779064655304,
+            "text": "Financial filing text section: Other Bets operating loss increased $112 million and $318 million from the three and six months ended June\n30, 2024 to the three and six months ended June 30, 2025, respectively. The increase in operating loss was due to\na combination of factors, none of which were individually significant.\nOther Income (Expense), Net\nThe following table presents OI&E (in millions):\nThree Months Ended Six Months Ended\nJune 30, June 30,\n2024 2025 2024 2025\nInterest income $ 1,090 $ 1,050 $ 2,151 $ 2,051\nInterest expense (67) (261) (161) (295)\nForeign currency exchange gain (loss), net (173) (69) (411) (175)\nGain (loss) on debt securities, net (310) 165 (772) 367\nGain (loss) on equity securities, net (714) 1,286 1,529 11,044\nPerformance fees 128 (83) 232 (123)\nIncome (loss) and impairment from equity method\ninvestments, net 32 419 6 397\nOther 140 155 395 579\nOther income (expense), net $ 126 $ 2,662 $ 2,969 $ 13,845\nOI&E, net increased $2.5 billion from the three months ended June 30, 2024 to the three months ended June\n30, 2025 primarily due to an increase in net gains on equity and debt securities. The increase was primarily due to\nan increase in net unrealized gains on equity securities resulting from market-driven changes and fair value\nadjustments related to observable transactions, and increased net gains on debt securities due to lower market\ninterest rates.\nOI&E, net increased $10.9 billion from the six months ended June 30, 2024 to the six months ended June 30,\n2025. The increase was primarily due to an increase in net unrealized gains on equity securities resulting from fair\nvalue adjustments related to observable transactions and market-driven changes.\nFor additional information, see Note 3 and Note 7 of the Notes to Consolidated Financial Statements included\nin Item 1 of this Quarterly Report on Form 10-Q.\nProvision for Income Taxes\nThe following table presents provision for income taxes (in millions, except effective tax rate):\nThree Months Ended Six Months Ended\nJune 30, June 30,\n2024 2025 2024 2025\nIncome before provision for income taxes $ 27,551 $ 33,933 $ 55,866 $ 75,722\nProvision for income taxes $ 3,932 $ 5,737 $ 8,585 $ 12,986\nEffective tax rate 14.3 % 16.9 % 15.4 % 17.1 %\nThe effective tax rate increased from the three months ended June 30, 2024 to the three months ended June\n30, 2025. This increase was primarily due to a decrease in SBC-related tax benefits, and a non-deductible legal\nsettlement in the U.S., partially offset by changes in prior period tax positions.\nThe effective tax rate increased from the six months ended June 30, 2024 to the six months ended June 30,\n2025. This increase was primarily due to a decrease in SBC-related tax benefits, lower effective tax rate impacts in\nthe U.S. federal Foreign Derived Intangible Income tax deduction, and a non-deductible legal settlement in the U.S.,\npartially offset by changes in prior period tax positions.\nOn July 4, 2025, the OBBBA was signed into law. This legislation includes changes to U.S. federal tax law,\nwhich may be subject to further clarification and the issuance of interpretive guidance. We are assessing the\nlegislation and its effect on our consolidated financial statements, which we expect to begin reflecting in the three\nmonth period ended September 30, 2025.\nThe Organization for Economic Cooperation and Development is coordinating negotiations among more than\n140 countries with the goal of achieving consensus around substantial changes to international tax policies,\n47",
+            "metadata": {
+                "document": "goog-10-q-q2-2025.pdf",
+                "page_number": "47",
+                "page_section": "equity",
+                "chunk_type": "prose"
+            }
+        },
+        {
+            "rank": 8,
+            "score": 0.4110102653503418,
+            "text": "Financial filing text section: The following table presents segment operating income (loss) (in millions):\nThree Months Ended\nMarch 31,\n2024 2025\nOperating income (loss):\nGoogle Services $ 27,897 $ 32,682\nGoogle Cloud 900 2,177\nOther Bets (1,020) (1,226)\nAlphabet-level activities(1) (2,305) (3,027)\nTotal income from operations $ 25,472 $ 30,606\n(1) In addition to the costs included in Alphabet-level activities, hedging gains (losses) related to revenue were $72 million and\n$260 million for the three months ended March 31, 2024 and 2025, respectively. Alphabet-level activities include all of the\ncharges related to employee severance and office space charges.\nGoogle Services\nGoogle Services operating income increased $4.8 billion from the three months ended March 31, 2024 to the\nthree months ended March 31, 2025. The increase in operating income was primarily driven by an increase in\nrevenues, partially offset by increases in content acquisition costs and TAC.\nGoogle Cloud\nGoogle Cloud operating income increased $1.3 billion from the three months ended March 31, 2024 to the\nthree months ended March 31, 2025. The increase in operating income was primarily driven by an increase in\nrevenues, partially offset by increases in usage costs for technical infrastructure and employee compensation\nexpenses.\nOther Bets\nOther Bets operating loss increased $206 million from the three months ended March 31, 2024 to the three\nmonths ended March 31, 2025. The increase in operating loss was due to a combination of factors, none of which\nwere individually significant.\nOther Income (Expense), Net\nThe following table presents OI&E (in millions):\nThree Months Ended\nMarch 31,\n2024 2025\nInterest income $ 1,061 $ 1,001\nInterest expense (94) (34)\nForeign currency exchange gain (loss), net (238) (106)\nGain (loss) on debt securities, net (462) 202\nGain (loss) on equity securities, net 2,243 9,758\nPerformance fees 104 (40)\nIncome (loss) and impairment from equity method investments, net (26) (22)\nOther 255 424\nOther income (expense), net $ 2,843 $ 11,183\nOI&E, net increased $8.3 billion from the three months ended March 31, 2024 to the three months ended\nMarch 31, 2025 primarily due to an increase in net gains on equity securities. The net gains on equity securities\nwere due to net unrealized gains on non-marketable equity securities driven by fair value adjustments related to\nobservable transactions.\nFor additional information, see Note 3 and Note 7 of the Notes to Consolidated Financial Statements included\nin Item 1 of this Quarterly Report on Form 10-Q.\n41",
+            "metadata": {
+                "document": "goog-10-q-q1-2025.pdf",
+                "page_number": "41",
+                "page_section": "income_statement",
+                "chunk_type": "prose"
+            }
+        },
+        {
+            "rank": 9,
+            "score": 0.4111734628677368,
+            "text": "Financial statement table: Operating leases:, , , \nOperating lease assets, $, 13,588 $, 13,722\nAccrued expenses and other liabilities, $, 2,887 $, 2,873\nOperating lease liabilities, , 11,691, 11,678\nTotal operating lease liabilities, $, 14,578 $, 14,551\nFinance Leases:, , , \nProperty and equipment, at cost, $, 4,622 $, 5,219\nAccumulated depreciation, , (2,037), (2,125)\nProperty and equipment, net, $, 2,585 $, 3,094\nAccrued expenses and other liabilities, $, 235 $, 100\nOther long-term liabilities, , 1,442, 1,961\nTotal finance lease liabilities, $, 1,677 $, 2,061",
+            "metadata": {
+                "document": "goog-10-q-q1-2025.pdf",
+                "page_number": "20",
+                "page_section": "cash_flow",
+                "chunk_type": "table",
+                "table_index": 0
+            }
+        },
+        {
+            "rank": 10,
+            "score": 0.41242799162864685,
+            "text": "Financial filing text section: The table below presents the gains (losses) of our derivatives on the Consolidated Statements of Income: (in\nmillions):\nGains (Losses) Recognized in Income\nThree Months Ended June 30,\n2023 2024\nOther income Other income\nRevenues (expense), net Revenues (expense), net\nTotal amounts in the Consolidated Statements of Income $ 74,604 $ 65 $ 84,742 $ 126\nEffect of cash flow hedges:\nForeign exchange contracts\nAmount reclassified from AOCI to income $ (2) $ 0 $ 106 $ 0\nAmount excluded from the assessment of\neffectiveness (amortized) 6 0 (4) 0\nEffect of fair value hedges:\nForeign exchange contracts\nHedged items 0 22 0 (9)\nDerivatives designated as hedging instruments 0 (22) 0 9\nAmount excluded from the assessment of\neffectiveness 0 5 0 3\nEffect of net investment hedges:\nForeign exchange contracts\nAmount excluded from the assessment of\neffectiveness 0 72 0 31\nEffect of non designated hedges:\nForeign exchange contracts 0 124 0 (22)\nOther contracts 0 (4) 0 26\nTotal gains (losses) $ 4 $ 197 $ 102 $ 38\n19",
+            "metadata": {
+                "document": "goog-10-q-q2-2024.pdf",
+                "page_number": "19",
+                "page_section": "cash_flow",
+                "chunk_type": "prose"
+            }
+        }
+    ]
+}
