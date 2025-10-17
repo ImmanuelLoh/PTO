@@ -1,0 +1,70 @@
+{
+    "query": "Operating Expenses breakdown for 2022, 2023, and 2024 including R&D, Sales & Marketing, and G&A expenses",
+    "results": [
+        {
+            "rank": 1,
+            "score": 0.8812434673309326,
+            "text": "Financial statement table: , , , Year Ended December 31,, \n, , 2023, , 2024\nResearch and development expenses, $, 45,427, $, 49,326\nResearch and development expenses as a percentage of revenues, , , 15 %, 14 %",
+            "markdown": "| 0                                                             | 1   | 2      | 3                       | 4             |\n|:--------------------------------------------------------------|:----|:-------|:------------------------|:--------------|\n| Table of Contents                                             |     |        |                         | Alphabet Inc. |\n|                                                               |     |        | Year Ended December 31, |               |\n|                                                               |     | 2023   |                         | 2024          |\n| Research and development expenses                             | $   | 45,427 | $                       | 49,326        |\n| Research and development expenses as a percentage of revenues |     |        | 15 %                    | 14 %          |",
+            "metadata": {
+                "document": "goog-10-k-2024.pdf",
+                "page_number": "40",
+                "page_section": "financial_statements",
+                "chunk_type": "table",
+                "table_index": 0
+            }
+        },
+        {
+            "rank": 2,
+            "score": 0.8769518733024597,
+            "text": "Financial statement table: , , , Three Months Ended, , , \n, , , , March 31,, , \n, , 2023, , , 2024, \nResearch and development expenses, $, , 11,468, $, , 11,903\nResearch and development expenses as a percentage of revenues, , , 16 %, , , 15 %",
+            "markdown": "| 0                                                                            | 1   | 2    | 3                  | 4         | 5    | 6      |\n|:-----------------------------------------------------------------------------|:----|:-----|:-------------------|:----------|:-----|:-------|\n| The following table presents R&D expenses (in millions, except percentages): |     |      |                    |           |      |        |\n|                                                                              |     |      | Three Months Ended |           |      |        |\n|                                                                              |     |      |                    | March 31, |      |        |\n|                                                                              |     | 2023 |                    |           | 2024 |        |\n| Research and development expenses                                            | $   |      | 11,468             | $         |      | 11,903 |\n| Research and development expenses as a percentage of revenues                |     |      | 16 %               |           |      | 15 %   |",
+            "metadata": {
+                "document": "goog-10-q-q1-2024.pdf",
+                "page_number": "36",
+                "page_section": "income_statement",
+                "chunk_type": "table",
+                "table_index": 1
+            }
+        },
+        {
+            "rank": 3,
+            "score": 0.8758480548858643,
+            "text": "Financial statement table: , , , Year Ended December 31,, , , \n, , 2022, , , 2023, \nResearch and development expenses, $, , 39,500, $, , 45,427\nResearch and development expenses as a percentage of revenues, , , 14 %, , , 15 %",
+            "markdown": "| 0                                                                            | 1   | 2    | 3                       | 4   | 5    | 6      |\n|:-----------------------------------------------------------------------------|:----|:-----|:------------------------|:----|:-----|:-------|\n| The following table presents R&D expenses (in millions, except percentages): |     |      |                         |     |      |        |\n|                                                                              |     |      | Year Ended December 31, |     |      |        |\n|                                                                              |     | 2022 |                         |     | 2023 |        |\n| Research and development expenses                                            | $   |      | 39,500                  | $   |      | 45,427 |\n| Research and development expenses as a percentage of revenues                |     |      | 14 %                    |     |      | 15 %   |",
+            "metadata": {
+                "document": "goog-10-k-2023-final.pdf",
+                "page_number": "39",
+                "page_section": "income_statement",
+                "chunk_type": "table",
+                "table_index": 1
+            }
+        },
+        {
+            "rank": 4,
+            "score": 0.8757187128067017,
+            "text": "Financial statement table: , Three Months Ended, Nine Months Ended, \n, September 30,, September 30,, \n, 2023 2024, 2023 2024, \nResearch and development expenses, $  11,258  $  12,447, $  33,314, $  36,210\nResearch and development expenses as a percentage of, , , \n, 15 % 14 %, 15 %, 14 %",
+            "markdown": "| 0                                                                            | 1                    | 2                 | 3         |\n|:-----------------------------------------------------------------------------|:---------------------|:------------------|:----------|\n| The following table presents R&D expenses (in millions, except percentages): |                      |                   |           |\n|                                                                              | Three Months Ended   | Nine Months Ended |           |\n|                                                                              | September 30,        | September 30,     |           |\n|                                                                              | 2023 2024            | 2023 2024         |           |\n| Research and development expenses                                            | $  11,258  $  12,447 | $  33,314         | $  36,210 |\n| Research and development expenses as a percentage of                         |                      |                   |           |\n|                                                                              | 15 % 14 %            | 15 %              | 14 %      |",
+            "metadata": {
+                "document": "goog-10-q-q3-2024.pdf",
+                "page_number": "41",
+                "page_section": "income_statement",
+                "chunk_type": "table",
+                "table_index": 1
+            }
+        },
+        {
+            "rank": 5,
+            "score": 0.8752904534339905,
+            "text": "Financial statement table: , , , Year Ended December 31,, , , \n, , 2023, , , 2024, \nSales and marketing expenses, $, 27,917, , $, , 27,808\nSales and marketing expenses as a percentage of revenues, , , 9 %, , , 8 %",
+            "markdown": "| 0                                                        | 1                                                                                            | 2      | 3                       | 4   | 5    | 6      |\n|:---------------------------------------------------------|:---------------------------------------------------------------------------------------------|:-------|:------------------------|:----|:-----|:-------|\n|                                                          | The following table presents sales and marketing expenses (in millions, except percentages): |        |                         |     |      |        |\n|                                                          |                                                                                              |        | Year Ended December 31, |     |      |        |\n|                                                          |                                                                                              | 2023   |                         |     | 2024 |        |\n| Sales and marketing expenses                             | $                                                                                            | 27,917 |                         | $   |      | 27,808 |\n| Sales and marketing expenses as a percentage of revenues |                                                                                              |        | 9 %                     |     |      | 8 %    |",
+            "metadata": {
+                "document": "goog-10-k-2024.pdf",
+                "page_number": "40",
+                "page_section": "financial_statements",
+                "chunk_type": "table",
+                "table_index": 1
+            }
+        }
+    ]
+}

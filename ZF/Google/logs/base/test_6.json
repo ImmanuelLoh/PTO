@@ -1,0 +1,119 @@
+{
+    "query": "Report the Gross Margin (or Net Interest Margin, if a bank) over the last 5 quarters, with values.",
+    "results": [
+        {
+            "rank": 1,
+            "score": 0.3774147033691406,
+            "text": "Financial filing text section: As of June 30, 2025\nGross Amounts Not Offset in\nthe Consolidated Balance\nSheets, but Have Legal Rights\nto Offset\nGross Net Amounts\nAmounts Presented in Cash and\nOffset in the the Non-Cash\nGross Consolidated Consolidated Collateral\nAmounts Balance Balance Financial Received or\nRecognized Sheets Sheets Instruments(1) Pledged Net Amounts\nDerivatives assets $ 1,224 $ (121) $ 1,103 $ (780) $ (72) $ 251\nDerivatives liabilities $ 1,879 $ (121) $ 1,758 $ (780) $ (32) $ 946\n(1) The balances as of December 31, 2024 and June 30, 2025 were related to derivatives allowed to be net settled in\naccordance with our master netting agreements.\nNote 4. Leases\nWe have entered into operating and finance lease agreements primarily for data centers, land, and offices\nthroughout the world with varying lease terms.\nComponents of lease costs were as follows (in millions):\nThree Months Ended Six Months Ended\nJune 30, June 30,\n2024 2025 2024 2025\nOperating lease cost $ 802 $ 818 $ 1,606 $ 1,608\nFinance lease cost:\nAmortization of lease assets 99 112 182 208\nInterest on lease liabilities 7 16 14 31\nFinance lease cost 106 128 196 239\nVariable lease cost 343 372 686 732\nTotal lease cost $ 1,251 $ 1,318 $ 2,488 $ 2,579\nSupplemental information related to leases was as follows (in millions):\nAs of As of\nDecember 31, 2024 June 30, 2025\nWeighted average remaining lease term\nOperating leases 7.8 years 7.8 years\nFinance leases 10.4 years 9.6 years\nWeighted average discount rate\nOperating leases 3.4 % 3.5 %\nFinance leases 2.8 % 2.9 %\n22",
+            "metadata": {
+                "document": "goog-10-q-q2-2025.pdf",
+                "page_number": "22",
+                "page_section": "cash_flow",
+                "chunk_type": "prose"
+            }
+        },
+        {
+            "rank": 2,
+            "score": 0.3884793519973755,
+            "text": "Financial statement table: , Operating Leases, Finance Leases\nRemainder of 2025, $ 2,377 $, 224\n20262027, 2,947, 268\n2028, 2,425   1,938, 270 258\n2029Thereafter, 1,536, 232\nTotal future lease payments, 5,741   16,964, 1,254 2,506\nLess imputed interestTotal lease liability balance, (2,413), (445)\n, $ 14,551 $, 2,061",
+            "metadata": {
+                "document": "goog-10-q-q1-2025.pdf",
+                "page_number": "20",
+                "page_section": "cash_flow",
+                "chunk_type": "table",
+                "table_index": 1
+            }
+        },
+        {
+            "rank": 3,
+            "score": 0.3890158534049988,
+            "text": "Financial filing text section: As of March 31, 2025\nGross Amounts Not Offset in\nthe Consolidated Balance\nSheets, but Have Legal Rights\nto Offset\nGross Net Amounts\nAmounts Presented in Cash and\nOffset in the the Non-Cash\nGross Consolidated Consolidated Collateral\nAmounts Balance Balance Financial Received or\nRecognized Sheets Sheets Instruments(1) Pledged Net Amounts\nDerivatives assets $ 798 $ (100) $ 698 $ (301) $ (242) $ 155\nDerivatives liabilities $ 589 $ (100) $ 489 $ (301) $ (3) $ 185\n(1) The balances as of December 31, 2024 and March 31, 2025 were related to derivatives allowed to be net settled in\naccordance with our master netting agreements.\nNote 4. Leases\nWe have entered into operating and finance lease agreements primarily for data centers, land, and offices\nthroughout the world with varying lease terms.\nComponents of lease costs were as follows (in millions):\nThree Months Ended\nMarch 31,\n2024 2025\nOperating lease cost $ 804 $ 790\nFinance lease cost:\nAmortization of lease assets 83 96\nInterest on lease liabilities 7 15\nFinance lease cost 90 111\nVariable lease cost 343 360\nTotal lease cost $ 1,237 $ 1,261\nSupplemental balance sheet information related to leases was as follows (in millions):\nAs of As of\nDecember 31, 2024 March 31, 2025\nWeighted average remaining lease term\nOperating leases 7.8 years 7.9 years\nFinance leases 10.4 years 10.2 years\nWeighted average discount rate\nOperating leases 3.4 % 3.5 %\nFinance leases 2.8 % 3.3 %\n19",
+            "metadata": {
+                "document": "goog-10-q-q1-2025.pdf",
+                "page_number": "19",
+                "page_section": "cash_flow",
+                "chunk_type": "prose"
+            }
+        },
+        {
+            "rank": 4,
+            "score": 0.3995683789253235,
+            "text": "Financial filing text section: Six Months Ended June 30,\n2024 2025\nOther income Other income\nRevenues (expense), net Revenues (expense), net\nTotal amounts included in the Consolidated Statements of\nIncome $ 165,281 $ 2,969 $ 186,662 $ 13,845\nEffect of cash flow hedges:\nForeign exchange contracts\nAmount of gains (losses) reclassified from AOCI to\nincome $ 180 $ 0 $ 104 $ 0\nAmount excluded from the assessment of\neffectiveness (amortized) (6) 0 44 0\nEffect of fair value hedges:\nForeign exchange contracts\nHedged items 0 (25) 0 (9)\nDerivatives designated as hedging instruments 0 24 0 9\nAmount excluded from the assessment of\neffectiveness 0 6 0 1\nEffect of net investment hedges:\nForeign exchange contracts\nAmount excluded from the assessment of\neffectiveness 0 67 0 60\nEffect of non designated hedges:\nForeign exchange contracts 0 (1) 0 245\nOther contracts 0 102 0 (95)\nTotal gains (losses) $ 174 $ 173 $ 148 $ 211\nOffsetting of Derivatives\nWe enter into master netting arrangements and collateral security arrangements to reduce credit risk. Cash\ncollateral received related to derivative instruments under our collateral security arrangements are included in other\ncurrent assets with a corresponding liability. Cash and non-cash collateral pledged related to derivative instruments\nunder our collateral security arrangements are included in other current assets.\nThe gross amounts of derivative instruments subject to master netting arrangements with various\ncounterparties, and cash and non-cash collateral received and pledged under such agreements were as follows (in\nmillions):\nAs of December 31, 2024\nGross Amounts Not Offset in\nthe Consolidated Balance\nSheets, but Have Legal Rights\nto Offset\nGross Net Amounts\nAmounts Presented in Cash and\nOffset in the the Non-Cash\nGross Consolidated Consolidated Collateral\nAmounts Balance Balance Financial Received or\nRecognized Sheets Sheets Instruments(1) Pledged Net Amounts\nDerivatives assets $ 1,776 $ (48) $ 1,728 $ (516) $ (721) $ 491\nDerivatives liabilities $ 660 $ (48) $ 612 $ (516) $ (9) $ 87\n21",
+            "metadata": {
+                "document": "goog-10-q-q2-2025.pdf",
+                "page_number": "21",
+                "page_section": "cash_flow",
+                "chunk_type": "prose"
+            }
+        },
+        {
+            "rank": 5,
+            "score": 0.40317314863204956,
+            "text": "Financial filing text section: Table of Contents Alphabet Inc.\nNote 3. Financial Instruments\nFair Value Measurements\nInvestments measured at fair value on a recurring basis\nCash, cash equivalents, and marketable equity securities are measured at fair value and classified within Level 1\nand Level 2 in the fair value hierarchy, because we use quoted prices for identical assets in active markets or inputs\nthat are based upon quoted prices for similar instruments in active markets.\nDebt securities are classified within Level 2 in the fair value hierarchy, because we use quoted market prices to\nthe extent available or alternative pricing sources and models utilizing market observable inputs to determine fair\nvalue. For certain marketable debt securities, we have elected the fair value option for which changes in fair value are\nrecorded in other income (expense), net. The fair value option was elected for these securities to align with the\nunrealized gains and losses from related derivative contracts.\nThe following tables summarize our cash, cash equivalents, and marketable securities measured at fair value on\na recurring basis (in millions):\nAs of December 31, 2021\nGross Gross Cash and\nFair Value Adjusted Unrealized Unrealized Cash Marketable\nHierarchy Cost Gains Losses Fair Value Equivalents Securities\nFair value changes\nrecorded in other\ncomprehensive income\nTime deposits(1) Level 2 $ 5,133 $ 0 $ 0 $ 5,133 $ 5,133 $ 0\nGovernment bonds Level 2 53,288 258 (238) 53,308 5 53,303\nCorporate debt securities Level 2 35,605 194 (223) 35,576 12 35,564\nMortgage-backed and\nasset-backed securities Level 2 18,829 96 (112) 18,813 0 18,813\nTotal investments with\nfair value change\nreflected in Other\nComprehensive\nIncome(2) $ 112,855 $ 548 $ (573) $ 112,830 $ 5,150 $ 107,680\nFair value adjustments\nrecorded in net income\nMoney market funds Level 1 $ 7,499 $ 7,499 $ 0\nCurrent marketable Level 1\nequity securities(3) 5,998 0 5,998\nMutual funds Level 2 351 0 351\nGovernment bonds Level 2 1,165 0 1,165\nCorporate debt securities Level 2 2,503 0 2,503\nMortgage-backed and Level 2\nasset-backed securities 1,007 0 1,007\nTotal investments with\nfair value change\nrecorded in Net\nIncome $ 18,523 $ 7,499 $ 11,024\nCash 0 8,296 0\nTotal $ 112,855 $ 548 $ (573) $ 131,353 $ 20,945 $ 118,704\n(1) The majority of our time deposits are domestic deposits.\n(2) Represents gross unrealized gains and losses for debt securities recorded to AOCI.\n(3) The long-term portion of marketable equity securities (subject to long-term lock-up restrictions) of $1.4 billion as of\nDecember 31, 2021 is included within other non-current assets.\n60",
+            "metadata": {
+                "document": "goog-10-k-q4-2022.pdf",
+                "page_number": "61",
+                "page_section": "equity",
+                "chunk_type": "prose"
+            }
+        },
+        {
+            "rank": 6,
+            "score": 0.40366503596305847,
+            "text": "Financial filing text section: Our short-term debt balance also includes the current portion of certain long-term debt.\nLong-Term Debt\nTotal outstanding debt is summarized below (in millions, except percentages):\nEffective Interest As of As of\nMaturity Coupon Rate Rate December 31, 2023 September 30, 2024\nDebt\n2016-2020 Notes 2025 - 2060 0.45% - 2.25% 0.57% - 2.33% $ 13,000 $ 12,000\nissuances\nFuture finance lease\npayments, net and other\ndebt (1) 1,746 2,785\nTotal debt 14,746 14,785\nUnamortized discount and\ndebt issuance costs (130) (121)\nLess: Current portion of\nlong-term notes(2) (1,000) (999)\nLess: Current portion of\nfuture finance lease\npayments, net and other\ncurrent debt(1)(2) (363) (1,368)\nTotal long-term debt $ 13,253 $ 12,297\n(1) Future finance lease payments are net of imputed interest.\n(2) Total current portion of long-term debt is included within accrued expenses and other current liabilities. See Note 6 for\nfurther details.\nThe notes in the table above are fixed-rate senior unsecured obligations and rank equally with each other. We\nmay redeem the notes at any time in whole or in part at specified redemption prices. The effective interest rates are\nbased on proceeds received with interest payable semi-annually.\nThe total estimated fair value of the outstanding notes was approximately $10.3 billion and $9.5 billion as of\nDecember 31, 2023 and September 30, 2024, respectively. The fair value was determined based on observable\nmarket prices of identical instruments in less active markets and is categorized accordingly as Level 2 in the fair\nvalue hierarchy.\nCredit Facility\nAs of September 30, 2024, we had $10.0 billion of revolving credit facilities, of which $4.0 billion expires in April\n2025 and $6.0 billion expires in April 2028. The interest rates for all credit facilities are determined based on a\nformula using certain market rates, as well as our progress toward the achievement of certain sustainability goals.\nNo amounts were outstanding under the credit facilities as of December 31, 2023 and September 30, 2024.\nNote 6. Supplemental Financial Statement Information\nAccounts Receivable\nThe allowance for credit losses on accounts receivable was $771 million and $857 million as of December 31,\n2023 and September 30, 2024, respectively.",
+            "metadata": {
+                "document": "goog-10-q-q3-2024.pdf",
+                "page_number": "22",
+                "page_section": "balance_sheet",
+                "chunk_type": "prose"
+            }
+        },
+        {
+            "rank": 7,
+            "score": 0.4096488058567047,
+            "text": "Financial filing text section: Long-Term Debt\nTotal outstanding debt is summarized below (in millions, except percentages):\nAs of\nEffective Interest December 31, As of\nMaturity Coupon Rate Rate 2023 June 30, 2024\nDebt\n2016-2020 Notes issuances 2025 - 2060 0.45% - 2.25% 0.57% - 2.33% $ 13,000 $ 12,000\nFuture finance lease payments, net\nand other debt (1) 1,746 2,280\nTotal debt 14,746 14,280\nUnamortized discount and debt\nissuance costs (130) (124)\nLess: Current portion of long-term\nnotes(2) (1,000) 0\nLess: Current portion of future\nfinance lease payments, net and\nother current debt(1)(2) (363) (918)\nTotal long-term debt $ 13,253 $ 13,238\n(1) Future finance lease payments are net of imputed interest.\n(2) Total current portion of long-term debt is included within accrued expenses and other current liabilities. See Note 6 for\nfurther details.\nThe notes in the table above are fixed-rate senior unsecured obligations and rank equally with each other. We\nmay redeem the notes at any time in whole or in part at specified redemption prices. The effective interest rates are\nbased on proceeds received with interest payable semi-annually.\nThe total estimated fair value of the outstanding notes was approximately $10.3 billion and $8.9 billion as of\nDecember 31, 2023 and June 30, 2024, respectively. The fair value was determined based on observable market\nprices of identical instruments in less active markets and is categorized accordingly as Level 2 in the fair value\nhierarchy.\nCredit Facility\nAs of June 30, 2024, we had $10.0 billion of revolving credit facilities, of which $4.0 billion expires in April 2025\nand $6.0 billion expires in April 2028. The interest rates for all credit facilities are determined based on a formula\nusing certain market rates, as well as our progress toward the achievement of certain sustainability goals. No\namounts were outstanding under the credit facilities as of December 31, 2023 and June 30, 2024.\nNote 6. Supplemental Financial Statement Information\nAccounts Receivable\nThe allowance for credit losses on accounts receivable was $771 million and $850 million as of December 31,\n2023 and June 30, 2024, respectively.\nProperty and Equipment, Net\nProperty and equipment, net, consisted of the following (in millions):\nAs of As of\nDecember 31, 2023 June 30, 2024\nLand and buildings $ 74,083 $ 78,641\nInformation technology assets 80,594 91,994\nConstruction in progress 35,229 40,742\nLeasehold improvements 11,425 12,010\nFurniture and fixtures 472 584\nProperty and equipment, gross 201,803 223,971\nLess: accumulated depreciation (67,458) (72,816)\nProperty and equipment, net $ 134,345 $ 151,155\n22",
+            "metadata": {
+                "document": "goog-10-q-q2-2024.pdf",
+                "page_number": "22",
+                "page_section": "balance_sheet",
+                "chunk_type": "prose"
+            }
+        },
+        {
+            "rank": 8,
+            "score": 0.41032320261001587,
+            "text": "Financial statement table: were as follows (in millions):, , \n20232024, $, 2,955\n2025, , 2,771 2,377\n20262027, , 1,953\nThereafter, , 1,502 5,882\nTotal future lease paymentsLess imputed interest, , 17,440\nTotal lease liability balance, $, (2,462) 14,978",
+            "metadata": {
+                "document": "goog-10-k-q4-2022.pdf",
+                "page_number": "69",
+                "page_section": "balance_sheet",
+                "chunk_type": "table",
+                "table_index": 0
+            }
+        },
+        {
+            "rank": 9,
+            "score": 0.4107062816619873,
+            "text": "Financial statement table: were as follows (in millions):, , \n20242025, $, 3,179\n2026, , 2,929 2,450\n20272028, , 1,951\nThereafter, , 1,488 5,685\nTotal future lease paymentsLess imputed interest, , 17,682\nTotal lease liability balance, $, (2,431) 15,251",
+            "metadata": {
+                "document": "goog-10-k-2023-final.pdf",
+                "page_number": "73",
+                "page_section": "balance_sheet",
+                "chunk_type": "table",
+                "table_index": 0
+            }
+        },
+        {
+            "rank": 10,
+            "score": 0.4114995300769806,
+            "text": "Financial statement table: , Consolidated Balance Sheets - December 31, 2024 and June 30, 2025Consolidated Statements of Income - Three and Six Months Ended June 30, 2024 and 2025, 67\n, Consolidated Statements of Comprehensive Income - Three and Six Months Ended June 30, 2024 and 2025, 8\n, Consolidated Statements of Stockholders' Equity - Three and Six Months Ended June 30, 2024 and 2025, 9\n, Consolidated Statements of Cash Flows - Six Months Ended June 30, 2024 and 2025Notes to Consolidated Financial Statements, 1112\nItem 2, Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations, 37\nItem 3, Quantitative and Qualitative Disclosures About Market Risk, 51\nItem 4, Controls and Procedures, 52\nPART II. OTHER INFORMATION, , \nItem 1, Legal Proceedings, 53\nItem 1A Risk Factors, , 53\nItem 2, Unregistered Sales of Equity Securities and Use of Proceeds, 53\nItem 5, Other Information, 53\nItem 6, Exhibits, 55\nSignatures, , 57",
+            "metadata": {
+                "document": "goog-10-q-q2-2025.pdf",
+                "page_number": "3",
+                "page_section": "cover_page",
+                "chunk_type": "table",
+                "table_index": 0
+            }
+        }
+    ]
+}

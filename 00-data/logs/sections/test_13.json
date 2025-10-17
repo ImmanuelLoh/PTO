@@ -1,0 +1,71 @@
+{
+    "query": "Total revenue and cost of revenue for the quarter ended December 31, 2024",
+    "expanded_query": "Total revenue, net sales, and cost of revenue, cost of goods sold (COGS), for the quarter ended December 31, 2024, or fiscal quarter, as reported in the Consolidated Statements of Income, Statements of Operations, or similar sections of the quarterly report (Form 10-Q). Include synonyms such as net revenue, sales revenue, cost of sales, and related expense line items for the specified period.",
+    "results": [
+        {
+            "section": "income_statement",
+            "ranking": [
+                {
+                    "rank": 1,
+                    "score": 0.8312462568283081,
+                    "text": "Financial statement table: , , , Year Ended December 31,, , , \n, , 2022, , , 2023, \nSales and marketing expenses, $, 26,567, , $, , 27,917\nSales and marketing expenses as a percentage of revenues, , , 9 %, , , 9 %",
+                    "metadata": {
+                        "document": "goog-10-k-2023-final.pdf",
+                        "page_number": "39",
+                        "page_section": "income_statement",
+                        "chunk_type": "table",
+                        "table_index": 2
+                    }
+                },
+                {
+                    "rank": 2,
+                    "score": 0.8311318159103394,
+                    "text": "Financial statement table: , , , , March 31,, , \n, , 2023, , , 2024, \nSales and marketing expenses, $, , 6,533, $, , 6,426\nSales and marketing expenses as a percentage of revenues, , , 9 %, , , 8 %",
+                    "metadata": {
+                        "document": "goog-10-q-q1-2024.pdf",
+                        "page_number": "36",
+                        "page_section": "income_statement",
+                        "chunk_type": "table",
+                        "table_index": 2
+                    }
+                },
+                {
+                    "rank": 3,
+                    "score": 0.8265894651412964,
+                    "text": "Financial statement table: , , , Three Months Ended, \n, , , March 31,, \n, , 2023, , 2024\nTAC, $, 11,721, $, 12,946\nOther cost of revenues, , 18,891, , 20,766\nTotal cost of revenues, $, 30,612, $, 33,712\nTotal cost of revenues as a percentage of revenues, , 44 %, , 42 %",
+                    "metadata": {
+                        "document": "goog-10-q-q1-2024.pdf",
+                        "page_number": "36",
+                        "page_section": "income_statement",
+                        "chunk_type": "table",
+                        "table_index": 0
+                    }
+                },
+                {
+                    "rank": 4,
+                    "score": 0.8240805268287659,
+                    "text": "Financial statement table: , , , , March 31,, , \n, , 2024, , , 2025, \nSales and marketing expenses, $, , 6,426, $, , 6,172\nSales and marketing expenses as a percentage of revenues, , , 8 %, , , 7 %",
+                    "metadata": {
+                        "document": "goog-10-q-q1-2025.pdf",
+                        "page_number": "40",
+                        "page_section": "income_statement",
+                        "chunk_type": "table",
+                        "table_index": 1
+                    }
+                },
+                {
+                    "rank": 5,
+                    "score": 0.8239589333534241,
+                    "text": "Financial statement table: , , March 31,, , , \n, 2023, 2024, , $ Change, % Change\nConsolidated revenues, $  69,787, $  80,539, $, 10,752, 15 %\nChange in consolidated constant currency revenues(1), , , , , 16 %\nCost of revenues, $  30,612, $  33,712, $, 3,100, 10 %\nOperating expenses, $  21,760, $  21,355, $, (405), (2) %\nOperating income, $  17,415, $  25,472, $, 8,057, 46 %\nOperating margin, 25 %, 32 %, , , 7 %\nOther income (expense), net, $  790, $  2,843, $, 2,053, 260 %\nNet Income, $  15,051, $  23,662, $, 8,611, 57 %\nDiluted EPS, $  1.17, $  1.89, $, 0.72, 62 %\n(1)  See  \"Use  of  Non-GAAP  Constant  Currency  Measures\"  below, , for  details  relating, to  our  use  of  constant  currency, , ",
+                    "metadata": {
+                        "document": "goog-10-q-q1-2024.pdf",
+                        "page_number": "32",
+                        "page_section": "income_statement",
+                        "chunk_type": "table",
+                        "table_index": 0
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "query": "Total revenue and cost of revenue for the quarters ended June 30, 2024 and December 31, 2024",
+    "expanded_query": "Retrieve disclosures of total revenue, net sales, and cost of revenue, cost of goods sold (COGS), or cost of sales for the quarters ended June 30, 2024, and December 31, 2024. Include phrasing from Consolidated Statements of Income, Statements of Operations, or Quarterly Reports, referencing \u201cquarter ended\u201d or \u201cfiscal quarter\u201d periods. Look for synonyms such as total sales, net revenue, cost of sales, and cost of goods manufactured within 10-Q or 10-K filings.",
+    "results": [
+        {
+            "section": "income_statement",
+            "ranking": [
+                {
+                    "rank": 1,
+                    "score": 0.8306848406791687,
+                    "text": "Financial statement table: , , , Three Months Ended, , , \n, , , , March 31,, , \n, , 2023, , , 2024, \nResearch and development expenses, $, , 11,468, $, , 11,903\nResearch and development expenses as a percentage of revenues, , , 16 %, , , 15 %",
+                    "metadata": {
+                        "document": "goog-10-q-q1-2024.pdf",
+                        "page_number": "36",
+                        "page_section": "income_statement",
+                        "chunk_type": "table",
+                        "table_index": 1
+                    }
+                },
+                {
+                    "rank": 2,
+                    "score": 0.8297642469406128,
+                    "text": "Financial statement table: , , , , March 31,, , \n, , 2023, , , 2024, \nSales and marketing expenses, $, , 6,533, $, , 6,426\nSales and marketing expenses as a percentage of revenues, , , 9 %, , , 8 %",
+                    "metadata": {
+                        "document": "goog-10-q-q1-2024.pdf",
+                        "page_number": "36",
+                        "page_section": "income_statement",
+                        "chunk_type": "table",
+                        "table_index": 2
+                    }
+                },
+                {
+                    "rank": 3,
+                    "score": 0.8282477855682373,
+                    "text": "Financial statement table: , , , Three Months Ended, \n, , , March 31,, \n, , 2023, , 2024\nTAC, $, 11,721, $, 12,946\nOther cost of revenues, , 18,891, , 20,766\nTotal cost of revenues, $, 30,612, $, 33,712\nTotal cost of revenues as a percentage of revenues, , 44 %, , 42 %",
+                    "metadata": {
+                        "document": "goog-10-q-q1-2024.pdf",
+                        "page_number": "36",
+                        "page_section": "income_statement",
+                        "chunk_type": "table",
+                        "table_index": 0
+                    }
+                },
+                {
+                    "rank": 4,
+                    "score": 0.828009843826294,
+                    "text": "Financial statement table: , , , , March 31,, , \n, , 2024, , , 2025, \nSales and marketing expenses, $, , 6,426, $, , 6,172\nSales and marketing expenses as a percentage of revenues, , , 8 %, , , 7 %",
+                    "metadata": {
+                        "document": "goog-10-q-q1-2025.pdf",
+                        "page_number": "40",
+                        "page_section": "income_statement",
+                        "chunk_type": "table",
+                        "table_index": 1
+                    }
+                },
+                {
+                    "rank": 5,
+                    "score": 0.8271341919898987,
+                    "text": "Financial statement table: , , , Three Months Ended, , , \n, , , , March 31,, , \n, , 2024, , , 2025, \nResearch and development expenses, $, , 11,903, $, , 13,556\nResearch and development expenses as a percentage of revenues, , , 15 %, , , 15 %",
+                    "metadata": {
+                        "document": "goog-10-q-q1-2025.pdf",
+                        "page_number": "40",
+                        "page_section": "income_statement",
+                        "chunk_type": "table",
+                        "table_index": 0
+                    }
+                }
+            ]
+        }
+    ]
+}

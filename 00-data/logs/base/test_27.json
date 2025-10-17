@@ -1,0 +1,70 @@
+{
+    "query": "Full year General and Administrative expenses for 2022 and 2023",
+    "results": [
+        {
+            "rank": 1,
+            "score": 0.9076880812644958,
+            "text": "Financial statement table: , , September 30,, September 30,\n, , 2022 2023, 2022 2023\nGeneral and administrative expenses, $, 3,597  $  3,979, $  10,628  $  11,219\nGeneral and administrative expenses as a percentage of, , , ",
+            "markdown": "| 0                                                      | 1   | 2                  | 3                    |\n|:-------------------------------------------------------|:----|:-------------------|:---------------------|\n|                                                        |     | Three Months Ended | Nine Months Ended    |\n|                                                        |     | September 30,      | September 30,        |\n|                                                        |     | 2022 2023          | 2022 2023            |\n| General and administrative expenses                    | $   | 3,597  $  3,979    | $  10,628  $  11,219 |\n| General and administrative expenses as a percentage of |     |                    |                      |",
+            "metadata": {
+                "document": "goog-10-q-q3-2023.pdf",
+                "page_number": "44",
+                "page_section": "financial_statements",
+                "chunk_type": "table",
+                "table_index": 1
+            }
+        },
+        {
+            "rank": 2,
+            "score": 0.9030381441116333,
+            "text": "Financial statement table: , , September 30,, September 30,\n, , 2023 2024, 2023 2024\nGeneral and administrative expenses, $, 3,979  $  3,599, $  11,219  $  9,783\nGeneral and administrative expenses as a percentage of, , , ",
+            "markdown": "| 0                                                      | 1   | 2                  | 3                   |\n|:-------------------------------------------------------|:----|:-------------------|:--------------------|\n|                                                        |     | Three Months Ended | Nine Months Ended   |\n|                                                        |     | September 30,      | September 30,       |\n|                                                        |     | 2023 2024          | 2023 2024           |\n| General and administrative expenses                    | $   | 3,979  $  3,599    | $  11,219  $  9,783 |\n| General and administrative expenses as a percentage of |     |                    |                     |",
+            "metadata": {
+                "document": "goog-10-q-q3-2024.pdf",
+                "page_number": "42",
+                "page_section": "income_statement",
+                "chunk_type": "table",
+                "table_index": 1
+            }
+        },
+        {
+            "rank": 3,
+            "score": 0.9027513861656189,
+            "text": "Financial statement table: , , June 30,, , June 30,\n, , 2022 2023, , 2022 2023\nGeneral and administrative expenses, $, 3,657  $  3,481, $, 7,031  $  7,240\nGeneral and administrative expenses as a percentage of, , , , ",
+            "markdown": "| 0                                                      | 1   | 2                  | 3   | 4                |\n|:-------------------------------------------------------|:----|:-------------------|:----|:-----------------|\n|                                                        |     | Three Months Ended |     | Six Months Ended |\n|                                                        |     | June 30,           |     | June 30,         |\n|                                                        |     | 2022 2023          |     | 2022 2023        |\n| General and administrative expenses                    | $   | 3,657  $  3,481    | $   | 7,031  $  7,240  |\n| General and administrative expenses as a percentage of |     |                    |     |                  |",
+            "metadata": {
+                "document": "goog-10-q-q2-2023.pdf",
+                "page_number": "43",
+                "page_section": "financial_statements",
+                "chunk_type": "table",
+                "table_index": 1
+            }
+        },
+        {
+            "rank": 4,
+            "score": 0.9024301171302795,
+            "text": "Financial statement table: , , , Year Ended December 31,, , , \n, , 2022, , , 2023, \nGeneral and administrative expenses, $, 15,724, , $, , 16,425\nGeneral and administrative expenses as a percentage of revenues, , , 6 %, , , 5 %",
+            "markdown": "| 0                                                               | 1                                                                                                   | 2      | 3                       | 4   | 5    | 6      |\n|:----------------------------------------------------------------|:----------------------------------------------------------------------------------------------------|:-------|:------------------------|:----|:-----|:-------|\n|                                                                 | The following table presents general and administrative expenses (in millions, except percentages): |        |                         |     |      |        |\n|                                                                 |                                                                                                     |        | Year Ended December 31, |     |      |        |\n|                                                                 |                                                                                                     | 2022   |                         |     | 2023 |        |\n| General and administrative expenses                             | $                                                                                                   | 15,724 |                         | $   |      | 16,425 |\n| General and administrative expenses as a percentage of revenues |                                                                                                     |        | 6 %                     |     |      | 5 %    |",
+            "metadata": {
+                "document": "goog-10-k-2023-final.pdf",
+                "page_number": "40",
+                "page_section": "income_statement",
+                "chunk_type": "table",
+                "table_index": 0
+            }
+        },
+        {
+            "rank": 5,
+            "score": 0.8974040150642395,
+            "text": "Financial statement table: , , June 30,, , June 30,\n, , 2023 2024, , 2023 2024\nGeneral and administrative expenses, $, 3,481  $  3,158, $, 7,240  $  6,184\nGeneral and administrative expenses as a percentage of, , , , ",
+            "markdown": "| 0                                                      | 1   | 2                  | 3   | 4                |\n|:-------------------------------------------------------|:----|:-------------------|:----|:-----------------|\n|                                                        |     | Three Months Ended |     | Six Months Ended |\n|                                                        |     | June 30,           |     | June 30,         |\n|                                                        |     | 2023 2024          |     | 2023 2024        |\n| General and administrative expenses                    | $   | 3,481  $  3,158    | $   | 7,240  $  6,184  |\n| General and administrative expenses as a percentage of |     |                    |     |                  |",
+            "metadata": {
+                "document": "goog-10-q-q2-2024.pdf",
+                "page_number": "41",
+                "page_section": "summary_financial_data",
+                "chunk_type": "table",
+                "table_index": 2
+            }
+        }
+    ]
+}

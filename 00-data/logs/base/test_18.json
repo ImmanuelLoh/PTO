@@ -1,0 +1,166 @@
+{
+    "query": "Report the Gross Margin (or Net Interest Margin, if a bank) over the last 5 quarters, with values.",
+    "results": [
+        {
+            "rank": 1,
+            "score": 0.8112927079200745,
+            "text": "Financial filing text section: As of June 30, 2025\nGross Amounts Not Offset in\nthe Consolidated Balance\nSheets, but Have Legal Rights\nto Offset\nGross Net Amounts\nAmounts Presented in Cash and\nOffset in the the Non-Cash\nGross Consolidated Consolidated Collateral\nAmounts Balance Balance Financial Received or\nRecognized Sheets Sheets Instruments(1) Pledged Net Amounts\nDerivatives assets $ 1,224 $ (121) $ 1,103 $ (780) $ (72) $ 251\nDerivatives liabilities $ 1,879 $ (121) $ 1,758 $ (780) $ (32) $ 946\n(1) The balances as of December 31, 2024 and June 30, 2025 were related to derivatives allowed to be net settled in\naccordance with our master netting agreements.\nNote 4. Leases\nWe have entered into operating and finance lease agreements primarily for data centers, land, and offices\nthroughout the world with varying lease terms.\nComponents of lease costs were as follows (in millions):\nThree Months Ended Six Months Ended\nJune 30, June 30,\n2024 2025 2024 2025\nOperating lease cost $ 802 $ 818 $ 1,606 $ 1,608\nFinance lease cost:\nAmortization of lease assets 99 112 182 208\nInterest on lease liabilities 7 16 14 31\nFinance lease cost 106 128 196 239\nVariable lease cost 343 372 686 732\nTotal lease cost $ 1,251 $ 1,318 $ 2,488 $ 2,579\nSupplemental information related to leases was as follows (in millions):\nAs of As of\nDecember 31, 2024 June 30, 2025\nWeighted average remaining lease term\nOperating leases 7.8 years 7.8 years\nFinance leases 10.4 years 9.6 years\nWeighted average discount rate\nOperating leases 3.4 % 3.5 %\nFinance leases 2.8 % 2.9 %\n22",
+            "markdown": "",
+            "metadata": {
+                "document": "goog-10-q-q2-2025.pdf",
+                "page_number": "22",
+                "page_section": "cash_flow",
+                "chunk_type": "prose"
+            }
+        },
+        {
+            "rank": 2,
+            "score": 0.806640625,
+            "text": "Financial statement table: , , June 30,, , , June 30,, \n, , 2024, 2025, , 2024, 2025\nUnrealized gain (loss) on fair value option debt securities, $, (23)  $, 130, $, (69)  $, 227\nGross realized gain on debt securities, , 161, 84, , 229, 350\nGross realized loss on debt securities, , (455), (63), , (935), (238)\n(Increase) decrease in allowance for credit losses, , 7, 14, , 3, 28\nTotal gain (loss) on debt securities recognized in other, , , , , , \nincome (expense), net, $, (310)  $, 165, $, (772)  $, 367\nEquity Investments, , , , , , ",
+            "markdown": "| 0                                                           | 1   | 2                  | 3    | 4   | 5                | 6     |\n|:------------------------------------------------------------|:----|:-------------------|:-----|:----|:-----------------|:------|\n|                                                             |     | Three Months Ended |      |     | Six Months Ended |       |\n|                                                             |     | June 30,           |      |     | June 30,         |       |\n|                                                             |     | 2024               | 2025 |     | 2024             | 2025  |\n| Unrealized gain (loss) on fair value option debt securities | $   | (23)  $            | 130  | $   | (69)  $          | 227   |\n| Gross realized gain on debt securities                      |     | 161                | 84   |     | 229              | 350   |\n| Gross realized loss on debt securities                      |     | (455)              | (63) |     | (935)            | (238) |\n| (Increase) decrease in allowance for credit losses          |     | 7                  | 14   |     | 3                | 28    |\n| Total gain (loss) on debt securities recognized in other    |     |                    |      |     |                  |       |\n| income (expense), net                                       | $   | (310)  $           | 165  | $   | (772)  $         | 367   |\n| Equity Investments                                          |     |                    |      |     |                  |       |",
+            "metadata": {
+                "document": "goog-10-q-q2-2025.pdf",
+                "page_number": "16",
+                "page_section": "balance_sheet",
+                "chunk_type": "table",
+                "table_index": 3
+            }
+        },
+        {
+            "rank": 3,
+            "score": 0.8055510520935059,
+            "text": "Financial statement table: , , Amounts\n, Gross, Offset in the\n, Amounts of, Consolidated\n, Recognized, Balance\n, Liabilities, Sheets\nDerivatives, $  619, $",
+            "markdown": "| 0           | 1           | 2             |\n|:------------|:------------|:--------------|\n|             |             | Gross         |\n|             |             | Amounts       |\n|             | Gross       | Offset in the |\n|             | Amounts of  | Consolidated  |\n|             | Recognized  | Balance       |\n|             | Liabilities | Sheets        |\n| Derivatives | $  619      | $             |",
+            "metadata": {
+                "document": "goog-10-q-q1-2022.pdf",
+                "page_number": "19",
+                "page_section": "balance_sheet",
+                "chunk_type": "table",
+                "table_index": 2
+            }
+        },
+        {
+            "rank": 4,
+            "score": 0.8054920434951782,
+            "text": "Financial filing text section: As of March 31, 2025\nGross Amounts Not Offset in\nthe Consolidated Balance\nSheets, but Have Legal Rights\nto Offset\nGross Net Amounts\nAmounts Presented in Cash and\nOffset in the the Non-Cash\nGross Consolidated Consolidated Collateral\nAmounts Balance Balance Financial Received or\nRecognized Sheets Sheets Instruments(1) Pledged Net Amounts\nDerivatives assets $ 798 $ (100) $ 698 $ (301) $ (242) $ 155\nDerivatives liabilities $ 589 $ (100) $ 489 $ (301) $ (3) $ 185\n(1) The balances as of December 31, 2024 and March 31, 2025 were related to derivatives allowed to be net settled in\naccordance with our master netting agreements.\nNote 4. Leases\nWe have entered into operating and finance lease agreements primarily for data centers, land, and offices\nthroughout the world with varying lease terms.\nComponents of lease costs were as follows (in millions):\nThree Months Ended\nMarch 31,\n2024 2025\nOperating lease cost $ 804 $ 790\nFinance lease cost:\nAmortization of lease assets 83 96\nInterest on lease liabilities 7 15\nFinance lease cost 90 111\nVariable lease cost 343 360\nTotal lease cost $ 1,237 $ 1,261\nSupplemental balance sheet information related to leases was as follows (in millions):\nAs of As of\nDecember 31, 2024 March 31, 2025\nWeighted average remaining lease term\nOperating leases 7.8 years 7.9 years\nFinance leases 10.4 years 10.2 years\nWeighted average discount rate\nOperating leases 3.4 % 3.5 %\nFinance leases 2.8 % 3.3 %\n19",
+            "markdown": "",
+            "metadata": {
+                "document": "goog-10-q-q1-2025.pdf",
+                "page_number": "19",
+                "page_section": "cash_flow",
+                "chunk_type": "prose"
+            }
+        },
+        {
+            "rank": 5,
+            "score": 0.805395245552063,
+            "text": "Financial statement table: securities by effective contractual maturity dates (in millions):, , \n, , As of\n, , June 30, 2025\nDue in 1 year or less, $, 5,930\nDue in 1 year through 5 years, , 37,136\nDue in 5 years through 10 years, , 11,846\nDue after 10 years, , 13,235\nTotal, $, 68,147\n, The  following  tables  present  fair  values  and  gross  unrealized  losses  recorded  to  AOCI,  aggregated  by, ",
+            "markdown": "| 0                                                                 | 1                                                                                                                  | 2             |\n|:------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------|:--------------|\n|                                                                   | The following table summarizes the estimated fair value of investments in available-for-sale marketable debt       |               |\n| securities by effective contractual maturity dates (in millions): |                                                                                                                    |               |\n|                                                                   |                                                                                                                    | As of         |\n|                                                                   |                                                                                                                    | June 30, 2025 |\n| Due in 1 year or less                                             | $                                                                                                                  | 5,930         |\n| Due in 1 year through 5 years                                     |                                                                                                                    | 37,136        |\n| Due in 5 years through 10 years                                   |                                                                                                                    | 11,846        |\n| Due after 10 years                                                |                                                                                                                    | 13,235        |\n| Total                                                             | $                                                                                                                  | 68,147        |\n|                                                                   | The  following  tables  present  fair  values  and  gross  unrealized  losses  recorded  to  AOCI,  aggregated  by |               |",
+            "metadata": {
+                "document": "goog-10-q-q2-2025.pdf",
+                "page_number": "16",
+                "page_section": "balance_sheet",
+                "chunk_type": "table",
+                "table_index": 0
+            }
+        },
+        {
+            "rank": 6,
+            "score": 0.8053771257400513,
+            "text": "Financial statement table: , , Three Months Ended, , , , Six Months Ended, \n, , , June 30,, , , June 30,, \n, , 2024, , 2025, 2024, , 2025\nCash flow hedging relationship:, , , , , , , \nForeign exchange contracts, , , , , , , \nAmount included in the assessment of effectiveness, $, 277, $, (1,050)  $, 432, $, (1,389)\nAmount excluded from the assessment of effectiveness, , (7), , (108), 51, , (169)\nNet investment hedging relationship:, , , , , , , \nAmount included in the assessment of effectiveness, , , , , , , \nForeign exchange contracts, , 120, , (643), 202, , (849)\nForeign currency-denominated debt, , 0, , (219), 0, , (219)\nTotal, $, 390, $, (2,020)  $, 685, $, (2,626)",
+            "markdown": "| 0                                                    | 1   | 2                  | 3        | 4          | 5    | 6                | 7       |\n|:-----------------------------------------------------|:----|:-------------------|:---------|:-----------|:-----|:-----------------|:--------|\n| millions):                                           |     |                    |          |            |      |                  |         |\n|                                                      |     | Three Months Ended |          |            |      | Six Months Ended |         |\n|                                                      |     |                    | June 30, |            |      | June 30,         |         |\n|                                                      |     | 2024               |          | 2025       | 2024 |                  | 2025    |\n| Cash flow hedging relationship:                      |     |                    |          |            |      |                  |         |\n| Foreign exchange contracts                           |     |                    |          |            |      |                  |         |\n| Amount included in the assessment of effectiveness   | $   | 277                | $        | (1,050)  $ | 432  | $                | (1,389) |\n| Amount excluded from the assessment of effectiveness |     | (7)                |          | (108)      | 51   |                  | (169)   |\n| Net investment hedging relationship:                 |     |                    |          |            |      |                  |         |\n| Amount included in the assessment of effectiveness   |     |                    |          |            |      |                  |         |\n| Foreign exchange contracts                           |     | 120                |          | (643)      | 202  |                  | (849)   |\n| Foreign currency-denominated debt                    |     | 0                  |          | (219)      | 0    |                  | (219)   |\n| Total                                                | $   | 390                | $        | (2,020)  $ | 685  | $                | (2,626) |",
+            "metadata": {
+                "document": "goog-10-q-q2-2025.pdf",
+                "page_number": "19",
+                "page_section": "cash_flow",
+                "chunk_type": "table",
+                "table_index": 2
+            }
+        },
+        {
+            "rank": 7,
+            "score": 0.804426908493042,
+            "text": "Financial statement table: , , , , Operating, , Finance\n, , , , Leases, , Leases\nRemainder of 2025, , , $, 2,095, $, 162\n2026, , , , 3,078, , 299\n2027, , , , 2,549, , 301\n2028, , , , 2,042, , 290\n2029, , , , 1,630, , 268\nThereafter, , , , 6,035, , 1,310\nTotal future lease payments, , , , 17,429, , 2,630\nLess imputed interest, , , , (2,470), , (528)\nTotal lease liability balance, , , $, 14,959, $, 2,102\nAs  of  June  30,  2025,  we  have  entered, into, leases  primarily  related, to  data  centers, , that  have  not  yet, ",
+            "markdown": "| 0                                           | 1                                                                        | 2                          | 3                 | 4         | 5                    | 6       |\n|:--------------------------------------------|:-------------------------------------------------------------------------|:---------------------------|:------------------|:----------|:---------------------|:--------|\n|                                             | Future lease payments as of June 30, 2025 were as follows (in millions): |                            |                   |           |                      |         |\n|                                             |                                                                          |                            |                   | Operating |                      | Finance |\n|                                             |                                                                          |                            |                   | Leases    |                      | Leases  |\n| Remainder of 2025                           |                                                                          |                            | $                 | 2,095     | $                    | 162     |\n| 2026                                        |                                                                          |                            |                   | 3,078     |                      | 299     |\n| 2027                                        |                                                                          |                            |                   | 2,549     |                      | 301     |\n| 2028                                        |                                                                          |                            |                   | 2,042     |                      | 290     |\n| 2029                                        |                                                                          |                            |                   | 1,630     |                      | 268     |\n| Thereafter                                  |                                                                          |                            |                   | 6,035     |                      | 1,310   |\n| Total future lease payments                 |                                                                          |                            |                   | 17,429    |                      | 2,630   |\n| Less imputed interest                       |                                                                          |                            |                   | (2,470)   |                      | (528)   |\n| Total lease liability balance               |                                                                          |                            | $                 | 14,959    | $                    | 2,102   |\n| As  of  June  30,  2025,  we  have  entered | into                                                                     | leases  primarily  related | to  data  centers |           | that  have  not  yet |         |",
+            "metadata": {
+                "document": "goog-10-q-q2-2025.pdf",
+                "page_number": "23",
+                "page_section": "cash_flow",
+                "chunk_type": "table",
+                "table_index": 2
+            }
+        },
+        {
+            "rank": 8,
+            "score": 0.8038203716278076,
+            "text": "Financial statement table: , , June 30,, , , June 30,, \n, , 2024 2025, , , 2024 2025, \nRealized net gain (loss) on equity securities sold during, , , , , , \nthe period, $, 64  $, 217, $, 184  $, 435\nUnrealized net gain (loss) on marketable equity securities, , (350), 853, , (214), 1,088\nUnrealized net gain (loss) on non-marketable equity, , , , , , \nsecurities(1), , (428), 216, , 1,559, 9,521\nTotal gain (loss) on equity securities in other income, , , , , , ",
+            "markdown": "| 0                                                          | 1   | 2                  | 3   | 4   | 5                | 6     |\n|:-----------------------------------------------------------|:----|:-------------------|:----|:----|:-----------------|:------|\n|                                                            |     | Three Months Ended |     |     | Six Months Ended |       |\n|                                                            |     | June 30,           |     |     | June 30,         |       |\n|                                                            |     | 2024 2025          |     |     | 2024 2025        |       |\n| Realized net gain (loss) on equity securities sold during  |     |                    |     |     |                  |       |\n| the period                                                 | $   | 64  $              | 217 | $   | 184  $           | 435   |\n| Unrealized net gain (loss) on marketable equity securities |     | (350)              | 853 |     | (214)            | 1,088 |\n| Unrealized net gain (loss) on non-marketable equity        |     |                    |     |     |                  |       |\n| securities(1)                                              |     | (428)              | 216 |     | 1,559            | 9,521 |\n| Total gain (loss) on equity securities in other income     |     |                    |     |     |                  |       |",
+            "metadata": {
+                "document": "goog-10-q-q2-2025.pdf",
+                "page_number": "17",
+                "page_section": "equity",
+                "chunk_type": "table",
+                "table_index": 1
+            }
+        },
+        {
+            "rank": 9,
+            "score": 0.8033877611160278,
+            "text": "Financial statement table: , , Amounts\n, Gross, Offset in the\n, Amounts of, Consolidated\n, Recognized, Balance\n, Liabilities, Sheets\nDerivatives, $  730, $\n(2), , ",
+            "markdown": "| 0           | 1           | 2             |\n|:------------|:------------|:--------------|\n|             |             | Gross         |\n|             |             | Amounts       |\n|             | Gross       | Offset in the |\n|             | Amounts of  | Consolidated  |\n|             | Recognized  | Balance       |\n|             | Liabilities | Sheets        |\n| Derivatives | $  730      | $             |\n| (2)         |             |               |",
+            "metadata": {
+                "document": "goog-10-q-q1-2022.pdf",
+                "page_number": "19",
+                "page_section": "balance_sheet",
+                "chunk_type": "table",
+                "table_index": 3
+            }
+        },
+        {
+            "rank": 10,
+            "score": 0.8023025989532471,
+            "text": "Financial statement table: , , , Six months ended, , , , , , , , \n, , , June 30,, , , , Constant, , Less, , Constant\n, , , , , , Less FX, Currency, As, Hedging, Less FX, Currency\n, , 2024, , 2025, , Effect, Revenues, Reported, Effect, Effect, Revenues\nUnited States, $, 79,933, $, 90,027, $, 0, $  90,027, 13 %, , 0 %, 13 %\nEMEA, , 48,471, , 54,185, , 56, 54,129, 12 %, , 0 %, 12 %\nAPAC, , 27,112, , 31,334, , (266), 31,600, 16 %, , (1) %, 17 %\nOther Americas, , 9,591, , 10,968, , (852), 11,820, 14 %, , (9) %, 23 %\nRevenues, excluding hedging, , , , , , , , , , , \neffect, , 165,107, , 186,514, , (1,062), 187,576, 13 %, , (1) %, 14 %\nHedging gains (losses), , 174, , 148, , , , , , , \nTotal revenues(1), $, 165,281, $, 186,662, , , $  187,576, 13 %, 0 %, (1) %, 14 %\n(1), , , , , , , , , , , \n, Total  constant  currency  revenues  of  $187.6  billion  for  the  six  months  ended  June  30,  2025  increased  $22.5  billion, , , , , , , , , , ",
+            "markdown": "| 0                           | 1                                                                                                                                  | 2       | 3                | 4       | 5   | 6       | 7          | 8        | 9                          | 10      | 11       |\n|:----------------------------|:-----------------------------------------------------------------------------------------------------------------------------------|:--------|:-----------------|:--------|:----|:--------|:-----------|:---------|:---------------------------|:--------|:---------|\n|                             |                                                                                                                                    |         |                  |         |     |         |            |          | % Change from Prior Period |         |          |\n|                             |                                                                                                                                    |         | Six months ended |         |     |         |            |          |                            |         |          |\n|                             |                                                                                                                                    |         | June 30,         |         |     |         | Constant   |          | Less                       |         | Constant |\n|                             |                                                                                                                                    |         |                  |         |     | Less FX | Currency   | As       | Hedging                    | Less FX | Currency |\n|                             |                                                                                                                                    | 2024    |                  | 2025    |     | Effect  | Revenues   | Reported | Effect                     | Effect  | Revenues |\n| United States               | $                                                                                                                                  | 79,933  | $                | 90,027  | $   | 0       | $  90,027  | 13 %     |                            | 0 %     | 13 %     |\n| EMEA                        |                                                                                                                                    | 48,471  |                  | 54,185  |     | 56      | 54,129     | 12 %     |                            | 0 %     | 12 %     |\n| APAC                        |                                                                                                                                    | 27,112  |                  | 31,334  |     | (266)   | 31,600     | 16 %     |                            | (1) %   | 17 %     |\n| Other Americas              |                                                                                                                                    | 9,591   |                  | 10,968  |     | (852)   | 11,820     | 14 %     |                            | (9) %   | 23 %     |\n| Revenues, excluding hedging |                                                                                                                                    |         |                  |         |     |         |            |          |                            |         |          |\n| effect                      |                                                                                                                                    | 165,107 |                  | 186,514 |     | (1,062) | 187,576    | 13 %     |                            | (1) %   | 14 %     |\n| Hedging gains (losses)      |                                                                                                                                    | 174     |                  | 148     |     |         |            |          |                            |         |          |\n| Total revenues(1)           | $                                                                                                                                  | 165,281 | $                | 186,662 |     |         | $  187,576 | 13 %     | 0 %                        | (1) %   | 14 %     |\n| (1)                         |                                                                                                                                    |         |                  |         |     |         |            |          |                            |         |          |\n|                             | Total  constant  currency  revenues  of  $187.6  billion  for  the  six  months  ended  June  30,  2025  increased  $22.5  billion |         |                  |         |     |         |            |          |                            |         |          |",
+            "metadata": {
+                "document": "goog-10-q-q2-2025.pdf",
+                "page_number": "44",
+                "page_section": "equity",
+                "chunk_type": "table",
+                "table_index": 1
+            }
+        },
+        {
+            "rank": 1,
+            "score": 0.7959647178649902,
+            "text": "Q1 2025 Earnings\n\nAlphabet\n\nTrailing Twelve Months Free Cash Flow*\n\nin Millions, except Percentages; unaudited\n\nQti24 Q2'24\nNet cash provided by operating activities 28,848 26,640\nPurchases of property and equipment (12,012) (13,186)\nFree Cash Flow $16,836 $13,454\nTrailing Twelve Months Free Cash Flow $69,111 $60,787\n\n*Non-GAAP measure. See following slide for reconciliation of GAAP to Non-GAAP measures\n\nQ3'24\n30,698\n(13,061)\n$17,637\n\n$55,823\n\nQ4'24\n39,113\n(14,276)\n$24,837\n\n$72,764\n\nQ1'25\n36,150\n(17,197)\n$18,953\n\n$74,881\n\nQ1\u201925 Y/Y\n\n25%\n43%\n13%\n\n8%\n",
+            "metadata": {
+                "source_report": "Q1_2025",
+                "image_path": "slides_q1_2025\\slide_09.png",
+                "slide_number": 9,
+                "chunk_type": "slide"
+            }
+        },
+        {
+            "rank": 2,
+            "score": 0.7939102649688721,
+            "text": "Q2 2025 Earnings Alphabet\n\nTrailing Twelve Months Free Cash Flow*\n\nin Millions, except Percentages; unaudited\n\nQ2'24 Q3'24 Q4'24 Q1'25 Q2'25\n\nNet cash provided by operating activities 26,640 30,698 39,113 36,150 27,747 4%\n\nPurchases of property and equipment (13,186) (13,061) (14,276) (17,197) (22,446) 70%\nFree Cash Flow $13,454 $17,637 $24,837 $18,953 $5,301 (61)%\nTrailing Twelve Months Free Cash Flow $60,787 $55,823 $72,764 $74,881 $66,728 10%\n\n*Non-GAAP measure. See following slide for reconciliation of GAAP to Non-GAAP measures\n",
+            "metadata": {
+                "source_report": "Q2_2025",
+                "image_path": "slides_q2_2025\\slide_09.png",
+                "slide_number": 9,
+                "chunk_type": "slide"
+            }
+        },
+        {
+            "rank": 3,
+            "score": 0.7925623059272766,
+            "text": "Q2 2025 Earnings Alphabet\n\nReconciliation from GAAP Net Cash Provided by Operating\nActivities to Non-GAAP Free Cash Flow\n\nWe provide non-GAAP free cash flow for the current quarter and trailing twelve months (\u201cTTM\u201d) because it is a liquidity measure that\nprovides useful information to management and investors about the amount of cash generated by the business that can be used for\nstrategic opportunities, including investing in our business and acquisitions, and to strengthen our balance sheet.\n\ne Free cash flow: We define free cash flow as net cash provided by operating activities less capital expenditures.\ne TTM free cash flow: We define trailing twelve months free cash flow as net cash provided by operating activities less capital\nexpenditures for the most recent twelve consecutive months.\n\nReconciliation of GAAP to Non-GAAP Financial Information\n\nin millions; unaudited\n\nNet cash provided from operating activities 30,656 18,915 28,848 26,640 30,698 39,113 36,150 27,747\nless: purchases of property and equipment (8,055) (11,019) (12,012) (13,186) (13,061) (14,276) (17,197) (22,446)\nFree Cash Flow 22,601 7,896 16,836 13,454 17,637 24,837 18,953 5,301\nNet cash provided from operating activities - TTM 105,059 105,101 125,299 132,601 133,708\nless: purchases of property and equipment - TTM (44,272) (49,278) (52,535) (57,720) (66,980)\nFree Cash Flow - TTM 60,787 55,823 72,764 74,881 66,728\n\n*TTM = Trailing Twelve Months\n",
+            "metadata": {
+                "source_report": "Q2_2025",
+                "image_path": "slides_q2_2025\\slide_10.png",
+                "slide_number": 10,
+                "chunk_type": "slide"
+            }
+        }
+    ]
+}
