@@ -1,0 +1,71 @@
+{
+    "query": "Operating Expenses and Operating Income for fiscal years 2021, 2022, and 2023",
+    "expanded_query": "Operating expenses, including SG&A and total expenses, and operating income for the fiscal years 2021, 2022, and 2023, as reported in the Consolidated Statements of Income or Statements of Operations. Also include references to quarterly periods such as the quarters ended in 2021, 2022, and 2023. Keywords: operating expenses, SG&A, total expenses, operating income, fiscal year, quarter ended, Consolidated Statements of Income, Statements of Operations.",
+    "results": [
+        {
+            "section": "income_statement",
+            "ranking": [
+                {
+                    "rank": 1,
+                    "score": 0.8496347069740295,
+                    "text": "Financial statement table: , , , Year Ended December 31,, , , \n, , 2022, , , 2023, \nGeneral and administrative expenses, $, 15,724, , $, , 16,425\nGeneral and administrative expenses as a percentage of revenues, , , 6 %, , , 5 %",
+                    "metadata": {
+                        "document": "goog-10-k-2023-final.pdf",
+                        "page_number": "40",
+                        "page_section": "income_statement",
+                        "chunk_type": "table",
+                        "table_index": 0
+                    }
+                },
+                {
+                    "rank": 2,
+                    "score": 0.847469687461853,
+                    "text": "Financial statement table: , , , Three Months Ended, , , \n, , , , March 31,, , \n, , 2021, , , 2022, \nGeneral and administrative expenses, $, , 2,773, $, , 3,374\nGeneral and administrative expenses as a percentage of revenues, , , 5.0 %, , , 5.0 %",
+                    "metadata": {
+                        "document": "goog-10-q-q1-2022.pdf",
+                        "page_number": "37",
+                        "page_section": "income_statement",
+                        "chunk_type": "table",
+                        "table_index": 2
+                    }
+                },
+                {
+                    "rank": 3,
+                    "score": 0.8384209871292114,
+                    "text": "Financial statement table: , , , Year Ended December 31,, , , \n, , 2022, , , 2023, \nSales and marketing expenses, $, 26,567, , $, , 27,917\nSales and marketing expenses as a percentage of revenues, , , 9 %, , , 9 %",
+                    "metadata": {
+                        "document": "goog-10-k-2023-final.pdf",
+                        "page_number": "39",
+                        "page_section": "income_statement",
+                        "chunk_type": "table",
+                        "table_index": 2
+                    }
+                },
+                {
+                    "rank": 4,
+                    "score": 0.8375112414360046,
+                    "text": "Financial statement table: , , Three Months Ended, , Six Months Ended\n, , June 30,, , June 30,\n, , 2021 2022, , 2021 2022\nGeneral and administrative expenses, $, 3,341  $  3,657, $, 6,114  $  7,031\nGeneral and administrative expenses as a percentage of, , , , ",
+                    "metadata": {
+                        "document": "goog-10-q-q2-2022.pdf",
+                        "page_number": "41",
+                        "page_section": "income_statement",
+                        "chunk_type": "table",
+                        "table_index": 1
+                    }
+                },
+                {
+                    "rank": 5,
+                    "score": 0.8354091644287109,
+                    "text": "Financial statement table: , , , Three Months Ended, , , \n, , , , March 31,, , \n, , 2023, , , 2024, \nResearch and development expenses, $, , 11,468, $, , 11,903\nResearch and development expenses as a percentage of revenues, , , 16 %, , , 15 %",
+                    "metadata": {
+                        "document": "goog-10-q-q1-2024.pdf",
+                        "page_number": "36",
+                        "page_section": "income_statement",
+                        "chunk_type": "table",
+                        "table_index": 1
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "query": "Operating Expenses and Operating Income for Q4 2022",
+    "expanded_query": "Operating expenses (also referred to as SG&A, selling, general and administrative expenses, or total operating costs) and operating income (operating profit, income from operations) for the quarter ended December 31, 2022, or Q4 2022. Include terms from Consolidated Statements of Income, Statements of Operations, or similar financial statements covering quarterly and fiscal period disclosures.",
+    "results": [
+        {
+            "section": "income_statement",
+            "ranking": [
+                {
+                    "rank": 1,
+                    "score": 0.8527684807777405,
+                    "text": "Financial statement table: , , , Year Ended December 31,, , , \n, , 2022, , , 2023, \nGeneral and administrative expenses, $, 15,724, , $, , 16,425\nGeneral and administrative expenses as a percentage of revenues, , , 6 %, , , 5 %",
+                    "metadata": {
+                        "document": "goog-10-k-2023-final.pdf",
+                        "page_number": "40",
+                        "page_section": "income_statement",
+                        "chunk_type": "table",
+                        "table_index": 0
+                    }
+                },
+                {
+                    "rank": 2,
+                    "score": 0.8381428122520447,
+                    "text": "Financial statement table: , , , Three Months Ended, , , \n, , , , March 31,, , \n, , 2021, , , 2022, \nGeneral and administrative expenses, $, , 2,773, $, , 3,374\nGeneral and administrative expenses as a percentage of revenues, , , 5.0 %, , , 5.0 %",
+                    "metadata": {
+                        "document": "goog-10-q-q1-2022.pdf",
+                        "page_number": "37",
+                        "page_section": "income_statement",
+                        "chunk_type": "table",
+                        "table_index": 2
+                    }
+                },
+                {
+                    "rank": 3,
+                    "score": 0.8372165560722351,
+                    "text": "Financial statement table: , , , Year Ended December 31,, , , \n, , 2022, , , 2023, \nSales and marketing expenses, $, 26,567, , $, , 27,917\nSales and marketing expenses as a percentage of revenues, , , 9 %, , , 9 %",
+                    "metadata": {
+                        "document": "goog-10-k-2023-final.pdf",
+                        "page_number": "39",
+                        "page_section": "income_statement",
+                        "chunk_type": "table",
+                        "table_index": 2
+                    }
+                },
+                {
+                    "rank": 4,
+                    "score": 0.8323229551315308,
+                    "text": "Financial statement table: , , , , March 31,, , \n, , 2024, , , 2025, \nGeneral and administrative expenses, $, , 3,026, $, , 3,539\nGeneral and administrative expenses as a percentage of revenues, , , 4 %, , , 4 %",
+                    "metadata": {
+                        "document": "goog-10-q-q1-2025.pdf",
+                        "page_number": "40",
+                        "page_section": "income_statement",
+                        "chunk_type": "table",
+                        "table_index": 2
+                    }
+                },
+                {
+                    "rank": 5,
+                    "score": 0.8311692476272583,
+                    "text": "Financial statement table: , , , Year Ended December 31,, , , \n, , 2022, , , 2023, \nResearch and development expenses, $, , 39,500, $, , 45,427\nResearch and development expenses as a percentage of revenues, , , 14 %, , , 15 %",
+                    "metadata": {
+                        "document": "goog-10-k-2023-final.pdf",
+                        "page_number": "39",
+                        "page_section": "income_statement",
+                        "chunk_type": "table",
+                        "table_index": 1
+                    }
+                }
+            ]
+        }
+    ]
+}

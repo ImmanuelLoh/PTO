@@ -1,0 +1,71 @@
+{
+    "query": "Total Revenues for fiscal years 2021, 2022, and 2023",
+    "expanded_query": "Total revenues, net sales, or total sales for the fiscal years ended 2021, 2022, and 2023, including annual and quarterly periods (e.g., \u201cfiscal year ended\u201d, \u201cquarter ended\u201d). Relevant disclosures may appear in the Consolidated Statements of Income, Statements of Operations, or Revenue sections of SEC filings.",
+    "results": [
+        {
+            "section": "income_statement",
+            "ranking": [
+                {
+                    "rank": 1,
+                    "score": 0.8430953025817871,
+                    "text": "Financial statement table: , , , Year Ended December 31,, , , \n, , 2022, , , 2023, \nSales and marketing expenses, $, 26,567, , $, , 27,917\nSales and marketing expenses as a percentage of revenues, , , 9 %, , , 9 %",
+                    "metadata": {
+                        "document": "goog-10-k-2023-final.pdf",
+                        "page_number": "39",
+                        "page_section": "income_statement",
+                        "chunk_type": "table",
+                        "table_index": 2
+                    }
+                },
+                {
+                    "rank": 2,
+                    "score": 0.8383969664573669,
+                    "text": "Financial statement table: , , , Year Ended December 31,, , , \n, , 2022, , , 2023, \nGeneral and administrative expenses, $, 15,724, , $, , 16,425\nGeneral and administrative expenses as a percentage of revenues, , , 6 %, , , 5 %",
+                    "metadata": {
+                        "document": "goog-10-k-2023-final.pdf",
+                        "page_number": "40",
+                        "page_section": "income_statement",
+                        "chunk_type": "table",
+                        "table_index": 0
+                    }
+                },
+                {
+                    "rank": 3,
+                    "score": 0.8353784084320068,
+                    "text": "Financial statement table: , , , Three Months Ended, , , \n, , , , March 31,, , \n, , 2021, , , 2022, \nGeneral and administrative expenses, $, , 2,773, $, , 3,374\nGeneral and administrative expenses as a percentage of revenues, , , 5.0 %, , , 5.0 %",
+                    "metadata": {
+                        "document": "goog-10-q-q1-2022.pdf",
+                        "page_number": "37",
+                        "page_section": "income_statement",
+                        "chunk_type": "table",
+                        "table_index": 2
+                    }
+                },
+                {
+                    "rank": 4,
+                    "score": 0.8325657844543457,
+                    "text": "Financial statement table: , , , Year Ended December 31,, , , \n, , 2022, , , 2023, \nResearch and development expenses, $, , 39,500, $, , 45,427\nResearch and development expenses as a percentage of revenues, , , 14 %, , , 15 %",
+                    "metadata": {
+                        "document": "goog-10-k-2023-final.pdf",
+                        "page_number": "39",
+                        "page_section": "income_statement",
+                        "chunk_type": "table",
+                        "table_index": 1
+                    }
+                },
+                {
+                    "rank": 5,
+                    "score": 0.8311949968338013,
+                    "text": "Financial statement table: , , , , March 31,, , \n, , 2023, , , 2024, \nSales and marketing expenses, $, , 6,533, $, , 6,426\nSales and marketing expenses as a percentage of revenues, , , 9 %, , , 8 %",
+                    "metadata": {
+                        "document": "goog-10-q-q1-2024.pdf",
+                        "page_number": "36",
+                        "page_section": "income_statement",
+                        "chunk_type": "table",
+                        "table_index": 2
+                    }
+                }
+            ]
+        }
+    ]
+}

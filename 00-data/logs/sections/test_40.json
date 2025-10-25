@@ -1,0 +1,71 @@
+{
+    "query": "Operating Expenses and Operating Income for fiscal years 2022, 2023, and 2024",
+    "expanded_query": "Operating expenses, including SG&A and total expenses, and operating income for the fiscal years 2022, 2023, and 2024, as reported in Consolidated Statements of Income or Statements of Operations. Also include quarterly data for quarters ended in 2022, 2023, and 2024, referencing similar line items in quarterly reports. Look for variations such as operating profit or operating loss within these periods.",
+    "results": [
+        {
+            "section": "income_statement",
+            "ranking": [
+                {
+                    "rank": 1,
+                    "score": 0.8414388298988342,
+                    "text": "Financial statement table: , , , Year Ended December 31,, , , \n, , 2022, , , 2023, \nGeneral and administrative expenses, $, 15,724, , $, , 16,425\nGeneral and administrative expenses as a percentage of revenues, , , 6 %, , , 5 %",
+                    "metadata": {
+                        "document": "goog-10-k-2023-final.pdf",
+                        "page_number": "40",
+                        "page_section": "income_statement",
+                        "chunk_type": "table",
+                        "table_index": 0
+                    }
+                },
+                {
+                    "rank": 2,
+                    "score": 0.8376269936561584,
+                    "text": "Financial statement table: , , June 30,, , , \n, 2022, 2023, , $ Change, % Change\nConsolidated revenues, $  69,685, $  74,604, $, 4,919, 7 %\nChange in consolidated constant currency revenues(1), , , , , 9 %\nCost of revenues, $  30,104, $  31,916, $, 1,812, 6 %\nOperating expenses, $  20,128, $  20,850, $, 722, 4 %\nOperating income, $  19,453, $  21,838, $, 2,385, 12 %\nOperating margin, 28 %, 29 %, , , 1 %\nOther income (expense), net, $  (439), $  65, $, 504, NM\nNet Income, $  16,002, $  18,368, $, 2,366, 15 %\nDiluted EPS, $  1.21, $  1.44, $, 0.23, 19 %\nNM = Not Meaningful, , , , , ",
+                    "metadata": {
+                        "document": "goog-10-q-q2-2023.pdf",
+                        "page_number": "36",
+                        "page_section": "income_statement",
+                        "chunk_type": "table",
+                        "table_index": 0
+                    }
+                },
+                {
+                    "rank": 3,
+                    "score": 0.8356349468231201,
+                    "text": "Financial statement table: , , September 30,, , , \n, 2022, 2023, , $ Change, % Change\nConsolidated revenues, $  69,092, $  76,693, $, 7,601, 11 %\nChange in consolidated constant currency revenues(1), , , , , 11 %\nCost of revenues, $  31,158, $  33,229, $, 2,071, 7 %\nOperating expenses, $  20,799, $  22,121, $, 1,322, 6 %\nOperating income, $  17,135, $  21,343, $, 4,208, 25 %\nOperating margin, 25 %, 28 %, , , 3 %\nOther income (expense), net, $  (902), $  (146), $, 756, (84) %\nNet Income, $  13,910, $  19,689, $, 5,779, 42 %\nDiluted EPS, $  1.06, $  1.55, $, 0.49, 46 %\n(1)  See  \"Use  of  Non-GAAP  Constant  Currency  Measures\"  below, , for  details  relating, to  our  use  of  constant  currency, , ",
+                    "metadata": {
+                        "document": "goog-10-q-q3-2023.pdf",
+                        "page_number": "37",
+                        "page_section": "income_statement",
+                        "chunk_type": "table",
+                        "table_index": 0
+                    }
+                },
+                {
+                    "rank": 4,
+                    "score": 0.8351580500602722,
+                    "text": "Financial statement table: , , March 31,, , , \n, 2023, 2024, , $ Change, % Change\nConsolidated revenues, $  69,787, $  80,539, $, 10,752, 15 %\nChange in consolidated constant currency revenues(1), , , , , 16 %\nCost of revenues, $  30,612, $  33,712, $, 3,100, 10 %\nOperating expenses, $  21,760, $  21,355, $, (405), (2) %\nOperating income, $  17,415, $  25,472, $, 8,057, 46 %\nOperating margin, 25 %, 32 %, , , 7 %\nOther income (expense), net, $  790, $  2,843, $, 2,053, 260 %\nNet Income, $  15,051, $  23,662, $, 8,611, 57 %\nDiluted EPS, $  1.17, $  1.89, $, 0.72, 62 %\n(1)  See  \"Use  of  Non-GAAP  Constant  Currency  Measures\"  below, , for  details  relating, to  our  use  of  constant  currency, , ",
+                    "metadata": {
+                        "document": "goog-10-q-q1-2024.pdf",
+                        "page_number": "32",
+                        "page_section": "income_statement",
+                        "chunk_type": "table",
+                        "table_index": 0
+                    }
+                },
+                {
+                    "rank": 5,
+                    "score": 0.8350008130073547,
+                    "text": "Financial statement table: , , September 30,, , , \n, 2023, 2024, , $ Change, % Change\nConsolidated revenues, $  76,693, $  88,268, $, 11,575, 15 %\nChange in consolidated constant currency revenues(1), , , , , 16 %\nCost of revenues, $  33,229, $  36,474, $, 3,245, 10 %\nOperating expenses, $  22,121, $  23,273, $, 1,152, 5 %\nOperating income, $  21,343, $  28,521, $, 7,178, 34 %\nOperating margin, 28 %, 32 %, , , 4 %\nOther income (expense), net, $  (146), $  3,185, $, 3,331, NM\nNet Income, $  19,689, $  26,301, $, 6,612, 34 %\nDiluted EPS (2), $  1.55, $  2.12, $, 0.57, 37 %\nNM = Not Meaningful, , , , , ",
+                    "metadata": {
+                        "document": "goog-10-q-q3-2024.pdf",
+                        "page_number": "36",
+                        "page_section": "income_statement",
+                        "chunk_type": "table",
+                        "table_index": 0
+                    }
+                }
+            ]
+        }
+    ]
+}

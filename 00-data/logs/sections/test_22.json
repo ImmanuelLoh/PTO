@@ -1,0 +1,135 @@
+{
+    "query": "'{\"query\":\"Operating Income and Operating Expenses for the years 2021, 2022, 2023, and 2024\",\"sections\":[\"income_statement\"]}'",
+    "expanded_query": "Operating income, operating expenses, SG&A, and total expenses reported in the Consolidated Statements of Income or Statements of Operations for the fiscal years 2021, 2022, 2023, and 2024, including quarterly data for the quarters ended in those years. Keywords include operating profit, operating loss, selling, general and administrative expenses, and total operating costs within income statements or financial results sections.",
+    "results": [
+        {
+            "section": "income_statement",
+            "ranking": [
+                {
+                    "rank": 1,
+                    "score": 0.8529688119888306,
+                    "text": "Financial statement table: , , , Year Ended December 31,, , , \n, , 2022, , , 2023, \nGeneral and administrative expenses, $, 15,724, , $, , 16,425\nGeneral and administrative expenses as a percentage of revenues, , , 6 %, , , 5 %",
+                    "metadata": {
+                        "document": "goog-10-k-2023-final.pdf",
+                        "page_number": "40",
+                        "page_section": "income_statement",
+                        "chunk_type": "table",
+                        "table_index": 0
+                    }
+                },
+                {
+                    "rank": 2,
+                    "score": 0.8478842377662659,
+                    "text": "Financial statement table: , , , Three Months Ended, , , \n, , , , March 31,, , \n, , 2021, , , 2022, \nGeneral and administrative expenses, $, , 2,773, $, , 3,374\nGeneral and administrative expenses as a percentage of revenues, , , 5.0 %, , , 5.0 %",
+                    "metadata": {
+                        "document": "goog-10-q-q1-2022.pdf",
+                        "page_number": "37",
+                        "page_section": "income_statement",
+                        "chunk_type": "table",
+                        "table_index": 2
+                    }
+                },
+                {
+                    "rank": 3,
+                    "score": 0.8437412977218628,
+                    "text": "Financial statement table: , , , , March 31,, , \n, , 2024, , , 2025, \nGeneral and administrative expenses, $, , 3,026, $, , 3,539\nGeneral and administrative expenses as a percentage of revenues, , , 4 %, , , 4 %",
+                    "metadata": {
+                        "document": "goog-10-q-q1-2025.pdf",
+                        "page_number": "40",
+                        "page_section": "income_statement",
+                        "chunk_type": "table",
+                        "table_index": 2
+                    }
+                },
+                {
+                    "rank": 4,
+                    "score": 0.8381614685058594,
+                    "text": "Financial statement table: , , , Year Ended December 31,, , , \n, , 2022, , , 2023, \nSales and marketing expenses, $, 26,567, , $, , 27,917\nSales and marketing expenses as a percentage of revenues, , , 9 %, , , 9 %",
+                    "metadata": {
+                        "document": "goog-10-k-2023-final.pdf",
+                        "page_number": "39",
+                        "page_section": "income_statement",
+                        "chunk_type": "table",
+                        "table_index": 2
+                    }
+                },
+                {
+                    "rank": 5,
+                    "score": 0.8363741636276245,
+                    "text": "Financial filing text section: Table of Contents Alphabet Inc.\nGeneral and Administrative\nThe following table presents general and administrative expenses (in millions, except percentages):\nYear Ended December 31,\n2022 2023\nGeneral and administrative expenses $ 15,724 $ 16,425\nGeneral and administrative expenses as a percentage of revenues 6 % 5 %\nGeneral and administrative expenses increased $701 million from 2022 to 2023, primarily driven by an increase in\ncompensation expenses of $416 million, which was largely the result of $264 million in employee severance charges\nassociated with the reduction in our workforce in addition to a combination of other factors, none of which were\nindividually significant.\nSegment Profitability\nThe following table presents segment operating income (loss) (in millions).\nYear Ended December 31,\n2022 2023\nOperating income (loss):\nGoogle Services $ 82,699 $ 95,858\nGoogle Cloud (1,922) 1,716\nOther Bets (4,636) (4,095)\nAlphabet-level activities(1) (1,299) (9,186)\nTotal income from operations $ 74,842 $ 84,293\n(1) In addition to the costs included in Alphabet-level activities, hedging gains (losses) related to revenue were $2.0 billion and\n$236 million in 2022 and 2023, respectively. For the year ended December 31, 2023, Alphabet-level activities include charges\nrelated to the reduction in force and our office space optimization efforts totaling $3.9 billion. In addition, for the year ended\nDecember 31, 2023, we incurred $269 million in accelerated rent and accelerated depreciation. For additional information\nrelating to our workforce reduction and other initiatives, see Note 8 of the Notes to Consolidated Financial Statements included\nin Item 8 of this Annual Report on Form 10-K. For additional information relating to our segments, see Note 15 of the Notes to\nConsolidated Financial Statements included in Item 8 of this Annual Report on Form 10-K.\nGoogle Services\nGoogle Services operating income increased $13.2 billion from 2022 to 2023. The increase in operating income\nwas primarily driven by an increase in revenues, partially offset by an increase in content acquisition costs and\ncompensation expenses including an increase in SBC expense. Additionally, operating income benefited from a\nreduction in costs driven by the change in the estimated useful lives of our servers and certain network equipment.\nGoogle Cloud\nGoogle Cloud operating income of $1.7 billion for 2023 compared to an operating loss of $1.9 billion for 2022\nrepresents an increase of $3.6 billion. The increase in operating income was primarily driven by an increase in\nrevenues, partially offset by an increase in compensation expenses largely driven by headcount growth. Additionally,\noperating income benefited from a reduction in costs driven by the change in the estimated useful lives of our servers\nand certain network equipment.\nOther Bets\nOther Bets operating loss decreased $541 million from 2022 to 2023 primarily due to growth in revenues as well\nas a reduction in valuation-based compensation liabilities related to Other Bet companies.\nOther Income (Expense), Net\nThe following table presents OI&E, (in millions):\n39.",
+                    "metadata": {
+                        "document": "goog-10-k-2023-final.pdf",
+                        "page_number": "40",
+                        "page_section": "income_statement",
+                        "chunk_type": "prose"
+                    }
+                }
+            ]
+        },
+        {
+            "section": "financial_statements",
+            "ranking": [
+                {
+                    "rank": 1,
+                    "score": 0.8528644442558289,
+                    "text": "Financial statement table: , , , Year Ended December 31,, , , \n, , 2023, , , 2024, \nGeneral and administrative expenses, $, 16,425, , $, , 14,188\nGeneral and administrative expenses as a percentage of revenues, , , 5 %, , , 4 %",
+                    "metadata": {
+                        "document": "goog-10-k-2024.pdf",
+                        "page_number": "40",
+                        "page_section": "financial_statements",
+                        "chunk_type": "table",
+                        "table_index": 2
+                    }
+                },
+                {
+                    "rank": 2,
+                    "score": 0.8495186567306519,
+                    "text": "Financial statement table: , , , , March 31,, , \n, , 2022, , , 2023, \nGeneral and administrative expenses, $, , 3,374, $, , 3,759\nGeneral and administrative expenses as a percentage of revenues, , , 5 %, , , 5 %",
+                    "metadata": {
+                        "document": "goog-10-q-q1-2023.pdf",
+                        "page_number": "38",
+                        "page_section": "financial_statements",
+                        "chunk_type": "table",
+                        "table_index": 2
+                    }
+                },
+                {
+                    "rank": 3,
+                    "score": 0.8394774198532104,
+                    "text": "Financial statement table: , , , Year Ended December 31,, , , \n, , 2023, , , 2024, \nSales and marketing expenses, $, 27,917, , $, , 27,808\nSales and marketing expenses as a percentage of revenues, , , 9 %, , , 8 %",
+                    "metadata": {
+                        "document": "goog-10-k-2024.pdf",
+                        "page_number": "40",
+                        "page_section": "financial_statements",
+                        "chunk_type": "table",
+                        "table_index": 1
+                    }
+                },
+                {
+                    "rank": 4,
+                    "score": 0.8371561765670776,
+                    "text": "Financial statement table: , , Year Ended December 31,, , , \n, 2023, 2024, , $ Change, % Change\nConsolidated revenues, $ 307,394, $ 350,018, $, 42,624, 14 %\nChange in consolidated constant currency revenues(1), , , , , 15 %\nCost of revenues, $ 133,332, $ 146,306, $, 12,974, 10 %\nOperating expenses, $  89,769, $  91,322, $, 1,553, 2 %\nOperating income, $  84,293, $ 112,390, $, 28,097, 33 %\nOperating margin, 27 %, 32 %, , , 5 %\nOther income (expense), net, $  1,424, $  7,425, $, 6,001, 421 %\nNet income, $  73,795, $ 100,118, $, 26,323, 36 %\nDiluted EPS(2), $  5.80, $  8.04, $, 2.24, 39 %\n(1), See \"Use of Non-GAAP Constant Currency Information\" below for details relating to our use of constant currency information., , , , ",
+                    "metadata": {
+                        "document": "goog-10-k-2024.pdf",
+                        "page_number": "36",
+                        "page_section": "financial_statements",
+                        "chunk_type": "table",
+                        "table_index": 0
+                    }
+                },
+                {
+                    "rank": 5,
+                    "score": 0.8354917168617249,
+                    "text": "Financial statement table: , , Three Months Ended, , Nine Months Ended\n, , September 30,, , September 30,\n, , 2021 2022, , 2021 2022\nGeneral and administrative expenses, $, 3,256  $  3,597, $, 9,370  $  10,628\nGeneral and administrative expenses as a percentage of, , , , ",
+                    "metadata": {
+                        "document": "goog-10-q-q3-2022.pdf",
+                        "page_number": "43",
+                        "page_section": "financial_statements",
+                        "chunk_type": "table",
+                        "table_index": 0
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "query": "Operating Expenses and Operating Income for each quarter of fiscal year 2022",
+    "expanded_query": "Operating expenses (also referred to as SG&A, selling, general and administrative expenses, or total operating costs) and operating income (operating profit, income from operations) for each quarter ended in fiscal year 2022. Include disclosures from Consolidated Statements of Income, Statements of Operations, or similar sections in quarterly (10-Q) and annual (10-K) reports. Focus on quarterly periods within fiscal year 2022 to capture detailed operating performance metrics.",
+    "results": [
+        {
+            "section": "income_statement",
+            "ranking": [
+                {
+                    "rank": 1,
+                    "score": 0.8396974802017212,
+                    "text": "Financial statement table: , , , Year Ended December 31,, , , \n, , 2022, , , 2023, \nGeneral and administrative expenses, $, 15,724, , $, , 16,425\nGeneral and administrative expenses as a percentage of revenues, , , 6 %, , , 5 %",
+                    "metadata": {
+                        "document": "goog-10-k-2023-final.pdf",
+                        "page_number": "40",
+                        "page_section": "income_statement",
+                        "chunk_type": "table",
+                        "table_index": 0
+                    }
+                },
+                {
+                    "rank": 2,
+                    "score": 0.8336971998214722,
+                    "text": "Financial filing text section: Other Income (Expense), Net\nOI&E, net primarily consists of interest income (expense), the effect of foreign currency exchange gains\n(losses), net gains (losses) and impairment on our marketable and non-marketable securities, performance fees,\nand income (loss) and impairment from our equity method investments.\nFor additional information, including how we account for our investments and factors that can drive fluctuations\nin the value of our investments, see Note 1 of the Notes to Consolidated Financial Statements included in Part II,\nItem 8 and Item 7A, \u201cQuantitative and Qualitative Disclosures About Market Risk\u201d in our Annual Report on Form 10-\nK for the fiscal year ended December 31, 2023 as well as Note 3 of the Notes to Consolidated Financial Statements\nincluded in Item 1 of this Quarterly Report on Form 10-Q.\nProvision for Income Taxes\nProvision for income taxes represents the estimated amount of federal, state, and foreign income taxes\nincurred in the U.S. and the many jurisdictions in which we operate. The provision includes the effect of reserve\nprovisions and changes to reserves that are considered appropriate as well as the related net interest and penalties.\nFor additional information, see Note 1 of the Notes to Consolidated Financial Statements included in Part II,\nItem 8 in our Annual Report on Form 10-K for the fiscal year ended December 31, 2023 as well as Note 12 of the\nNotes to Consolidated Financial Statements included in Item 1 of this Quarterly Report on Form 10-Q.\nExecutive Overview\nThe following table summarizes our consolidated financial results (in millions, except per share information\nand percentages):\nThree Months Ended\nMarch 31,\n2023 2024 $ Change % Change\nConsolidated revenues $ 69,787 $ 80,539 $ 10,752 15 %\nChange in consolidated constant currency revenues(1) 16 %\nCost of revenues $ 30,612 $ 33,712 $ 3,100 10 %\nOperating expenses $ 21,760 $ 21,355 $ (405) (2) %\nOperating income $ 17,415 $ 25,472 $ 8,057 46 %\nOperating margin 25 % 32 % 7 %\nOther income (expense), net $ 790 $ 2,843 $ 2,053 260 %\nNet Income $ 15,051 $ 23,662 $ 8,611 57 %\nDiluted EPS $ 1.17 $ 1.89 $ 0.72 62 %\n(1) See \"Use of Non-GAAP Constant Currency Measures\" below for details relating to our use of constant currency\ninformation.\n\u2022 Revenues were $80.5 billion, an increase of 15% year over year, primarily driven by an increase in Google\nServices revenues of $8.4 billion, or 14%, and an increase in Google Cloud revenues of $2.1 billion, or\n28%.\n\u2022 Total constant currency revenues, which exclude the effect of hedging, increased 16% year over year.\n\u2022 Cost of revenues was $33.7 billion, an increase of 10% year over year, primarily driven by increases in TAC,\ncontent acquisition costs, and depreciation expense. These increases were partially offset by decreases in\ncompensation expenses, largely the result of a reduction in employee severance and related charges, and\ncharges related to our office space optimization efforts.\n\u2022 Operating expenses were $21.4 billion, a decrease of 2% year over year, primarily driven by decreases in\ncharges related to our office space optimization efforts, compensation expenses, largely the result of a\nreduction in employee severance and related charges, and charges related to legal matters. These\ndecreases were partially offset by an increase in depreciation expense.\n32",
+                    "metadata": {
+                        "document": "goog-10-q-q1-2024.pdf",
+                        "page_number": "32",
+                        "page_section": "income_statement",
+                        "chunk_type": "prose"
+                    }
+                },
+                {
+                    "rank": 3,
+                    "score": 0.8322390913963318,
+                    "text": "Financial filing text section: \u2022 third-party services fees, including audit, consulting, outside legal, and other outsourced administrative\nservices.\nOther Income (Expense), Net\nOI&E, net primarily consists of interest income (expense), the effect of foreign currency exchange gains\n(losses), net gains (losses) and impairment on our marketable and non-marketable securities, performance fees,\nand income (loss) and impairment from our equity method investments.\nFor additional information, including how we account for our investments and factors that can drive fluctuations\nin the value of our investments, see Note 1 of the Notes to Consolidated Financial Statements included in Part II,\nItem 8 and Item 7A, \u201cQuantitative and Qualitative Disclosures About Market Risk\u201d in our Annual Report on Form 10-\nK for the fiscal year ended December 31, 2024 as well as Note 3 of the Notes to Consolidated Financial Statements\nincluded in Item 1 of this Quarterly Report on Form 10-Q.\nProvision for Income Taxes\nProvision for income taxes represents the estimated amount of federal, state, and foreign income taxes\nincurred in the U.S. and the many jurisdictions in which we operate. The provision includes the effect of reserve\nprovisions and changes to reserves that are considered appropriate as well as the related net interest and penalties.\nFor additional information, see Note 1 of the Notes to Consolidated Financial Statements included in Part II,\nItem 8 in our Annual Report on Form 10-K for the fiscal year ended December 31, 2024 as well as Note 14 of the\nNotes to Consolidated Financial Statements included in Item 1 of this Quarterly Report on Form 10-Q.\nExecutive Overview\nThe following table summarizes consolidated financial results (in millions, except per share information and\npercentages):\nThree Months Ended\nMarch 31,\n2024 2025 $ Change % Change\nConsolidated revenues $ 80,539 $ 90,234 $ 9,695 12 %\nChange in consolidated constant currency revenues(1) 14 %\nCost of revenues $ 33,712 $ 36,361 $ 2,649 8 %\nOperating expenses $ 21,355 $ 23,267 $ 1,912 9 %\nOperating income $ 25,472 $ 30,606 $ 5,134 20 %\nOperating margin 32 % 34 % 2 %\nOther income (expense), net $ 2,843 $ 11,183 $ 8,340 293 %\nNet income $ 23,662 $ 34,540 $ 10,878 46 %\nDiluted EPS (2) $ 1.89 $ 2.81 $ 0.92 49 %\n(1) See \"Use of Non-GAAP Constant Currency Information\" below for details relating to our use of constant currency\ninformation.\n(2) For additional information on the calculation of diluted EPS, see Note 12 of the Notes to Consolidated Financial Statements\nincluded in Item 1 of this Quarterly Report on Form 10-Q.\n\u2022 Revenues were $90.2 billion, an increase of 12% year over year, primarily driven by an increase in Google\nServices revenues of $6.9 billion, or 10%, and an increase in Google Cloud revenues of $2.7 billion, or\n28%.\n\u2022 Total constant currency revenues, which exclude the effect of hedging, increased 14% year over year.\n\u2022 Cost of revenues was $36.4 billion, an increase of 8% year over year, primarily driven by increases in\ncontent acquisition costs, TAC, and depreciation expense.\n35",
+                    "metadata": {
+                        "document": "goog-10-q-q1-2025.pdf",
+                        "page_number": "35",
+                        "page_section": "income_statement",
+                        "chunk_type": "prose"
+                    }
+                },
+                {
+                    "rank": 4,
+                    "score": 0.831998348236084,
+                    "text": "Financial statement table: , , , Three Months Ended, , , \n, , , , March 31,, , \n, , 2021, , , 2022, \nGeneral and administrative expenses, $, , 2,773, $, , 3,374\nGeneral and administrative expenses as a percentage of revenues, , , 5.0 %, , , 5.0 %",
+                    "metadata": {
+                        "document": "goog-10-q-q1-2022.pdf",
+                        "page_number": "37",
+                        "page_section": "income_statement",
+                        "chunk_type": "table",
+                        "table_index": 2
+                    }
+                },
+                {
+                    "rank": 5,
+                    "score": 0.8316512107849121,
+                    "text": "Financial statement table: , , June 30,, , , \n, 2022, 2023, , $ Change, % Change\nConsolidated revenues, $  69,685, $  74,604, $, 4,919, 7 %\nChange in consolidated constant currency revenues(1), , , , , 9 %\nCost of revenues, $  30,104, $  31,916, $, 1,812, 6 %\nOperating expenses, $  20,128, $  20,850, $, 722, 4 %\nOperating income, $  19,453, $  21,838, $, 2,385, 12 %\nOperating margin, 28 %, 29 %, , , 1 %\nOther income (expense), net, $  (439), $  65, $, 504, NM\nNet Income, $  16,002, $  18,368, $, 2,366, 15 %\nDiluted EPS, $  1.21, $  1.44, $, 0.23, 19 %\nNM = Not Meaningful, , , , , ",
+                    "metadata": {
+                        "document": "goog-10-q-q2-2023.pdf",
+                        "page_number": "36",
+                        "page_section": "income_statement",
+                        "chunk_type": "table",
+                        "table_index": 0
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,135 @@
+{
+    "query": "'{\"query\": \"Consolidated revenues and cost of revenues for the last 5 quarters\", \"sections\": [\"income_statement\"]}'",
+    "expanded_query": "Expand the query to include synonyms and relevant contexts as follows:\n\n\"Consolidated revenues, net sales, total sales, and cost of revenues, cost of goods sold (COGS), for the last five quarters or fiscal periods, including quarterly and annual results. Search within sections titled 'Consolidated Statements of Income', 'Statements of Operations', 'Income Statements', or 'Statements of Earnings' to capture both quarterly and annual financial disclosures.\"",
+    "results": [
+        {
+            "section": "income_statement",
+            "ranking": [
+                {
+                    "rank": 1,
+                    "score": 0.8188762068748474,
+                    "text": "Financial statement table: , , , Three Months Ended, \n, , , March 31,, \n, , 2024, , 2025\nRevenues, $, 80,539, $, 90,234\nCosts and expenses:, , , , \nCost of revenues, , 33,712, , 36,361\nResearch and development, , 11,903, , 13,556\nSales and marketing, , 6,426, , 6,172\nGeneral and administrative, , 3,026, , 3,539\nTotal costs and expenses, , 55,067, , 59,628\nIncome from operations, , 25,472, , 30,606\nOther income (expense), net, , 2,843, , 11,183\nIncome before income taxes, , 28,315, , 41,789\nProvision for income taxes, , 4,653, , 7,249\nNet income, $, 23,662, $, 34,540",
+                    "metadata": {
+                        "document": "goog-10-q-q1-2025.pdf",
+                        "page_number": "6",
+                        "page_section": "income_statement",
+                        "chunk_type": "table",
+                        "table_index": 0
+                    }
+                },
+                {
+                    "rank": 2,
+                    "score": 0.8185629844665527,
+                    "text": "Financial statement table: , , , , March 31,, , \n, , 2024, , , 2025, \nSales and marketing expenses, $, , 6,426, $, , 6,172\nSales and marketing expenses as a percentage of revenues, , , 8 %, , , 7 %",
+                    "metadata": {
+                        "document": "goog-10-q-q1-2025.pdf",
+                        "page_number": "40",
+                        "page_section": "income_statement",
+                        "chunk_type": "table",
+                        "table_index": 1
+                    }
+                },
+                {
+                    "rank": 3,
+                    "score": 0.8152132034301758,
+                    "text": "Financial statement table: , , , Three Months Ended, , , , Six Months Ended, \n, , , June 30,, , , , June 30,, \n, , 2024, , 2025, , 2024, , 2025\nTAC, $, 13,387, $, 14,705, $, 26,333, $, 28,453\nOther cost of revenues, , 22,120, , 24,334, , 42,886, , 46,947\nTotal cost of revenues, $, 35,507, $, 39,039, $, 69,219, $, 75,400\nTotal cost of revenues as a percentage of, , , , , , , , ",
+                    "metadata": {
+                        "document": "goog-10-q-q2-2025.pdf",
+                        "page_number": "45",
+                        "page_section": "income_statement",
+                        "chunk_type": "table",
+                        "table_index": 0
+                    }
+                },
+                {
+                    "rank": 4,
+                    "score": 0.8146564364433289,
+                    "text": "Financial statement table: , , , Three Months Ended, , , \n, , , , March 31,, , \n, , 2024, , , 2025, \nResearch and development expenses, $, , 11,903, $, , 13,556\nResearch and development expenses as a percentage of revenues, , , 15 %, , , 15 %",
+                    "metadata": {
+                        "document": "goog-10-q-q1-2025.pdf",
+                        "page_number": "40",
+                        "page_section": "income_statement",
+                        "chunk_type": "table",
+                        "table_index": 0
+                    }
+                },
+                {
+                    "rank": 5,
+                    "score": 0.8139346837997437,
+                    "text": "Financial statement table: , , , Three Months Ended, \n, , , March 31,, \n, , 2023, , 2024\nRevenues, $, 69,787, $, 80,539\nCosts and expenses:, , , , \nCost of revenues, , 30,612, , 33,712\nResearch and development, , 11,468, , 11,903\nSales and marketing, , 6,533, , 6,426\nGeneral and administrative, , 3,759, , 3,026\nTotal costs and expenses, , 52,372, , 55,067\nIncome from operations, , 17,415, , 25,472\nOther income (expense), net, , 790, , 2,843\nIncome before income taxes, , 18,205, , 28,315\nProvision for income taxes, , 3,154, , 4,653\nNet income, $, 15,051, $, 23,662",
+                    "metadata": {
+                        "document": "goog-10-q-q1-2024.pdf",
+                        "page_number": "6",
+                        "page_section": "income_statement",
+                        "chunk_type": "table",
+                        "table_index": 0
+                    }
+                }
+            ]
+        },
+        {
+            "section": "financial_statements",
+            "ranking": [
+                {
+                    "rank": 1,
+                    "score": 0.8074225187301636,
+                    "text": "Financial statement table: , , Year Ended December 31,, , , , , \n, , 2021, , 2022, , $ Change, % Change\nConsolidated revenues, $, 257,637, $, 282,836, $, 25,199, 10 %\nChange in consolidated constant currency revenues(1), , , , , , , 14 %\nCost of revenues, $, 110,939, $, 126,203, $, 15,264, 14 %\nOperating expenses, $, 67,984, $, 81,791, $, 13,807, 20 %\nOperating income, $, 78,714, $, 74,842, $, (3,872), (5) %\nOperating margin, , 31 %, , 26 %, , , (5) %\nOther income (expense), net, $, 12,020, $, (3,514)  $, , (15,534), (129) %\nNet income, $, 76,033, $, 59,972, $, (16,061), (21) %\nDiluted EPS, $, 5.61, $, 4.56, $, (1.05), (19) %\n(1), See \"Use of Non-GAAP Constant Currency Measures\" below for details relating to our use of constant currency information., , , , , , ",
+                    "metadata": {
+                        "document": "goog-10-k-2022.pdf",
+                        "page_number": "31",
+                        "page_section": "financial_statements",
+                        "chunk_type": "table",
+                        "table_index": 0
+                    }
+                },
+                {
+                    "rank": 2,
+                    "score": 0.8070425987243652,
+                    "text": "Financial filing text section: \u2022 Operating expenses were $26.1 billion, an increase of 20% year over year, primarily driven by increases in\nexpenses related to legal and other matters, employee compensation expenses, and depreciation expense.\nOther Information:\n\u2022 General and administrative expenses of $5.2 billion for the three months ended June 30, 2025 included a\n$1.4 billion charge in our Google Services segment related to a settlement in principle of certain legal\nmatters.\n\u2022 In May 2025, Alphabet issued fixed-rate senior unsecured notes for net proceeds of $12.5 billion to be used\nfor general corporate purposes. For additional information, see Note 6 of the Notes to Consolidated\nFinancial Statements included in Item 1 of this Quarterly Report on Form 10-Q.\n\u2022 Repurchases of Class A and Class C shares were $2.5 billion and $10.7 billion, respectively, totaling $13.3\nbillion for the three months ended June 30, 2025. For additional information, see Note 11 of the Notes to\nConsolidated Financial Statements included in Item 1 of this Quarterly Report on Form 10-Q.\n\u2022 Operating cash flow was $27.7 billion for the three months ended June 30, 2025.\n\u2022 Capital expenditures, which primarily reflected investments in technical infrastructure, were $22.4 billion for\nthe three months ended June 30, 2025.\n\u2022 As of June 30, 2025, we had 187,103 employees.\nWe are monitoring ongoing developments surrounding international trade and the macroeconomic\nenvironment. As a result of volatility in international trade and financial markets, we may experience direct and\nindirect effects on our business, operations, and financial results. Our past results may not be indicative of our\nfuture performance, and our financial results may differ materially from historical trends.\nOn July 4, 2025 the OBBBA was signed into law. We are assessing the legislation and its effects on our\nbusiness, operations, and financial results, including the potential effects on our effective tax rate.\nFinancial Results\nRevenues\nThe following table presents revenues by type (in millions):\nThree Months Ended Six Months Ended\nJune 30, June 30,\n2024 2025 2024 2025\nGoogle Search & other $ 48,509 $ 54,190 $ 94,665 $ 104,892\nYouTube ads 8,663 9,796 16,753 18,723\nGoogle Network 7,444 7,354 14,857 14,610\nGoogle advertising 64,616 71,340 126,275 138,225\nGoogle subscriptions, platforms, and devices 9,312 11,203 18,051 21,582\nGoogle Services total 73,928 82,543 144,326 159,807\nGoogle Cloud 10,347 13,624 19,921 25,884\nOther Bets 365 373 860 823\nHedging gains (losses) 102 (112) 174 148\nTotal revenues $ 84,742 $ 96,428 $ 165,281 $ 186,662\nGoogle Services\nGoogle advertising revenues\nGoogle Search & other\nGoogle Search & other revenues increased $5.7 billion and $10.2 billion from the three and six months ended\nJune 30, 2024 to the three and six months ended June 30, 2025. The overall growth was driven by interrelated\nfactors including increases in search queries resulting from growth in user adoption and usage on mobile devices;\ngrowth in advertiser spending; and improvements we have made in ad formats and delivery.\n41",
+                    "metadata": {
+                        "document": "goog-10-q-q2-2025.pdf",
+                        "page_number": "41",
+                        "page_section": "financial_statements",
+                        "chunk_type": "prose"
+                    }
+                },
+                {
+                    "rank": 3,
+                    "score": 0.805888831615448,
+                    "text": "Financial statement table: , , , , March 31,, , \n, , 2022, , , 2023, \nSales and marketing expenses, $, , 5,825, $, , 6,533\nSales and marketing expenses as a percentage of revenues, , , 9 %, , , 9 %",
+                    "metadata": {
+                        "document": "goog-10-q-q1-2023.pdf",
+                        "page_number": "38",
+                        "page_section": "financial_statements",
+                        "chunk_type": "table",
+                        "table_index": 1
+                    }
+                },
+                {
+                    "rank": 4,
+                    "score": 0.8049951791763306,
+                    "text": "Financial statement table: , , Year Ended December 31,, , , \n, 2023, 2024, , $ Change, % Change\nConsolidated revenues, $ 307,394, $ 350,018, $, 42,624, 14 %\nChange in consolidated constant currency revenues(1), , , , , 15 %\nCost of revenues, $ 133,332, $ 146,306, $, 12,974, 10 %\nOperating expenses, $  89,769, $  91,322, $, 1,553, 2 %\nOperating income, $  84,293, $ 112,390, $, 28,097, 33 %\nOperating margin, 27 %, 32 %, , , 5 %\nOther income (expense), net, $  1,424, $  7,425, $, 6,001, 421 %\nNet income, $  73,795, $ 100,118, $, 26,323, 36 %\nDiluted EPS(2), $  5.80, $  8.04, $, 2.24, 39 %\n(1), See \"Use of Non-GAAP Constant Currency Information\" below for details relating to our use of constant currency information., , , , ",
+                    "metadata": {
+                        "document": "goog-10-k-2024.pdf",
+                        "page_number": "36",
+                        "page_section": "financial_statements",
+                        "chunk_type": "table",
+                        "table_index": 0
+                    }
+                },
+                {
+                    "rank": 5,
+                    "score": 0.804368257522583,
+                    "text": "Financial statement table: , , Three Months Ended, , , \n, , June 30,, , , \n, 2021, 2022, , $ Change, % Change\nConsolidated revenues(1), $  61,880, $  69,685, $, 7,805, 13 %\nChange in consolidated constant currency revenues(1), , , , , 16 %\nCost of revenues, $  26,227, $  30,104, $, 3,877, 15 %\nOperating expenses, $  16,292, $  20,128, $, 3,836, 24 %\nOperating income, $  19,361, $  19,453, $, 92, 0 %\nOperating margin, 31 %, 28 %, , , (3) %\nOther income (expense), net, $  2,624, $  (439), $, (3,063), (117) %\nNet Income, $  18,525, $  16,002, $, (2,523), (14) %\nDiluted EPS, $  1.36, $  1.21, $, (0.15), (11) %\nNumber of Employees, 144,056, 174,014, , 29,958, 21 %\n(1), Foreign  currency  movements  affected  year-over-year  revenue  growth  rates  by  3.7%. This  reflects,  when  rounding  to  the, , , , ",
+                    "metadata": {
+                        "document": "goog-10-q-q2-2022.pdf",
+                        "page_number": "36",
+                        "page_section": "financial_statements",
+                        "chunk_type": "table",
+                        "table_index": 0
+                    }
+                }
+            ]
+        }
+    ]
+}
