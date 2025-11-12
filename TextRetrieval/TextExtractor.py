@@ -1,10 +1,9 @@
 from dotenv import load_dotenv
-import re
-import os, glob
+\
+import os
 import pdfplumber
 import openai
-import time
-import faiss, json
+import json
 import collections
 
 from sentence_transformers import util
@@ -12,19 +11,14 @@ from sentence_transformers import util
 from Embedding import embed_text_query, embed_text_passage 
 from examples import SECTION_EXAMPLES 
 
-COMPANY_NAME = "Google"
+from TextRetrieval.config import DATA_DIR, annual_files, quarterly_files 
 
+"""
 
+Initial Stage to extract text from PDFs and classify sections. 
+Output is a JSON file with page-level sections and text. 
 
-
-DATA_DIR = "00-data"
-
-# Annual reports (10-Ks)
-annual_files = glob.glob(f"{DATA_DIR}/annuals/*.pdf")
-# # Quarterly reports (10-Qs)
-quarterly_files = glob.glob(f"{DATA_DIR}/quarterlies/*.pdf")
-
-
+"""
 # --- Helpers ---
 def _normalize(s: str) -> str:
     s = (s or "").lower()
@@ -32,30 +26,6 @@ def _normalize(s: str) -> str:
     s = s.replace("\n", " ").replace("’", "'").replace("–", "-").replace("—", "-")
     s = " ".join(s.split())
     return s
-
-
-
-
-
-
-
-# def classify_section(text):
-
-#     SECTION_EMBS = {
-#         sec: [embed_text_query(ex) for ex in examples]
-#         for sec, examples in SECTION_EXAMPLES.items()
-#         }
-        
-#     page_text = _normalize(text)
-#     emb = embed_text_query(page_text)
-
-#     scores = {
-#         sec: max(util.cos_sim(emb, e).item() for e in embs)
-#         for sec, embs in SECTION_EMBS.items()
-#     }
-
-#     best = max(scores, key=scores.get)
-#     return best if scores[best] > 0.35 else "other"
 
 
 def classify_section_hybrid(text, section_embs):

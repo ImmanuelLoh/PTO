@@ -1,68 +1,108 @@
 {
-    "query": "Total revenue and cost of revenue for the quarters ended June 30, 2024; September 30, 2024; December 31, 2024",
-    "expanded_query": "Total revenue, net sales, and cost of revenue, cost of goods sold (COGS), or cost of sales for the quarters ended June 30, 2024; September 30, 2024; and December 31, 2024, as reported in the Consolidated Statements of Income or Statements of Operations. Include references to quarterly periods, fiscal quarters, and interim financial results within SEC filings.",
+    "query": "quarterly revenues and cost of revenues for the last 5 quarters",
+    "expanded_query": "Retrieve disclosures of quarterly revenues and cost of revenues for the last five quarters, including synonyms such as net sales, total revenue, cost of goods sold (COGS), and cost of sales. Search within sections titled \"Consolidated Statements of Income,\" \"Statements of Operations,\" or \"Financial Results\" for phrases like \"quarter ended,\" \"fiscal quarter,\" or \"quarterly period\" to capture both quarterly and fiscal period data.",
     "results": [
         {
             "section": "income_statement",
             "ranking": [
                 {
                     "rank": 1,
-                    "score": 0.8431577086448669,
-                    "text": "Financial statement table: , , , , March 31,, , \n, , 2023, , , 2024, \nSales and marketing expenses, $, , 6,533, $, , 6,426\nSales and marketing expenses as a percentage of revenues, , , 9 %, , , 8 %",
+                    "score": 0.975325345993042,
+                    "text": "13 of the Notes to Consolidated Financial Statements included in Item 1 of this Quarterly Report on Form 10-Q. 32",
                     "metadata": {
-                        "document": "goog-10-q-q1-2024.pdf",
-                        "page_number": "36",
-                        "page_section": "income_statement",
-                        "chunk_type": "table",
-                        "table_index": 2
+                        "document": "goog-10-q-q1-2022.pdf",
+                        "page_number": "32",
+                        "page_section": "income_statement"
                     }
                 },
                 {
                     "rank": 2,
-                    "score": 0.8404481410980225,
-                    "text": "Financial statement table: , , September 30,, , September 30,, \n, , 2023 2024, , 2023 2024, \nSales and marketing expenses, $, 6,884  $, 7,227, $  20,198, $  20,445\nSales and marketing expenses as a percentage of, , , , , \n, , 9 %, 8 %, 9 %, 8 %",
+                    "score": 0.9807897210121155,
+                    "text": "13 of the Notes to Consolidated Financial Statements included in Item 1 of this Quarterly Report on Form 10-Q. 35",
                     "metadata": {
-                        "document": "goog-10-q-q3-2024.pdf",
-                        "page_number": "42",
-                        "page_section": "income_statement",
-                        "chunk_type": "table",
-                        "table_index": 0
+                        "document": "goog-10-q-q2-2022.pdf",
+                        "page_number": "35",
+                        "page_section": "income_statement"
                     }
                 },
                 {
                     "rank": 3,
-                    "score": 0.8384312391281128,
-                    "text": "Financial statement table: , , , Three Months Ended, \n, , , March 31,, \n, , 2023, , 2024\nTAC, $, 11,721, $, 12,946\nOther cost of revenues, , 18,891, , 20,766\nTotal cost of revenues, $, 30,612, $, 33,712\nTotal cost of revenues as a percentage of revenues, , 44 %, , 42 %",
+                    "score": 0.9970459938049316,
+                    "text": "Table of Contents Alphabet Inc. Costs and Expenses Cost of Revenues The following table presents cost of revenues, including TAC (in millions, except percentages): Three Months Ended Six Months Ended June 30, June 30, 2022 2023 2022 2023 TAC $ 12,214 $ 12,537 $ 24,204 $ 24,258 Other cost of revenues 17,890 19,379 35,499 38,270 Total cost of revenues $ 30,104 $ 31,916 $ 59,703 $ 62,528 Total cost of revenues as a percentage of revenues 43 % 43 % 43 % 43 % Cost of revenues increased $1.8 billion from the three months ended June 30, 2022 to the three months ended June 30, 2023 due to an increase in other cost of revenues and TAC of $1.5 billion and $323 million, respectively. Cost of revenues increased $2.8 billion from the six months ended June 30, 2022 to the six months ended June 30, 2023, primarily due to an increase in other cost of revenues of $2.8 billion. The increase in TAC from the three months ended June 30, 2022 to the three months ended June 30, 2023 was largely due to an increase in TAC paid to distribution partners, primarily driven by growth in revenues subject to TAC. TAC was relatively unchanged from the six months ended June 30, 2022 to the six months ended June 30, 2023. The TAC rate decreased from 21.7% to 21.6% from the three months ended June 30, 2022 to the three months ended June 30, 2023 and decreased from 21.8% to 21.5% from the six months ended June 30, 2022 to the six months ended June 30, 2023 primarily due to a revenue mix shift from Google Network properties to Google Search & other properties. The TAC rate on Google Search & other revenues and the TAC rate on Google Network revenues were both substantially consistent from the three and six months ended June 30, 2022 to the three and six months ended June 30, 2023. The increase in other cost of revenues from the three months ended June 30, 2022 to the three months ended June 30, 2023 was primarily due to increases in content acquisition costs, primarily for YouTube, and hardware costs. An overall increase in data center and other operations costs was partially offset by a reduction in depreciation expense due to the change in the estimated useful lives of our servers and certain network equipment. The increase in other cost of revenues from the six months ended June 30, 2022 to the six months ended June 30, 2023 was primarily due to increases in content acquisition costs, primarily for YouTube, and data center and other operations costs. The overall increase in data center and other operations costs includes $700 million of charges related to employee severance associated with the reduction of our workforce and our office space optimization efforts, partially offset by a reduction in depreciation expense due to the change in the estimated useful lives of our servers and certain network equipment. Research and Development The following",
                     "metadata": {
-                        "document": "goog-10-q-q1-2024.pdf",
-                        "page_number": "36",
-                        "page_section": "income_statement",
-                        "chunk_type": "table",
-                        "table_index": 0
+                        "document": "goog-10-q-q2-2023.pdf",
+                        "page_number": "42",
+                        "page_section": "income_statement"
                     }
                 },
                 {
                     "rank": 4,
-                    "score": 0.8377571702003479,
-                    "text": "Financial statement table: , , , Three Months Ended, , , \n, , , , March 31,, , \n, , 2023, , , 2024, \nResearch and development expenses, $, , 11,468, $, , 11,903\nResearch and development expenses as a percentage of revenues, , , 16 %, , , 15 %",
+                    "score": 1.0293822288513184,
+                    "text": "Costs and Expenses Cost of Revenues The following table presents cost of revenues, including TAC (in millions, except percentages): Three Months Ended March 31, 2023 2024 TAC $ 11,721 $ 12,946 Other cost of revenues 18,891 20,766 Total cost of revenues $ 30,612 $ 33,712 Total cost of revenues as a percentage of revenues 44 % 42 % Cost of revenues increased $3.1 billion from the three months ended March 31, 2023 to the three months ended March 31, 2024 due to an increase in other cost of revenues and TAC of $1.9 billion and $1.2 billion, respectively. The increase in TAC from the three months ended March 31, 2023 to the three months ended March 31, 2024 was largely due to an increase in TAC paid to distribution partners, primarily driven by growth in revenues subject to TAC. The TAC rate decreased from 21.5% to 21.0% from the three months ended March 31, 2023 to the three months ended March 31, 2024 primarily due to a revenue mix shift from Google Network properties to Google Search & other properties. The TAC rate on Google Search & other revenues was substantially consistent from the three months ended March 31, 2023 to the three months ended March 31, 2024. The TAC rate on Google Network revenues reflected a slight increase from the three months ended March 31, 2023 to the three months ended March 31, 2024 due to a combination of factors, none of which were individually significant. The increase in other cost of revenues from the three months ended March 31, 2023 to the three months ended March 31, 2024 was primarily due to increases in content acquisition costs, largely for YouTube, and depreciation expense. These increases were partially offset by decreases in compensation expenses, largely the result of a reduction in employee severance and related charges of $308 million, and charges related to our office space optimization efforts of $220 million. Research and Development The following table presents R&D expenses (in millions, except percentages): Three Months Ended March 31, 2023 2024 Research and development expenses $ 11,468 $ 11,903 Research and development expenses as a percentage of revenues 16 % 15 % R&D expenses increased $435 million from the three months ended March 31, 2023 to the three months ended March 31, 2024, primarily driven by increases in depreciation expense of $308 million and third-party services fees of $253 million, partially offset by a decrease in charges associated with our office space optimization efforts of $247 million. Additionally, a decrease in compensation expenses of $64 million was primarily the result of a reduction in employee severance and related charges of $588 million. This decrease was partially offset by an increase in SBC expense of $320 million, excluding employee severance and related charges. Sales and Marketing The following table presents sales and marketing expenses (in millions, except percentages): Three Months Ended March 31, 2023 2024 Sales and marketing expenses $ 6,533 $ 6,426 Sales and marketing expenses as a percentage",
                     "metadata": {
                         "document": "goog-10-q-q1-2024.pdf",
                         "page_number": "36",
-                        "page_section": "income_statement",
-                        "chunk_type": "table",
-                        "table_index": 1
+                        "page_section": "income_statement"
                     }
                 },
                 {
                     "rank": 5,
-                    "score": 0.8372453451156616,
-                    "text": "Financial statement table: , , September 30,, , , \n, 2023, 2024, , $ Change, % Change\nConsolidated revenues, $  76,693, $  88,268, $, 11,575, 15 %\nChange in consolidated constant currency revenues(1), , , , , 16 %\nCost of revenues, $  33,229, $  36,474, $, 3,245, 10 %\nOperating expenses, $  22,121, $  23,273, $, 1,152, 5 %\nOperating income, $  21,343, $  28,521, $, 7,178, 34 %\nOperating margin, 28 %, 32 %, , , 4 %\nOther income (expense), net, $  (146), $  3,185, $, 3,331, NM\nNet Income, $  19,689, $  26,301, $, 6,612, 34 %\nDiluted EPS (2), $  1.55, $  2.12, $, 0.57, 37 %\nNM = Not Meaningful, , , , , ",
+                    "score": 1.0295872688293457,
+                    "text": "Table of Contents Alphabet Inc. Alphabet Inc. CONSOLIDATED STATEMENTS OF INCOME (in millions, except per share amounts; unaudited) Three Months Ended Six Months Ended June 30, June 30, 2024 2025 2024 2025 Revenues $ 84,742 $ 96,428 $ 165,281 $ 186,662 Costs and expenses: Cost of revenues 35,507 39,039 69,219 75,400 Research and development 11,860 13,808 23,763 27,364 Sales and marketing 6,792 7,101 13,218 13,273 General and administrative 3,158 5,209 6,184 8,748 Total costs and expenses 57,317 65,157 112,384 124,785 Income from operations 27,425 31,271 52,897 61,877 Other income (expense), net 126 2,662 2,969 13,845 Income before income taxes 27,551 33,933 55,866 75,722 Provision for income taxes 3,932 5,737 8,585 12,986 Net income $ 23,619 $ 28,196 $ 47,281 $ 62,736 Basic net income per share (Note 12) $ 1.91 $ 2.33 $ 3.82 $ 5.16 Diluted net income per share (Note 12) $ 1.89 $ 2.31 $ 3.78 $ 5.12 See accompanying notes. 7",
+                    "metadata": {
+                        "document": "goog-10-q-q2-2025.pdf",
+                        "page_number": "7",
+                        "page_section": "income_statement"
+                    }
+                },
+                {
+                    "rank": 6,
+                    "score": 1.0310893058776855,
+                    "text": "Table of Contents Alphabet Inc. Other Americas revenue growth from the three and six months ended June 30, 2021 to the three and six months ended June 30, 2022 was not materially affected by changes in foreign currency exchange rates. Costs and Expenses Cost of Revenues The following table presents cost of revenues, including TAC (in millions, except percentages): Three Months Ended Six Months Ended June 30, June 30, 2021 2022 2021 2022 TAC $ 10,929 $ 12,214 $ 20,641 $ 24,204 Other cost of revenues 15,298 17,890 29,689 35,499 Total cost of revenues $ 26,227 $ 30,104 $ 50,330 $ 59,703 Total cost of revenues as a percentage of revenues 42.4 % 43.2 % 42.9 % 43.4 % Cost of revenues increased $3.9 billion from the three months ended June 30, 2021 to the three months ended June 30, 2022. The increase was due to increases in other cost of revenues and TAC of $2.6 billion and $1.3 billion, respectively. Cost of revenues increased $9.4 billion from the six months ended June 30, 2021 to the six months ended June 30, 2022. The increase was due to increases in other cost of revenues and TAC of $5.8 billion and $3.6 billion, respectively. The increase in TAC from the three and six months ended June 30, 2021 to the three and six months ended June 30, 2022 was due to increases in TAC paid to distribution partners and to Google Network partners, primarily driven by growth in revenues subject to TAC. The TAC rate was 21.7% in both the three months ended June 30, 2021 and the three months ended June 30, 2022. The TAC rate increased from 21.7% to 21.8% from the six months ended June 30, 2021 to the six months ended June 30, 2022 due to a combination of factors, none of which were individually significant. The TAC rate on Google Search & other properties revenues and the TAC rate on Google Network revenues were both substantially consistent from three and six months ended June 30, 2021 to the three and six months ended June 30, 2022. The increase in other cost of revenues from the three and six months ended June 30, 2021 to the three and six months ended June 30, 2022 was primarily due to increases in data center and other operations costs, including depreciation expense, as well as content acquisition costs primarily for YouTube. Research and Development The following table presents R&D expenses (in millions, except percentages): Three Months Ended Six Months Ended June 30, June 30, 2021 2022 2021 2022 Research and development expenses $ 7,675 $ 9,841 $ 15,160 $ 18,960 Research and development expenses as a percentage of revenues 12.4 % 14.1 % 12.9 % 13.8 % R&D expenses increased $2.2 billion from the three months ended June 30, 2021 to the three months ended June 30, 2022. The increase was primarily driven by an increase in compensation expenses of $1.4 billion, largely resulting from a 18% increase in headcount,",
+                    "metadata": {
+                        "document": "goog-10-q-q2-2022.pdf",
+                        "page_number": "40",
+                        "page_section": "income_statement"
+                    }
+                },
+                {
+                    "rank": 7,
+                    "score": 1.0328034162521362,
+                    "text": "Six Months Ended June 30, 2024 % Change from Prior Period Six Months Ended June 30, Constant Less Constant Less FX Currency As Hedging Less FX Currency 2023 2024 Effect Revenues Reported Effect Effect Revenues United States $ 67,937 $ 79,933 $ 0 $ 79,933 18 % 0 % 18 % EMEA 43,367 48,471 (163) 48,634 12 % 0 % 12 % APAC 24,409 27,112 (1,034) 28,146 11 % (4) % 15 % Other Americas 8,591 9,591 (457) 10,048 12 % (5) % 17 % Revenues, excluding hedging effect 144,304 165,107 (1,654) 166,761 14 % (2) % 16 % Hedging gains (losses) 87 174 Total revenues(1) $ 144,391 $ 165,281 $ 166,761 14 % 0 % (2) % 16 % (1) Total constant currency revenues of $166.8 billion for the six months ended June 30, 2024 increased $22.5 billion compared to $144.4 billion in revenues, excluding hedging effect, for the six months ended June 30, 2023. EMEA revenue growth was not materially affected by changes in foreign currency exchange rates, as the effect of the U.S. dollar strengthening relative to the Turkish lira was largely offset by the U.S. dollar weakening relative to the British pound and the Euro. APAC revenue growth was unfavorably affected by changes in foreign currency exchange rates, primarily due to the U.S. dollar strengthening relative to the Japanese yen. Other Americas revenue growth was unfavorably affected by changes in foreign currency exchange rates, primarily due to the U.S. dollar strengthening relative to the Argentine peso. Costs and Expenses Cost of Revenues The following table presents cost of revenues, including TAC (in millions, except percentages): Three Months Ended Six Months Ended June 30, June 30, 2023 2024 2023 2024 TAC $ 12,537 $ 13,387 $ 24,258 $ 26,333 Other cost of revenues 19,379 22,120 38,270 42,886 Total cost of revenues $ 31,916 $ 35,507 $ 62,528 $ 69,219 Total cost of revenues as a percentage of revenues 43 % 42 % 43 % 42 % Cost of revenues increased $3.6 billion from the three months ended June 30, 2023 to the three months ended June 30, 2024 due to an increase in other cost of revenues and TAC of $2.7 billion and $850 million, respectively. Cost of revenues increased $6.7 billion from the six months ended June 30, 2023 to the six months ended June 30, 2024 due to an increase in other cost of revenues and TAC of $4.6 billion and $2.1 billion, respectively. The increase in TAC from the three and six months ended June 30, 2023 to the three and six months ended June 30, 2024 was largely due to an increase in TAC paid to distribution partners, primarily driven by growth in revenues subject to TAC. The TAC rate decreased from 21.6% to 20.7% from the three months ended June 30, 2023 to the three months ended June 30, 2024 and decreased from 21.5% to 20.9% from the six months ended June 30, 2023 to the six months ended June 30, 2024,",
+                    "metadata": {
+                        "document": "goog-10-q-q2-2024.pdf",
+                        "page_number": "40",
+                        "page_section": "income_statement"
+                    }
+                },
+                {
+                    "rank": 8,
+                    "score": 1.0338023900985718,
+                    "text": "The following table presents the foreign currency exchange effect on international revenues and total revenues (in millions, except percentages): Three Months Ended March 31, 2025 % Change from Prior Period Three Months Ended March 31, Constant Less Constant Less FX Currency As Hedging Less FX Currency 2024 2025 Effect Revenues Reported Effect Effect Revenues United States $ 38,737 $ 43,964 $ 0 $ 43,964 13 % 0 % 13 % EMEA 23,788 25,923 (724) 26,647 9 % (3) % 12 % APAC 13,289 14,854 (381) 15,235 12 % (3) % 15 % Other Americas 4,653 5,233 (500) 5,733 12 % (11) % 23 % Revenues, excluding hedging effect 80,467 89,974 (1,605) 91,579 12 % (2) % 14 % Hedging gains (losses) 72 260 Total revenues(1) $ 80,539 $ 90,234 $ 91,579 12 % 0 % (2) % 14 % (1) Total constant currency revenues of $91.6 billion for the three months ended March 31, 2025 increased $11.1 billion compared to $80.5 billion in revenues, excluding hedging effect, for the three months ended March 31, 2024. EMEA revenue growth was unfavorably affected by changes in foreign currency exchange rates, primarily due to the U.S. dollar strengthening relative to the euro. APAC revenue growth was unfavorably affected by changes in foreign currency exchange rates, primarily due to the U.S. dollar strengthening relative to the Japanese yen, Australian dollar, and South Korean won. Other Americas revenue growth was unfavorably affected by changes in foreign currency exchange rates, primarily due to the U.S. dollar strengthening relative to the Brazilian real. Costs and Expenses Cost of Revenues The following table presents cost of revenues, including TAC (in millions, except percentages): Three Months Ended March 31, 2024 2025 TAC $ 12,946 $ 13,748 Other cost of revenues 20,766 22,613 Total cost of revenues $ 33,712 $ 36,361 Total cost of revenues as a percentage of revenues 42 % 40 % Cost of revenues increased $2.6 billion from the three months ended March 31, 2024 to the three months ended March 31, 2025 due to an increase in other cost of revenues and TAC of $1.8 billion and $802 million, respectively. The increase in TAC from the three months ended March 31, 2024 to the three months ended March 31, 2025 was largely due to an increase in TAC paid to distribution partners, primarily driven by growth in revenues subject to TAC. The TAC rate decreased from 21.0% to 20.6% from the three months ended March 31, 2024 to the three months ended March 31, 2025 primarily due to a revenue mix shift from Google Network properties to Google Search & other properties. The TAC rate on Google Search & other revenues increased from the three months ended March 31, 2024 to the three months ended March 31, 2025 primarily due to increases related to mobile searches, which carries higher TAC because more mobile searches are channeled through paid access points. The TAC rate on Google Network revenues decreased from the three months ended March 31, 2024",
+                    "metadata": {
+                        "document": "goog-10-q-q1-2025.pdf",
+                        "page_number": "39",
+                        "page_section": "income_statement"
+                    }
+                },
+                {
+                    "rank": 9,
+                    "score": 1.0378897190093994,
+                    "text": "Table of Contents Alphabet Inc. Alphabet Inc. CONSOLIDATED STATEMENTS OF INCOME (in millions, except per share amounts; unaudited) Three Months Ended Six Months Ended June 30, June 30, 2021 2022 2021 2022 Revenues $ 61,880 $ 69,685 $ 117,194 $ 137,696 Costs and expenses: Cost of revenues 26,227 30,104 50,330 59,703 Research and development 7,675 9,841 15,160 18,960 Sales and marketing 5,276 6,630 9,792 12,455 General and administrative 3,341 3,657 6,114 7,031 Total costs and expenses 42,519 50,232 81,396 98,149 Income from operations 19,361 19,453 35,798 39,547 Other income (expense), net 2,624 (439) 7,470 (1,599) Income before income taxes 21,985 19,014 43,268 37,948 Provision for income taxes 3,460 3,012 6,813 5,510 Net income $ 18,525 $ 16,002 $ 36,455 $ 32,438 Basic net income per share of Class A, Class B, and Class C stock $ 1.38 $ 1.22 $ 2.72 $ 2.46 Diluted net income per share of Class A, Class B, and Class C stock $ 1.36 $ 1.21 $ 2.68 $ 2.44 See accompanying notes. 6",
+                    "metadata": {
+                        "document": "goog-10-q-q2-2022.pdf",
+                        "page_number": "6",
+                        "page_section": "income_statement"
+                    }
+                },
+                {
+                    "rank": 10,
+                    "score": 1.0395712852478027,
+                    "text": "Table of Contents Alphabet Inc. Alphabet Inc. CONSOLIDATED STATEMENTS OF INCOME (in millions, except per share amounts; unaudited) Three Months Ended Nine Months Ended September 30, September 30, 2023 2024 2023 2024 Revenues $ 76,693 $ 88,268 $ 221,084 $ 253,549 Costs and expenses: Cost of revenues 33,229 36,474 95,757 105,693 Research and development 11,258 12,447 33,314 36,210 Sales and marketing 6,884 7,227 20,198 20,445 General and administrative 3,979 3,599 11,219 9,783 Total costs and expenses 55,350 59,747 160,488 172,131 Income from operations 21,343 28,521 60,596 81,418 Other income (expense), net (146) 3,185 709 6,154 Income before income taxes 21,197 31,706 61,305 87,572 Provision for income taxes 1,508 5,405 8,197 13,990 Net income $ 19,689 $ 26,301 $ 53,108 $ 73,582 Basic net income per share (Note 11) $ 1.56 $ 2.14 $ 4.19 $ 5.96 Diluted net income per share (Note 11) $ 1.55 $ 2.12 $ 4.16 $ 5.90 See accompanying notes. 6",
                     "metadata": {
                         "document": "goog-10-q-q3-2024.pdf",
-                        "page_number": "36",
-                        "page_section": "income_statement",
-                        "chunk_type": "table",
-                        "table_index": 0
+                        "page_number": "6",
+                        "page_section": "income_statement"
                     }
                 }
             ]
