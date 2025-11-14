@@ -48,6 +48,29 @@ def expand_query_for_retrieval(query: str,
     return response.content.strip()
 
 
+
+def determine_k(query: str, 
+                llm):
+    prompt = f"""
+    Decide how many chunks (k) are needed for retrieval.
+
+    Rules:
+    - Simple numeric lookup → k=2
+    - Medium complexity (specific section, specific year) → k=5
+    - Complex analytical / multi-step queries → k=8 to 12
+    - Very open-ended (e.g., “compare”, “trend”, “factors…”) → k=12 to 15
+
+    Output ONLY an integer.
+    Query: {query}
+    """
+
+    k_val = llm.invoke(prompt).content.strip()
+    try:
+        return min(max(int(k_val), 1), 20)   # k between 1–20
+    except:
+        return 10   # fallback
+
+
 def safe_json_loads(s):
     """Tries to parse JSON even if it has weird hidden chars or minor formatting issues."""
     if not isinstance(s, str):

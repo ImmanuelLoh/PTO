@@ -1,0 +1,61 @@
+{
+    "query": "total revenue and cost of revenue for Q3 2024 and Q4 2024",
+    "expanded_query": "Retrieve disclosures of total revenue, net sales, or sales revenue and cost of revenue, cost of goods sold (COGS), or cost of sales for the quarters ended September 30, 2024 (Q3 2024) and December 31, 2024 (Q4 2024). Include references from Consolidated Statements of Income, Statements of Operations, or Statements of Earnings in quarterly or fiscal period filings.",
+    "results": [
+        {
+            "section": "income_statement",
+            "ranking": [
+                {
+                    "rank": 1,
+                    "score": 0.9497202038764954,
+                    "text": "13 of the Notes to Consolidated Financial Statements included in Item 1 of this Quarterly Report on Form 10-Q. 32",
+                    "metadata": {
+                        "document": "goog-10-q-q1-2022.pdf",
+                        "page_number": "32",
+                        "page_section": "income_statement"
+                    }
+                },
+                {
+                    "rank": 2,
+                    "score": 0.9576075673103333,
+                    "text": "Table of Contents Alphabet Inc. Alphabet Inc. CONSOLIDATED STATEMENTS OF INCOME (in millions, except per share amounts; unaudited) Three Months Ended Nine Months Ended September 30, September 30, 2023 2024 2023 2024 Revenues $ 76,693 $ 88,268 $ 221,084 $ 253,549 Costs and expenses: Cost of revenues 33,229 36,474 95,757 105,693 Research and development 11,258 12,447 33,314 36,210 Sales and marketing 6,884 7,227 20,198 20,445 General and administrative 3,979 3,599 11,219 9,783 Total costs and expenses 55,350 59,747 160,488 172,131 Income from operations 21,343 28,521 60,596 81,418 Other income (expense), net (146) 3,185 709 6,154 Income before income taxes 21,197 31,706 61,305 87,572 Provision for income taxes 1,508 5,405 8,197 13,990 Net income $ 19,689 $ 26,301 $ 53,108 $ 73,582 Basic net income per share (Note 11) $ 1.56 $ 2.14 $ 4.19 $ 5.96 Diluted net income per share (Note 11) $ 1.55 $ 2.12 $ 4.16 $ 5.90 See accompanying notes. 6",
+                    "metadata": {
+                        "document": "goog-10-q-q3-2024.pdf",
+                        "page_number": "6",
+                        "page_section": "income_statement"
+                    }
+                },
+                {
+                    "rank": 3,
+                    "score": 0.961809515953064,
+                    "text": "Six Months Ended June 30, 2024 % Change from Prior Period Six Months Ended June 30, Constant Less Constant Less FX Currency As Hedging Less FX Currency 2023 2024 Effect Revenues Reported Effect Effect Revenues United States $ 67,937 $ 79,933 $ 0 $ 79,933 18 % 0 % 18 % EMEA 43,367 48,471 (163) 48,634 12 % 0 % 12 % APAC 24,409 27,112 (1,034) 28,146 11 % (4) % 15 % Other Americas 8,591 9,591 (457) 10,048 12 % (5) % 17 % Revenues, excluding hedging effect 144,304 165,107 (1,654) 166,761 14 % (2) % 16 % Hedging gains (losses) 87 174 Total revenues(1) $ 144,391 $ 165,281 $ 166,761 14 % 0 % (2) % 16 % (1) Total constant currency revenues of $166.8 billion for the six months ended June 30, 2024 increased $22.5 billion compared to $144.4 billion in revenues, excluding hedging effect, for the six months ended June 30, 2023. EMEA revenue growth was not materially affected by changes in foreign currency exchange rates, as the effect of the U.S. dollar strengthening relative to the Turkish lira was largely offset by the U.S. dollar weakening relative to the British pound and the Euro. APAC revenue growth was unfavorably affected by changes in foreign currency exchange rates, primarily due to the U.S. dollar strengthening relative to the Japanese yen. Other Americas revenue growth was unfavorably affected by changes in foreign currency exchange rates, primarily due to the U.S. dollar strengthening relative to the Argentine peso. Costs and Expenses Cost of Revenues The following table presents cost of revenues, including TAC (in millions, except percentages): Three Months Ended Six Months Ended June 30, June 30, 2023 2024 2023 2024 TAC $ 12,537 $ 13,387 $ 24,258 $ 26,333 Other cost of revenues 19,379 22,120 38,270 42,886 Total cost of revenues $ 31,916 $ 35,507 $ 62,528 $ 69,219 Total cost of revenues as a percentage of revenues 43 % 42 % 43 % 42 % Cost of revenues increased $3.6 billion from the three months ended June 30, 2023 to the three months ended June 30, 2024 due to an increase in other cost of revenues and TAC of $2.7 billion and $850 million, respectively. Cost of revenues increased $6.7 billion from the six months ended June 30, 2023 to the six months ended June 30, 2024 due to an increase in other cost of revenues and TAC of $4.6 billion and $2.1 billion, respectively. The increase in TAC from the three and six months ended June 30, 2023 to the three and six months ended June 30, 2024 was largely due to an increase in TAC paid to distribution partners, primarily driven by growth in revenues subject to TAC. The TAC rate decreased from 21.6% to 20.7% from the three months ended June 30, 2023 to the three months ended June 30, 2024 and decreased from 21.5% to 20.9% from the six months ended June 30, 2023 to the six months ended June 30, 2024,",
+                    "metadata": {
+                        "document": "goog-10-q-q2-2024.pdf",
+                        "page_number": "40",
+                        "page_section": "income_statement"
+                    }
+                },
+                {
+                    "rank": 4,
+                    "score": 0.9638084173202515,
+                    "text": "Table of Contents Alphabet Inc. Alphabet Inc. CONSOLIDATED STATEMENTS OF INCOME (in millions, except per share amounts; unaudited) Three Months Ended Nine Months Ended September 30, September 30, 2022 2023 2022 2023 Revenues $ 69,092 $ 76,693 $ 206,788 $ 221,084 Costs and expenses: Cost of revenues 31,158 33,229 90,861 95,757 Research and development 10,273 11,258 29,233 33,314 Sales and marketing 6,929 6,884 19,384 20,198 General and administrative 3,597 3,979 10,628 11,219 Total costs and expenses 51,957 55,350 150,106 160,488 Income from operations 17,135 21,343 56,682 60,596 Other income (expense), net (902) (146) (2,501) 709 Income before income taxes 16,233 21,197 54,181 61,305 Provision for income taxes 2,323 1,508 7,833 8,197 Net income $ 13,910 $ 19,689 $ 46,348 $ 53,108 Basic net income per share of Class A, Class B, and Class C stock $ 1.07 $ 1.56 $ 3.53 $ 4.19 Diluted net income per share of Class A, Class B, and Class C stock $ 1.06 $ 1.55 $ 3.50 $ 4.16 See accompanying notes. 6",
+                    "metadata": {
+                        "document": "goog-10-q-q3-2023.pdf",
+                        "page_number": "6",
+                        "page_section": "income_statement"
+                    }
+                },
+                {
+                    "rank": 5,
+                    "score": 0.9638440608978271,
+                    "text": "13 of the Notes to Consolidated Financial Statements included in Item 1 of this Quarterly Report on Form 10-Q. 35",
+                    "metadata": {
+                        "document": "goog-10-q-q2-2022.pdf",
+                        "page_number": "35",
+                        "page_section": "income_statement"
+                    }
+                }
+            ]
+        }
+    ]
+}

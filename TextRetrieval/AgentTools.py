@@ -6,7 +6,7 @@ from langchain.agents import AgentExecutor
 from langchain.chains import LLMMathChain
 
 from IndexSearch import init_indexes, search_query 
-from AgentHelpers import safe_json_loads, choose_sections_for_query, expand_query_for_retrieval 
+from AgentHelpers import safe_json_loads, choose_sections_for_query, expand_query_for_retrieval, determine_k 
 from logger import format_context 
 
 
@@ -56,12 +56,13 @@ def retriever_tool(query : str ) -> str:
         print (f"[INFO] Auto selected sections: {sections}") 
         if not sections:
             sections = available_sections  # fallback to all sections 
-
+    k = determine_k(query, llm) 
+    print (f"[INFO] Determined k={k} for retrieval.") 
     # 3️⃣ Perform retrieval
     results = search_query(
         expanded_query=expanded_query, 
         sections=sections, 
-        k=10,
+        k=k,
         query=query 
     ) 
     return format_context(results) 
