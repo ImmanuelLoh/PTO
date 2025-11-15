@@ -11,6 +11,7 @@ from dataclasses import dataclass
 from openai import OpenAI
 import os
 from dotenv import load_dotenv
+from CacheOptimization.query_cache import search_semantic_cache, store_in_semantic_cache
 
 load_dotenv()
 
@@ -23,31 +24,46 @@ class RetrievedChunk:
     metadata: Dict[str, Any]
 
 class FAISSRetriever:
-    def __init__(self, index_path, metadata_path, embedding_model="text-embedding-3-small"):
+    def __init__(self, index_path, metadata_path):
         self.index = faiss.read_index(index_path)
 
         with open(metadata_path, "r", encoding="utf-8") as f:
             self.metadata = json.load(f)
 
-        self.client = OpenAI()
-        self.embedding_model = embedding_model
+    # def query(self, query_texts, n_results=5):
+    #     query = query_texts[0]
 
-    def query(self, query_texts, n_results=5):
-        query = query_texts[0]
+    #     # Create query embedding
+    #     response = self.client.embeddings.create(
+    #         model=self.embedding_model,
+    #         input=query
+    #     )
 
-        # Create query embedding
-        response = self.client.embeddings.create(
-            model=self.embedding_model,
-            input=query
-        )
+    #     q = np.array(response.data[0].embedding).astype("float32")
 
-        q = np.array(response.data[0].embedding).astype("float32")
+    #     # Normalize for cosine similarity
+    #     faiss.normalize_L2(q.reshape(1, -1))
 
-        # Normalize for cosine similarity
-        faiss.normalize_L2(q.reshape(1, -1))
+    #     # Perform FAISS search
+    #     distances, indices = self.index.search(q.reshape(1, -1), n_results)
+
+    #     docs, metas = [], []
+    #     for idx in indices[0]:
+    #         metas.append(self.metadata[idx]["metadata"])
+    #         docs.append(self.metadata[idx]["content"])
+
+    #     return {
+    #         "ids": indices.tolist(),
+    #         "distances": distances.tolist(),
+    #         "documents": [docs],
+    #         "metadatas": [metas]
+    #     }
+    def search(self, embedding, n_results=5):
+        vec = embedding.astype("float32")
+        faiss.normalize_L2(vec.reshape(1, -1))  # Normalize for cosine similarity
 
         # Perform FAISS search
-        distances, indices = self.index.search(q.reshape(1, -1), n_results)
+        distances, indices = self.index.search(vec.reshape(1, -1), n_results)
 
         docs, metas = [], []
         for idx in indices[0]:
@@ -61,6 +77,7 @@ class FAISSRetriever:
             "metadatas": [metas]
         }
 
+
 class TableAgenticRAG:
     """
     Two-stage RAG system:
@@ -70,21 +87,25 @@ class TableAgenticRAG:
     """
     
     # Initialize with Faiss index and OpenAI client
-    def __init__(self, faiss_index_path: str, metadata_json_path: str):
+    def __init__(self, faiss_index_path: str, metadata_json_path: str, use_cache: bool = True):
         self.client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
+
         with open(metadata_json_path, 'r', encoding='utf-8') as f:
             self.metadata = json.load(f)
         
-        # Create FAISS Retrievers for tables and text
-        self.table_collection = FAISSRetriever(
+        # FAISS Retrievers for tables
+        self.faiss_retriever = FAISSRetriever(
             index_path=faiss_index_path,
             metadata_path=metadata_json_path,
-            embedding_model="text-embedding-3-small"
         )
         
         # Model configuration
         self.planning_model = "gpt-4o-mini"  # Fast for planning
         self.synthesis_model = "gpt-4o"      # Better for calculations
+
+        # Cache configuration
+        self.useCache = use_cache
+        self.cache_threshold = 0.85  # Similarity threshold for cache hits
         
     def query(self, user_query: str, verbose: bool = True) -> Dict[str, Any]:
         """
@@ -96,6 +117,31 @@ class TableAgenticRAG:
             print(f"QUERY: {user_query}")
             print(f"{'='*60}\n")
         
+        emb = self.client.embeddings.create(
+            model="text-embedding-3-small",
+            input=user_query
+        )
+        query_embedding = np.array(emb.data[0].embedding).astype("float32")
+        # Check cache first
+        if self.useCache:
+            cache_result = search_semantic_cache(query_embedding, threshold=self.cache_threshold)
+
+            if cache_result["hit"]:
+                if verbose:
+                    print("Cache HIT:")
+                    print(f"  Similarity: {cache_result['similarity']:.4f}")
+                    print(f"  Cached Query: {cache_result['cache_query']}")
+                    print()
+                return {
+                    "query": user_query,
+                    "answer": cache_result["response"],
+                    "sources": cache_result["metadata"].get("sources", []),
+                    "metadata": cache_result["metadata"], 
+                    "cache_hit": True
+                }
+            if verbose:
+                print("Cache MISS. Proceeding with retrieval...\n")
+
         # Stage 1: Planning
         retrieval_plan = self._create_retrieval_plan(user_query, verbose)
         
@@ -117,7 +163,12 @@ class TableAgenticRAG:
                 "num_chunks": len(all_chunks)
             }
         }
-        
+        store_in_semantic_cache(
+            query=user_query,
+            embedding=query_embedding,
+            results=answer,
+            metadata=result["metadata"]
+        )
         return result
     
     def _create_retrieval_plan(self, query: str, verbose: bool) -> Dict:
@@ -198,39 +249,37 @@ Output ONLY the JSON, no other text."""
         
         for i, search in enumerate(plan.get('searches', []), 1):
             query_text = search['search_query']
-            collection_type = search['collection']
-            
-            # Select collection
-            collection = self.table_collection if collection_type == "tables" else None
 
-            if collection is None:
-                if verbose:
-                    print(f"Skipping unknown collection type: {collection_type}")
-                continue
-            
-            # Perform search
-            results = collection.query(
-                query_texts=[query_text],
-                n_results=5  # Top 5 per search
+            # Embedding for the search query
+            emb = self.client.embeddings.create(
+                model="text-embedding-3-small",
+                input=query_text
             )
-            
-            if verbose:
-                print(f"Search {i}: '{query_text}' in {collection_type}")
-                print(f"  Retrieved: {len(results['ids'][0])} chunks")
-            
-            # Convert to RetrievedChunk objects
-            for j in range(len(results['ids'][0])):
-                chunk = RetrievedChunk(
-                    content=results['documents'][0][j],
-                    source=results['metadatas'][0][j].get('source', 'unknown'),
-                    score=results['distances'][0][j] if 'distances' in results else 0.0,
-                    metadata=results['metadatas'][0][j]
+            search_embedding = np.array(emb.data[0].embedding).astype("float32")
+
+            # Pass embedding to FAISS retriever
+            results = self.faiss_retriever.search(
+                embedding=search_embedding
+            )
+
+            docs = results["documents"][0]
+            metas = results["metadatas"][0]
+            distances = results["distances"][0]
+
+            for j in range(len(docs)):
+                all_chunks.append(
+                    RetrievedChunk(
+                        content=docs[j],
+                        source=metas[j].get("source", "unknown"),
+                        score=distances[j],
+                        metadata=metas[j]
+                    )
                 )
-                all_chunks.append(chunk)
-        
+            
         # Remove duplicates based on content
         unique_chunks = []
         seen_content = set()
+
         for chunk in all_chunks:
             content_hash = hash(chunk.content[:200])  # Hash first 200 chars
             if content_hash not in seen_content:
