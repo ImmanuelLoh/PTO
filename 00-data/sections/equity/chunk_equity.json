@@ -1,28 +1,11 @@
 [
     {
-        "id": "goog-10-k-2022.pdf_page_2_chunk_0",
-        "text": "Large accelerated filer \u2612 Accelerated filer \u2610 Non-accelerated filer \u2610 Smaller reporting company \u2610 Emerging growth company \u2610 If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. \u2610 Indicate by check mark whether the registrant has filed a report on and attestation to its management's assessment of the effectiveness of its internal control over financial reporting under Section 404(b) of the Sarbanes-Oxley Act (15 U.S.C.7262(b)) by the registered public accounting firm that prepared or issued its audit report. \u2612 If securities are registered pursuant to Section 12(b) of the Act, indicate by check mark whether the financial statements of the registrant included in the filing reflect the correction of an error to previously issued financial statements. \u2610 Indicate by check mark whether any of those error corrections are restatements that required a recovery analysis of incentive-based compensation received by any of the registrant's executive officers during the relevant recovery period pursuant to \u00a7240.10D-1(b). \u2610 Indicate by check mark whether the registrant is a shell company (as defined in Rule 12b-2 of the Exchange Act). Yes \u2610 No \u2612 As of June 30, 2022, the aggregate market value of shares held by non-affiliates of the registrant (based upon the closing sale prices of such shares on the Nasdaq Global Select Market on June 30, 2022) was approximately $1,256.1 billion. For purposes of calculating the aggregate market value of shares held by non-affiliates, we have assumed that all outstanding shares are held by non-affiliates, except for shares held by each of our executive officers, directors, and 5% or greater stockholders. In the case of 5% or greater stockholders, we have not deemed such stockholders to be affiliates unless there are facts and circumstances which would indicate that such stockholders exercise any control over our company, or unless they hold 10% or more of our outstanding common stock. These assumptions should not be deemed to constitute an admission that all executive officers, directors, and 5% or greater stockholders are, in fact, affiliates of our company, or that there are not other persons who may be deemed to be affiliates of our company. Further information concerning shareholdings of our officers, directors, and principal stockholders is included or incorporated by reference in Part III, Item 12 of this Annual Report on Form 10-K. As of January 26, 2023, there were 5,956 million shares of Alphabet\u2019s Class A stock outstanding, 883 million shares of Alphabet\u2019s Class B stock outstanding, and 5,968 million shares of the Alphabet\u2019s Class C stock outstanding. ___________________________________________ DOCUMENTS INCORPORATED BY REFERENCE Portions of the registrant\u2019s Proxy Statement for the 2023 Annual Meeting of Stockholders are incorporated herein by reference in Part III of this Annual Report on Form 10-K to the extent stated herein. Such proxy statement will be filed with the Securities and Exchange Commission within 120 days of the",
-        "metadata": {
-            "document": "goog-10-k-2022.pdf",
-            "page_number": "2",
-            "page_section": "equity"
-        }
-    },
-    {
-        "id": "goog-10-k-2022.pdf_page_2_chunk_1",
-        "text": "registrant\u2019s fiscal year ended December 31, 2022.",
-        "metadata": {
-            "document": "goog-10-k-2022.pdf",
-            "page_number": "2",
-            "page_section": "equity"
-        }
-    },
-    {
         "id": "goog-10-k-2022.pdf_page_24_chunk_0",
         "text": "Table of Contents Alphabet Inc. ITEM 2. PROPERTIES Our headquarters are located in Mountain View, California. We own and lease office facilities and data centers around the world, primarily in North America, Europe, and Asia. We believe our existing facilities are in good condition and suitable for the conduct of our business. ITEM 3. LEGAL PROCEEDINGS For a description of our material pending legal proceedings, see Legal Matters in Note 10 of the Notes to Consolidated Financial Statements included in Part II, Item 8 of this Annual Report on Form 10-K, which is incorporated herein by reference. ITEM 4. MINE SAFETY DISCLOSURES Not applicable. PART II ITEM 5. MARKET FOR REGISTRANT\u2019S COMMON EQUITY, RELATED STOCKHOLDER MATTERS, AND ISSUER PURCHASES OF EQUITY SECURITIES As of October 2, 2015, Alphabet Inc. became the successor issuer of Google Inc. pursuant to Rule 12g-3(a) under the Exchange Act. Our Class A stock has been listed on the Nasdaq Global Select Market under the symbol \u201cGOOG\u201d since August 19, 2004 and under the symbol \"GOOGL\" since April 3, 2014. Prior to August 19, 2004, there was no public market for our stock. Our Class B stock is neither listed nor traded. Our Class C stock has been listed on the Nasdaq Global Select Market under the symbol \u201cGOOG\u201d since April 3, 2014. Holders of Record As of December 31, 2022, there were approximately 6,670 and 1,657 stockholders of record of our Class A stock and Class C stock, respectively. Because many of our shares of Class A stock and Class C stock are held by brokers and other institutions on behalf of stockholders, we are unable to estimate the total number of stockholders represented by these record holders. As of December 31, 2022, there were approximately 64 stockholders of record of our Class B stock. Dividend Policy We have never declared or paid any cash dividend on our common or capital stock. The primary use of capital continues to be to invest for the long-term growth of the business. We regularly evaluate our cash and capital structure, including the size, pace, and form of capital return to stockholders. Issuer Purchases of Equity Securities The following table presents information with respect to Alphabet's repurchases of Class A and Class C stock during the quarter ended December 31, 2022: Total Number of Approximate Shares Dollar Value of Purchased as Shares that May Total Number of Total Number of Average Price Average Price Part of Publicly Yet Be Purchased Class A Shares Class C Shares Paid per Paid per Announced Under the Purchased Purchased Class A Class C Programs Program Period (in thousands)(1) (in thousands)(1) Share(2) Share(2) (in thousands)(1) (in millions) October 1 - 31 8,585 46,059 $ 98.92 $ 99.16 54,644 $ 38,069 November 1 - 30 1,968 55,374 $ 95.89 $ 93.51 57,342 $ 32,703 December 1 - 31 4,687 44,649 $ 91.93 $ 93.93 49,336 $ 28,079 Total 15,240 146,082 161,322 (1) The repurchases are being executed from time to time, subject to general business",
         "metadata": {
             "document": "goog-10-k-2022.pdf",
             "page_number": "24",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -32,6 +15,7 @@
         "metadata": {
             "document": "goog-10-k-2022.pdf",
             "page_number": "24",
+            "chunk_index": 1,
             "page_section": "equity"
         }
     },
@@ -41,6 +25,7 @@
         "metadata": {
             "document": "goog-10-k-2022.pdf",
             "page_number": "51",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -50,6 +35,7 @@
         "metadata": {
             "document": "goog-10-k-2022.pdf",
             "page_number": "64",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -59,6 +45,7 @@
         "metadata": {
             "document": "goog-10-k-2022.pdf",
             "page_number": "64",
+            "chunk_index": 1,
             "page_section": "equity"
         }
     },
@@ -68,6 +55,7 @@
         "metadata": {
             "document": "goog-10-k-2022.pdf",
             "page_number": "77",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -77,6 +65,17 @@
         "metadata": {
             "document": "goog-10-k-2022.pdf",
             "page_number": "77",
+            "chunk_index": 1,
+            "page_section": "equity"
+        }
+    },
+    {
+        "id": "goog-10-k-2022.pdf_page_78_chunk_0",
+        "text": "Table of Contents Alphabet Inc. The rights, including the liquidation and dividend rights, of the holders of our Class A, Class B, and Class C stock are identical, except with respect to voting. Furthermore, there are a number of safeguards built into our certificate of incorporation, as well as Delaware law, which preclude our Board of Directors from declaring or paying unequal per share dividends on our Class A, Class B, and Class C stock. Specifically, Delaware law provides that amendments to our certificate of incorporation which would have the effect of adversely altering the rights, powers, or preferences of a given class of stock must be approved by the class of stock adversely affected by the proposed amendment. In addition, our certificate of incorporation provides that before any such amendment may be put to a stockholder vote, it must be approved by the unanimous consent of our Board of Directors. As a result, the undistributed earnings for each year are allocated based on the contractual participation rights of the Class A, Class B, and Class C stock as if the earnings for the year had been distributed. As the liquidation and dividend rights are identical, the undistributed earnings are allocated on a proportionate basis. In the years ended December 31, 2020, 2021, and 2022, the net income per share amounts are the same for Class A, Class B, and Class C stock because the holders of each class are entitled to equal per share dividends or distributions in liquidation in accordance with the Amended and Restated Certificate of Incorporation of Alphabet Inc. The following tables set forth the computation of basic and diluted net income per share of Class A, Class B, and Class C stock (in millions, except per share amounts): Year Ended December 31, 2020 Class A Class B Class C Basic net income per share: Numerator Allocation of undistributed earnings $ 17,733 $ 2,732 $ 19,804 Denominator Number of shares used in per share computation 5,996 924 6,696 Basic net income per share $ 2.96 $ 2.96 $ 2.96 Diluted net income per share: Numerator Allocation of undistributed earnings for basic computation $ 17,733 $ 2,732 $ 19,804 Reallocation of undistributed earnings as a result of conversion of Class B to Class A shares 2,732 0 0 Reallocation of undistributed earnings (180) (25) 180 Allocation of undistributed earnings $ 20,285 $ 2,707 $ 19,984 Denominator Number of shares used in basic computation 5,996 924 6,696 Weighted-average effect of dilutive securities Add: Conversion of Class B to Class A shares outstanding 924 0 0 Restricted stock units and other contingently issuable shares 2 0 123 Number of shares used in per share computation 6,922 924 6,819 Diluted net income per share $ 2.93 $ 2.93 $ 2.93 77",
+        "metadata": {
+            "document": "goog-10-k-2022.pdf",
+            "page_number": "78",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -86,15 +85,7 @@
         "metadata": {
             "document": "goog-10-k-2022.pdf",
             "page_number": "79",
-            "page_section": "equity"
-        }
-    },
-    {
-        "id": "goog-10-k-2022.pdf_page_80_chunk_0",
-        "text": "Table of Contents Alphabet Inc. Note 13. Compensation Plans Stock Plans Our stock plans include the Alphabet Amended and Restated 2021 Stock Plan (\"Alphabet 2021 Stock Plan\") and Other Bet stock-based plans. Under our stock plans, RSUs and other types of awards may be granted. Under the Alphabet 2021 Stock Plan, an RSU award is an agreement to issue shares of our Class C stock at the time the award vests. RSUs generally vest over four years contingent upon employment on the vesting date. As of December 31, 2022, there were 706 million shares of Class C stock reserved for future issuance under the Alphabet 2021 Stock Plan. Stock-Based Compensation For the years ended December 31, 2020, 2021, and 2022, total stock-based compensation expense was $13.4 billion, $15.7 billion, and $19.5 billion, including amounts associated with awards we expect to settle in Alphabet stock of $12.8 billion, $15.0 billion, and $18.8 billion, respectively. For the years ended December 31, 2020, 2021, and 2022, we recognized tax benefits on total stock-based compensation expense, which are reflected in the provision for income taxes in the Consolidated Statements of Income, of $2.7 billion, $3.1 billion, and $3.9 billion, respectively. For the years ended December 31, 2020, 2021, and 2022, tax benefit realized related to awards vested or exercised during the period was $3.6 billion, $5.9 billion, and $4.7 billion, respectively. These amounts do not include the indirect effects of stock-based awards, which primarily relate to the R&D tax credit. Stock-Based Award Activities The following table summarizes the activities for unvested Alphabet RSUs for the year ended December 31, 2022 (in millions, except per share amounts): Unvested Restricted Stock Units Weighted- Average Number of Grant-Date Shares Fair Value Unvested as of December 31, 2021 338 $ 81.31 Granted 227 $ 127.22 Vested (213) $ 87.53 Forfeited/canceled (28) $ 97.10 Unvested as of December 31, 2022 324 $ 107.98 The weighted-average grant-date fair value of RSUs granted during the years ended December 31, 2020 and 2021 was $70.40 and $97.46, respectively. Total fair value of RSUs, as of their respective vesting dates, during the years ended December 31, 2020, 2021, and 2022, were $17.8 billion, $28.8 billion, and $23.9 billion, respectively. As of December 31, 2022, there was $32.8 billion of unrecognized compensation cost related to unvested RSUs. This amount is expected to be recognized over a weighted-average period of 2.6 years. Note 14. Income Taxes Income from continuing operations before income taxes consisted of the following (in millions): Year Ended December 31, 2020 2021 2022 Domestic operations $ 37,576 $ 77,016 $ 61,307 Foreign operations 10,506 13,718 10,021 Total $ 48,082 $ 90,734 $ 71,328 79",
-        "metadata": {
-            "document": "goog-10-k-2022.pdf",
-            "page_number": "80",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -104,6 +95,7 @@
         "metadata": {
             "document": "goog-10-k-2023-final.pdf",
             "page_number": "27",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -113,6 +105,7 @@
         "metadata": {
             "document": "goog-10-k-2023-final.pdf",
             "page_number": "55",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -122,6 +115,7 @@
         "metadata": {
             "document": "goog-10-k-2023-final.pdf",
             "page_number": "68",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -131,6 +125,7 @@
         "metadata": {
             "document": "goog-10-k-2023-final.pdf",
             "page_number": "68",
+            "chunk_index": 1,
             "page_section": "equity"
         }
     },
@@ -140,6 +135,7 @@
         "metadata": {
             "document": "goog-10-k-2023-final.pdf",
             "page_number": "81",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -149,6 +145,7 @@
         "metadata": {
             "document": "goog-10-k-2023-final.pdf",
             "page_number": "81",
+            "chunk_index": 1,
             "page_section": "equity"
         }
     },
@@ -158,15 +155,7 @@
         "metadata": {
             "document": "goog-10-k-2023-final.pdf",
             "page_number": "82",
-            "page_section": "equity"
-        }
-    },
-    {
-        "id": "goog-10-k-2023-final.pdf_page_83_chunk_0",
-        "text": "Table of Contents Alphabet Inc. Year Ended December 31, 2023 Class A Class B Class C Basic net income per share: Numerator Allocation of undistributed earnings $ 34,601 $ 5,124 $ 34,070 Denominator Number of shares used in per share computation 5,922 877 5,831 Basic net income per share $ 5.84 $ 5.84 $ 5.84 Diluted net income per share: Numerator Allocation of undistributed earnings for basic computation $ 34,601 $ 5,124 $ 34,070 Reallocation of undistributed earnings as a result of conversion of Class B to Class A shares 5,124 0 0 Reallocation of undistributed earnings (287) (37) 287 Allocation of undistributed earnings $ 39,438 $ 5,087 $ 34,357 Denominator Number of shares used in basic computation 5,922 877 5,831 Weighted-average effect of dilutive securities Add: Conversion of Class B to Class A shares outstanding 877 0 0 Restricted stock units and other contingently issuable shares 0 0 92 Number of shares used in per share computation 6,799 877 5,923 Diluted net income per share $ 5.80 $ 5.80 $ 5.80 Note 13. Compensation Plans Stock Plans Our stock plans include the Alphabet Amended and Restated 2021 Stock Plan (\"Alphabet 2021 Stock Plan\") and Other Bets stock-based plans. Under our stock plans, RSUs and other types of awards may be granted. Under the Alphabet 2021 Stock Plan, an RSU award is an agreement to issue shares of our Class C stock at the time the award vests. RSUs generally vest over four years contingent upon employment on the vesting date. As of December 31, 2023, there were 723 million shares of Class C stock reserved for future issuance under the Alphabet 2021 Stock Plan. Stock-Based Compensation For the years ended December 31, 2021, 2022, and 2023, total SBC expense was $15.7 billion, $19.5 billion, and $22.1 billion, including amounts associated with awards we expect to settle in Alphabet stock of $15.0 billion, $18.8 billion, and $21.7 billion, respectively. During the year ended December 31, 2023, total SBC expense includes $432 million associated with workforce reduction costs. See Note 8 for further details. For the years ended December 31, 2021, 2022, and 2023, we recognized tax benefits on total SBC expense, which are reflected in the provision for income taxes in the Consolidated Statements of Income, of $3.1 billion, $3.9 billion, and $4.5 billion, respectively. For the years ended December 31, 2021, 2022, and 2023, tax benefit realized related to awards vested or exercised during the period was $5.9 billion, $4.7 billion, and $5.6 billion, respectively. These amounts do not include the indirect effects of stock-based awards, which primarily relate to the R&D tax credit. Stock-Based Award Activities 82.",
-        "metadata": {
-            "document": "goog-10-k-2023-final.pdf",
-            "page_number": "83",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -176,6 +165,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "28",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -185,6 +175,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "44",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -194,6 +185,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "44",
+            "chunk_index": 1,
             "page_section": "equity"
         }
     },
@@ -203,6 +195,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "56",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -212,6 +205,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "69",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -221,15 +215,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "69",
-            "page_section": "equity"
-        }
-    },
-    {
-        "id": "goog-10-k-2024.pdf_page_77_chunk_0",
-        "text": "Table of Contents Alphabet Inc. As of December 31, 2023 2024 European Commission fines(1) $ 9,525 $ 6,322 Accrued purchases of property and equipment(2) 4,679 7,104 Accrued customer liabilities 4,140 4,304 Current operating lease liabilities 2,791 2,887 Income taxes payable, net 2,748 2,905 Other accrued expenses and current liabilities 22,285 27,706 Accrued expenses and other current liabilities $ 46,168 $ 51,228 (1) The amounts related to the EC fines, including any under appeal, are included in accrued expenses and other current liabilities on our Consolidated Balance Sheets. Amounts include the effects of foreign exchange and interest. In the third quarter of 2024 we made a cash payment of $3.0 billion for the 2017 EC shopping fine. See Note 10 for further details. (2) Additional property and equipment purchases of $2.8 billion and $3.2 billion as of December 31, 2023 and 2024, respectively, were included in accounts payable. Accumulated Other Comprehensive Income (Loss) Components of AOCI, net of income tax, were as follows (in millions): Unrealized Gains Unrealized Foreign Currency (Losses) on Gains (Losses) Translation Available-for-Sale on Cash Flow Adjustments Investments Hedges Total Balance as of December 31, 2021 $ (2,306) $ 236 $ 447 $ (1,623) Other comprehensive income (loss) before reclassifications (1,836) (4,720) 1,463 (5,093) Amounts excluded from the assessment of hedge effectiveness recorded in AOCI 0 0 (188) (188) Amounts reclassified from AOCI 0 1,007 (1,706) (699) Other comprehensive income (loss) (1,836) (3,713) (431) (5,980) Balance as of December 31, 2022 (4,142) (3,477) 16 (7,603) Other comprehensive income (loss) before reclassifications 735 1,344 84 2,163 Amounts excluded from the assessment of hedge effectiveness recorded in AOCI 0 0 84 84 Amounts reclassified from AOCI 0 1,168 (214) 954 Other comprehensive income (loss) 735 2,512 (46) 3,201 Balance as of December 31, 2023 (3,407) (965) (30) (4,402) Other comprehensive income (loss) before reclassifications (1,673) (116) 698 (1,091) Amounts excluded from the assessment of hedge effectiveness recorded in AOCI 0 0 77 77 Amounts reclassified from AOCI 0 782 (166) 616 Other comprehensive income (loss) (1,673) 666 609 (398) Balance as of December 31, 2024 $ (5,080) $ (299) $ 579 $ (4,800) The effects on net income of amounts reclassified from AOCI were as follows (in millions): 76.",
-        "metadata": {
-            "document": "goog-10-k-2024.pdf",
-            "page_number": "77",
+            "chunk_index": 1,
             "page_section": "equity"
         }
     },
@@ -239,6 +225,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "82",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -248,6 +235,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "82",
+            "chunk_index": 1,
             "page_section": "equity"
         }
     },
@@ -257,6 +245,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "83",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -266,6 +255,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "84",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -275,6 +265,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2022.pdf",
             "page_number": "5",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -284,6 +275,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2022.pdf",
             "page_number": "8",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -293,24 +285,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2022.pdf",
             "page_number": "13",
-            "page_section": "equity"
-        }
-    },
-    {
-        "id": "goog-10-q-q1-2022.pdf_page_26_chunk_0",
-        "text": "Table of Contents Alphabet Inc. We expense legal fees in the period in which they are incurred. Non-Income Taxes We are under audit by various domestic and foreign tax authorities with regards to non-income tax matters. The subject matter of non-income tax audits primarily arises from disputes on the tax treatment and tax rate applied to the sale of our products and services in these jurisdictions and the tax treatment of certain employee benefits. We accrue non-income taxes that may result from examinations by, or any negotiated agreements with, these tax authorities when a loss is probable and reasonably estimable. If we determine that a loss is reasonably possible and the loss or range of loss can be estimated, we disclose the reasonably possible loss. Due to the inherent complexity and uncertainty of these matters and judicial process in certain jurisdictions, the final outcome may be materially different from our expectations. For information regarding income tax contingencies, see Note 13. Note 10. Stockholders' Equity Share Repurchases In April 2021, the Board of Directors of Alphabet authorized the company to repurchase up to $50.0 billion of its Class C stock. In July 2021, the Board of Directors of Alphabet approved an amendment to the April 2021 authorization, permitting the company to repurchase both Class A and Class C shares in a manner deemed in the best interest of the company and its stockholders, taking into account the economic cost and prevailing market conditions, including the relative trading prices and volumes of the Class A and Class C shares. As of March 31, 2022, $4.1 billion remains available for Class A and Class C share repurchases under the amended authorization. In accordance with the authorizations of the Board of Directors of Alphabet, during the three months ended March 31, 2022, we repurchased and subsequently retired 4.9 million aggregate shares for $13.3 billion. Of the aggregate amount repurchased and subsequently retired during the three months ended March 31, 2022, 0.2 million shares were Class A stock for $660 million and 4.7 million shares were Class C stock for $12.6 billion. In April 2022, the Board of Directors of Alphabet authorized the company to repurchase up to an additional $70.0 billion of its Class A and Class C shares in a manner deemed in the best interest of the company and its stockholders, taking into account the economic cost and prevailing market conditions, including the relative trading prices and volumes of the Class A and Class C shares. Repurchases are executed from time to time, subject to general business and market conditions and other investment opportunities, through open market purchases or privately negotiated transactions, including through Rule 10b5-1 plans. The repurchase program does not have an expiration date. Stock Split Effected in Form of Stock Dividend (\u201cStock Split\u201d) On February 1, 2022, the company announced that the Board of Directors had approved and declared a 20- for-one stock split in the form of a one-time special stock dividend on each share of the company\u2019s",
-        "metadata": {
-            "document": "goog-10-q-q1-2022.pdf",
-            "page_number": "26",
-            "page_section": "equity"
-        }
-    },
-    {
-        "id": "goog-10-q-q1-2022.pdf_page_26_chunk_1",
-        "text": "Class A, Class B, and Class C stock. The Stock Split is subject to stockholder approval of an amendment to the company\u2019s Amended and Restated Certificate of Incorporation to increase the number of authorized shares of Class A, Class B, and Class C stock to accommodate the Stock Split. If approval is obtained, each of the company\u2019s stockholders of record at the close of business on July 1, 2022 (the \u201cRecord Date\u201d), will receive, after the close of business on July 15, 2022, a dividend of 19 additional shares of the same class of stock for every share held by such stockholder as of the Record Date. 26",
-        "metadata": {
-            "document": "goog-10-q-q1-2022.pdf",
-            "page_number": "26",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -320,6 +295,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2022.pdf",
             "page_number": "43",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -329,6 +305,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2023.pdf",
             "page_number": "5",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -338,6 +315,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2023.pdf",
             "page_number": "8",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -347,6 +325,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2023.pdf",
             "page_number": "15",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -356,6 +335,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2023.pdf",
             "page_number": "15",
+            "chunk_index": 1,
             "page_section": "equity"
         }
     },
@@ -365,6 +345,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2023.pdf",
             "page_number": "27",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -374,6 +355,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2023.pdf",
             "page_number": "27",
+            "chunk_index": 1,
             "page_section": "equity"
         }
     },
@@ -383,6 +365,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2023.pdf",
             "page_number": "44",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -392,6 +375,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2024.pdf",
             "page_number": "8",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -401,6 +385,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2024.pdf",
             "page_number": "15",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -410,6 +395,27 @@
         "metadata": {
             "document": "goog-10-q-q1-2024.pdf",
             "page_number": "15",
+            "chunk_index": 1,
+            "page_section": "equity"
+        }
+    },
+    {
+        "id": "goog-10-q-q1-2024.pdf_page_41_chunk_0",
+        "text": "Three Months Ended March 31, 2024 Shares Amount Class A share repurchases 23 $ 3,350 Class C share repurchases 88 12,707 Total share repurchases(1) 111 $ 16,057 (1) Shares repurchased include unsettled repurchases as of March 31, 2024. For additional information, see Note 9 of the Notes to Consolidated Financial Statements included in Item 1 of this Quarterly Report on Form 10-Q. Dividend Program On April 25, 2024, the Board of Directors of Alphabet declared a cash dividend of $0.20 per share to be paid on June 17, 2024, to stockholders of record as of June 10, 2024, on each of the company\u2019s Class A, Class B, and Class C shares. The company intends to pay quarterly cash dividends in the future, subject to review and approval by the company\u2019s Board of Directors in its sole discretion. In connection with the cash dividend (and any future dividend the company\u2019s Board of Directors may declare from time to time), the company will also award dividend equivalent units to holders of all unvested stock units in accordance with the Alphabet Inc. Amended and Restated 2021 Stock Plan and pursuant to each holder\u2019s outstanding stock unit grant agreements, as amended. European Commission Fines In 2017, 2018 and 2019, the EC announced decisions that certain actions taken by Google infringed European competition law and imposed fines of \u20ac2.4 billion ($2.7 billion as of June 27, 2017), \u20ac4.3 billion ($5.1 billion as of June 30, 2018), and \u20ac1.5 billion ($1.7 billion as of March 20, 2019), respectively. On September 14, 2022, the General Court reduced the 2018 fine from \u20ac4.3 billion to \u20ac4.1 billion. We subsequently filed an appeal to the European Court of Justice. While each EC decision is under appeal, we included the fines in accrued expenses and other current liabilities on our Consolidated Balance Sheets as we provided bank guarantees (in lieu of a cash payment) for the fines. For additional information, see Note 8 of the Notes to Consolidated Financial Statements included in Item 1 of this Quarterly Report on Form 10-Q. Taxes As of March 31, 2024, we had income taxes payable of $4.2 billion, of which $2.1 billion was short-term, related to a one-time transition tax payable incurred as a result of the U.S. Tax Cuts and Jobs Act (\"Tax Act\"). As permitted by the Tax Act, we will pay the transition tax in annual interest-free installments through 2025. We also have long-term taxes payable of $7.1 billion primarily related to uncertain tax positions as of March 31, 2024. Purchase Commitments and Other Contractual Obligations As of March 31, 2024, we had material purchase commitments and other contractual obligations of $44.0 billion, of which $29.4 billion was short-term. These amounts primarily consist of purchase orders for certain technical infrastructure as well as the non-cancelable portion or the minimum cancellation fee in certain agreements related to commitments to purchase licenses, including content licenses, inventory and network capacity. For those agreements with variable terms, we do not estimate the non-cancelable obligation",
+        "metadata": {
+            "document": "goog-10-q-q1-2024.pdf",
+            "page_number": "41",
+            "chunk_index": 0,
+            "page_section": "equity"
+        }
+    },
+    {
+        "id": "goog-10-q-q1-2024.pdf_page_41_chunk_1",
+        "text": "beyond any minimum quantities and/or pricing as of March 31, 2024. In certain instances, the amount of our contractual obligations may change based on the expected timing of order fulfillment from our suppliers. For more information related to our content licenses, see Note 8 of the Notes to Consolidated Financial Statements included in Item I of this Quarterly Report on Form 10-Q. In addition we regularly enter into multi-year, non-cancellable agreements to purchase renewable energy and energy attributes, such as renewable energy certificates. These agreements do not include a minimum dollar commitment. The amounts to be paid under these agreements are based on the actual volumes to be generated and are not readily determinable. Critical Accounting Estimates See Part II, Item 7, \"Critical Accounting Estimates\" in our Annual Report on Form 10-K for the year ended December 31, 2023. 41",
+        "metadata": {
+            "document": "goog-10-q-q1-2024.pdf",
+            "page_number": "41",
+            "chunk_index": 1,
             "page_section": "equity"
         }
     },
@@ -419,6 +425,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2024.pdf",
             "page_number": "44",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -428,6 +435,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2024.pdf",
             "page_number": "44",
+            "chunk_index": 1,
             "page_section": "equity"
         }
     },
@@ -437,6 +445,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2025.pdf",
             "page_number": "8",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -446,6 +455,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2025.pdf",
             "page_number": "15",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -455,6 +465,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2025.pdf",
             "page_number": "15",
+            "chunk_index": 1,
             "page_section": "equity"
         }
     },
@@ -464,6 +475,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2025.pdf",
             "page_number": "28",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -473,6 +485,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2025.pdf",
             "page_number": "44",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -482,6 +495,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2025.pdf",
             "page_number": "44",
+            "chunk_index": 1,
             "page_section": "equity"
         }
     },
@@ -491,6 +505,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2025.pdf",
             "page_number": "47",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -500,6 +515,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2022.pdf",
             "page_number": "5",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -509,6 +525,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2022.pdf",
             "page_number": "8",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -518,6 +535,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2022.pdf",
             "page_number": "9",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -527,6 +545,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2022.pdf",
             "page_number": "14",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -536,6 +555,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2022.pdf",
             "page_number": "14",
+            "chunk_index": 1,
             "page_section": "equity"
         }
     },
@@ -545,6 +565,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2022.pdf",
             "page_number": "29",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -554,6 +575,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2022.pdf",
             "page_number": "47",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -563,6 +585,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2023.pdf",
             "page_number": "5",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -572,6 +595,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2023.pdf",
             "page_number": "8",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -581,6 +605,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2023.pdf",
             "page_number": "9",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -590,6 +615,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2023.pdf",
             "page_number": "16",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -599,6 +625,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2023.pdf",
             "page_number": "16",
+            "chunk_index": 1,
             "page_section": "equity"
         }
     },
@@ -608,6 +635,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2023.pdf",
             "page_number": "29",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -617,6 +645,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2023.pdf",
             "page_number": "29",
+            "chunk_index": 1,
             "page_section": "equity"
         }
     },
@@ -626,6 +655,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2023.pdf",
             "page_number": "50",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -635,6 +665,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2023.pdf",
             "page_number": "50",
+            "chunk_index": 1,
             "page_section": "equity"
         }
     },
@@ -644,6 +675,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2024.pdf",
             "page_number": "5",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -653,6 +685,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2024.pdf",
             "page_number": "8",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -662,6 +695,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2024.pdf",
             "page_number": "9",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -671,6 +705,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2024.pdf",
             "page_number": "16",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -680,6 +715,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2024.pdf",
             "page_number": "16",
+            "chunk_index": 1,
             "page_section": "equity"
         }
     },
@@ -689,6 +725,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2024.pdf",
             "page_number": "28",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -698,6 +735,27 @@
         "metadata": {
             "document": "goog-10-q-q2-2024.pdf",
             "page_number": "30",
+            "chunk_index": 0,
+            "page_section": "equity"
+        }
+    },
+    {
+        "id": "goog-10-q-q2-2024.pdf_page_46_chunk_0",
+        "text": "During the three and six months ended June 30, 2024, we repurchased and subsequently retired 92 million and 203 million shares for $15.6 billion and $31.7 billion, respectively. In April 2023, the Board of Directors of Alphabet authorized the company to repurchase up to $70.0 billion of its Class A and Class C shares. In April 2024, the Board of Directors of Alphabet authorized the company to repurchase up to an additional $70.0 billion of its Class A and Class C shares. As of June 30, 2024, $74.9 billion remained available for Class A and Class C share repurchases. The following table presents Class A and Class C shares repurchased and subsequently retired (in millions): Three Months Ended June 30, 2024 Six Months Ended June 30, 2024 Shares Amount Shares Amount Class A share repurchases 19 $ 3,265 43 $ 6,615 Class C share repurchases 73 12,333 160 25,040 Total share repurchases(1) 92 $ 15,598 203 $ 31,655 (1) Shares repurchased include unsettled repurchases as of June 30, 2024. For additional information, see Note 9 of the Notes to Consolidated Financial Statements included in Item 1 of this Quarterly Report on Form 10-Q. Dividend Program On April 25, 2024, the Board of Directors of Alphabet declared a cash dividend of $0.20 per share to stockholders of record as of June 10, 2024, on each of the company\u2019s Class A, Class B, and Class C shares. These dividends were paid on June 17, 2024, totaling to $1.2 billion, $173 million, and $1.1 billion for Class A, Class B, and Class C shares, respectively. The company intends to pay quarterly cash dividends in the future, subject to review and approval by the company\u2019s Board of Directors in its sole discretion. European Commission Fines In 2017, 2018, and 2019, the EC announced decisions that certain actions taken by Google infringed European competition law and imposed fines of \u20ac2.4 billion ($2.7 billion as of June 27, 2017), \u20ac4.3 billion ($5.1 billion as of June 30, 2018), and \u20ac1.5 billion ($1.7 billion as of March 20, 2019), respectively. On September 14, 2022, the General Court reduced the 2018 fine from \u20ac4.3 billion to \u20ac4.1 billion. We subsequently filed an appeal to the European Court of Justice. While each EC decision is under appeal, we included the fines in accrued expenses and other current liabilities on our Consolidated Balance Sheets, as we provided bank guarantees (in lieu of a cash payment) for the fines. For additional information, see Note 8 of the Notes to Consolidated Financial Statements included in Item 1 of this Quarterly Report on Form 10-Q. Taxes As of June 30, 2024, we had short-term income taxes payable of $2.7 billion, related to a one-time transition tax payable incurred as a result of the U.S. Tax Cuts and Jobs Act (\"Tax Act\"). As permitted by the Tax Act, we will pay the transition tax in annual interest-free installments through 2025. We also have long-term taxes payable of $7.7 billion primarily related to uncertain tax",
+        "metadata": {
+            "document": "goog-10-q-q2-2024.pdf",
+            "page_number": "46",
+            "chunk_index": 0,
+            "page_section": "equity"
+        }
+    },
+    {
+        "id": "goog-10-q-q2-2024.pdf_page_46_chunk_1",
+        "text": "positions as of June 30, 2024. 46",
+        "metadata": {
+            "document": "goog-10-q-q2-2024.pdf",
+            "page_number": "46",
+            "chunk_index": 1,
             "page_section": "equity"
         }
     },
@@ -707,6 +765,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2024.pdf",
             "page_number": "49",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -716,6 +775,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2024.pdf",
             "page_number": "49",
+            "chunk_index": 1,
             "page_section": "equity"
         }
     },
@@ -725,6 +785,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2024.pdf",
             "page_number": "50",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -734,15 +795,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2024.pdf",
             "page_number": "50",
-            "page_section": "equity"
-        }
-    },
-    {
-        "id": "goog-10-q-q2-2025.pdf_page_2_chunk_0",
-        "text": "Indicate by check mark whether the registrant is a shell company (as defined in Rule 12b-2 of the Exchange Act). Yes \u2610 No \u2612 As of July 16, 2025, there were 5,817 million shares of Alphabet\u2019s Class A stock outstanding, 847 million shares of Alphabet's Class B stock outstanding, and 5,430 million shares of Alphabet's Class C stock outstanding. 2",
-        "metadata": {
-            "document": "goog-10-q-q2-2025.pdf",
-            "page_number": "2",
+            "chunk_index": 1,
             "page_section": "equity"
         }
     },
@@ -752,6 +805,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2025.pdf",
             "page_number": "9",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -761,6 +815,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2025.pdf",
             "page_number": "10",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -770,6 +825,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2025.pdf",
             "page_number": "17",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -779,6 +835,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2025.pdf",
             "page_number": "17",
+            "chunk_index": 1,
             "page_section": "equity"
         }
     },
@@ -788,6 +845,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2025.pdf",
             "page_number": "31",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -797,6 +855,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2025.pdf",
             "page_number": "31",
+            "chunk_index": 1,
             "page_section": "equity"
         }
     },
@@ -806,6 +865,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2025.pdf",
             "page_number": "32",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -815,6 +875,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2025.pdf",
             "page_number": "53",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -824,6 +885,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2025.pdf",
             "page_number": "53",
+            "chunk_index": 1,
             "page_section": "equity"
         }
     },
@@ -833,6 +895,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2022.pdf",
             "page_number": "5",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -842,6 +905,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2022.pdf",
             "page_number": "8",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -851,6 +915,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2022.pdf",
             "page_number": "9",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -860,6 +925,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2022.pdf",
             "page_number": "14",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -869,6 +935,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2022.pdf",
             "page_number": "14",
+            "chunk_index": 1,
             "page_section": "equity"
         }
     },
@@ -878,6 +945,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2022.pdf",
             "page_number": "15",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -887,6 +955,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2022.pdf",
             "page_number": "16",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -896,6 +965,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2022.pdf",
             "page_number": "16",
+            "chunk_index": 1,
             "page_section": "equity"
         }
     },
@@ -905,6 +975,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2022.pdf",
             "page_number": "29",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -914,6 +985,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2022.pdf",
             "page_number": "30",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -923,6 +995,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2022.pdf",
             "page_number": "46",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -932,6 +1005,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2022.pdf",
             "page_number": "46",
+            "chunk_index": 1,
             "page_section": "equity"
         }
     },
@@ -941,6 +1015,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2023.pdf",
             "page_number": "8",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -950,6 +1025,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2023.pdf",
             "page_number": "9",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -959,6 +1035,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2023.pdf",
             "page_number": "16",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -968,6 +1045,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2023.pdf",
             "page_number": "16",
+            "chunk_index": 1,
             "page_section": "equity"
         }
     },
@@ -977,6 +1055,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2023.pdf",
             "page_number": "29",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -986,6 +1065,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2023.pdf",
             "page_number": "30",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -995,6 +1075,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2023.pdf",
             "page_number": "51",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -1004,6 +1085,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2023.pdf",
             "page_number": "51",
+            "chunk_index": 1,
             "page_section": "equity"
         }
     },
@@ -1013,6 +1095,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2024.pdf",
             "page_number": "8",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -1022,6 +1105,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2024.pdf",
             "page_number": "9",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -1031,6 +1115,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2024.pdf",
             "page_number": "16",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -1040,6 +1125,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2024.pdf",
             "page_number": "16",
+            "chunk_index": 1,
             "page_section": "equity"
         }
     },
@@ -1049,6 +1135,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2024.pdf",
             "page_number": "46",
+            "chunk_index": 0,
             "page_section": "equity"
         }
     },
@@ -1058,6 +1145,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2024.pdf",
             "page_number": "46",
+            "chunk_index": 1,
             "page_section": "equity"
         }
     }

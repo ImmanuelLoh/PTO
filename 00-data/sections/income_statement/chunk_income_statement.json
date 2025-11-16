@@ -5,6 +5,7 @@
         "metadata": {
             "document": "goog-10-k-2022.pdf",
             "page_number": "44",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -14,6 +15,7 @@
         "metadata": {
             "document": "goog-10-k-2022.pdf",
             "page_number": "49",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -23,6 +25,7 @@
         "metadata": {
             "document": "goog-10-k-2022.pdf",
             "page_number": "50",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -32,42 +35,27 @@
         "metadata": {
             "document": "goog-10-k-2022.pdf",
             "page_number": "72",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
     {
-        "id": "goog-10-k-2022.pdf_page_78_chunk_0",
-        "text": "Table of Contents Alphabet Inc. The rights, including the liquidation and dividend rights, of the holders of our Class A, Class B, and Class C stock are identical, except with respect to voting. Furthermore, there are a number of safeguards built into our certificate of incorporation, as well as Delaware law, which preclude our Board of Directors from declaring or paying unequal per share dividends on our Class A, Class B, and Class C stock. Specifically, Delaware law provides that amendments to our certificate of incorporation which would have the effect of adversely altering the rights, powers, or preferences of a given class of stock must be approved by the class of stock adversely affected by the proposed amendment. In addition, our certificate of incorporation provides that before any such amendment may be put to a stockholder vote, it must be approved by the unanimous consent of our Board of Directors. As a result, the undistributed earnings for each year are allocated based on the contractual participation rights of the Class A, Class B, and Class C stock as if the earnings for the year had been distributed. As the liquidation and dividend rights are identical, the undistributed earnings are allocated on a proportionate basis. In the years ended December 31, 2020, 2021, and 2022, the net income per share amounts are the same for Class A, Class B, and Class C stock because the holders of each class are entitled to equal per share dividends or distributions in liquidation in accordance with the Amended and Restated Certificate of Incorporation of Alphabet Inc. The following tables set forth the computation of basic and diluted net income per share of Class A, Class B, and Class C stock (in millions, except per share amounts): Year Ended December 31, 2020 Class A Class B Class C Basic net income per share: Numerator Allocation of undistributed earnings $ 17,733 $ 2,732 $ 19,804 Denominator Number of shares used in per share computation 5,996 924 6,696 Basic net income per share $ 2.96 $ 2.96 $ 2.96 Diluted net income per share: Numerator Allocation of undistributed earnings for basic computation $ 17,733 $ 2,732 $ 19,804 Reallocation of undistributed earnings as a result of conversion of Class B to Class A shares 2,732 0 0 Reallocation of undistributed earnings (180) (25) 180 Allocation of undistributed earnings $ 20,285 $ 2,707 $ 19,984 Denominator Number of shares used in basic computation 5,996 924 6,696 Weighted-average effect of dilutive securities Add: Conversion of Class B to Class A shares outstanding 924 0 0 Restricted stock units and other contingently issuable shares 2 0 123 Number of shares used in per share computation 6,922 924 6,819 Diluted net income per share $ 2.93 $ 2.93 $ 2.93 77",
-        "metadata": {
-            "document": "goog-10-k-2022.pdf",
-            "page_number": "78",
-            "page_section": "income_statement"
-        }
-    },
-    {
-        "id": "goog-10-k-2022.pdf_page_82_chunk_0",
-        "text": "Table of Contents Alphabet Inc. Deferred Income Taxes Deferred income taxes reflect the net effects of temporary differences between the carrying amounts of assets and liabilities for financial reporting purposes and the amounts used for income tax purposes. Significant components of our deferred tax assets and liabilities were as follows (in millions): As of December 31, 2021 2022 Deferred tax assets: Accruals and reserves not currently deductible $ 1,816 $ 1,956 Tax credits 5,179 6,002 Net operating losses 1,790 2,557 Operating leases 2,503 2,711 Capitalized research and development(1) 1,843 10,381 Other 1,665 3,244 Total deferred tax assets 14,796 26,851 Valuation allowance (7,129) (9,553) Total deferred tax assets net of valuation allowance 7,667 17,298 Deferred tax liabilities: Property and equipment, net (5,237) (6,607) Net investment gains (3,229) (2,361) Operating leases (2,228) (2,491) Other (946) (1,092) Total deferred tax liabilities (11,640) (12,551) Net deferred tax assets (liabilities) $ (3,973) $ 4,747 (1) As required by the 2017 Tax Cuts and Jobs Act, effective January 1, 2022, our research and development expenditures were capitalized and amortized which resulted in substantially higher cash taxes for 2022 with an equal amount of deferred tax benefit. As of December 31, 2022, our federal, state, and foreign net operating loss carryforwards for income tax purposes were approximately $6.4 billion, $14.6 billion, and $1.8 billion respectively. If not utilized, the federal net operating loss carryforwards will begin to expire in 2023, foreign net operating loss carryforwards will begin to expire in 2025 and the state net operating loss carryforwards will begin to expire in 2028. It is more likely than not that the majority of the net operating loss carryforwards will not be realized; therefore, we have recorded a valuation allowance against them. The net operating loss carryforwards are subject to various annual limitations under the tax laws of the different jurisdictions. As of December 31, 2022, our Federal and California research and development credit carryforwards for income tax purposes were approximately $400 million and $5.8 billion, respectively. If not utilized, the Federal R&D credit will begin to expire in 2037 and the California R&D credit can be carried over indefinitely. We believe the majority of the federal tax credit and state tax credit is not likely to be realized. As of December 31, 2022, our investment tax credit carryforwards for state income tax purposes were approximately $931 million and will begin to expire in 2025. We use the flow-through method of accounting for investment tax credits. We believe this tax credit is not likely to be realized. As of December 31, 2022, we maintained a valuation allowance with respect to California deferred tax assets, certain federal net operating losses, certain state net operating losses and tax credits, net deferred tax assets relating to certain Other Bets, and certain foreign net operating losses that we believe are not likely to be realized. We continue to reassess the remaining valuation allowance quarterly, and if future evidence allows for a partial or full release of the valuation allowance, a tax",
-        "metadata": {
-            "document": "goog-10-k-2022.pdf",
-            "page_number": "82",
-            "page_section": "income_statement"
-        }
-    },
-    {
-        "id": "goog-10-k-2022.pdf_page_82_chunk_1",
-        "text": "benefit will be recorded accordingly. 81",
-        "metadata": {
-            "document": "goog-10-k-2022.pdf",
-            "page_number": "82",
-            "page_section": "income_statement"
-        }
-    },
-    {
-        "id": "goog-10-k-2023-final.pdf_page_34_chunk_0",
-        "text": "Table of Contents Alphabet Inc. TAC as a percentage of revenues generated from ads placed on Google Network properties are significantly higher than TAC as a percentage of revenues generated from ads placed on Google Search & other properties, because most of the advertiser revenues from ads served on Google Network properties are paid as TAC to our Google Network partners. Operating Expenses Operating expenses are generally incurred during our normal course of business, which we categorize as either R&D, sales and marketing, or general and administrative. The main components of our R&D expenses are: \u2022 compensation expenses for engineering and technical employees responsible for R&D related to our existing and new products and services; \u2022 depreciation; and \u2022 third-party services fees primarily relating to consulting and outsourced services in support of our engineering and product development efforts. The main components of our sales and marketing expenses are: \u2022 compensation expenses for employees engaged in sales and marketing, sales support, and certain customer service functions; and \u2022 spending relating to our advertising and promotional activities in support of our products and services. The main components of our general and administrative expenses are: \u2022 compensation expenses for employees in finance, human resources, information technology, legal, and other administrative support functions; \u2022 expenses relating to legal matters, including certain fines and settlements; and \u2022 third-party services fees, including audit, consulting, outside legal, and other outsourced administrative services. Other Income (Expense), Net OI&E, net primarily consists of interest income (expense), the effect of foreign currency exchange gains (losses), net gains (losses) and impairment on our marketable and non-marketable securities, performance fees, and income (loss) and impairment from our equity method investments. For additional information, including how we account for our investments and factors that can drive fluctuations in the value of our investments, see Note 1 and Note 3 of the Notes to Consolidated Financial Statements included in Part II, Item 8 as well as Item 7A Quantitative and Qualitative Disclosures About Market Risk of this Annual Report on Form 10-K. Provision for Income Taxes Provision for income taxes represents the estimated amount of federal, state, and foreign income taxes incurred in the U.S. and the many jurisdictions in which we operate. The provision includes the effect of reserve provisions and changes to reserves that are considered appropriate as well as the related net interest and penalties. For additional information, including a reconciliation of the U.S. federal statutory rate to our effective tax rate, see Note 14 of the Notes to Consolidated Financial Statements included in Item 8 of this Annual Report on Form 10-K. 33.",
+        "id": "goog-10-k-2023-final.pdf_page_41_chunk_0",
+        "text": "Table of Contents Alphabet Inc. Year Ended December 31, 2022 2023 Interest income $ 2,174 $ 3,865 Interest expense (357) (308) Foreign currency exchange gain (loss), net (654) (1,238) Gain (loss) on debt securities, net (2,064) (1,215) Gain (loss) on equity securities, net (3,455) 392 Performance fees 798 257 Income (loss) and impairment from equity method investments, net (337) (628) Other 381 299 Other income (expense), net $ (3,514) $ 1,424 OI&E, net increased $4.9 billion from 2022 to 2023. The increase was primarily due to fluctuations in the value of equity securities reflecting market driven changes in the value of our marketable equity securities, investment specific event driven changes in our non-marketable equity securities, and increased interest income due to interest rates. For additional information, see Note 7 of the Notes to Consolidated Financial Statements included in Item 8 of this Annual Report on Form 10-K. Provision for Income Taxes The following table presents provision for income taxes (in millions, except for effective tax rate): Year Ended December 31, 2022 2023 Income before provision for income taxes $ 71,328 $ 85,717 Provision for income taxes $ 11,356 $ 11,922 Effective tax rate 15.9 % 13.9 % In 2023, the Internal Revenue Services (IRS) issued a rule change allowing taxpayers to temporarily apply the regulations in effect prior to 2022 related to U.S. federal foreign tax credits, as well as a separate rule change with interim guidance on the capitalization and amortization of R&D expenses. A cumulative one-time adjustment applicable to the prior period for these tax rule changes was recorded in 2023. The effective tax rate decreased from 2022 to 2023, reflecting the effect of the two tax rule changes described above, particularly the change related to foreign tax credits. The effect of these tax rule changes was partially offset by changes in uncertain tax benefits and a decrease in the U.S. federal Foreign Derived Intangible Income tax deduction. The OECD is coordinating negotiations among more than 140 countries with the goal of achieving consensus around substantial changes to international tax policies, including the implementation of a minimum global effective tax rate of 15%. While various countries have implemented the legislation as of January 1, 2024, we do not expect a resulting material change to our income tax provision for the 2024 fiscal year. As additional jurisdictions enact such legislation, we expect our effective tax rate and cash tax payments could increase in future years. Financial Condition Cash, Cash Equivalents, and Marketable Securities As of December 31, 2023, we had $110.9 billion in cash, cash equivalents, and short-term marketable securities. Cash equivalents and marketable securities are comprised of time deposits, money market funds, highly liquid government bonds, corporate debt securities, mortgage-backed and asset-backed securities, and marketable equity securities. Sources, Uses of Cash and Related Trends Our principal sources of liquidity are cash, cash equivalents, and marketable securities, as well as the cash flow that we generate from operations. The primary use of capital continues to be to invest for",
         "metadata": {
             "document": "goog-10-k-2023-final.pdf",
-            "page_number": "34",
+            "page_number": "41",
+            "chunk_index": 0,
+            "page_section": "income_statement"
+        }
+    },
+    {
+        "id": "goog-10-k-2023-final.pdf_page_41_chunk_1",
+        "text": "the long-term growth of the business. We regularly evaluate our cash and capital structure, including the size, pace, and form of capital return to stockholders. 40.",
+        "metadata": {
+            "document": "goog-10-k-2023-final.pdf",
+            "page_number": "41",
+            "chunk_index": 1,
             "page_section": "income_statement"
         }
     },
@@ -77,6 +65,7 @@
         "metadata": {
             "document": "goog-10-k-2023-final.pdf",
             "page_number": "48",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -86,6 +75,7 @@
         "metadata": {
             "document": "goog-10-k-2023-final.pdf",
             "page_number": "53",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -95,6 +85,7 @@
         "metadata": {
             "document": "goog-10-k-2023-final.pdf",
             "page_number": "54",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -104,6 +95,7 @@
         "metadata": {
             "document": "goog-10-k-2023-final.pdf",
             "page_number": "71",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -113,15 +105,7 @@
         "metadata": {
             "document": "goog-10-k-2023-final.pdf",
             "page_number": "76",
-            "page_section": "income_statement"
-        }
-    },
-    {
-        "id": "goog-10-k-2023-final.pdf_page_77_chunk_0",
-        "text": "Table of Contents Alphabet Inc. Other Income (Expense), Net Components of OI&E were as follows (in millions): Year Ended December 31, 2021 2022 2023 Interest income $ 1,499 $ 2,174 $ 3,865 Interest expense(1) (346) (357) (308) Foreign currency exchange gain (loss), net (240) (654) (1,238) Gain (loss) on debt securities, net (110) (2,064) (1,215) Gain (loss) on equity securities, net 12,380 (3,455) 392 Performance fees (1,908) 798 257 Income (loss) and impairment from equity method investments, net 334 (337) (628) Other 411 381 299 Other income (expense), net $ 12,020 $ (3,514) $ 1,424 (1) Interest expense is net of interest capitalized of $163 million, $128 million, and $181 million for the years ended December 31, 2021, 2022, and 2023, respectively. Note 8. Workforce Reduction and Other Initiatives We have a company-wide effort underway to re-engineer our cost base. As part of this program, in January 2023, we announced a reduction of our workforce. As a result, total employee severance and related charges recorded during the year ended December 31, 2023 were $2.1 billion. Substantially all of the employees affected were no longer included in our headcount as of December 31, 2023. In addition, we are taking actions to optimize our global office space. As a result, exit charges recorded during the year ended December 31, 2023, were $1.8 billion as reflected in the table below. In addition to these exit charges, for the year ended December 31, 2023, we incurred $269 million in accelerated rent and accelerated depreciation, which are not included in the table below. Severance and office space exit charges are included within our consolidated statements of income as follows (in millions): Year Ended December 31, 2023 Severance and Related (1) Office Space Total Cost of revenues $ 479 $ 481 $ 960 Research and development 848 870 1,718 Sales and marketing 497 257 754 General and administrative 264 237 501 Total charges $ 2,088 $ 1,845 $ 3,933 (1) Severance includes amounts to be settled in cash, accounted for as one-time involuntary employee termination benefits, and SBC. For segment reporting, the substantial majority of these charges are included within Alphabet-level activities in our segment results. For the year ended December 31, 2023, changes in liabilities resulting from the severance charges and related accruals were as follows (in millions): Severance and Related Balance as of December 31, 2022 $ 0 Charges(1) 1,656 Cash payments (1,579) Balance as of December 31, 2023(2) $ 77 (1) Excludes non-cash SBC of $432 million. (2) Included in accrued compensation and benefits on the Consolidated Balance Sheets. 76.",
-        "metadata": {
-            "document": "goog-10-k-2023-final.pdf",
-            "page_number": "77",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -131,6 +115,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "49",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -140,6 +125,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "54",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -149,6 +135,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "55",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -158,6 +145,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "72",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -167,6 +155,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2022.pdf",
             "page_number": "6",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -176,6 +165,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2022.pdf",
             "page_number": "7",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -185,6 +175,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2022.pdf",
             "page_number": "22",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -194,6 +185,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2022.pdf",
             "page_number": "32",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -203,6 +195,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2022.pdf",
             "page_number": "32",
+            "chunk_index": 1,
             "page_section": "income_statement"
         }
     },
@@ -212,6 +205,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2023.pdf",
             "page_number": "6",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -221,6 +215,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2023.pdf",
             "page_number": "7",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -230,6 +225,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2023.pdf",
             "page_number": "21",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -239,6 +235,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2023.pdf",
             "page_number": "22",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -248,6 +245,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2024.pdf",
             "page_number": "6",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -257,15 +255,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2024.pdf",
             "page_number": "7",
-            "page_section": "income_statement"
-        }
-    },
-    {
-        "id": "goog-10-q-q1-2024.pdf_page_31_chunk_0",
-        "text": "Costs and Expenses Our cost structure has two components: cost of revenues and operating expenses. Our operating expenses include costs related to R&D, sales and marketing, and general and administrative functions. Certain of our costs and expenses, including those associated with the operation of our technical infrastructure as well as components of our operating expenses, are generally less variable in nature and may not correlate to changes in revenue. Additionally, fluctuations in compensation expenses may not directly correlate with changes in headcount, in particular due to annual SBC awards that generally vest over four years. Cost of Revenues Cost of revenues is comprised of TAC and other costs of revenues. \u2022 TAC includes: \u25e6 amounts paid to our distribution partners who make available our search access points and services. Our distribution partners include browser providers, mobile carriers, original equipment manufacturers, and software developers; and \u25e6 amounts paid to Google Network partners primarily for ads displayed on their properties. \u2022 Other cost of revenues primarily includes: \u25e6 compensation expense related to our data centers and other operations such as content review and customer and product support; \u25e6 content acquisition costs, which are payments to content providers from whom we license video and other content for distribution on YouTube and Google Play (we pay fees to these content providers based on revenues generated or a flat fee); \u25e6 depreciation expense related to our technical infrastructure; and \u25e6 inventory and other costs related to the devices we sell. TAC as a percentage of revenues generated from ads placed on Google Network properties are significantly higher than TAC as a percentage of revenues generated from ads placed on Google Search & other properties, because most of the advertiser revenues from ads served on Google Network properties are paid as TAC to our Google Network partners. Operating Expenses Operating expenses are generally incurred during our normal course of business, which we categorize as either R&D, sales and marketing, or general and administrative. The main components of our R&D expenses are: \u2022 compensation expenses for engineering and technical employees responsible for R&D related to our existing and new products and services; \u2022 depreciation; and \u2022 third-party services fees primarily relating to consulting and outsourced services in support of our engineering and product development efforts. The main components of our sales and marketing expenses are: \u2022 compensation expenses for employees engaged in sales and marketing, sales support, and certain customer service functions; and \u2022 spending relating to our advertising and promotional activities in support of our products and services. The main components of our general and administrative expenses are: \u2022 compensation expenses for employees in finance, human resources, information technology, legal, and other administrative support functions; \u2022 expenses relating to legal matters, including certain fines and settlements; and \u2022 third-party services fees, including audit, consulting, outside legal, and other outsourced administrative services. 31",
-        "metadata": {
-            "document": "goog-10-q-q1-2024.pdf",
-            "page_number": "31",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -275,6 +265,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2024.pdf",
             "page_number": "36",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -284,6 +275,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2024.pdf",
             "page_number": "36",
+            "chunk_index": 1,
             "page_section": "income_statement"
         }
     },
@@ -293,6 +285,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2025.pdf",
             "page_number": "6",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -302,6 +295,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2025.pdf",
             "page_number": "7",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -311,6 +305,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2025.pdf",
             "page_number": "39",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -320,6 +315,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2025.pdf",
             "page_number": "39",
+            "chunk_index": 1,
             "page_section": "income_statement"
         }
     },
@@ -329,6 +325,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2022.pdf",
             "page_number": "6",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -338,6 +335,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2022.pdf",
             "page_number": "7",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -347,6 +345,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2022.pdf",
             "page_number": "24",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -356,6 +355,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2022.pdf",
             "page_number": "35",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -365,6 +365,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2022.pdf",
             "page_number": "35",
+            "chunk_index": 1,
             "page_section": "income_statement"
         }
     },
@@ -374,6 +375,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2022.pdf",
             "page_number": "40",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -383,6 +385,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2022.pdf",
             "page_number": "40",
+            "chunk_index": 1,
             "page_section": "income_statement"
         }
     },
@@ -392,6 +395,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2023.pdf",
             "page_number": "6",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -401,6 +405,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2023.pdf",
             "page_number": "7",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -410,6 +415,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2023.pdf",
             "page_number": "19",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -419,6 +425,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2023.pdf",
             "page_number": "23",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -428,6 +435,17 @@
         "metadata": {
             "document": "goog-10-q-q2-2023.pdf",
             "page_number": "24",
+            "chunk_index": 0,
+            "page_section": "income_statement"
+        }
+    },
+    {
+        "id": "goog-10-q-q2-2023.pdf_page_35_chunk_0",
+        "text": "Table of Contents Alphabet Inc. Cost of Revenues Cost of revenues is comprised of TAC and other costs of revenues. \u2022 TAC includes: \u25e6 Amounts paid to our distribution partners who make available our search access points and services. Our distribution partners include browser providers, mobile carriers, original equipment manufacturers, and software developers. \u25e6 Amounts paid to Google Network partners primarily for ads displayed on their properties. \u2022 Other cost of revenues includes: \u25e6 Content acquisition costs, which are payments to content providers from whom we license video and other content for distribution on YouTube and Google Play (we pay fees to these content providers based on revenues generated or a flat fee). \u25e6 Expenses associated with our data centers (including bandwidth, compensation expenses, depreciation, energy, and other equipment costs) as well as other operations costs (such as content review as well as customer and product support costs). \u25e6 Inventory and other costs related to the hardware we sell. TAC as a percentage of revenues generated from ads placed on Google Network properties are significantly higher than TAC as a percentage of revenues generated from ads placed on Google Search & other properties, because most of the advertiser revenues from ads served on Google Network properties are paid as TAC to our Google Network partners. Operating Expenses Operating expenses are generally incurred during our normal course of business, which we categorize as either R&D, sales and marketing, or general and administrative. The main components of our R&D expenses are: \u2022 compensation expenses for engineering and technical employees responsible for R&D related to our existing and new products and services; \u2022 depreciation; and \u2022 third-party services fees primarily relating to consulting and outsourced services in support of our engineering and product development efforts. The main components of our sales and marketing expenses are: \u2022 compensation expenses for employees engaged in sales and marketing, sales support, and certain customer service functions; and \u2022 spending relating to our advertising and promotional activities in support of our products and services. The main components of our general and administrative expenses are: \u2022 compensation expenses for employees in finance, human resources, information technology, legal, and other administrative support functions; \u2022 expenses relating to legal matters, including fines and settlements; and \u2022 third-party services fees, including audit, consulting, outside legal, and other outsourced administrative services. Other Income (Expense), Net Other income (expense), net primarily consists of interest income (expense), the effect of foreign currency exchange gains (losses), net gains (losses) and impairment on our marketable and non-marketable securities, performance fees, and income (loss) and impairment from our equity method investments. For additional details, including how we account for our investments and factors that can drive fluctuations in the value of our investments, see Note 1 of the Notes to Consolidated Financial Statements included in Part II, Item 8 and Item 7A, \u201cQuantitative and Qualitative Disclosures About Market Risk\u201d in our Annual Report on Form 10-K for 35",
+        "metadata": {
+            "document": "goog-10-q-q2-2023.pdf",
+            "page_number": "35",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -437,6 +455,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2023.pdf",
             "page_number": "42",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -446,6 +465,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2023.pdf",
             "page_number": "42",
+            "chunk_index": 1,
             "page_section": "income_statement"
         }
     },
@@ -455,6 +475,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2024.pdf",
             "page_number": "6",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -464,6 +485,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2024.pdf",
             "page_number": "7",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -473,6 +495,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2024.pdf",
             "page_number": "19",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -482,6 +505,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2024.pdf",
             "page_number": "40",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -491,6 +515,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2024.pdf",
             "page_number": "40",
+            "chunk_index": 1,
             "page_section": "income_statement"
         }
     },
@@ -500,6 +525,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2025.pdf",
             "page_number": "7",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -509,6 +535,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2025.pdf",
             "page_number": "8",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -518,6 +545,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2025.pdf",
             "page_number": "20",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -527,6 +555,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2025.pdf",
             "page_number": "26",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -536,24 +565,27 @@
         "metadata": {
             "document": "goog-10-q-q2-2025.pdf",
             "page_number": "33",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
     {
-        "id": "goog-10-q-q2-2025.pdf_page_47_chunk_0",
-        "text": "Other Bets operating loss increased $112 million and $318 million from the three and six months ended June 30, 2024 to the three and six months ended June 30, 2025, respectively. The increase in operating loss was due to a combination of factors, none of which were individually significant. Other Income (Expense), Net The following table presents OI&E (in millions): Three Months Ended Six Months Ended June 30, June 30, 2024 2025 2024 2025 Interest income $ 1,090 $ 1,050 $ 2,151 $ 2,051 Interest expense (67) (261) (161) (295) Foreign currency exchange gain (loss), net (173) (69) (411) (175) Gain (loss) on debt securities, net (310) 165 (772) 367 Gain (loss) on equity securities, net (714) 1,286 1,529 11,044 Performance fees 128 (83) 232 (123) Income (loss) and impairment from equity method investments, net 32 419 6 397 Other 140 155 395 579 Other income (expense), net $ 126 $ 2,662 $ 2,969 $ 13,845 OI&E, net increased $2.5 billion from the three months ended June 30, 2024 to the three months ended June 30, 2025 primarily due to an increase in net gains on equity and debt securities. The increase was primarily due to an increase in net unrealized gains on equity securities resulting from market-driven changes and fair value adjustments related to observable transactions, and increased net gains on debt securities due to lower market interest rates. OI&E, net increased $10.9 billion from the six months ended June 30, 2024 to the six months ended June 30, 2025. The increase was primarily due to an increase in net unrealized gains on equity securities resulting from fair value adjustments related to observable transactions and market-driven changes. For additional information, see Note 3 and Note 7 of the Notes to Consolidated Financial Statements included in Item 1 of this Quarterly Report on Form 10-Q. Provision for Income Taxes The following table presents provision for income taxes (in millions, except effective tax rate): Three Months Ended Six Months Ended June 30, June 30, 2024 2025 2024 2025 Income before provision for income taxes $ 27,551 $ 33,933 $ 55,866 $ 75,722 Provision for income taxes $ 3,932 $ 5,737 $ 8,585 $ 12,986 Effective tax rate 14.3 % 16.9 % 15.4 % 17.1 % The effective tax rate increased from the three months ended June 30, 2024 to the three months ended June 30, 2025. This increase was primarily due to a decrease in SBC-related tax benefits, and a non-deductible legal settlement in the U.S., partially offset by changes in prior period tax positions. The effective tax rate increased from the six months ended June 30, 2024 to the six months ended June 30, 2025. This increase was primarily due to a decrease in SBC-related tax benefits, lower effective tax rate impacts in the U.S. federal Foreign Derived Intangible Income tax deduction, and a non-deductible legal settlement in the U.S., partially offset by changes in prior period tax positions. On July 4, 2025, the OBBBA was signed into law. This",
+        "id": "goog-10-q-q2-2025.pdf_page_45_chunk_0",
+        "text": "Cost of Revenues The following table presents cost of revenues, including TAC (in millions, except percentages): Three Months Ended Six Months Ended June 30, June 30, 2024 2025 2024 2025 TAC $ 13,387 $ 14,705 $ 26,333 $ 28,453 Other cost of revenues 22,120 24,334 42,886 46,947 Total cost of revenues $ 35,507 $ 39,039 $ 69,219 $ 75,400 Total cost of revenues as a percentage of revenues 42 % 41 % 42 % 40 % Cost of revenues increased $3.5 billion from the three months ended June 30, 2024 to the three months ended June 30, 2025 due to an increase in other cost of revenues and TAC of $2.2 billion and $1.3 billion, respectively. Cost of revenues increased $6.2 billion from the six months ended June 30, 2024 to the six months ended June 30, 2025 due to an increase in other cost of revenues and TAC of $4.1 billion and $2.1 billion, respectively. The increase in TAC from the three and six months ended June 30, 2024 to the three and six months ended June 30, 2025 was largely due to an increase in TAC paid to distribution partners, primarily driven by growth in revenues subject to TAC. The TAC rate decreased from 20.7% to 20.6% from the three months ended June 30, 2024 to the three months ended June 30, 2025 and decreased from 20.9% to 20.6% from the six months ended June 30, 2024 to the six months ended June 30, 2025, primarily due to a revenue mix shift from Google Network properties to Google Search & other properties partially offset by an increase in the Google Search & other TAC rate. The TAC rate on Google Search & other revenues increased from the three and six months ended June 30, 2024 to the three and six months ended June 30, 2025 primarily due to increases related to mobile searches. The TAC rate on Google Network revenues was substantially consistent from the three months ended June 30, 2024 to the three months ended June 30, 2025 and decreased from the six months ended June 30, 2024 to the six months ended June 30, 2025 due to a combination of factors, none of which were individually significant. The increase in other cost of revenues from the three and six months ended June 30, 2024 to the three and six months ended June 30, 2025 was primarily due to increases in content acquisition costs, largely for YouTube, depreciation expense, and certain app and platform distribution costs. Research and Development The following table presents R&D expenses (in millions, except percentages): Three Months Ended Six Months Ended June 30, June 30, 2024 2025 2024 2025 Research and development expenses $ 11,860 $ 13,808 $ 23,763 $ 27,364 Research and development expenses as a percentage of revenues 14 % 14 % 14 % 15 % R&D expenses increased $1.9 billion and $3.6 billion from the three and six months ended June 30, 2024 to the three and six months ended",
         "metadata": {
             "document": "goog-10-q-q2-2025.pdf",
-            "page_number": "47",
+            "page_number": "45",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
     {
-        "id": "goog-10-q-q2-2025.pdf_page_47_chunk_1",
-        "text": "legislation includes changes to U.S. federal tax law, which may be subject to further clarification and the issuance of interpretive guidance. We are assessing the legislation and its effect on our consolidated financial statements, which we expect to begin reflecting in the three month period ended September 30, 2025. The Organization for Economic Cooperation and Development is coordinating negotiations among more than 140 countries with the goal of achieving consensus around substantial changes to international tax policies, 47",
+        "id": "goog-10-q-q2-2025.pdf_page_45_chunk_1",
+        "text": "June 30, 2025, primarily driven by increases in employee compensation expenses of $851 million and $1.5 billion as well as depreciation expense of $575 million and $1.1 billion, respectively. Sales and Marketing The following table presents sales and marketing expenses (in millions, except percentages): Three Months Ended Six Months Ended June 30, June 30, 2024 2025 2024 2025 Sales and marketing expenses $ 6,792 $ 7,101 $ 13,218 $ 13,273 Sales and marketing expenses as a percentage of revenues 8 % 7 % 8 % 7 % Sales and marketing expenses increased $309 million from the three months ended June 30, 2024 to the three months ended June 30, 2025, primarily driven by an increase in advertising and promotional activities of $305 million. 45",
         "metadata": {
             "document": "goog-10-q-q2-2025.pdf",
-            "page_number": "47",
+            "page_number": "45",
+            "chunk_index": 1,
             "page_section": "income_statement"
         }
     },
@@ -563,6 +595,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2022.pdf",
             "page_number": "6",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -572,6 +605,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2022.pdf",
             "page_number": "7",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -581,6 +615,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2022.pdf",
             "page_number": "24",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -590,6 +625,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2022.pdf",
             "page_number": "36",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -599,6 +635,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2022.pdf",
             "page_number": "36",
+            "chunk_index": 1,
             "page_section": "income_statement"
         }
     },
@@ -608,6 +645,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2023.pdf",
             "page_number": "6",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -617,6 +655,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2023.pdf",
             "page_number": "7",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -626,6 +665,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2023.pdf",
             "page_number": "19",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -635,6 +675,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2023.pdf",
             "page_number": "23",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -644,6 +685,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2023.pdf",
             "page_number": "36",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -653,6 +695,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2024.pdf",
             "page_number": "6",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -662,6 +705,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2024.pdf",
             "page_number": "7",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -671,6 +715,17 @@
         "metadata": {
             "document": "goog-10-q-q3-2024.pdf",
             "page_number": "19",
+            "chunk_index": 0,
+            "page_section": "income_statement"
+        }
+    },
+    {
+        "id": "goog-10-q-q3-2024.pdf_page_24_chunk_0",
+        "text": "Unrealized Gains Unrealized Foreign (Losses) on Gains Currency Available-for- (Losses) on Translation Sale Cash Flow Adjustments Investments Hedges Total Balance as of December 31, 2023 $ (3,407) $ (965) $ (30) $ (4,402) Other comprehensive income (loss) before reclassifications 234 755 (228) 761 Amounts excluded from the assessment of hedge effectiveness recorded in AOCI 0 0 (52) (52) Amounts reclassified from AOCI 0 629 (164) 465 Other comprehensive income (loss) 234 1,384 (444) 1,174 Balance as of September 30, 2024 $ (3,173) $ 419 $ (474) $ (3,228) The effects on net income of amounts reclassified from AOCI were as follows (in millions): Three Months Ended Nine Months Ended September 30, September 30, AOCI Components Location 2023 2024 2023 2024 Unrealized gains (losses) on available-for-sale investments Other income (expense), net $ (327) $ (113) $ (955) $ (807) Benefit (provision) for income taxes 72 25 210 178 Net of income tax (255) (88) (745) (629) Unrealized gains (losses) on cash flow hedges Foreign exchange contracts Revenue (15) (6) 71 174 Interest rate contracts Other income (expense), net 2 0 5 1 Benefit (provision) for income taxes 16 4 9 (11) Net of income tax 3 (2) 85 164 Total amount reclassified, net of income tax $ (252) $ (90) $ (660) $ (465) Other Income (Expense), Net Components of OI&E were as follows (in millions): Three Months Ended Nine Months Ended September 30, September 30, 2023 2024 2023 2024 Interest income $ 1,066 $ 1,243 $ 2,755 $ 3,394 Interest expense(1) (116) (54) (239) (215) Foreign currency exchange gain (loss), net (311) 23 (789) (388) Gain (loss) on debt securities, net (503) 160 (1,100) (612) Gain (loss) on equity securities, net (366) 1,821 (194) 3,350 Performance fees 179 29 302 261 Income (loss) and impairment from equity method investments, net (215) (107) (372) (101) Other 120 70 346 465 Other income (expense), net $ (146) $ 3,185 $ 709 $ 6,154 (1) Interest expense is net of interest capitalized of $47 million and $57 million for the three months ended September 30, 2023 and 2024, respectively, and $134 million and $143 million for the nine months ended September 30, 2023 and 2024, respectively. 24",
+        "metadata": {
+            "document": "goog-10-q-q3-2024.pdf",
+            "page_number": "24",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     },
@@ -680,15 +735,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2024.pdf",
             "page_number": "30",
-            "page_section": "income_statement"
-        }
-    },
-    {
-        "id": "goog-10-q-q3-2024.pdf_page_35_chunk_0",
-        "text": "Costs and Expenses Our cost structure has two components: cost of revenues and operating expenses. Our operating expenses include costs related to R&D, sales and marketing, and general and administrative functions. Certain of our costs and expenses, including those associated with the operation of our technical infrastructure as well as components of our operating expenses, are generally less variable in nature and may not correlate to changes in revenue. Additionally, fluctuations in compensation expenses may not directly correlate with changes in headcount, in particular due to annual SBC awards that generally vest over four years. Cost of Revenues Cost of revenues is comprised of TAC and other costs of revenues. \u2022 TAC includes: \u25e6 amounts paid to our distribution partners who make available our search access points and services. Our distribution partners include browser providers, mobile carriers, original equipment manufacturers, and software developers; and \u25e6 amounts paid to Google Network partners primarily for ads displayed on their properties. \u2022 Other cost of revenues primarily includes: \u25e6 compensation expense related to our technical infrastructure and other operations such as content review and customer and product support; \u25e6 content acquisition costs, which are payments to content providers from whom we license video and other content for distribution on YouTube and Google Play (we pay fees to these content providers based on revenues generated or a flat fee); \u25e6 depreciation expense related to our technical infrastructure; \u25e6 inventory and other costs related to the devices we sell; and \u25e6 other technical infrastructure operations costs, including bandwidth, energy, and equipment costs. TAC as a percentage of revenues generated from ads placed on Google Network properties are significantly higher than TAC as a percentage of revenues generated from ads placed on Google Search & other properties, because most of the advertiser revenues from ads served on Google Network properties are paid as TAC to our Google Network partners. Operating Expenses Operating expenses are generally incurred during our normal course of business, which we categorize as either R&D, sales and marketing, or general and administrative. The main components of our R&D expenses are: \u2022 compensation expenses for engineering and technical employees responsible for R&D related to our existing and new products and services; \u2022 depreciation; and \u2022 third-party services fees primarily relating to consulting and outsourced services in support of our engineering and product development efforts. The main components of our sales and marketing expenses are: \u2022 compensation expenses for employees engaged in sales and marketing, sales support, and certain customer service functions; and \u2022 spending relating to our advertising and promotional activities in support of our products and services. The main components of our general and administrative expenses are: \u2022 compensation expenses for employees in finance, human resources, information technology, legal, and other administrative support functions; \u2022 expenses relating to legal matters, including certain fines and settlements; and \u2022 third-party services fees, including audit, consulting, outside legal, and other outsourced administrative services. 35",
-        "metadata": {
-            "document": "goog-10-q-q3-2024.pdf",
-            "page_number": "35",
+            "chunk_index": 0,
             "page_section": "income_statement"
         }
     }

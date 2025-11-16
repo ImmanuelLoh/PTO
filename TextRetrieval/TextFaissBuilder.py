@@ -1,10 +1,22 @@
-from config import DATA_DIR , CHUNK_SIZE 
+
 import json 
 from collections import defaultdict
-from Embedding import embed_text_passage 
+
 import numpy as np 
 import faiss 
 import os
+
+try:
+    from Embedding import embed_text_passage 
+except ImportError: 
+    from TextRetrieval.Embedding import embed_text_passage 
+
+try:
+    from config import DATA_DIR , CHUNK_SIZE 
+except ImportError: 
+    from TextRetrieval.config import DATA_DIR , CHUNK_SIZE 
+
+
 
 """
 Where you chunk the text from the json file (from textExtractor) into smaller pieces for embedding and indexing.
@@ -43,6 +55,7 @@ def create_chunks():
                     "metadata": {
                         "document": fileDoc,
                         "page_number": page_num, 
+                        "chunk_index": i // CHUNK_SIZE, 
                         "page_section": page_section 
                         }
                 })

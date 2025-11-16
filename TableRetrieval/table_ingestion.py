@@ -8,8 +8,6 @@ from pathlib import Path
 import time
 import faiss, json
 from openai import OpenAI
-from textwrap import shorten
-from tabulate import tabulate
 
 # Section classification helper
 FINANCIAL_SECTIONS = {
@@ -248,7 +246,7 @@ def extract_and_chunk_tables(pdf_path, pages=None):
         source_name = Path(table_entry['source']).stem
         content, section, terms = table_to_markdown(table_entry)
         chunk = {
-            'id': f"{source_name}_p{table_entry['page']}_t{table_entry['table_num']}",  # ← ADD THIS LINE
+            'id': f"{source_name}_p{table_entry['page']}_t{table_entry['table_num']}",
             'content': content,
             'metadata': {
                 'source': source_name,
@@ -262,6 +260,10 @@ def extract_and_chunk_tables(pdf_path, pages=None):
         chunks.append(chunk)
 
     return chunks
+
+# =============================================================================
+# EMBEDDINGS + FAISS
+# =============================================================================
 
 def create_embeddings(chunks, model="text-embedding-3-small"):
     """
@@ -301,7 +303,6 @@ def create_embeddings(chunks, model="text-embedding-3-small"):
     print(f"Created {len(chunks)} embeddings\n")
     return chunks
 
-# FAISS
 def store_in_faiss(embedded_chunks, faiss_index_path="faiss_table_index"):
     """
     Store embedded chunks in a FAISS index.
@@ -309,9 +310,6 @@ def store_in_faiss(embedded_chunks, faiss_index_path="faiss_table_index"):
     # Extract embeddings
     dimension = len(embedded_chunks[0]['embedding'])
     embeddings = np.array([chunk['embedding'] for chunk in embedded_chunks]).astype('float32')
-
-    # # Normalize embeddings for cosine similarity
-    # faiss.normalize_L2(embeddings)
 
     # Create inner product index (cosine similarity after normalization)
     index = faiss.IndexFlatIP(dimension)
@@ -357,296 +355,85 @@ def load_metadata_mapping(mapping_path="faiss_table_metadata.json"):
     print(f"Loaded metadata mapping from '{mapping_path}' with {len(metadata_mapping)} entries\n")
     return metadata_mapping
 
-def pretty_print_results(results, show_table=False):
-    table_data = []
-    for r in results:
-        meta = r["metadata"]
-        chunk_type = meta.get("type", "unknown")
-        section = meta.get("section", "unknown")
-        source = meta.get("source", "unknown")
-        page = meta.get("page", "?")
-        table_num = meta.get("table_num", "?")
-        score = f"{r['score']:.3f}"
-        
-        # shorten text for preview
-        preview = shorten(r['text'], width=120, placeholder="…")
-        table_data.append([r['rank'], score, chunk_type, section, source, page, table_num, preview])
-    headers = ["Rank", "Score", "Type", "Section", "Source", "Page", "Table Number", "Preview"]
-    print(tabulate(table_data, headers=headers, tablefmt="github"))
-
-    # print markdown tables
-    if show_table:
-        for r in results:
-            if r["metadata"].get("type") == "financial_table" and r.get("markdown"):  # Changed "chunk_type" to "type"
-                print(f"\nTable {r['metadata']['table_num']} from {r['metadata']['source']} (Page {r['metadata']['page']}):\n")
-                print(r["markdown"])
-                print("\n" + "-"*80 + "\n")
-
-def search_tables(query, faiss_index_path, metadata_path, k=5):
+def stage1_extract_and_save():
     """
-    Search for tables relevant to the query using FAISS index.
-
-    Args:
-        query_text: Natural language query
-        faiss_index_path: Path to FAISS index
-        metadata_path: Path to chunks metadata JSON
-        top_k: Number of results to return
-    
-    Returns:
-        List of results with chunk data and similarity scores
+    Extract all tables from PDFs and save to JSON.
+    NO embeddings created yet - just pure extraction.
     """
-    client = OpenAI()
-
-    # Load FAISS index and metadata
-    index = load_faiss_index(faiss_index_path)
-    chunks_metadata = load_metadata_mapping(metadata_path)
-
-    # Create query embedding
-    print(f"Searching for: {query}\n")
-    response = client.embeddings.create(
-        model="text-embedding-3-small",
-        input=query
-    )
-    query_embedding = np.array(response.data[0].embedding).astype('float32')
-
-    # Search FAISS
-    distances, indices = index.search(query_embedding.reshape(1, -1), k)
-
-    results = []
-    for i, (idx, dist) in enumerate(zip(indices[0], distances[0])):
-        results.append({
-            'rank': i + 1,
-            'chunk': chunks_metadata[idx],
-            'similarity_score': float(dist)
-        })
-    
-    print(f"Found {len(results)} results\n")
-    return results
-
-def display_search_results(results):
-    formatted_results = []
-    for r in results:
-        chunk = r['chunk']
-        formatted_results.append({
-            'rank': r['rank'],
-            'score': r['similarity_score'],
-            'text': chunk['content'],
-            'metadata': chunk['metadata'],
-            'markdown': chunk['content'] if chunk['metadata'].get('type') == 'financial_table' else None
-        })
-    
-    pretty_print_results(formatted_results, show_table=True)
-
-def answer_query_with_rag(query, faiss_index_path, metadata_path, k=3):
-    """
-    Full RAG: Retrieve relevant tables + Generate answer with LLM
-    """
-    client = OpenAI()
-    
-    # 1. RETRIEVE relevant tables
-    results = search_tables(query, faiss_index_path, metadata_path, k)
-    
-    # 2. AUGMENT - Build context from retrieved tables
-    context = "\n\n".join([
-        f"Table from {r['chunk']['metadata']['source']} (Page {r['chunk']['metadata']['page']}):\n{r['chunk']['content']}"
-        for r in results
-    ])
-    
-    # 3. GENERATE - Use LLM to answer based on context
-    response = client.chat.completions.create(
-        model="gpt-4o",
-        messages=[
-            {"role": "system", "content": 
-                "You are a financial analyst assistant. Answer questions based ONLY on the provided financial tables. "
-                "If the requested information is not in the tables, clearly state that the data is unavailable. "
-                "Always cite which table and page your answer comes from."
-                    },
-            {"role": "user", "content": f"Context:\n{context}\n\nQuestion: {query}\n\nAnswer:"}
-        ], 
-        temperature=0.2  # Lower temperature for more consistent financial analysis
-    )
-    
-    return response.choices[0].message.content
-
-def run_benchmark_queries(faiss_index_path, metadata_path):
-    """
-    Run standardized financial analysis queries.
-    """
-    client = OpenAI()
-    
-    queries = {
-        "gross_margin": {
-            "query": "Report the Gross Margin over the last 5 quarters, with values.",
-            "formula": "Gross Margin % = (Gross Profit ÷ Revenue) × 100\nGross Profit = Revenue - Cost of Revenues"
-        },
-        "operating_expenses_yoy": {
-            "query": "Show Operating Expenses for the last 3 fiscal years, year-on-year comparison.",
-            "formula": "Operating Expenses = R&D + Sales & Marketing + General & Administrative"
-        },
-        "operating_efficiency": {
-            "query": "Calculate the Operating Efficiency Ratio (Opex ÷ Operating Income) for the last 3 fiscal years, showing the working.",
-            "formula": "Operating Efficiency Ratio = Operating Expenses ÷ Operating Income × 100\nOperating Income = Gross Profit - Operating Expenses"
-        },
-        "net_interest_margin": {
-            "query": "Report Net Interest Margin (NIM) trend over last 5 quarters, values and 1-2 lines of explanation.",
-            "formula": "For banks only"
-        },
-        "cost_to_income": {
-            "query": "Show Cost-to-Income Ratio (CTI) for last 3 years; show working + implications.",
-            "formula": "Expected: Operating Income & Opex lines"
-        }
-    }
-    
-    results = {}
-    
-    for name, info in queries.items():
-        print("\n" + "="*80)
-        print(f"BENCHMARK: {name.replace('_', ' ').title()}")
-        print("="*80)
-        print(f"Formula: {info['formula']}\n")
-        
-        # Retrieve relevant tables
-        search_results = search_tables(
-            info['query'],
-            faiss_index_path,
-            metadata_path,
-            k=15
-        )
-        
-        # Build context
-        context = "\n\n".join([
-            f"Table from {r['chunk']['metadata']['source']} (Page {r['chunk']['metadata']['page']}):\n{r['chunk']['content']}"
-            for r in search_results
-        ])
-        
-        # Generate answer with enhanced prompt
-        response = client.chat.completions.create(
-            model="gpt-4o",
-            messages=[
-                {
-                    "role": "system", 
-                    "content": (
-                        "You are a financial analyst assistant. Analyze the provided financial tables and:\n"
-                        "1. Extract the requested metrics\n"
-                        "2. Show calculations and formulas used\n"
-                        "3. Present data in table format when appropriate\n"
-                        "4. Provide brief analysis and insights\n"
-                        "5. Cite which tables you used\n"
-                        "If data is unavailable, clearly state what's missing."
-                    )
-                },
-                {
-                    "role": "user", 
-                    "content": f"Formula/Context:\n{info['formula']}\n\nFinancial Tables:\n{context}\n\nQuery: {info['query']}\n\nProvide detailed analysis with calculations:"
-                }
-            ],
-            temperature=0.2  # Lower temperature for more consistent financial analysis
-        )
-        
-        answer = response.choices[0].message.content
-        results[name] = {
-            "query": info['query'],
-            "answer": answer,
-            "sources": [r['chunk']['metadata']['source'] for r in search_results[:3]]
-        }
-        
-        print(f"Query: {info['query']}\n")
-        print(f"Retrieved {len(search_results)} tables")
-        print(f"Answer:\n{answer}\n")
-        print(f"Sources: {', '.join(results[name]['sources'])}")
-    
-    return results
-
-if __name__ == "__main__":   
     load_dotenv()
     
-    # Check if key was loaded
-    key = os.getenv('OPENAI_API_KEY')
-
     COMPANY_NAME = "Google"
     DATA_DIR = "00-data"
-
-    # ============================================================================
-    # STEP 1: INGESTION - Extract tables and create embeddings
-    # ============================================================================
-    # table_chunks = []
-
-    # for folder in ["annuals", "quarterlies"]:
-    #     files = glob.glob(f"{DATA_DIR}/{folder}/*.pdf")
-    #     print(f"{folder}: {len(files)} files")
-
-    #     for pdf_file in files:
-    #         print(f"Processing: {pdf_file}")
-    #         chunks = extract_and_chunk_tables(pdf_file)
-    #         table_chunks.extend(chunks)
-
-    # print(f"\nTotal chunks: {len(table_chunks)}")
-
-    # # Create embeddings for all chunks
-    # embedded_table_chunks = create_embeddings(table_chunks)
-
-    # # Store in FAISS and save metadata mapping
-    # faiss_index = store_in_faiss(
-    #     embedded_table_chunks, 
-    #     faiss_index_path=f"{DATA_DIR}/faiss_table_index"
-    #     )
-    # save_metadata_mapping(
-    #     embedded_table_chunks, 
-    #     mapping_path=f"{DATA_DIR}/faiss_table_metadata.json"
-    #     )
-
-    # # Example search
-    # print("\n" + "="*80)
-    # print("EXAMPLE 1: Semantic Search (Retrieval Only)")
-    # print("="*80)
-    # # query1 = "operating expenses and revenue growth for 2024"
-    # query1 = "What were the operating expenses in Q3 2024?"
-    # results = search_tables(
-    #     query1,
-    #     faiss_index_path=f"{DATA_DIR}/faiss_table_index",
-    #     metadata_path=f"{DATA_DIR}/faiss_table_metadata.json",
-    #     k=5
-    # )
-    # display_search_results(results)
-
-    # # Full RAG with LLM answer
-    # print("\n" + "="*80)
-    # print("EXAMPLE 2: Full RAG (Retrieval + Generation)")
-    # print("="*80)
-    # query2 = "What were the operating expenses in Q3 2024?"
-    # answer = answer_query_with_rag(
-    #     query2,
-    #     faiss_index_path=f"{DATA_DIR}/faiss_table_index",
-    #     metadata_path=f"{DATA_DIR}/faiss_table_metadata.json",
-    #     k=3
-    # )
-    # print(f"\nQuery: {query2}")
-    # print(f"\nAnswer:\n{answer}")
-
-    # ============================================================================
-    # STEP 2: BENCHMARK QUERIES - Run standardized financial analysis
-    # ============================================================================
-    print("\n" + "="*80)
-    print("RUNNING BENCHMARK QUERIES")
+    
     print("="*80)
+    print("STAGE 1: EXTRACTING TABLES FROM PDFs")
+    print("="*80)
+    print()
+    
+    table_chunks = []
+    
+    for folder in ["annuals", "quarterlies"]:
+        files = glob.glob(f"{DATA_DIR}/{folder}/*.pdf")
+        print(f"\n{folder}: {len(files)} files")
+        
+        for pdf_file in files:
+            print(f"  Processing: {pdf_file}")
+            chunks = extract_and_chunk_tables(pdf_file)
+            table_chunks.extend(chunks)
+            print(f"    → Extracted {len(chunks)} tables")
+    
+    print(f"\n{'='*80}")
+    print(f"TOTAL: {len(table_chunks)} table chunks extracted")
+    print(f"{'='*80}\n")
+    
+    # Save to JSON for inspection
+    output_file = f"{DATA_DIR}/extracted_tables.json"
+    
+    print(f"Saving to: {output_file}")
+    with open(output_file, 'w') as f:
+        json.dump(table_chunks, f, indent=2)
+    
+    return output_file, len(table_chunks)
 
-    benchmark_results = run_benchmark_queries(
-        faiss_index_path=f"{DATA_DIR}/faiss_table_index",
-        metadata_path=f"{DATA_DIR}/faiss_table_metadata.json"
+def stage2_create_embeddings(json_file):
+    """
+    Load extracted tables from JSON and create embeddings.
+    This is where you spend OpenAI tokens.
+    """
+    load_dotenv()
+    
+    DATA_DIR = "00-data"
+    
+    print("="*80)
+    print("STAGE 2: CREATING EMBEDDINGS")
+    print("="*80)
+    print()
+    
+    # Load the extracted tables
+    print(f"Loading: {json_file}")
+    with open(json_file, 'r') as f:
+        table_chunks = json.load(f)
+    
+    print(f"Loaded {len(table_chunks)} tables")
+    
+    print("\nCreating embeddings...")
+    embedded_chunks = create_embeddings(table_chunks)
+    
+    print("\nStoring in FAISS...")
+    faiss_index = store_in_faiss(
+        embedded_chunks,
+        faiss_index_path=f"{DATA_DIR}/faiss_table_index"
     )
     
-    # Optionally save results
-    with open(f"{DATA_DIR}/benchmark_results.json", 'w') as f:
-        # Remove complex objects for JSON serialization
-        simplified_results = {
-            k: {
-                "query": v["query"], 
-                "answer": v["answer"], 
-                "sources": v["sources"],
-                # "num_tables": v["num_tables_retrieved"]
-            }
-            for k, v in benchmark_results.items()
-        }
-        json.dump(simplified_results, f, indent=2)
+    print("\nSaving metadata...")
+    save_metadata_mapping(
+        embedded_chunks,
+        mapping_path=f"{DATA_DIR}/faiss_table_metadata.json"
+    )
     
-    print("\nBenchmark results saved to benchmark_results.json")
+    print(f"\n{'='*80}")
+    print("COMPLETE!")
+    print("="*80)
+    print(f"FAISS index: {DATA_DIR}/faiss_table_index")
+    print(f"Metadata: {DATA_DIR}/faiss_table_metadata.json")
+    print()

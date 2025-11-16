@@ -1,6 +1,16 @@
+import asyncio
 import os 
 import json 
-from config import DATA_DIR 
+try:
+    from config import DATA_DIR 
+except ImportError: 
+    from TextRetrieval.config import DATA_DIR 
+
+try: 
+    from AgentHelpers import extract_financial_values_async
+except ImportError: 
+    from TextRetrieval.AgentHelpers import  extract_financial_values_async 
+
 
 def generate_test_log_path_name(base_path: str): 
     # create the directory if not exist 
@@ -12,32 +22,49 @@ def generate_test_log_path_name(base_path: str):
     return f"{base_path}/test_{next_index}.json"
 
 
-def format_context(results) -> str :
-    """
-    Format retrieval results (from documents or slides) into a readable text context.
-    Automatically detects the source type from metadata.
-    """
-        
-    parts = []
+
+async def format_context_async(results):
+    output = {
+        "raw_context": [],
+        "extracted_values": []
+    }
+
+    tasks = []
+
     for section_data in results:
-        section = section_data.get("section", "unknown") 
-        parts.append(f"## Section: {section}\n") 
+        print(f"[INFO] Formatting section: {section_data.get('section','unknown')}")
+
         for r in section_data.get("ranking", []):
             meta = r["metadata"]
             text = r["text"].strip()
 
-            # Detect the type of source (document vs slide)
-            if "document" in meta:
-                doc = meta.get("document", "unknown")
-                page = meta.get("page_number", "?")
-                section = meta.get("page_section", "")
-                header = f"[{doc}, page {page}] {section}".strip()
-            else:
-                header = "[unknown source]"
+            doc = meta.get("document", "unknown")
+            page = meta.get("page_number", "?")
+            chunk_idx = meta.get("chunk_index", None)
+            section = meta.get("page_section", "")
 
-            parts.append(f"{header}\n{text} ")
+            source = f"{doc}, page {page} chunk {chunk_idx} {section}".strip()
 
-    return "\n\n---\n\n".join(parts)
+            # Store raw text
+            output["raw_context"].append({
+                "text": text,
+                "source": source
+            })
+
+            print(f"[DEBUG] scheduling extraction for: {source}")
+            tasks.append(extract_financial_values_async(text, source))
+
+    # Run all scheduled extractions concurrently
+    results_list = await asyncio.gather(*tasks, return_exceptions=False)
+
+    # Collect extracted rows
+    for rows in results_list:
+        output["extracted_values"].extend(rows)
+
+    append_json_entry(f"{DATA_DIR}/logs/text_context_debug.json", output)
+
+    return json.dumps(output, indent=2)
+
 
 
 def log_search_results(query: str, 
@@ -56,3 +83,99 @@ def log_search_results(query: str,
             "expanded_query": expanded_query, 
             "results": results 
         }, f, indent=4)  
+
+    
+def append_json_entry(path, entry):
+    # If file doesn't exist, create it with an empty list
+    if not os.path.exists(path):
+        with open(path, "w") as f:
+            json.dump([entry], f, indent=2)
+        return
+
+    # If file exists, load → append → save
+    with open(path, "r") as f:
+        data = json.load(f)
+
+    if not isinstance(data, list):
+        data = [data]
+
+    data.append(entry)
+
+    with open(path, "w") as f:
+        json.dump(data, f, indent=2)
+
+
+
+
+# def format_context(results) -> str :
+#     """
+#     Format retrieval results (from documents or slides) into a readable text context.
+#     Automatically detects the source type from metadata.
+#     """
+        
+#     parts = []
+#     for section_data in results:
+#         section = section_data.get("section", "unknown") 
+#         parts.append(f"## Section: {section}\n") 
+#         for r in section_data.get("ranking", []):
+#             meta = r["metadata"]
+#             text = r["text"].strip()
+
+#             # Detect the type of source (document vs slide)
+#             if "document" in meta:
+#                 doc = meta.get("document", "unknown")
+#                 page = meta.get("page_number", "?")
+#                 section = meta.get("page_section", "")
+#                 header = f"[{doc}, page {page}] {section}".strip()
+#             else:
+#                 header = "[unknown source]"
+
+#             parts.append(f"{header}\n{text} ")
+
+#     return "\n\n---\n\n".join(parts)
+
+# def format_context(results):
+#     """
+#     Return BOTH:
+#     - raw text chunks with metadata
+#     - structured extracted financial values
+#     """
+
+#     output = {
+#         "raw_context": [],
+#         "extracted_values": []
+#     }
+
+#     for section_data in results:
+#         print (f"[INFO] Formattiing section: {section_data.get('section', 'unknown')}") 
+#         for r in section_data.get("ranking", []):
+#             print (f"[DEBUG] formatting rank {r.get('rank', '?')} with score {r.get('score', '?')}")
+#             meta = r["metadata"]
+#             text = r["text"].strip()
+
+#             # Build source string
+#             if "document" in meta:
+#                 doc = meta.get("document", "unknown")
+#                 page = meta.get("page_number", "?")
+#                 section = meta.get("page_section", "")
+#                 chunk_idx = meta.get("chunk_index", None) 
+#                 source = f"{doc}, page {page} chunk {chunk_idx} {section}".strip()
+#             else:
+#                 source = "unknown source"
+
+#             # --- RAW CONTEXT ---------------------
+#             output["raw_context"].append({
+#                 "text": text,
+#                 "source": source
+#             })
+
+#             # --- EXTRACT STRUCTURED VALUES -------
+#             print(f"[DEBUG] Extracting financial values from source: {source}")
+#             extracted_rows = extract_financial_values(text, source)
+#             output["extracted_values"].extend(extracted_rows)
+    
+#     # temporarily save it as json for debugging 
+#     # append to logs/context_debug.json 
+#     append_json_entry(f"{DATA_DIR}/logs/text_context_debug.json", output)
+
+#     return json.dumps(output, indent=2)

@@ -8,8 +8,16 @@ import collections
 
 from sentence_transformers import util
 
-from Embedding import embed_text_query, embed_text_passage 
-from examples import SECTION_EXAMPLES 
+try:
+    from Embedding import embed_text_query
+except ImportError: 
+    from TextRetrieval.Embedding import embed_text_query 
+    
+try:
+    from examples import SECTION_EXAMPLES 
+except ImportError: 
+    from TextRetrieval.examples import SECTION_EXAMPLES 
+
 
 from TextRetrieval.config import DATA_DIR, annual_files, quarterly_files 
 
@@ -81,10 +89,13 @@ def classify_section_hybrid(text, section_embs):
 
 
 
-def extract_text_from_pdf():
+def extract_text_from_pdf(
+        pdf_path: list[str] = [] 
+):
 
-    
-    pdf_path = annual_files + quarterly_files
+    if not pdf_path: 
+        print ("No PDF paths provided, loading from default annual and quarterly files.") 
+        pdf_path = annual_files + quarterly_files
 
     print(f"Processing {len(pdf_path)} PDFs from all folders")
     print("PDF paths:", pdf_path[:3], "...")

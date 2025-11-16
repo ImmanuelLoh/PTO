@@ -1,10 +1,281 @@
 [
     {
+        "id": "goog-10-k-2022.pdf_page_70_chunk_0",
+        "text": "Table of Contents Alphabet Inc. Long-Term Debt Total outstanding debt is summarized below (in millions, except percentages): As of December 31, Effective Maturity Coupon Rate Interest Rate 2021 2022 Debt 2014-2020 Notes issuances 2024 - 2060 0.45% - 3.38% 0.57% - 3.38% $ 13,000 $ 13,000 Future finance lease payments, net and other (1) 2,086 2,142 Total debt 15,086 15,142 Unamortized discount and debt issuance costs (156) (143) Less: current portion of future finance lease payments, net and other current debt(1)(2) (113) (298) Total long-term debt $ 14,817 $ 14,701 (1) Future finance lease payments are net of imputed interest. (2) Total current portion of long-term debt is included within other accrued expenses and current liabilities. See Note 7 for further details. The notes in the table above are fixed-rate senior unsecured obligations and generally rank equally with each other. We may redeem the notes at any time in whole or in part at specified redemption prices. The effective interest rates are based on proceeds received with interest payable semi-annually. The total estimated fair value of the outstanding notes was approximately $12.4 billion and $9.9 billion as of December 31, 2021 and December 31, 2022, respectively. The fair value was determined based on observable market prices of identical instruments in less active markets and is categorized accordingly as Level 2 in the fair value hierarchy. As of December 31, 2022, the aggregate future principal payments for long-term debt, including finance lease liabilities, for each of the next five years and thereafter were as follows (in millions): 2023 $ 221 2024 1,156 2025 1,159 2026 2,163 2027 1,166 Thereafter 9,447 Total $ 15,312 Credit Facility As of December 31, 2022, we had $10.0 billion of revolving credit facilities, $4.0 billion expiring in April 2023 and $6.0 billion expiring in April 2026. The interest rates for all credit facilities are determined based on a formula using certain market rates, as well as our progress toward the achievement of certain sustainability goals. No amounts were outstanding under the credit facilities as of December 31, 2021 and 2022. Note 7. Supplemental Financial Statement Information Accounts Receivable The allowance for credit losses on accounts receivable was $550 million and $754 million as of December 31, 2021 and 2022, respectively. 69",
+        "metadata": {
+            "document": "goog-10-k-2022.pdf",
+            "page_number": "70",
+            "chunk_index": 0,
+            "page_section": "notes_to_financial_statements"
+        }
+    },
+    {
+        "id": "goog-10-k-2022.pdf_page_73_chunk_0",
+        "text": "Table of Contents Alphabet Inc. Other Income (Expense), Net Components of OI&E were as follows (in millions): Year Ended December 31, 2020 2021 2022 Interest income $ 1,865 $ 1,499 $ 2,174 Interest expense(1) (135) (346) (357) Foreign currency exchange gain (loss), net (344) (240) (654) Gain (loss) on debt securities, net 725 (110) (2,064) Gain (loss) on equity securities, net 5,592 12,380 (3,455) Performance fees (609) (1,908) 798 Income (loss) and impairment from equity method investments, net 401 334 (337) Other (637) 411 381 Other income (expense), net $ 6,858 $ 12,020 $ (3,514) (1) Interest expense is net of interest capitalized of $218 million, $163 million, and $128 million for the years ended December 31, 2020, 2021, and 2022, respectively. Note 8. Acquisitions Mandiant Acquisition On September 12, 2022 we closed the acquisition of Mandiant for a total purchase price of $6.1 billion, including cash and debt. The purchase price excludes post acquisition compensation arrangements. Mandiant's dynamic cyber defense, threat intelligence and incident response services are expected to enhance Google Cloud's security offerings. The financial results of Mandiant have been included within the Google Cloud segment as of the close of the acquisition. The purchase price was allocated as follows (in millions): Intangible assets $ 840 Goodwill(1) 4,772 Net assets acquired(2) 489 Total purchase price $ 6,101 (1) Goodwill was recorded in the Google Cloud segment and primarily attributable to synergies expected to arise after the acquisition. Goodwill is not deductible for tax purposes. (2) Includes $706 million of acquired cash. Intangible assets acquired as of the acquisition date were as follows: Weighted-Average Amount Useful Life (in millions) (in years) Patents and developed technology $ 349 4.8 Customer relationships 366 8.0 Trade names and other 125 5.9 Total intangible assets $ 840 72",
+        "metadata": {
+            "document": "goog-10-k-2022.pdf",
+            "page_number": "73",
+            "chunk_index": 0,
+            "page_section": "notes_to_financial_statements"
+        }
+    },
+    {
+        "id": "goog-10-k-2022.pdf_page_74_chunk_0",
+        "text": "Table of Contents Alphabet Inc. Note 9. Goodwill and Other Intangible Assets Goodwill Changes in the carrying amount of goodwill for the years ended December 31, 2021 and 2022 were as follows (in millions): Google Services Google Cloud Other Bets Total Balance as of December 31, 2020 $ 18,517 $ 1,957 $ 701 $ 21,175 Acquisitions 1,325 382 103 1,810 Foreign currency translation and other adjustments (16) (2) (11) (29) Balance as of December 31, 2021 19,826 2,337 793 22,956 Acquisitions 1,176 4,876 119 6,171 Foreign currency translation and other adjustments (155) (8) (4) (167) Balance as of December 31, 2022 $ 20,847 $ 7,205 $ 908 $ 28,960 Other Intangible Assets Information regarding intangible assets was as follows (in millions): As of December 31, 2021 As of December 31, 2022 Weighted- Average Gross Net Gross Net Remaining Carrying Accumulated Carrying Carrying Accumulated Carrying Useful Life Amount Amortization Amount Amount Amortization Value (in years) Patents and developed technology $ 4,786 $ 4,112 $ 674 $ 1,164 $ 354 $ 810 3.2 Customer relationships 506 140 366 862 235 627 5.0 Trade names and other 534 295 239 527 120 407 6.3 Total definite-lived intangible assets 5,826 4,547 1,279 2,553 709 1,844 Indefinite-lived intangible assets 138 0 138 240 0 240 Total intangible assets $ 5,964 $ 4,547 $ 1,417 $ 2,793 $ 709 $ 2,084 For the year ended December 31, 2022, $4.5 billion of intangible assets that were fully amortized have been removed from gross intangible assets and accumulated amortization. Amortization expense relating to intangible assets was $774 million, $875 million, and $642 million for the years ended December 31, 2020, 2021, and 2022, respectively. Expected amortization expense of definite-lived intangible assets held as of December 31, 2022 was as follows (in millions): 2023 $ 463 2024 444 2025 314 2026 235 2027 152 Thereafter 236 $ 1,844 Note 10. Commitments and contingencies Commitments We have content licensing agreements with future fixed or minimum guaranteed commitments of $12.3 billion as of December 31, 2022, of which the majority will be paid over seven years commencing in 2023. 73",
+        "metadata": {
+            "document": "goog-10-k-2022.pdf",
+            "page_number": "74",
+            "chunk_index": 0,
+            "page_section": "notes_to_financial_statements"
+        }
+    },
+    {
+        "id": "goog-10-k-2022.pdf_page_80_chunk_0",
+        "text": "Table of Contents Alphabet Inc. Note 13. Compensation Plans Stock Plans Our stock plans include the Alphabet Amended and Restated 2021 Stock Plan (\"Alphabet 2021 Stock Plan\") and Other Bet stock-based plans. Under our stock plans, RSUs and other types of awards may be granted. Under the Alphabet 2021 Stock Plan, an RSU award is an agreement to issue shares of our Class C stock at the time the award vests. RSUs generally vest over four years contingent upon employment on the vesting date. As of December 31, 2022, there were 706 million shares of Class C stock reserved for future issuance under the Alphabet 2021 Stock Plan. Stock-Based Compensation For the years ended December 31, 2020, 2021, and 2022, total stock-based compensation expense was $13.4 billion, $15.7 billion, and $19.5 billion, including amounts associated with awards we expect to settle in Alphabet stock of $12.8 billion, $15.0 billion, and $18.8 billion, respectively. For the years ended December 31, 2020, 2021, and 2022, we recognized tax benefits on total stock-based compensation expense, which are reflected in the provision for income taxes in the Consolidated Statements of Income, of $2.7 billion, $3.1 billion, and $3.9 billion, respectively. For the years ended December 31, 2020, 2021, and 2022, tax benefit realized related to awards vested or exercised during the period was $3.6 billion, $5.9 billion, and $4.7 billion, respectively. These amounts do not include the indirect effects of stock-based awards, which primarily relate to the R&D tax credit. Stock-Based Award Activities The following table summarizes the activities for unvested Alphabet RSUs for the year ended December 31, 2022 (in millions, except per share amounts): Unvested Restricted Stock Units Weighted- Average Number of Grant-Date Shares Fair Value Unvested as of December 31, 2021 338 $ 81.31 Granted 227 $ 127.22 Vested (213) $ 87.53 Forfeited/canceled (28) $ 97.10 Unvested as of December 31, 2022 324 $ 107.98 The weighted-average grant-date fair value of RSUs granted during the years ended December 31, 2020 and 2021 was $70.40 and $97.46, respectively. Total fair value of RSUs, as of their respective vesting dates, during the years ended December 31, 2020, 2021, and 2022, were $17.8 billion, $28.8 billion, and $23.9 billion, respectively. As of December 31, 2022, there was $32.8 billion of unrecognized compensation cost related to unvested RSUs. This amount is expected to be recognized over a weighted-average period of 2.6 years. Note 14. Income Taxes Income from continuing operations before income taxes consisted of the following (in millions): Year Ended December 31, 2020 2021 2022 Domestic operations $ 37,576 $ 77,016 $ 61,307 Foreign operations 10,506 13,718 10,021 Total $ 48,082 $ 90,734 $ 71,328 79",
+        "metadata": {
+            "document": "goog-10-k-2022.pdf",
+            "page_number": "80",
+            "chunk_index": 0,
+            "page_section": "notes_to_financial_statements"
+        }
+    },
+    {
+        "id": "goog-10-k-2022.pdf_page_82_chunk_0",
+        "text": "Table of Contents Alphabet Inc. Deferred Income Taxes Deferred income taxes reflect the net effects of temporary differences between the carrying amounts of assets and liabilities for financial reporting purposes and the amounts used for income tax purposes. Significant components of our deferred tax assets and liabilities were as follows (in millions): As of December 31, 2021 2022 Deferred tax assets: Accruals and reserves not currently deductible $ 1,816 $ 1,956 Tax credits 5,179 6,002 Net operating losses 1,790 2,557 Operating leases 2,503 2,711 Capitalized research and development(1) 1,843 10,381 Other 1,665 3,244 Total deferred tax assets 14,796 26,851 Valuation allowance (7,129) (9,553) Total deferred tax assets net of valuation allowance 7,667 17,298 Deferred tax liabilities: Property and equipment, net (5,237) (6,607) Net investment gains (3,229) (2,361) Operating leases (2,228) (2,491) Other (946) (1,092) Total deferred tax liabilities (11,640) (12,551) Net deferred tax assets (liabilities) $ (3,973) $ 4,747 (1) As required by the 2017 Tax Cuts and Jobs Act, effective January 1, 2022, our research and development expenditures were capitalized and amortized which resulted in substantially higher cash taxes for 2022 with an equal amount of deferred tax benefit. As of December 31, 2022, our federal, state, and foreign net operating loss carryforwards for income tax purposes were approximately $6.4 billion, $14.6 billion, and $1.8 billion respectively. If not utilized, the federal net operating loss carryforwards will begin to expire in 2023, foreign net operating loss carryforwards will begin to expire in 2025 and the state net operating loss carryforwards will begin to expire in 2028. It is more likely than not that the majority of the net operating loss carryforwards will not be realized; therefore, we have recorded a valuation allowance against them. The net operating loss carryforwards are subject to various annual limitations under the tax laws of the different jurisdictions. As of December 31, 2022, our Federal and California research and development credit carryforwards for income tax purposes were approximately $400 million and $5.8 billion, respectively. If not utilized, the Federal R&D credit will begin to expire in 2037 and the California R&D credit can be carried over indefinitely. We believe the majority of the federal tax credit and state tax credit is not likely to be realized. As of December 31, 2022, our investment tax credit carryforwards for state income tax purposes were approximately $931 million and will begin to expire in 2025. We use the flow-through method of accounting for investment tax credits. We believe this tax credit is not likely to be realized. As of December 31, 2022, we maintained a valuation allowance with respect to California deferred tax assets, certain federal net operating losses, certain state net operating losses and tax credits, net deferred tax assets relating to certain Other Bets, and certain foreign net operating losses that we believe are not likely to be realized. We continue to reassess the remaining valuation allowance quarterly, and if future evidence allows for a partial or full release of the valuation allowance, a tax",
+        "metadata": {
+            "document": "goog-10-k-2022.pdf",
+            "page_number": "82",
+            "chunk_index": 0,
+            "page_section": "notes_to_financial_statements"
+        }
+    },
+    {
+        "id": "goog-10-k-2022.pdf_page_82_chunk_1",
+        "text": "benefit will be recorded accordingly. 81",
+        "metadata": {
+            "document": "goog-10-k-2022.pdf",
+            "page_number": "82",
+            "chunk_index": 1,
+            "page_section": "notes_to_financial_statements"
+        }
+    },
+    {
+        "id": "goog-10-k-2022.pdf_page_83_chunk_0",
+        "text": "Table of Contents Alphabet Inc. Uncertain Tax Positions The following table summarizes the activity related to our gross unrecognized tax benefits (in millions): Year Ended December 31, 2020 2021 2022 Beginning gross unrecognized tax benefits $ 3,377 $ 3,837 $ 5,158 Increases related to prior year tax positions 372 529 253 Decreases related to prior year tax positions (557) (263) (437) Decreases related to settlement with tax authorities (45) (329) (140) Increases related to current year tax positions 690 1,384 2,221 Ending gross unrecognized tax benefits $ 3,837 $ 5,158 $ 7,055 We are subject to income taxes in the U.S. and foreign jurisdictions. Significant judgment is required in evaluating our uncertain tax positions and determining our provision for income taxes. The total amount of gross unrecognized tax benefits was $3.8 billion, $5.2 billion, and $7.1 billion as of December 31, 2020, 2021, and 2022, respectively, of which $2.6 billion, $3.7 billion, and $5.3 billion, if recognized, would affect our effective tax rate, respectively. As of December 31, 2021 and 2022, we accrued $270 million and $346 million in interest and penalties in provision for income taxes, respectively. We file income tax returns in the U.S. federal jurisdiction and in many state and foreign jurisdictions. Our two major tax jurisdictions are the U.S. federal and Ireland. We are subject to the continuous examination of our income tax returns by the IRS and other tax authorities. The IRS is currently examining our 2016 through 2018 tax returns. We have also received tax assessments in multiple foreign jurisdictions asserting transfer pricing adjustments or permanent establishment. We continue to defend any and all such claims as presented. The tax years 2015 through 2021 remain subject to examination by the appropriate governmental agencies for Irish tax purposes. There are other ongoing audits in various other jurisdictions that are not material to our financial statements. We regularly assess the likelihood of adverse outcomes resulting from these examinations to determine the adequacy of our provision for income taxes. We continue to monitor the progress of ongoing discussions with tax authorities and the effect, if any, of the expected expiration of the statute of limitations in various taxing jurisdictions. We believe that an adequate provision has been made for any adjustments that may result from tax examinations. However, the outcome of tax audits cannot be predicted with certainty. If any issues addressed in our tax audits are resolved in a manner not consistent with management's expectations, we could be required to adjust our provision for income taxes in the period such resolutions occur. Although the timing of resolution, settlement, and closure of audits is not certain, it is reasonably possible that our unrecognized tax benefits from certain U.S. federal, state, and non U.S. tax positions could decrease by approximately $1.8 billion in the next 12 months. Positions that may be resolved include various U.S. and non-U.S. matters. Note 15. Information about Segments and Geographic Areas We report our segment results as Google Services, Google Cloud, and Other",
+        "metadata": {
+            "document": "goog-10-k-2022.pdf",
+            "page_number": "83",
+            "chunk_index": 0,
+            "page_section": "notes_to_financial_statements"
+        }
+    },
+    {
+        "id": "goog-10-k-2022.pdf_page_83_chunk_1",
+        "text": "Bets: \u2022 Google Services includes products and services such as ads, Android, Chrome, hardware, Google Maps, Google Play, Search, and YouTube. Google Services generates revenues primarily from advertising; sales of apps and in-app purchases, and hardware; and fees received for subscription-based products such as YouTube Premium and YouTube TV. \u2022 Google Cloud includes infrastructure and platform services, collaboration tools, and other services for enterprise customers. Google Cloud generates revenues from fees received for Google Cloud Platform services, Google Workspace communication and collaboration tools, and other enterprise services. \u2022 Other Bets is a combination of multiple operating segments that are not individually material. Revenues from Other Bets are generated primarily from the sale of health technology and internet services. Revenues, certain costs, such as costs associated with content and traffic acquisition, certain engineering activities, and hardware, as well as certain operating expenses are directly attributable to our segments. Due to the integrated nature of Alphabet, other costs and expenses, such as technical infrastructure and office facilities, are managed centrally at a consolidated level. The associated costs, including depreciation and impairment, are allocated to operating segments as a service cost generally based on usage or headcount. 82",
+        "metadata": {
+            "document": "goog-10-k-2022.pdf",
+            "page_number": "83",
+            "chunk_index": 1,
+            "page_section": "notes_to_financial_statements"
+        }
+    },
+    {
+        "id": "goog-10-k-2023-final.pdf_page_43_chunk_0",
+        "text": "Table of Contents Alphabet Inc. During the years ended December 31, 2022 and 2023, we spent $31.5 billion and $32.3 billion on capital expenditures, respectively. We expect to increase, relative to 2023, our investment in our technical infrastructure, including servers, network equipment, and data centers, to support the growth of our business and our long-term initiatives, in particular in support of AI products and services. Depreciation of our property and equipment commences when the deployment of such assets are completed and are ready for our intended use. Land is not depreciated. For the years ended December 31, 2022 and 2023, our depreciation on property and equipment were $13.5 billion and $11.9 billion, respectively. Leases For the years ended December 31, 2022 and 2023, we recognized total operating lease assets of $4.4 billion and $2.9 billion, respectively. As of December 31, 2023, the amount of total future lease payments under operating leases, which had a weighted average remaining lease term of eight years, was $17.7 billion, of which $3.2 billion is short- term. As of December 31, 2023, we have entered into leases that have not yet commenced with future short-term and long-term lease payments of $657 million and $3.3 billion, that are not yet recorded on our Consolidated Balance Sheets. These leases will commence between 2024 and 2026 with non-cancelable lease terms of one to 25 years. For the years ended December 31, 2022 and 2023, our operating lease expenses (including variable lease costs) were $3.7 billion and $4.5 billion, respectively. Finance lease costs were not material for the years ended December 31, 2022 and 2023. For additional information, see Note 4 of the Notes to Consolidated Financial Statements included in Item 8 of this Annual Report on Form 10-K. Financing We have a short-term debt financing program of up to $10.0 billion through the issuance of commercial paper. Net proceeds from this program are used for general corporate purposes. As of December 31, 2023, we had no commercial paper outstanding. As of December 31, 2023, we had $10.0 billion of revolving credit facilities, $4.0 billion expiring in April 2024 and $6.0 billion expiring in April 2028. The interest rates for all credit facilities are determined based on a formula using certain market rates, as well as our progress toward the achievement of certain sustainability goals. No amounts have been borrowed under the credit facilities. As of December 31, 2023, we had senior unsecured notes outstanding with a total carrying value of $12.9 billion with short-term and long-term future interest payments of $214 million and $3.6 billion, respectively. For additional information, see Note 6 of the Notes to Consolidated Financial Statements included in Item 8 of this Annual Report on Form 10-K. We primarily utilize contract manufacturers for the assembly of our servers used in our technical infrastructure and devices we sell. We have agreements where we may purchase components directly from suppliers and then supply these components to contract manufacturers for use in the assembly of the servers and",
+        "metadata": {
+            "document": "goog-10-k-2023-final.pdf",
+            "page_number": "43",
+            "chunk_index": 0,
+            "page_section": "notes_to_financial_statements"
+        }
+    },
+    {
+        "id": "goog-10-k-2023-final.pdf_page_43_chunk_1",
+        "text": "devices. Certain of these arrangements result in a portion of the cash received from and paid to the contract manufacturers to be presented as financing activities in the Consolidated Statements of Cash Flows included in Item 8 of this Annual Report on Form 10-K. Share Repurchase Program During 2023 we repurchased and subsequently retired 528 million shares for $62.2 billion. In April 2023, the Board of Directors of Alphabet authorized the company to repurchase up to an additional $70.0 billion of its Class A and Class C shares. As of December 31, 2023, $36.3 billion remains available for Class A and Class C share repurchases. The following table presents Class A and Class C shares repurchased and subsequently retired (in millions): Year Ended December 31, 2022 Year Ended December 31, 2023 Shares Amount Shares Amount Class A share repurchases 61 $ 6,719 78 $ 9,316 Class C share repurchases 469 52,577 450 52,868 Total share repurchases(1) 530 $ 59,296 528 $ 62,184 (1) Shares repurchased include unsettled repurchases as of December 31, 2023. For additional information, see Note 11 of the Notes to Consolidated Financial Statements included in Item 8 of this Annual Report on Form 10-K. 42.",
+        "metadata": {
+            "document": "goog-10-k-2023-final.pdf",
+            "page_number": "43",
+            "chunk_index": 1,
+            "page_section": "notes_to_financial_statements"
+        }
+    },
+    {
+        "id": "goog-10-k-2023-final.pdf_page_57_chunk_0",
+        "text": "Table of Contents Alphabet Inc. Alphabet Inc. NOTES TO CONSOLIDATED FINANCIAL STATEMENTS Note 1. Summary of Significant Accounting Policies Nature of Operations Google was incorporated in California in September 1998 and re-incorporated in the State of Delaware in August 2003. In 2015, we implemented a holding company reorganization, and as a result, Alphabet Inc. (\"Alphabet\") became the successor issuer to Google. We generate revenues by delivering relevant, cost-effective online advertising; cloud-based solutions that provide enterprise customers with infrastructure and platform services as well as communication and collaboration tools; sales of other products and services, such as fees received for consumer subscription-based products, apps and in-app purchases, and devices. Basis of Consolidation The consolidated financial statements of Alphabet include the accounts of Alphabet and entities consolidated under the variable interest and voting models. Intercompany balances and transactions have been eliminated. Use of Estimates Preparation of consolidated financial statements in conformity with GAAP requires us to make estimates and assumptions that affect the amounts reported and disclosed in the financial statements and the accompanying notes. Actual results could differ materially from these estimates due to uncertainties. On an ongoing basis, we evaluate our estimates, including those related to the allowance for credit losses; content licenses; contingent liabilities; fair values of financial instruments and goodwill; income taxes; inventory; and useful lives of property and equipment, among others. We base our estimates on assumptions, both historical and forward looking, that are believed to be reasonable, and the results of which form the basis for making judgments about the carrying values of assets and liabilities. In January 2023, we completed an assessment of the useful lives of our servers and network equipment and adjusted the estimated useful life of our servers from four years to six years and the estimated useful life of certain network equipment from five years to six years. This change in accounting estimate was effective beginning in fiscal year 2023. Based on the carrying value of servers and certain network equipment as of December 31, 2022, and those placed in service during the year ended December 31, 2023, the effect of this change in estimate was a reduction in depreciation expense of $3.9 billion and an increase in net income of $3.0 billion, or $0.24 per basic and $0.24 per diluted share, for the year ended December 31, 2023. Revenue Recognition Revenues are recognized when control of the promised goods or services is transferred to our customers, and the collectibility of an amount that we expect in exchange for those goods or services is probable. Sales and other similar taxes are excluded from revenues. Advertising Revenues We generate advertising revenues primarily by delivering advertising on: \u2022 Google Search and other properties, including revenues from traffic generated by search distribution partners who use Google.com as their default search in browsers, toolbars, etc. and other Google owned and operated properties like Gmail, Google Maps, and Google Play; \u2022 YouTube properties; and \u2022 Google Network properties, including revenues from Google Network properties participating in",
+        "metadata": {
+            "document": "goog-10-k-2023-final.pdf",
+            "page_number": "57",
+            "chunk_index": 0,
+            "page_section": "notes_to_financial_statements"
+        }
+    },
+    {
+        "id": "goog-10-k-2023-final.pdf_page_57_chunk_1",
+        "text": "AdMob, AdSense, and Google Ad Manager. Our customers generally purchase advertising inventory through Google Ads, Google Ad Manager, Google Display & Video 360, and Google Marketing Platform, among others. We offer advertising by delivering both performance and brand advertising. We recognize revenues for performance advertising when a user engages with the advertisement. For brand advertising, we recognize revenues when the ad is displayed, or a user views the ad. For ads placed on Google Network properties, we evaluate whether we are the principal (i.e., report revenues on a gross basis) or agent (i.e., report revenues on a net basis). Generally, we report advertising revenues for ads placed on Google Network properties on a gross basis, that is, the amounts billed to our customers are recorded as revenues, 56.",
+        "metadata": {
+            "document": "goog-10-k-2023-final.pdf",
+            "page_number": "57",
+            "chunk_index": 1,
+            "page_section": "notes_to_financial_statements"
+        }
+    },
+    {
+        "id": "goog-10-k-2023-final.pdf_page_59_chunk_0",
+        "text": "Table of Contents Alphabet Inc. \u2022 Other cost of revenues includes: \u25e6 compensation expense related to our data centers and other operations such as content review and customer and product support; \u25e6 content acquisition costs, which are payments to content providers from whom we license video and other content for distribution on YouTube and Google Play (we pay fees to these content providers based on revenues generated or a flat fee); \u25e6 depreciation expense related to our technical infrastructure; and \u25e6 inventory and other costs related to the devices we sell. Software Development Costs We expense software development costs, including costs to develop software products or the software component of products to be sold, leased, or marketed to external users, before technological feasibility is reached. Technological feasibility is typically reached shortly before the release of such products. As a result, development costs that meet the criteria for capitalization were not material for the periods presented. Software development costs also include costs to develop software to be used solely to meet internal needs and cloud-based applications used to deliver our services. We capitalize development costs related to these software applications once the preliminary project stage is complete and it is probable that the project will be completed and the software will be used to perform the function intended. Costs capitalized for developing such software applications were not material for the periods presented. Stock-based Compensation Stock-based compensation (SBC) primarily consists of Alphabet restricted stock units (RSUs). RSUs are equity classified and measured at the fair market value of the underlying stock at the grant date. We recognize RSU expense using the straight-line attribution method over the requisite service period and account for forfeitures as they occur. For RSUs, shares are issued on the vesting dates net of the applicable statutory income tax withholding to be paid by us on behalf of our employees. As a result, fewer shares are issued than the number of RSUs outstanding, and the income tax withholding is recorded as a reduction to additional paid-in capital. Additionally, SBC includes other stock-based awards, such as performance stock units (PSUs) that include market conditions and awards that may be settled in cash or the stock of certain Other Bet companies. PSUs and certain awards granted by Other Bet companies are equity classified and expense is recognized over the requisite service period. Certain awards granted by Other Bet companies are liability classified and remeasured at fair value through settlement. The fair value of awards granted by Other Bet companies is based on the equity valuation of the respective Other Bet company. Advertising and Promotional Expenses We expense advertising and promotional costs in the period in which they are incurred. For the years ended December 31, 2021, 2022, and 2023, advertising and promotional expenses totaled approximately $7.9 billion, $9.2 billion, and $8.7 billion, respectively. Performance Fees Performance fees refer to compensation arrangements with payouts based on realized returns from certain investments. We record compensation expense based on the estimated payouts on an",
+        "metadata": {
+            "document": "goog-10-k-2023-final.pdf",
+            "page_number": "59",
+            "chunk_index": 0,
+            "page_section": "notes_to_financial_statements"
+        }
+    },
+    {
+        "id": "goog-10-k-2023-final.pdf_page_59_chunk_1",
+        "text": "ongoing basis, which may result in expense recognized before investment returns are realized and compensation is paid and may require the use of unobservable inputs. Performance fees are recorded as a component of OI&E. Fair Value Measurements Fair value is an exit price, representing the amount that would be received to sell an asset or paid to transfer a liability in an orderly transaction between market participants. As such, fair value is a market-based measurement that is determined based on assumptions that market participants would use in pricing an asset or a liability. Assets and liabilities recorded at fair value are measured and classified in accordance with a three-tier fair value hierarchy based on the observability of the inputs available in the market used to measure fair value: Level 1 - Observable inputs that reflect quoted prices (unadjusted) for identical assets or liabilities in active markets. 58.",
+        "metadata": {
+            "document": "goog-10-k-2023-final.pdf",
+            "page_number": "59",
+            "chunk_index": 1,
+            "page_section": "notes_to_financial_statements"
+        }
+    },
+    {
+        "id": "goog-10-k-2023-final.pdf_page_60_chunk_0",
+        "text": "Table of Contents Alphabet Inc. Level 2 - Inputs that are based upon quoted prices for similar instruments in active markets, quoted prices for identical or similar instruments in markets that are not active, and model-based valuation techniques for which all significant inputs are observable in the market or can be derived from observable market data. Where applicable, these models project future cash flows and discount the future amounts to a present value using market-based observable inputs including interest rate curves, foreign exchange rates, and credit ratings. Level 3 - Unobservable inputs that are supported by little or no market activities. The fair value hierarchy requires an entity to maximize the use of observable inputs and minimize the use of unobservable inputs when measuring fair value. The determination of fair value involves the use of appropriate valuation methods and relevant inputs into valuation models. Our financial assets and liabilities that are measured at fair value on a recurring basis include cash equivalents, marketable securities, derivative financial instruments, and certain non-marketable debt securities. Our financial assets measured at fair value on a nonrecurring basis include non-marketable equity securities. Other financial assets and liabilities are carried at cost with fair value disclosed, if required. We measure certain other instruments, including SBC awards settled in the stock of Other Bet companies, and certain assets and liabilities acquired in a business combination, also at fair value on a nonrecurring basis. Financial Instruments Our financial instruments include cash, cash equivalents, marketable and non-marketable securities, derivative financial instruments and accounts receivable. Credit Risks We are subject to credit risk primarily from cash equivalents, marketable debt securities, derivative financial instruments, including foreign exchange contracts, and accounts receivable. We manage our credit risk exposure through timely assessment of our counterparty creditworthiness, credit limits and use of collateral management. Foreign exchange contracts are transacted with various financial institutions with high credit standing. Accounts receivable are typically unsecured and are derived from revenues earned from customers located around the world. We manage our credit risk exposure by performing ongoing evaluations to determine customer credit and we limit the amount of credit we extend. We generally do not require collateral from our customers. Cash Equivalents We invest excess cash primarily in government bonds, corporate debt securities, mortgage-backed and asset- backed securities, time deposits, and money market funds. Marketable Securities We classify all marketable debt securities that have effective maturities of three months or less from the date of purchase as cash equivalents and those with effective maturities of greater than three months as marketable securities on our Consolidated Balance Sheets. We determine the appropriate classification of our investments in marketable debt securities at the time of purchase and reevaluate such designation at each balance sheet date. We have classified and accounted for our marketable debt securities as available-for-sale. After consideration of our risk versus reward objectives, as well as our liquidity requirements, we may sell these debt securities prior to their effective maturities. As we view these securities as available to",
+        "metadata": {
+            "document": "goog-10-k-2023-final.pdf",
+            "page_number": "60",
+            "chunk_index": 0,
+            "page_section": "notes_to_financial_statements"
+        }
+    },
+    {
+        "id": "goog-10-k-2023-final.pdf_page_60_chunk_1",
+        "text": "support current operations, we classify highly liquid securities with maturities beyond 12 months as current assets under the caption marketable securities on the Consolidated Balance Sheets. We carry these securities at fair value, and report the unrealized gains and losses, net of taxes, as a component of stockholders\u2019 equity, except for the changes in allowance for expected credit losses, which are recorded in OI&E. For certain marketable debt securities we have elected the fair value option, for which changes in fair value are recorded in OI&E. We determine any realized gains or losses on the sale of marketable debt securities on a specific identification method, and we record such gains and losses as a component of OI&E. Our investments in marketable equity securities are measured at fair value with the related gains and losses, including unrealized, recognized in OI&E. We classify our marketable equity securities subject to long-term lock-up restrictions beyond 12 months as other non-current assets on the Consolidated Balance Sheets. Non-Marketable Securities Non-marketable securities primarily consist of equity securities. We account for non-marketable equity securities through which we exercise significant influence but do not have control over the investee under the equity method. All other non-marketable equity securities that we hold are primarily accounted for under the measurement alternative. Under the measurement alternative, the carrying value is measured at cost, less any impairment, plus or minus 59.",
+        "metadata": {
+            "document": "goog-10-k-2023-final.pdf",
+            "page_number": "60",
+            "chunk_index": 1,
+            "page_section": "notes_to_financial_statements"
+        }
+    },
+    {
+        "id": "goog-10-k-2023-final.pdf_page_64_chunk_0",
+        "text": "Table of Contents Alphabet Inc. Note 2. Revenues Disaggregated Revenues The following table presents revenues disaggregated by type (in millions): Year Ended December 31, 2021 2022 2023 Google Search & other $ 148,951 $ 162,450 $ 175,033 YouTube ads 28,845 29,243 31,510 Google Network 31,701 32,780 31,312 Google advertising 209,497 224,473 237,855 Google subscriptions, platforms, and devices 28,032 29,055 34,688 Google Services total 237,529 253,528 272,543 Google Cloud 19,206 26,280 33,088 Other Bets 753 1,068 1,527 Hedging gains (losses) 149 1,960 236 Total revenues $ 257,637 $ 282,836 $ 307,394 No individual customer or groups of affiliated customers represented more than 10% of our revenues in 2021, 2022, or 2023. The following table presents revenues disaggregated by geography, based on the addresses of our customers (in millions): Year Ended December 31, 2021 2022 2023 United States $ 117,854 46 % $ 134,814 48 % $ 146,286 47 % EMEA(1) 79,107 31 82,062 29 91,038 30 APAC(1) 46,123 18 47,024 16 51,514 17 Other Americas(1) 14,404 5 16,976 6 18,320 6 Hedging gains (losses) 149 0 1,960 1 236 0 Total revenues $ 257,637 100 % $ 282,836 100 % $ 307,394 100 % (1) Regions represent Europe, the Middle East, and Africa (EMEA); Asia-Pacific (APAC); and Canada and Latin America (\"Other Americas\"). Revenue Backlog As of December 31, 2023, we had $74.1 billion of remaining performance obligations (\u201crevenue backlog\u201d), primarily related to Google Cloud. Our revenue backlog represents commitments in customer contracts for future services that have not yet been recognized as revenue. The estimated revenue backlog and timing of revenue recognition for these commitments is largely driven by our ability to deliver in accordance with relevant contract terms and when our customers utilize services. We expect to recognize approximately half of the revenue backlog as revenues over the next 24 months with the remaining to be recognized thereafter. Revenue backlog includes related deferred revenue currently recorded as well as amounts that will be invoiced in future periods, and excludes contracts with an original expected term of one year or less and cancellable contracts. Deferred Revenues We record deferred revenues when cash payments are received or due in advance of our performance, including amounts which are refundable. Deferred revenues primarily relate to Google Cloud and Google subscriptions, platforms, and devices. Total deferred revenue as of December 31, 2022 was $4.5 billion, of which $2.4 billion was recognized as revenues for the year ended December 31, 2023. Note 3. Financial Instruments Fair Value Measurements Investments Measured at Fair Value on a Recurring Basis Cash, cash equivalents, and marketable equity securities are measured at fair value and classified within Level 1 63.",
+        "metadata": {
+            "document": "goog-10-k-2023-final.pdf",
+            "page_number": "64",
+            "chunk_index": 0,
+            "page_section": "notes_to_financial_statements"
+        }
+    },
+    {
+        "id": "goog-10-k-2023-final.pdf_page_65_chunk_0",
+        "text": "Table of Contents Alphabet Inc. and Level 2 in the fair value hierarchy, because we use quoted prices for identical assets in active markets or inputs that are based upon quoted prices for similar instruments in active markets. Debt securities are measured at fair value and classified within Level 2 in the fair value hierarchy, because we use quoted market prices to the extent available or alternative pricing sources and models utilizing market observable inputs to determine fair value. For certain marketable debt securities, we have elected the fair value option for which changes in fair value are recorded in OI&E. The fair value option was elected for these securities to align with the unrealized gains and losses from related derivative contracts. The following tables summarize our cash, cash equivalents, and marketable securities measured at fair value on a recurring basis (in millions): As of December 31, 2022 Gross Gross Cash and Fair Value Adjusted Unrealized Unrealized Cash Marketable Hierarchy Cost Gains Losses Fair Value Equivalents Securities Fair value changes recorded in other comprehensive income Time deposits Level 2 $ 5,297 $ 0 $ 0 $ 5,297 $ 5,293 $ 4 Government bonds Level 2 41,036 64 (2,045) 39,055 283 38,772 Corporate debt securities Level 2 28,578 8 (1,569) 27,017 1 27,016 Mortgage-backed and asset-backed securities Level 2 16,176 5 (1,242) 14,939 0 14,939 Total investments with fair value change reflected in other comprehensive income(1) $ 91,087 $ 77 $ (4,856) $ 86,308 $ 5,577 $ 80,731 Fair value adjustments recorded in net income Money market funds Level 1 $ 7,234 $ 7,234 $ 0 Current marketable Level 1 equity securities(2) 4,013 0 4,013 Mutual funds Level 2 339 0 339 Government bonds Level 2 1,877 440 1,437 Corporate debt securities Level 2 3,744 65 3,679 Mortgage-backed and Level 2 asset-backed securities 1,686 2 1,684 Total investments with fair value change recorded in net income $ 18,893 $ 7,741 $ 11,152 Cash 0 8,561 0 Total $ 91,087 $ 77 $ (4,856) $ 105,201 $ 21,879 $ 91,883 (1) Represents gross unrealized gains and losses for debt securities recorded to AOCI. (2) The long-term portion of marketable equity securities (subject to long-term lock-up restrictions) of $803 million as of December 31, 2022 is included within other non-current assets. 64.",
+        "metadata": {
+            "document": "goog-10-k-2023-final.pdf",
+            "page_number": "65",
+            "chunk_index": 0,
+            "page_section": "notes_to_financial_statements"
+        }
+    },
+    {
+        "id": "goog-10-k-2023-final.pdf_page_66_chunk_0",
+        "text": "Table of Contents Alphabet Inc. As of December 31, 2023 Gross Gross Cash and Fair Value Adjusted Unrealized Unrealized Cash Marketable Hierarchy Cost Gains Losses Fair Value Equivalents Securities Fair value changes recorded in other comprehensive income Time deposits Level 2 $ 2,628 $ 0 $ 0 $ 2,628 $ 2,628 $ 0 Government bonds Level 2 38,106 233 (679) 37,660 1,993 35,667 Corporate debt securities Level 2 22,457 112 (637) 21,932 0 21,932 Mortgage-backed and 17,243 88 (634) 16,697 0 16,697 asset-backed securities Level 2 Total investments with fair value change reflected in other comprehensive income(1) $ 80,434 $ 433 $ (1,950) $ 78,917 $ 4,621 $ 74,296 Fair value adjustments recorded in net income Money market funds Level 1 $ 6,480 $ 6,480 $ 0 Current marketable equity securities(2) Level 1 4,282 0 4,282 Mutual funds Level 2 311 0 311 Government bonds Level 2 1,952 347 1,605 Corporate debt securities Level 2 3,782 91 3,691 Mortgage-backed and Level 2 asset-backed securities 2,683 0 2,683 Total investments with fair value change recorded in net income $ 19,490 $ 6,918 $ 12,572 Cash 0 12,509 0 Total $ 80,434 $ 433 $ (1,950) $ 98,407 $ 24,048 $ 86,868 (1) Represents gross unrealized gains and losses for debt securities recorded to AOCI. (2) The long-term portion of marketable equity securities (subject to long-term lock-up restrictions) of $1.4 billion as of December 31, 2023 is included within other non-current assets. Investments Measured at Fair Value on a Nonrecurring Basis Our non-marketable equity securities are investments in privately held companies without readily determinable market values. The carrying value of our non-marketable equity securities is adjusted to fair value upon observable transactions for identical or similar investments of the same issuer or impairment. Non-marketable equity securities that have been remeasured during the period based on observable transactions are classified within Level 2 or Level 3 in the fair value hierarchy because we estimate the value based on valuation methods, including option pricing models, market comparable approach, and common stock equivalent method, which may include a combination of the observable transaction price at the transaction date and other unobservable inputs including volatility, expected time to exit, risk free rate, and the rights, and obligations of the securities we hold. These inputs significantly vary based on investment type. The fair value of non-marketable equity securities that have been remeasured due to impairment are classified within Level 3. As of December 31, 2023, the carrying value of our non-marketable equity securities was $28.8 billion, of which $13.7 billion were remeasured at fair value during the year ended December 31, 2023, and primarily classified within Level 2 of the fair value hierarchy at the time of measurement. 65.",
+        "metadata": {
+            "document": "goog-10-k-2023-final.pdf",
+            "page_number": "66",
+            "chunk_index": 0,
+            "page_section": "notes_to_financial_statements"
+        }
+    },
+    {
+        "id": "goog-10-k-2023-final.pdf_page_67_chunk_0",
+        "text": "Table of Contents Alphabet Inc. Debt Securities The following table summarizes the estimated fair value of investments in available-for-sale marketable debt securities by effective contractual maturity dates (in millions): As of December 31, 2023 Due in one year or less $ 11,231 Due in one year through five years 41,477 Due in five years through 10 years 15,351 Due after 10 years 14,216 Total $ 82,275 The following tables present fair values and gross unrealized losses recorded to AOCI, aggregated by investment category and the length of time that individual securities have been in a continuous loss position (in millions): As of December 31, 2022 Less than 12 Months 12 Months or Greater Total Unrealized Unrealized Unrealized Fair Value Loss Fair Value Loss Fair Value Loss Government bonds $ 21,039 $ (1,004) $ 13,438 $ (1,041) $ 34,477 $ (2,045) Corporate debt securities 11,228 (440) 15,125 (1,052) 26,353 (1,492) Mortgage-backed and asset-backed securities 7,725 (585) 6,964 (657) 14,689 (1,242) Total $ 39,992 $ (2,029) $ 35,527 $ (2,750) $ 75,519 $ (4,779) As of December 31, 2023 Less than 12 Months 12 Months or Greater Total Unrealized Unrealized Unrealized Fair Value Loss Fair Value Loss Fair Value Loss Government bonds $ 1,456 $ (22) $ 13,897 $ (657) $ 15,353 $ (679) Corporate debt securities 827 (5) 15,367 (592) 16,194 (597) Mortgage-backed and asset-backed securities 2,945 (26) 7,916 (608) 10,861 (634) Total $ 5,228 $ (53) $ 37,180 $ (1,857) $ 42,408 $ (1,910) We determine realized gains or losses on the sale or extinguishment of debt securities on a specific identification method.The following table summarizes gains and losses for debt securities, reflected as a component of OI&E (in millions): Year Ended December 31, 2021 2022 2023 Unrealized gain (loss) on fair value option debt securities $ (122) $ (557) $ 386 Gross realized gain on debt securities 432 103 182 Gross realized loss on debt securities (329) (1,588) (1,833) (Increase) decrease in allowance for credit losses (91) (22) 50 Total gain (loss) on debt securities recognized in other income (expense), net $ (110) $ (2,064) $ (1,215) 66.",
+        "metadata": {
+            "document": "goog-10-k-2023-final.pdf",
+            "page_number": "67",
+            "chunk_index": 0,
+            "page_section": "notes_to_financial_statements"
+        }
+    },
+    {
+        "id": "goog-10-k-2023-final.pdf_page_70_chunk_0",
+        "text": "Table of Contents Alphabet Inc. The gross notional amounts of outstanding derivative instruments were as follows (in millions): As of December 31, 2022 2023 Derivatives designated as hedging instruments: Foreign exchange contracts Cash flow hedges $ 15,972 $ 18,039 Fair value hedges $ 2,117 $ 2,065 Net investment hedges $ 8,751 $ 9,472 Derivatives not designated as hedging instruments: Foreign exchange contracts $ 34,979 $ 39,722 Other contracts $ 7,932 $ 10,818 The fair values of outstanding derivative instruments were as follows (in millions): As of December 31, 2022 As of December 31, 2023 Assets(1) Liabilities(2) Assets(1) Liabilities(2) Derivatives designated as hedging instruments: Foreign exchange contracts $ 271 $ 556 $ 205 $ 242 Derivatives not designated as hedging instruments: Foreign exchange contracts 365 207 134 156 Other contracts 40 47 114 47 Total derivatives not designated as hedging instruments 405 254 248 203 Total $ 676 $ 810 $ 453 $ 445 (1) Derivative assets are recorded as other current and non-current assets in the Consolidated Balance Sheets. (2) Derivative liabilities are recorded as accrued expenses and other liabilities, current and non-current in the Consolidated Balance Sheets. The gains (losses) on derivatives in cash flow hedging and net investment hedging relationships recognized in other comprehensive income (OCI) are summarized below (in millions): Year Ended December 31, 2021 2022 2023 Derivatives in cash flow hedging relationship: Foreign exchange contracts Amount included in the assessment of effectiveness $ 806 $ 1,699 $ 90 Amount excluded from the assessment of effectiveness 48 (188) 84 Derivatives in net investment hedging relationship: Foreign exchange contracts Amount included in the assessment of effectiveness 754 608 (287) Total $ 1,608 $ 2,119 $ (113) 69.",
+        "metadata": {
+            "document": "goog-10-k-2023-final.pdf",
+            "page_number": "70",
+            "chunk_index": 0,
+            "page_section": "notes_to_financial_statements"
+        }
+    },
+    {
+        "id": "goog-10-k-2023-final.pdf_page_72_chunk_0",
+        "text": "Table of Contents Alphabet Inc. The gross amounts of derivative instruments subject to master netting arrangements with various counterparties, and cash and non-cash collateral received and pledged under such agreements were as follows (in millions): As of December 31, 2022 Gross Amounts Not Offset in the Consolidated Balance Sheets, but Have Legal Rights to Offset Gross Net Amounts Amounts Presented in Cash and Offset in the the Non-Cash Gross Consolidated Consolidated Collateral Amounts Balance Balance Financial Received or Recognized Sheets Sheets Instruments(1) Pledged Net Amounts Derivatives assets $ 760 $ (84) $ 676 $ (463) $ (132) $ 81 Derivatives liabilities $ 894 $ (84) $ 810 $ (463) $ (28) $ 319 As of December 31, 2023 Gross Amounts Not Offset in the Consolidated Balance Sheets, but Have Legal Rights to Offset Gross Net Amounts Amounts Presented in Cash and Offset in the the Non-Cash Gross Consolidated Consolidated Collateral Amounts Balance Balance Financial Received or Recognized Sheets Sheets Instruments(1) Pledged Net Amounts Derivatives assets $ 535 $ (82) $ 453 $ (213) $ (75) $ 165 Derivatives liabilities $ 527 $ (82) $ 445 $ (213) $ (16) $ 216 (1) The balances as of December 31, 2022 and 2023 were related to derivatives allowed to be net settled in accordance with our master netting agreements. Note 4. Leases We have entered into operating lease agreements primarily for data centers, land, and offices throughout the world with lease periods expiring between 2024 and 2063. Components of operating lease expense were as follows (in millions): Year Ended December 31, 2021 2022 2023 Operating lease cost $ 2,699 $ 2,900 $ 3,362 Variable lease cost 726 838 1,182 Total operating lease cost $ 3,425 $ 3,738 $ 4,544 Supplemental information related to operating leases was as follows (in millions): Year Ended December 31, 2021 2022 2023 Cash payments for operating leases $ 2,489 $ 2,722 $ 3,173 New operating lease assets obtained in exchange for operating lease liabilities $ 2,951 $ 4,383 $ 2,877 71.",
+        "metadata": {
+            "document": "goog-10-k-2023-final.pdf",
+            "page_number": "72",
+            "chunk_index": 0,
+            "page_section": "notes_to_financial_statements"
+        }
+    },
+    {
+        "id": "goog-10-k-2023-final.pdf_page_73_chunk_0",
+        "text": "Table of Contents Alphabet Inc. As of December 31, 2023, our operating leases had a weighted average remaining lease term of 8.1 years and a weighted average discount rate of 3.1%. Future lease payments under operating leases as of December 31, 2023 were as follows (in millions): 2024 $ 3,179 2025 2,929 2026 2,450 2027 1,951 2028 1,488 Thereafter 5,685 Total future lease payments 17,682 Less imputed interest (2,431) Total lease liability balance $ 15,251 As of December 31, 2023, we have entered into leases that have not yet commenced with short-term and long- term future lease payments of $657 million and $3.3 billion that are not yet recorded on our Consolidated Balance Sheets. These leases will commence between 2024 and 2026 with non-cancelable lease terms between one and 25 years. Note 5. Variable Interest Entities Consolidated Variable Interest Entities We consolidate VIEs in which we hold a variable interest and are the primary beneficiary. The results of operations and financial position of these VIEs are included in our consolidated financial statements. For certain consolidated VIEs, their assets are not available to us and their creditors do not have recourse to us. As of December 31, 2022 and 2023, assets that can only be used to settle obligations of these VIEs were $4.1 billion and $4.9 billion, respectively, and the liabilities for which creditors only have recourse to the VIEs were $2.6 billion and $2.5 billion, respectively. We may continue to fund ongoing operations of certain VIEs that are included within Other Bets. Total noncontrolling interests (NCI) in our consolidated subsidiaries were $3.8 billion and $3.4 billion as of December 31, 2022 and 2023, respectively, of which $1.1 billion is redeemable noncontrolling interest (RNCI) for both periods. NCI and RNCI are included within additional paid-in capital. Net loss attributable to noncontrolling interests was not material for any period presented and is included within the \"other\" component of OI&E. See Note 7 for further details on OI&E. Unconsolidated Variable Interest Entities We have investments in VIEs in which we are not the primary beneficiary. These VIEs include private companies that are primarily early stage companies and certain renewable energy entities in which activities involve power generation using renewable sources. We have determined that the governance structures of these entities do not allow us to direct the activities that would significantly affect their economic performance. Therefore, we are not the primary beneficiary, and the results of operations and financial position of these VIEs are not included in our consolidated financial statements. We account for these investments primarily as non-marketable equity securities or equity method investments. The maximum exposure of these unconsolidated VIEs is generally based on the current carrying value of the investments and any future funding commitments. The maximum exposure and carrying value of these unconsolidated VIEs were $2.8 billion and $2.7 billion, respectively, as of December 31, 2022 and $5.7 billion and $4.0 billion, respectively, as of December 31, 2023. The difference between the maximum exposure and the carrying value",
+        "metadata": {
+            "document": "goog-10-k-2023-final.pdf",
+            "page_number": "73",
+            "chunk_index": 0,
+            "page_section": "notes_to_financial_statements"
+        }
+    },
+    {
+        "id": "goog-10-k-2023-final.pdf_page_73_chunk_1",
+        "text": "relates primarily to future funding commitments. Note 6. Debt Short-Term Debt We have a debt financing program of up to $10.0 billion through the issuance of commercial paper. Net proceeds from this program are used for general corporate purposes. We had no commercial paper outstanding as of December 31, 2022 and 2023. Our short-term debt balance also includes the current portion of certain long-term debt. 72.",
+        "metadata": {
+            "document": "goog-10-k-2023-final.pdf",
+            "page_number": "73",
+            "chunk_index": 1,
+            "page_section": "notes_to_financial_statements"
+        }
+    },
+    {
+        "id": "goog-10-k-2023-final.pdf_page_74_chunk_0",
+        "text": "Table of Contents Alphabet Inc. Long-Term Debt Total outstanding debt is summarized below (in millions, except percentages): As of December 31, Effective Maturity Coupon Rate Interest Rate 2022 2023 Debt 2014-2020 Notes issuances 2024 - 2060 0.45% - 3.38% 0.57% - 3.38% $ 13,000 $ 13,000 Future finance lease payments, net and other (1) 2,142 1,746 Total debt 15,142 14,746 Unamortized discount and debt issuance costs (143) (130) Less: Current portion of long-term notes(2) 0 (1,000) Less: Current portion of future finance lease payments, net and other current debt(1)(2) (298) (363) Total long-term debt $ 14,701 $ 13,253 (1) Future finance lease payments are net of imputed interest. (2) Total current portion of long-term debt is included within other accrued expenses and current liabilities. See Note 7 for further details. The notes in the table above are fixed-rate senior unsecured obligations and generally rank equally with each other. We may redeem the notes at any time in whole or in part at specified redemption prices. The effective interest rates are based on proceeds received with interest payable semi-annually. The total estimated fair value of the outstanding notes was approximately $9.9 billion and $10.3 billion as of December 31, 2022 and December 31, 2023, respectively. The fair value was determined based on observable market prices of identical instruments in less active markets and is categorized accordingly as Level 2 in the fair value hierarchy. As of December 31, 2023, the aggregate future principal payments for long-term debt, including finance lease liabilities, for each of the next five years and thereafter were as follows (in millions): 2024 $ 1,299 2025 1,163 2026 2,165 2027 1,143 2028 132 Thereafter 8,960 Total $ 14,862 Credit Facility As of December 31, 2023, we had $10.0 billion of revolving credit facilities, of which $4.0 billion expires in April 2024 and $6.0 billion expires in April 2028. The interest rates for all credit facilities are determined based on a formula using certain market rates, as well as our progress toward the achievement of certain sustainability goals. No amounts were outstanding under the credit facilities as of December 31, 2022 and 2023. Note 7. Supplemental Financial Statement Information Accounts Receivable The allowance for credit losses on accounts receivable was $754 million and $771 million as of December 31, 2022 and 2023, respectively. 73.",
+        "metadata": {
+            "document": "goog-10-k-2023-final.pdf",
+            "page_number": "74",
+            "chunk_index": 0,
+            "page_section": "notes_to_financial_statements"
+        }
+    },
+    {
+        "id": "goog-10-k-2023-final.pdf_page_77_chunk_0",
+        "text": "Table of Contents Alphabet Inc. Other Income (Expense), Net Components of OI&E were as follows (in millions): Year Ended December 31, 2021 2022 2023 Interest income $ 1,499 $ 2,174 $ 3,865 Interest expense(1) (346) (357) (308) Foreign currency exchange gain (loss), net (240) (654) (1,238) Gain (loss) on debt securities, net (110) (2,064) (1,215) Gain (loss) on equity securities, net 12,380 (3,455) 392 Performance fees (1,908) 798 257 Income (loss) and impairment from equity method investments, net 334 (337) (628) Other 411 381 299 Other income (expense), net $ 12,020 $ (3,514) $ 1,424 (1) Interest expense is net of interest capitalized of $163 million, $128 million, and $181 million for the years ended December 31, 2021, 2022, and 2023, respectively. Note 8. Workforce Reduction and Other Initiatives We have a company-wide effort underway to re-engineer our cost base. As part of this program, in January 2023, we announced a reduction of our workforce. As a result, total employee severance and related charges recorded during the year ended December 31, 2023 were $2.1 billion. Substantially all of the employees affected were no longer included in our headcount as of December 31, 2023. In addition, we are taking actions to optimize our global office space. As a result, exit charges recorded during the year ended December 31, 2023, were $1.8 billion as reflected in the table below. In addition to these exit charges, for the year ended December 31, 2023, we incurred $269 million in accelerated rent and accelerated depreciation, which are not included in the table below. Severance and office space exit charges are included within our consolidated statements of income as follows (in millions): Year Ended December 31, 2023 Severance and Related (1) Office Space Total Cost of revenues $ 479 $ 481 $ 960 Research and development 848 870 1,718 Sales and marketing 497 257 754 General and administrative 264 237 501 Total charges $ 2,088 $ 1,845 $ 3,933 (1) Severance includes amounts to be settled in cash, accounted for as one-time involuntary employee termination benefits, and SBC. For segment reporting, the substantial majority of these charges are included within Alphabet-level activities in our segment results. For the year ended December 31, 2023, changes in liabilities resulting from the severance charges and related accruals were as follows (in millions): Severance and Related Balance as of December 31, 2022 $ 0 Charges(1) 1,656 Cash payments (1,579) Balance as of December 31, 2023(2) $ 77 (1) Excludes non-cash SBC of $432 million. (2) Included in accrued compensation and benefits on the Consolidated Balance Sheets. 76.",
+        "metadata": {
+            "document": "goog-10-k-2023-final.pdf",
+            "page_number": "77",
+            "chunk_index": 0,
+            "page_section": "notes_to_financial_statements"
+        }
+    },
+    {
+        "id": "goog-10-k-2023-final.pdf_page_83_chunk_0",
+        "text": "Table of Contents Alphabet Inc. Year Ended December 31, 2023 Class A Class B Class C Basic net income per share: Numerator Allocation of undistributed earnings $ 34,601 $ 5,124 $ 34,070 Denominator Number of shares used in per share computation 5,922 877 5,831 Basic net income per share $ 5.84 $ 5.84 $ 5.84 Diluted net income per share: Numerator Allocation of undistributed earnings for basic computation $ 34,601 $ 5,124 $ 34,070 Reallocation of undistributed earnings as a result of conversion of Class B to Class A shares 5,124 0 0 Reallocation of undistributed earnings (287) (37) 287 Allocation of undistributed earnings $ 39,438 $ 5,087 $ 34,357 Denominator Number of shares used in basic computation 5,922 877 5,831 Weighted-average effect of dilutive securities Add: Conversion of Class B to Class A shares outstanding 877 0 0 Restricted stock units and other contingently issuable shares 0 0 92 Number of shares used in per share computation 6,799 877 5,923 Diluted net income per share $ 5.80 $ 5.80 $ 5.80 Note 13. Compensation Plans Stock Plans Our stock plans include the Alphabet Amended and Restated 2021 Stock Plan (\"Alphabet 2021 Stock Plan\") and Other Bets stock-based plans. Under our stock plans, RSUs and other types of awards may be granted. Under the Alphabet 2021 Stock Plan, an RSU award is an agreement to issue shares of our Class C stock at the time the award vests. RSUs generally vest over four years contingent upon employment on the vesting date. As of December 31, 2023, there were 723 million shares of Class C stock reserved for future issuance under the Alphabet 2021 Stock Plan. Stock-Based Compensation For the years ended December 31, 2021, 2022, and 2023, total SBC expense was $15.7 billion, $19.5 billion, and $22.1 billion, including amounts associated with awards we expect to settle in Alphabet stock of $15.0 billion, $18.8 billion, and $21.7 billion, respectively. During the year ended December 31, 2023, total SBC expense includes $432 million associated with workforce reduction costs. See Note 8 for further details. For the years ended December 31, 2021, 2022, and 2023, we recognized tax benefits on total SBC expense, which are reflected in the provision for income taxes in the Consolidated Statements of Income, of $3.1 billion, $3.9 billion, and $4.5 billion, respectively. For the years ended December 31, 2021, 2022, and 2023, tax benefit realized related to awards vested or exercised during the period was $5.9 billion, $4.7 billion, and $5.6 billion, respectively. These amounts do not include the indirect effects of stock-based awards, which primarily relate to the R&D tax credit. Stock-Based Award Activities 82.",
+        "metadata": {
+            "document": "goog-10-k-2023-final.pdf",
+            "page_number": "83",
+            "chunk_index": 0,
+            "page_section": "notes_to_financial_statements"
+        }
+    },
+    {
         "id": "goog-10-k-2023-final.pdf_page_84_chunk_0",
         "text": "Table of Contents Alphabet Inc. The following table summarizes the activities for unvested Alphabet RSUs for the year ended December 31, 2023 (in millions, except per share amounts): Unvested Restricted Stock Units Weighted- Average Number of Grant-Date Shares Fair Value Unvested as of December 31, 2022 324 $ 107.98 Granted 263 $ 97.59 Vested (217) $ 100.36 Forfeited/canceled (32) $ 106.56 Unvested as of December 31, 2023 338 $ 104.93 The weighted-average grant-date fair value of RSUs granted during the years ended December 31, 2021 and 2022 was $97.46 and $127.22, respectively. Total fair value of RSUs, as of their respective vesting dates, during the years ended December 31, 2021, 2022, and 2023, were $28.8 billion, $23.9 billion, and $26.6 billion, respectively. As of December 31, 2023, there was $33.5 billion of unrecognized compensation cost related to unvested RSUs. This amount is expected to be recognized over a weighted-average period of 2.5 years. Note 14. Income Taxes Income from continuing operations before income taxes consisted of the following (in millions): Year Ended December 31, 2021 2022 2023 Domestic operations $ 77,016 $ 61,307 $ 73,600 Foreign operations 13,718 10,021 12,117 Total $ 90,734 $ 71,328 $ 85,717 Provision for income taxes consisted of the following (in millions): Year Ended December 31, 2021 2022 2023 Current: Federal and state $ 10,126 $ 17,120 $ 17,125 Foreign 2,692 2,434 2,526 Total 12,818 19,554 19,651 Deferred: Federal and state 2,018 (8,052) (7,482) Foreign (135) (146) (247) Total 1,883 (8,198) (7,729) Provision for income taxes $ 14,701 $ 11,356 $ 11,922 83.",
         "metadata": {
             "document": "goog-10-k-2023-final.pdf",
             "page_number": "84",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -14,6 +285,7 @@
         "metadata": {
             "document": "goog-10-k-2023-final.pdf",
             "page_number": "85",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -23,6 +295,7 @@
         "metadata": {
             "document": "goog-10-k-2023-final.pdf",
             "page_number": "86",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -32,6 +305,7 @@
         "metadata": {
             "document": "goog-10-k-2023-final.pdf",
             "page_number": "86",
+            "chunk_index": 1,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -41,6 +315,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "48",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -50,6 +325,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "58",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -59,6 +335,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "58",
+            "chunk_index": 1,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -68,6 +345,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "60",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -77,6 +355,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "60",
+            "chunk_index": 1,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -86,6 +365,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "61",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -95,6 +375,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "61",
+            "chunk_index": 1,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -104,6 +385,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "65",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -113,6 +395,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "66",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -122,6 +405,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "67",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -131,6 +415,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "68",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -140,6 +425,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "70",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -149,6 +435,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "70",
+            "chunk_index": 1,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -158,6 +445,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "71",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -167,6 +455,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "73",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -176,6 +465,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "74",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -185,6 +475,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "75",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -194,6 +485,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "75",
+            "chunk_index": 1,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -203,6 +495,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "76",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -212,6 +505,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "78",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -221,6 +515,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "85",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -230,6 +525,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "86",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -239,6 +535,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "87",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -248,6 +545,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "88",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -257,6 +555,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "88",
+            "chunk_index": 1,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -266,6 +565,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2022.pdf",
             "page_number": "10",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -275,6 +575,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2022.pdf",
             "page_number": "11",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -284,6 +585,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2022.pdf",
             "page_number": "11",
+            "chunk_index": 1,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -293,6 +595,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2022.pdf",
             "page_number": "12",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -302,6 +605,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2022.pdf",
             "page_number": "14",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -311,6 +615,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2022.pdf",
             "page_number": "15",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -320,6 +625,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2022.pdf",
             "page_number": "15",
+            "chunk_index": 1,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -329,6 +635,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2022.pdf",
             "page_number": "18",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -338,6 +645,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2022.pdf",
             "page_number": "19",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -347,6 +655,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2022.pdf",
             "page_number": "19",
+            "chunk_index": 1,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -356,6 +665,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2022.pdf",
             "page_number": "20",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -365,6 +675,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2022.pdf",
             "page_number": "20",
+            "chunk_index": 1,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -374,6 +685,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2022.pdf",
             "page_number": "21",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -383,6 +695,27 @@
         "metadata": {
             "document": "goog-10-q-q1-2022.pdf",
             "page_number": "23",
+            "chunk_index": 0,
+            "page_section": "notes_to_financial_statements"
+        }
+    },
+    {
+        "id": "goog-10-q-q1-2022.pdf_page_26_chunk_0",
+        "text": "Table of Contents Alphabet Inc. We expense legal fees in the period in which they are incurred. Non-Income Taxes We are under audit by various domestic and foreign tax authorities with regards to non-income tax matters. The subject matter of non-income tax audits primarily arises from disputes on the tax treatment and tax rate applied to the sale of our products and services in these jurisdictions and the tax treatment of certain employee benefits. We accrue non-income taxes that may result from examinations by, or any negotiated agreements with, these tax authorities when a loss is probable and reasonably estimable. If we determine that a loss is reasonably possible and the loss or range of loss can be estimated, we disclose the reasonably possible loss. Due to the inherent complexity and uncertainty of these matters and judicial process in certain jurisdictions, the final outcome may be materially different from our expectations. For information regarding income tax contingencies, see Note 13. Note 10. Stockholders' Equity Share Repurchases In April 2021, the Board of Directors of Alphabet authorized the company to repurchase up to $50.0 billion of its Class C stock. In July 2021, the Board of Directors of Alphabet approved an amendment to the April 2021 authorization, permitting the company to repurchase both Class A and Class C shares in a manner deemed in the best interest of the company and its stockholders, taking into account the economic cost and prevailing market conditions, including the relative trading prices and volumes of the Class A and Class C shares. As of March 31, 2022, $4.1 billion remains available for Class A and Class C share repurchases under the amended authorization. In accordance with the authorizations of the Board of Directors of Alphabet, during the three months ended March 31, 2022, we repurchased and subsequently retired 4.9 million aggregate shares for $13.3 billion. Of the aggregate amount repurchased and subsequently retired during the three months ended March 31, 2022, 0.2 million shares were Class A stock for $660 million and 4.7 million shares were Class C stock for $12.6 billion. In April 2022, the Board of Directors of Alphabet authorized the company to repurchase up to an additional $70.0 billion of its Class A and Class C shares in a manner deemed in the best interest of the company and its stockholders, taking into account the economic cost and prevailing market conditions, including the relative trading prices and volumes of the Class A and Class C shares. Repurchases are executed from time to time, subject to general business and market conditions and other investment opportunities, through open market purchases or privately negotiated transactions, including through Rule 10b5-1 plans. The repurchase program does not have an expiration date. Stock Split Effected in Form of Stock Dividend (\u201cStock Split\u201d) On February 1, 2022, the company announced that the Board of Directors had approved and declared a 20- for-one stock split in the form of a one-time special stock dividend on each share of the company\u2019s",
+        "metadata": {
+            "document": "goog-10-q-q1-2022.pdf",
+            "page_number": "26",
+            "chunk_index": 0,
+            "page_section": "notes_to_financial_statements"
+        }
+    },
+    {
+        "id": "goog-10-q-q1-2022.pdf_page_26_chunk_1",
+        "text": "Class A, Class B, and Class C stock. The Stock Split is subject to stockholder approval of an amendment to the company\u2019s Amended and Restated Certificate of Incorporation to increase the number of authorized shares of Class A, Class B, and Class C stock to accommodate the Stock Split. If approval is obtained, each of the company\u2019s stockholders of record at the close of business on July 1, 2022 (the \u201cRecord Date\u201d), will receive, after the close of business on July 15, 2022, a dividend of 19 additional shares of the same class of stock for every share held by such stockholder as of the Record Date. 26",
+        "metadata": {
+            "document": "goog-10-q-q1-2022.pdf",
+            "page_number": "26",
+            "chunk_index": 1,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -392,6 +725,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2022.pdf",
             "page_number": "27",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -401,6 +735,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2022.pdf",
             "page_number": "28",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -410,6 +745,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2023.pdf",
             "page_number": "10",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -419,6 +755,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2023.pdf",
             "page_number": "11",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -428,6 +765,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2023.pdf",
             "page_number": "12",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -437,6 +775,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2023.pdf",
             "page_number": "13",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -446,6 +785,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2023.pdf",
             "page_number": "14",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -455,6 +795,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2023.pdf",
             "page_number": "16",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -464,6 +805,17 @@
         "metadata": {
             "document": "goog-10-q-q1-2023.pdf",
             "page_number": "16",
+            "chunk_index": 1,
+            "page_section": "notes_to_financial_statements"
+        }
+    },
+    {
+        "id": "goog-10-q-q1-2023.pdf_page_17_chunk_0",
+        "text": "Table of Contents Alphabet Inc. The gross notional amounts of outstanding derivative instruments were as follows (in millions): As of December 31, As of March 31, 2022 2023 Derivatives designated as hedging instruments: Foreign exchange contracts Cash flow hedges $ 15,972 $ 17,140 Fair value hedges $ 2,117 $ 1,439 Net investment hedges $ 8,751 $ 9,036 Derivatives not designated as hedging instruments: Foreign exchange contracts $ 34,979 $ 33,715 Other contracts $ 7,932 $ 8,423 The fair values of outstanding derivative instruments were as follows (in millions): As of December 31, 2022 As of March 31, 2023 Assets(1) Liabilities(2) Assets(1) Liabilities(2) Derivatives designated as hedging instruments: Foreign exchange contracts $ 271 $ 556 $ 111 $ 510 Derivatives not designated as hedging instruments: Foreign exchange contracts 365 207 284 201 Other contracts 40 47 48 65 Total derivatives not designated as hedging instruments 405 254 332 266 Total $ 676 $ 810 $ 443 $ 776 (1) Derivative assets are recorded as other current and non-current assets in the Consolidated Balance Sheets. (2) Derivative liabilities are recorded as accrued expenses and other liabilities, current and non-current in the Consolidated Balance Sheets. The gains (losses) on derivatives in cash flow hedging and net investment hedging relationships recognized in other comprehensive income (OCI) are summarized below (in millions): Gains (Losses) Recognized in OCI on Derivatives Before Tax Effect Three Months Ended March 31, 2022 2023 Derivatives in cash flow hedging relationship: Foreign exchange contracts Amount included in the assessment of effectiveness $ 135 $ (138) Amount excluded from the assessment of effectiveness (15) 47 Derivatives in net investment hedging relationship: Foreign exchange contracts Amount included in the assessment of effectiveness 149 (215) Total $ 269 $ (306) 17",
+        "metadata": {
+            "document": "goog-10-q-q1-2023.pdf",
+            "page_number": "17",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -473,6 +825,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2023.pdf",
             "page_number": "18",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -482,6 +835,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2023.pdf",
             "page_number": "20",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -491,6 +845,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2023.pdf",
             "page_number": "23",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -500,6 +855,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2023.pdf",
             "page_number": "24",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -509,6 +865,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2023.pdf",
             "page_number": "28",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -518,6 +875,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2023.pdf",
             "page_number": "28",
+            "chunk_index": 1,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -527,6 +885,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2023.pdf",
             "page_number": "34",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -536,6 +895,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2023.pdf",
             "page_number": "42",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -545,6 +905,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2023.pdf",
             "page_number": "42",
+            "chunk_index": 1,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -554,6 +915,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2024.pdf",
             "page_number": "11",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -563,6 +925,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2024.pdf",
             "page_number": "12",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -572,6 +935,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2024.pdf",
             "page_number": "13",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -581,24 +945,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2024.pdf",
             "page_number": "14",
-            "page_section": "notes_to_financial_statements"
-        }
-    },
-    {
-        "id": "goog-10-q-q1-2024.pdf_page_16_chunk_0",
-        "text": "Derivative Financial Instruments We use derivative instruments to manage risks relating to our ongoing business operations. The primary risk managed is foreign exchange risk. We use foreign currency contracts to reduce the risk that our cash flows, earnings, and investment in foreign subsidiaries will be adversely affected by foreign currency exchange rate fluctuations. We also enter into derivative instruments to partially offset our exposure to other risks and enhance investment returns. We recognize derivative instruments in the Consolidated Balance Sheets at fair value and classify the derivatives primarily within Level 2 in the fair value hierarchy. We present our collar contracts (an option strategy comprised of a combination of purchased and written options) at net fair values and present all other derivatives at gross fair values. The accounting treatment for derivatives is based on the intended use and hedge designation. Cash Flow Hedges We designate foreign currency forward and option contracts (including collars) as cash flow hedges to hedge certain forecasted revenue transactions denominated in currencies other than the United States (U.S.) dollar. These contracts have maturities of 24 months or less. Cash flow hedge amounts included in the assessment of hedge effectiveness are deferred in AOCI and subsequently reclassified to revenue when the hedged item is recognized in earnings. We exclude forward points and time value from our assessment of hedge effectiveness and amortize them on a straight-line basis over the life of the hedging instrument in revenues. The difference between fair value changes of the excluded component and the amount amortized to revenues is recorded in AOCI. As of March 31, 2024, the net accumulated gain on our foreign currency cash flow hedges before tax effect was $128 million, which is expected to be reclassified from AOCI into revenues within the next 12 months. Fair Value Hedges We designate foreign currency forward contracts as fair value hedges to hedge foreign currency risks for our marketable securities denominated in currencies other than the U.S. dollar. Fair value hedge amounts included in the assessment of hedge effectiveness are recognized in OI&E, along with the offsetting gains and losses of the related hedged items. We exclude forward points from the assessment of hedge effectiveness and recognize changes in the excluded component in OI&E. Net Investment Hedges We designate foreign currency forward contracts as net investment hedges to hedge the foreign currency risks related to our investment in foreign subsidiaries. Net investment hedge amounts included in the assessment of hedge effectiveness are recognized in AOCI along with the foreign currency translation adjustment. We exclude forward points from the assessment of hedge effectiveness and recognize changes in the excluded component in OI&E. Other Derivatives We enter into foreign currency forward and option contracts that are not designated as hedging instruments to hedge intercompany transactions and other monetary assets or liabilities denominated in currencies other than the functional currency of a subsidiary. Gains and losses on these derivatives that are not designated as accounting hedges are primarily recorded in OI&E along with the foreign",
-        "metadata": {
-            "document": "goog-10-q-q1-2024.pdf",
-            "page_number": "16",
-            "page_section": "notes_to_financial_statements"
-        }
-    },
-    {
-        "id": "goog-10-q-q1-2024.pdf_page_16_chunk_1",
-        "text": "currency gains and losses on monetary assets and liabilities. We also use derivatives not designated as hedging instruments to manage risks relating to interest rates, commodity prices, and credit exposures, and to enhance investment returns. From time to time, we enter into derivatives to hedge the market price risk on certain of our marketable equity securities. Gains and losses arising from other derivatives are primarily reflected within the \u201cother\u201d component of OI&E. See Note 6 for further details. 16",
-        "metadata": {
-            "document": "goog-10-q-q1-2024.pdf",
-            "page_number": "16",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -608,6 +955,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2024.pdf",
             "page_number": "18",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -617,6 +965,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2024.pdf",
             "page_number": "19",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -626,6 +975,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2024.pdf",
             "page_number": "19",
+            "chunk_index": 1,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -635,6 +985,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2024.pdf",
             "page_number": "20",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -644,6 +995,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2024.pdf",
             "page_number": "22",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -653,6 +1005,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2024.pdf",
             "page_number": "26",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -662,6 +1015,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2024.pdf",
             "page_number": "27",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -671,24 +1025,37 @@
         "metadata": {
             "document": "goog-10-q-q1-2024.pdf",
             "page_number": "27",
+            "chunk_index": 1,
             "page_section": "notes_to_financial_statements"
         }
     },
     {
-        "id": "goog-10-q-q1-2024.pdf_page_41_chunk_0",
-        "text": "Three Months Ended March 31, 2024 Shares Amount Class A share repurchases 23 $ 3,350 Class C share repurchases 88 12,707 Total share repurchases(1) 111 $ 16,057 (1) Shares repurchased include unsettled repurchases as of March 31, 2024. For additional information, see Note 9 of the Notes to Consolidated Financial Statements included in Item 1 of this Quarterly Report on Form 10-Q. Dividend Program On April 25, 2024, the Board of Directors of Alphabet declared a cash dividend of $0.20 per share to be paid on June 17, 2024, to stockholders of record as of June 10, 2024, on each of the company\u2019s Class A, Class B, and Class C shares. The company intends to pay quarterly cash dividends in the future, subject to review and approval by the company\u2019s Board of Directors in its sole discretion. In connection with the cash dividend (and any future dividend the company\u2019s Board of Directors may declare from time to time), the company will also award dividend equivalent units to holders of all unvested stock units in accordance with the Alphabet Inc. Amended and Restated 2021 Stock Plan and pursuant to each holder\u2019s outstanding stock unit grant agreements, as amended. European Commission Fines In 2017, 2018 and 2019, the EC announced decisions that certain actions taken by Google infringed European competition law and imposed fines of \u20ac2.4 billion ($2.7 billion as of June 27, 2017), \u20ac4.3 billion ($5.1 billion as of June 30, 2018), and \u20ac1.5 billion ($1.7 billion as of March 20, 2019), respectively. On September 14, 2022, the General Court reduced the 2018 fine from \u20ac4.3 billion to \u20ac4.1 billion. We subsequently filed an appeal to the European Court of Justice. While each EC decision is under appeal, we included the fines in accrued expenses and other current liabilities on our Consolidated Balance Sheets as we provided bank guarantees (in lieu of a cash payment) for the fines. For additional information, see Note 8 of the Notes to Consolidated Financial Statements included in Item 1 of this Quarterly Report on Form 10-Q. Taxes As of March 31, 2024, we had income taxes payable of $4.2 billion, of which $2.1 billion was short-term, related to a one-time transition tax payable incurred as a result of the U.S. Tax Cuts and Jobs Act (\"Tax Act\"). As permitted by the Tax Act, we will pay the transition tax in annual interest-free installments through 2025. We also have long-term taxes payable of $7.1 billion primarily related to uncertain tax positions as of March 31, 2024. Purchase Commitments and Other Contractual Obligations As of March 31, 2024, we had material purchase commitments and other contractual obligations of $44.0 billion, of which $29.4 billion was short-term. These amounts primarily consist of purchase orders for certain technical infrastructure as well as the non-cancelable portion or the minimum cancellation fee in certain agreements related to commitments to purchase licenses, including content licenses, inventory and network capacity. For those agreements with variable terms, we do not estimate the non-cancelable obligation",
+        "id": "goog-10-q-q1-2024.pdf_page_31_chunk_0",
+        "text": "Costs and Expenses Our cost structure has two components: cost of revenues and operating expenses. Our operating expenses include costs related to R&D, sales and marketing, and general and administrative functions. Certain of our costs and expenses, including those associated with the operation of our technical infrastructure as well as components of our operating expenses, are generally less variable in nature and may not correlate to changes in revenue. Additionally, fluctuations in compensation expenses may not directly correlate with changes in headcount, in particular due to annual SBC awards that generally vest over four years. Cost of Revenues Cost of revenues is comprised of TAC and other costs of revenues. \u2022 TAC includes: \u25e6 amounts paid to our distribution partners who make available our search access points and services. Our distribution partners include browser providers, mobile carriers, original equipment manufacturers, and software developers; and \u25e6 amounts paid to Google Network partners primarily for ads displayed on their properties. \u2022 Other cost of revenues primarily includes: \u25e6 compensation expense related to our data centers and other operations such as content review and customer and product support; \u25e6 content acquisition costs, which are payments to content providers from whom we license video and other content for distribution on YouTube and Google Play (we pay fees to these content providers based on revenues generated or a flat fee); \u25e6 depreciation expense related to our technical infrastructure; and \u25e6 inventory and other costs related to the devices we sell. TAC as a percentage of revenues generated from ads placed on Google Network properties are significantly higher than TAC as a percentage of revenues generated from ads placed on Google Search & other properties, because most of the advertiser revenues from ads served on Google Network properties are paid as TAC to our Google Network partners. Operating Expenses Operating expenses are generally incurred during our normal course of business, which we categorize as either R&D, sales and marketing, or general and administrative. The main components of our R&D expenses are: \u2022 compensation expenses for engineering and technical employees responsible for R&D related to our existing and new products and services; \u2022 depreciation; and \u2022 third-party services fees primarily relating to consulting and outsourced services in support of our engineering and product development efforts. The main components of our sales and marketing expenses are: \u2022 compensation expenses for employees engaged in sales and marketing, sales support, and certain customer service functions; and \u2022 spending relating to our advertising and promotional activities in support of our products and services. The main components of our general and administrative expenses are: \u2022 compensation expenses for employees in finance, human resources, information technology, legal, and other administrative support functions; \u2022 expenses relating to legal matters, including certain fines and settlements; and \u2022 third-party services fees, including audit, consulting, outside legal, and other outsourced administrative services. 31",
         "metadata": {
             "document": "goog-10-q-q1-2024.pdf",
-            "page_number": "41",
+            "page_number": "31",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
     {
-        "id": "goog-10-q-q1-2024.pdf_page_41_chunk_1",
-        "text": "beyond any minimum quantities and/or pricing as of March 31, 2024. In certain instances, the amount of our contractual obligations may change based on the expected timing of order fulfillment from our suppliers. For more information related to our content licenses, see Note 8 of the Notes to Consolidated Financial Statements included in Item I of this Quarterly Report on Form 10-Q. In addition we regularly enter into multi-year, non-cancellable agreements to purchase renewable energy and energy attributes, such as renewable energy certificates. These agreements do not include a minimum dollar commitment. The amounts to be paid under these agreements are based on the actual volumes to be generated and are not readily determinable. Critical Accounting Estimates See Part II, Item 7, \"Critical Accounting Estimates\" in our Annual Report on Form 10-K for the year ended December 31, 2023. 41",
+        "id": "goog-10-q-q1-2024.pdf_page_40_chunk_0",
+        "text": "Construction in progress consists primarily of technical infrastructure and office facilities which have not yet been placed in service. The time frame from date of purchase to placement in service of these assets may extend from months to years. For example, our data center construction projects are generally multi-year projects with multiple phases, where we acquire land and buildings, construct buildings, and secure and install information technology assets. During the three months ended March 31, 2023 and 2024, we spent $6.3 billion and $12.0 billion on capital expenditures, respectively. We expect to increase, relative to 2023, our investment in our technical infrastructure, including servers, network equipment, and data centers, to support the growth of our business and our long-term initiatives, in particular in support of AI products and services. Depreciation of our property and equipment commences when the deployment of such assets are completed and are ready for our intended use. Land is not depreciated. For the three months ended March 31, 2023 and 2024, our depreciation on property and equipment was $2.6 billion and $3.4 billion, respectively. Leases For the three months ended March 31, 2023 and 2024, we recognized total operating lease assets of $1.1 billion and $0.4 billion, respectively. As of March 31, 2024, the amount of total future lease payments under operating leases, which had a weighted average remaining lease term of 8 years, was $17.2 billion. As of March 31, 2024, we have entered into leases that have not yet commenced with future lease payments of $3.6 billion, that are not yet recorded on our Consolidated Balance Sheets. These leases will commence between 2024 and 2026 with non-cancelable lease terms of one to 25 years. For the three months ended March 31, 2023 and 2024, our operating lease expenses (including variable lease costs) were $1.1 billion and $1.1 billion, respectively. Finance lease costs were not material for the three months ended March 31, 2023 and 2024. Financing We have a short-term debt financing program of up to $10.0 billion through the issuance of commercial paper. Net proceeds from this program are used for general corporate purposes. As of March 31, 2024, we had no commercial paper outstanding. As of March 31, 2024, we had $10.0 billion of revolving credit facilities, $4.0 billion expiring in April 2024 and $6.0 billion expiring in April 2028. In April 2024, we entered into a new $4.0 billion revolving credit facility expiring in April 2025.The interest rates for all credit facilities are determined based on a formula using certain market rates, as well as our progress toward the achievement of certain sustainability goals. No amounts have been borrowed under the credit facilities. As of March 31, 2024, we had senior unsecured notes outstanding with a total carrying value of $11.9 billion. For additional information, see Note 5 of the Notes to Consolidated Financial Statements included in Item 1 of this Quarterly Report on Form 10-Q. We primarily utilize contract manufacturers for the assembly of our servers used in our technical",
         "metadata": {
             "document": "goog-10-q-q1-2024.pdf",
-            "page_number": "41",
+            "page_number": "40",
+            "chunk_index": 0,
+            "page_section": "notes_to_financial_statements"
+        }
+    },
+    {
+        "id": "goog-10-q-q1-2024.pdf_page_40_chunk_1",
+        "text": "infrastructure and devices we sell. We have agreements where we may purchase components directly from suppliers and then supply these components to contract manufacturers for use in the assembly of the servers and devices. Certain of these arrangements result in a portion of the cash received from and paid to the contract manufacturers to be presented as financing activities in the Consolidated Statements of Cash Flows included in Item 1 of this Quarterly Report on Form 10-Q. Share Repurchase Program During the three months ended March 31, 2024, we repurchased and subsequently retired 111 million shares for $16.1 billion. In April 2023, the Board of Directors of Alphabet authorized the company to repurchase up to $70.0 billion of its Class A and Class C shares. As of March 31, 2024, $20.4 billion remained available for Class A and Class C share repurchases. In April 2024, the Board of Directors of Alphabet authorized the company to repurchase up to an additional $70.0 billion of its Class A and Class C shares. The following table presents Class A and Class C shares repurchased and subsequently retired (in millions): 40",
+        "metadata": {
+            "document": "goog-10-q-q1-2024.pdf",
+            "page_number": "40",
+            "chunk_index": 1,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -698,6 +1065,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2025.pdf",
             "page_number": "11",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -707,6 +1075,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2025.pdf",
             "page_number": "12",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -716,6 +1085,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2025.pdf",
             "page_number": "13",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -725,6 +1095,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2025.pdf",
             "page_number": "14",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -734,6 +1105,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2025.pdf",
             "page_number": "16",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -743,6 +1115,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2025.pdf",
             "page_number": "16",
+            "chunk_index": 1,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -752,6 +1125,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2025.pdf",
             "page_number": "17",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -761,6 +1135,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2025.pdf",
             "page_number": "18",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -770,6 +1145,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2025.pdf",
             "page_number": "19",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -779,6 +1155,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2025.pdf",
             "page_number": "20",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -788,6 +1165,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2025.pdf",
             "page_number": "21",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -797,6 +1175,17 @@
         "metadata": {
             "document": "goog-10-q-q1-2025.pdf",
             "page_number": "22",
+            "chunk_index": 0,
+            "page_section": "notes_to_financial_statements"
+        }
+    },
+    {
+        "id": "goog-10-q-q1-2025.pdf_page_23_chunk_0",
+        "text": "Accrued Expenses and Other Current Liabilities Accrued expenses and other current liabilities consisted of the following (in millions): As of As of December 31, 2024 March 31, 2025 Accrued purchases of property and equipment(1) $ 7,104 $ 7,552 European Commission fines(2) 6,322 6,534 Accrued customer liabilities 4,304 4,163 Payables to brokers for unsettled investment trades 3,866 4,889 Income taxes payable, net 2,905 9,160 Other accrued expenses and current liabilities 26,727 26,002 Accrued expenses and other current liabilities $ 51,228 $ 58,300 (1) Additional property and equipment purchases of $3.2 billion and $3.8 billion as of December 31, 2024 and March 31, 2025, respectively, were included in accounts payable. (2) The amounts related to the European Commission (EC) fines, including any under appeal, are included in accrued expenses and other current liabilities on our Consolidated Balance Sheets. Amounts include the effects of foreign exchange and interest. See Note 10 for further details. Accumulated Other Comprehensive Income (Loss) Components of AOCI, net of income tax, were as follows (in millions): Unrealized Gains Unrealized Foreign (Losses) on Gains Currency Available-for- (Losses) on Translation Sale Cash Flow Adjustments Investments Hedges Total Balance as of December 31, 2023 $ (3,407) $ (965) $ (30) $ (4,402) Other comprehensive income (loss) before reclassifications (503) (360) 128 (735) Amounts excluded from the assessment of hedge effectiveness recorded in AOCI 0 0 58 58 Amounts reclassified from AOCI 0 311 (71) 240 Other comprehensive income (loss) (503) (49) 115 (437) Balance as of March 31, 2024 $ (3,910) $ (1,014) $ 85 $ (4,839) Unrealized Gains Unrealized Foreign (Losses) on Gains Currency Available-for- (Losses) on Translation Sale Cash Flow Adjustments Investments Hedges Total Balance as of December 31, 2024 $ (5,080) $ (299) $ 579 $ (4,800) Other comprehensive income (loss) before reclassifications 663 645 (252) 1,056 Amounts excluded from the assessment of hedge effectiveness recorded in AOCI 0 0 (61) (61) Amounts reclassified from AOCI 0 (84) (197) (281) Other comprehensive income (loss) 663 561 (510) 714 Balance as of March 31, 2025 $ (4,417) $ 262 $ 69 $ (4,086) 23",
+        "metadata": {
+            "document": "goog-10-q-q1-2025.pdf",
+            "page_number": "23",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -806,6 +1195,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2025.pdf",
             "page_number": "24",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -815,6 +1205,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2025.pdf",
             "page_number": "25",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -824,6 +1215,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2025.pdf",
             "page_number": "25",
+            "chunk_index": 1,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -833,6 +1225,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2025.pdf",
             "page_number": "29",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -842,6 +1235,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2025.pdf",
             "page_number": "30",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -851,6 +1245,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2025.pdf",
             "page_number": "30",
+            "chunk_index": 1,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -860,6 +1255,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2022.pdf",
             "page_number": "11",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -869,6 +1265,27 @@
         "metadata": {
             "document": "goog-10-q-q2-2022.pdf",
             "page_number": "11",
+            "chunk_index": 1,
+            "page_section": "notes_to_financial_statements"
+        }
+    },
+    {
+        "id": "goog-10-q-q2-2022.pdf_page_12_chunk_0",
+        "text": "Table of Contents Alphabet Inc. The following table presents revenues disaggregated by geography, based on the addresses of our customers (in millions): Three Months Ended Six Months Ended June 30, June 30, 2021 2022 2021 2022 United States $ 28,208 46 % $ 32,727 47 % $ 53,240 45 % $ 64,460 47 % EMEA(1) 19,084 31 20,533 29 36,115 31 40,850 30 APAC(1) 11,231 18 11,710 17 21,686 19 23,551 17 Other Americas(1) 3,364 5 4,340 6 6,269 5 8,182 6 Hedging gains (losses) (7) 0 375 1 (116) 0 653 0 Total revenues $ 61,880 100 % $ 69,685 100 % $ 117,194 100 % $ 137,696 100 % (1) Regions represent Europe, the Middle East, and Africa (EMEA); Asia-Pacific (APAC); and Canada and Latin America (\"Other Americas\"). Revenue Backlog and Deferred Revenues As of June 30, 2022, we had $51.2 billion of remaining performance obligations (\u201crevenue backlog\u201d), primarily related to Google Cloud, and expect to recognize approximately half of this amount as revenues over the next 24 months with the remaining to be recognized thereafter. Our revenue backlog represents commitments in customer contracts for future services that have not yet been recognized as revenues. The amount and timing of revenue recognition for these commitments is largely driven by when our customers utilize services and our ability to deliver in accordance with relevant contract terms, which could affect our estimate of revenue backlog and when we expect to recognize such as revenues. Revenue backlog includes related deferred revenue currently recorded as well as amounts that will be invoiced in future periods and excludes contracts with an original expected term of one year or less and cancellable contracts. We record deferred revenues when cash payments are received or due in advance of our performance, including amounts which are refundable. Deferred revenues primarily relate to Google Cloud and Google other. Total deferred revenue as of December 31, 2021 was $3.8 billion, of which $2.1 billion was recognized as revenues during the six months ended June 30, 2022. Note 3. Financial Instruments Debt Securities We classify our marketable debt securities, which are accounted for as available-for-sale, within Level 2 in the fair value hierarchy because we use quoted market prices to the extent available or alternative pricing sources and models utilizing market observable inputs to determine fair value. For certain marketable debt securities, we have elected the fair value option for which changes in fair value are recorded in other income (expense), net. The fair value option was elected for these securities to align with the unrealized gains and losses from related derivative contracts. Unrealized net losses related to debt securities still held where we have elected the fair value option were $35 million and $602 million as of December 31, 2021 and June 30, 2022, respectively. As of December 31, 2021 and June 30, 2022, the fair value of these debt securities was $4.7 billion and $6.4 billion, respectively. The following tables summarize debt securities, for which we did not",
+        "metadata": {
+            "document": "goog-10-q-q2-2022.pdf",
+            "page_number": "12",
+            "chunk_index": 0,
+            "page_section": "notes_to_financial_statements"
+        }
+    },
+    {
+        "id": "goog-10-q-q2-2022.pdf_page_12_chunk_1",
+        "text": "elect the fair value option, by significant investment categories (in millions): As of December 31, 2021 Gross Gross Cash and Adjusted Unrealized Unrealized Fair Cash Marketable Cost Gains Losses Value Equivalents Securities Level 2: Time deposits(1) $ 5,133 $ 0 $ 0 $ 5,133 $ 5,133 $ 0 Government bonds 53,288 258 (238) 53,308 5 53,303 Corporate debt securities 35,605 194 (223) 35,576 12 35,564 Mortgage-backed and asset-backed securities 18,829 96 (112) 18,813 0 18,813 Total $ 112,855 $ 548 $ (573) $ 112,830 $ 5,150 $ 107,680 12",
+        "metadata": {
+            "document": "goog-10-q-q2-2022.pdf",
+            "page_number": "12",
+            "chunk_index": 1,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -878,6 +1295,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2022.pdf",
             "page_number": "13",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -887,6 +1305,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2022.pdf",
             "page_number": "15",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -896,6 +1315,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2022.pdf",
             "page_number": "16",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -905,15 +1325,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2022.pdf",
             "page_number": "16",
-            "page_section": "notes_to_financial_statements"
-        }
-    },
-    {
-        "id": "goog-10-q-q2-2022.pdf_page_18_chunk_0",
-        "text": "Table of Contents Alphabet Inc. The fair values of outstanding derivative instruments were as follows (in millions): As of December 31, 2021 Fair Value of Fair Value of Derivatives Derivatives Not Designated as Designated as Balance Sheet Location Hedging Instruments Hedging Instruments Total Fair Value Derivative Assets: Level 2: Foreign exchange Other current and non-current contracts assets $ 867 $ 42 $ 909 Other contracts Other current and non-current assets 0 52 52 Total $ 867 $ 94 $ 961 Derivative Liabilities: Level 2: Foreign exchange Accrued expenses and other contracts liabilities, current and non-current $ 8 $ 452 $ 460 Other contracts Accrued expenses and other liabilities, current and non-current 0 121 121 Total $ 8 $ 573 $ 581 As of June 30, 2022 Fair Value of Fair Value of Derivatives Derivatives Not Designated as Designated as Balance Sheet Location Hedging Instruments Hedging Instruments Total Fair Value Derivative Assets: Level 2: Foreign exchange Other current and non-current contracts assets $ 1,540 $ 77 $ 1,617 Other contracts Other current and non-current assets 0 80 80 Total $ 1,540 $ 157 $ 1,697 Derivative Liabilities: Level 2: Foreign exchange Accrued expenses and other contracts liabilities, current and non-current $ 36 $ 749 $ 785 Other contracts Accrued expenses and other liabilities, current and non-current 0 56 56 Total $ 36 $ 805 $ 841 18",
-        "metadata": {
-            "document": "goog-10-q-q2-2022.pdf",
-            "page_number": "18",
+            "chunk_index": 1,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -923,15 +1335,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2022.pdf",
             "page_number": "20",
-            "page_section": "notes_to_financial_statements"
-        }
-    },
-    {
-        "id": "goog-10-q-q2-2022.pdf_page_21_chunk_0",
-        "text": "Table of Contents Alphabet Inc. Offsetting of Derivatives The gross amounts of derivative instruments subject to master netting arrangements with various counterparties, and cash and non-cash collateral received and pledged under such agreements were as follows (in millions): Offsetting of Assets As of December 31, 2021 Gross Amounts Not Offset in the Consolidated Balance Sheets, but Have Legal Rights to Offset Gross Net Amounts Presented in Gross Offset in the the Amounts of Consolidated Consolidated Cash Non-Cash Recognized Balance Balance Financial Collateral Collateral Net Assets Assets Sheets Sheets Instruments Received Received Exposed Derivatives $ 999 $ (38) $ 961 $ (434) (1) $ (394) $ (12) $ 121 As of June 30, 2022 Gross Amounts Not Offset in the Consolidated Balance Sheets, but Have Legal Rights to Offset Gross Net Amounts Presented in Gross Offset in the the Amounts of Consolidated Consolidated Cash Non-Cash Recognized Balance Balance Financial Collateral Collateral Net Assets Assets Sheets Sheets Instruments Received Received Exposed Derivatives $ 1,773 $ (76) $ 1,697 $ (736) (1) $ (880) $ (18) $ 63 (1) The balances as of December 31, 2021 and June 30, 2022 were related to derivative liabilities which are allowed to be net settled against derivative assets in accordance with our master netting agreements. Offsetting of Liabilities As of December 31, 2021 Gross Amounts Not Offset in the Consolidated Balance Sheets, but Have Legal Rights to Offset Gross Net Amounts Presented in Gross Offset in the the Amounts of Consolidated Consolidated Cash Non-Cash Recognized Balance Balance Financial Collateral Collateral Net Liabilities Sheets Sheets Instruments Pledged Pledged Liabilities Derivatives $ 619 $ (38) $ 581 $ (434) (2) $ (4) $ (110) $ 33 As of June 30, 2022 Gross Amounts Not Offset in the Consolidated Balance Sheets, but Have Legal Rights to Offset Gross Net Amounts Presented in Gross Offset in the the Amounts of Consolidated Consolidated Cash Non-Cash Recognized Balance Balance Financial Collateral Collateral Net Liabilities Sheets Sheets Instruments Pledged Pledged Liabilities Derivatives $ 917 $ (76) $ 841 $ (736) (2) $ (13) $ (1) $ 91 (2) The balances as of December 31, 2021 and June 30, 2022 were related to derivative assets which are allowed to be net settled against derivative liabilities in accordance with our master netting agreements. 21",
-        "metadata": {
-            "document": "goog-10-q-q2-2022.pdf",
-            "page_number": "21",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -941,6 +1345,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2022.pdf",
             "page_number": "22",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -950,6 +1355,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2022.pdf",
             "page_number": "22",
+            "chunk_index": 1,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -959,6 +1365,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2022.pdf",
             "page_number": "25",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -968,6 +1375,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2022.pdf",
             "page_number": "26",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -977,6 +1385,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2022.pdf",
             "page_number": "26",
+            "chunk_index": 1,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -986,6 +1395,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2022.pdf",
             "page_number": "30",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -995,6 +1405,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2022.pdf",
             "page_number": "31",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1004,6 +1415,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2023.pdf",
             "page_number": "11",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1013,6 +1425,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2023.pdf",
             "page_number": "12",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1022,6 +1435,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2023.pdf",
             "page_number": "13",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1031,6 +1445,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2023.pdf",
             "page_number": "14",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1040,6 +1455,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2023.pdf",
             "page_number": "15",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1049,6 +1465,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2023.pdf",
             "page_number": "17",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1058,6 +1475,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2023.pdf",
             "page_number": "17",
+            "chunk_index": 1,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1067,6 +1485,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2023.pdf",
             "page_number": "20",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1076,6 +1495,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2023.pdf",
             "page_number": "25",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1085,6 +1505,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2023.pdf",
             "page_number": "26",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1094,6 +1515,37 @@
         "metadata": {
             "document": "goog-10-q-q2-2023.pdf",
             "page_number": "30",
+            "chunk_index": 0,
+            "page_section": "notes_to_financial_statements"
+        }
+    },
+    {
+        "id": "goog-10-q-q2-2023.pdf_page_31_chunk_0",
+        "text": "Table of Contents Alphabet Inc. As of June 30, 2023, there was $43.6 billion of unrecognized compensation cost related to unvested RSUs. This amount is expected to be recognized over a weighted-average period of 2.8 years. Note 13. Income Taxes The following table presents provision for income taxes (in millions, except for effective tax rate): Three Months Ended Six Months Ended June 30, June 30, 2022 2023 2022 2023 Income before provision for income taxes $ 19,014 $ 21,903 $ 37,948 $ 40,108 Provision for income taxes $ 3,012 $ 3,535 $ 5,510 $ 6,689 Effective tax rate 15.8 % 16.1 % 14.5 % 16.7 % We are subject to income taxes in the U.S. and foreign jurisdictions. Significant judgment is required in evaluating our uncertain tax positions and determining our provision for income taxes. The total amount of gross unrecognized tax benefits was $7.1 billion and $8.8 billion as of December 31, 2022 and June 30, 2023, respectively, of which $5.3 billion and $6.7 billion, if recognized, would affect our effective tax rate, respectively. Note 14. Information about Segments and Geographic Areas We report our segment results as Google Services, Google Cloud, and Other Bets: \u2022 Google Services includes products and services such as ads, Android, Chrome, hardware, Google Maps, Google Play, Search, and YouTube. Google Services generates revenues primarily from advertising; sales of apps and in-app purchases, and hardware; and fees received for subscription-based products such as YouTube Premium and YouTube TV. \u2022 Google Cloud includes infrastructure and platform services, collaboration tools, and other services for enterprise customers. Google Cloud generates revenues from fees received for Google Cloud Platform services, Google Workspace communication and collaboration tools, and other enterprise services. \u2022 Other Bets is a combination of multiple operating segments that are not individually material. Revenues from Other Bets are generated primarily from the sale of health technology and internet services. Revenues, certain costs, such as costs associated with content and traffic acquisition, certain engineering activities, and hardware, as well as certain operating expenses are directly attributable to our segments. Due to the integrated nature of Alphabet, other costs and expenses, such as technical infrastructure and office facilities, are managed centrally at a consolidated level. These costs, including the associated depreciation and impairment, are allocated to operating segments as a service cost generally based on usage, headcount, or revenue. Reflecting DeepMind's increasing collaboration with Google Services, Google Cloud, and Other Bets, beginning in the first quarter of 2023 DeepMind is reported as part of Alphabet's unallocated corporate costs instead of within Other Bets. Additionally, beginning in the first quarter of 2023, we updated and simplified our cost allocation methodologies to provide our business leaders with increased transparency for decision-making. Prior periods have been recast to conform to the current presentation. As announced on April 20, 2023, we brought together part of Google Research (the Brain team) and DeepMind to significantly accelerate our progress in artificial intelligence (AI). The group, called Google DeepMind, is reported within Alphabet's unallocated corporate",
+        "metadata": {
+            "document": "goog-10-q-q2-2023.pdf",
+            "page_number": "31",
+            "chunk_index": 0,
+            "page_section": "notes_to_financial_statements"
+        }
+    },
+    {
+        "id": "goog-10-q-q2-2023.pdf_page_31_chunk_1",
+        "text": "costs prospectively beginning in the second quarter of 2023. Previously, the Brain team was included within Google Services. Certain costs are not allocated to our segments because they represent Alphabet-level activities. These costs primarily include AI-focused shared R&D activities; corporate initiatives such as our philanthropic activities; corporate shared costs such as certain finance, human resource, and legal costs, including certain fines and settlements. Charges associated with reductions in our workforce and office space announced in January 2023 are not allocated to our segments. Additionally, hedging gains (losses) related to revenue are not allocated to our segments. Our operating segments are not evaluated using asset information. 31",
+        "metadata": {
+            "document": "goog-10-q-q2-2023.pdf",
+            "page_number": "31",
+            "chunk_index": 1,
+            "page_section": "notes_to_financial_statements"
+        }
+    },
+    {
+        "id": "goog-10-q-q2-2023.pdf_page_37_chunk_0",
+        "text": "Table of Contents Alphabet Inc. the future as we further evaluate our real estate needs. For additional information, see Note 7 of the Notes to Consolidated Financial Statements included in Item 1 of this Quarterly Report on Form 10-Q. \u2022 In January 2023, we completed an assessment of the useful lives of our servers and network equipment, resulting in a change in the estimated useful life of our servers and certain network equipment to six years. The effect of this change was a reduction in depreciation expense of $966 million and $2.0 billion for the three and six months ended June 30, 2023, respectively, recognized primarily in cost of revenues and R&D expenses. For additional information, see Note 1 of the Notes to Consolidated Financial Statements included in Item 1 of this Quarterly Report on Form 10-Q. \u2022 Repurchases of Class A and Class C shares were $15.1 billion for the three months ended June 30, 2023. See Note 10 of the Notes to Consolidated Financial Statements included in Item 1 of this Quarterly Report on Form 10-Q for additional information. \u2022 Operating cash flow was $28.7 billion for the three months ended June 30, 2023, and was affected by the 2023 IRS payment deferral relief made available to tax payers headquartered in designated counties in California. \u2022 Capital expenditures, which primarily reflected investments in technical infrastructure, were $6.9 billion for the three months ended June 30, 2023. \u2022 As of June 30, 2023, we had 181,798 employees. The substantial majority of the employees affected by the reduction of our workforce are no longer included in our headcount as of June 30, 2023. We expect most of the remaining employees affected will no longer be reflected in our headcount by the end of 2023, subject to local law and consultation requirements. 37",
+        "metadata": {
+            "document": "goog-10-q-q2-2023.pdf",
+            "page_number": "37",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1103,6 +1555,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2023.pdf",
             "page_number": "47",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1112,6 +1565,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2023.pdf",
             "page_number": "47",
+            "chunk_index": 1,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1121,15 +1575,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2024.pdf",
             "page_number": "12",
-            "page_section": "notes_to_financial_statements"
-        }
-    },
-    {
-        "id": "goog-10-q-q2-2024.pdf_page_13_chunk_0",
-        "text": "Table of Contents Alphabet Inc. or inputs that are based upon quoted prices for similar instruments in active markets. Debt securities are measured at fair value and classified within Level 2 in the fair value hierarchy, because we use quoted market prices to the extent available or alternative pricing sources and models utilizing market observable inputs to determine fair value. For certain marketable debt securities, we have elected the fair value option for which changes in fair value are recorded in OI&E. The fair value option was elected for these securities to align with the unrealized gains and losses from related derivative contracts. The following tables summarize our cash, cash equivalents, and marketable securities measured at fair value on a recurring basis (in millions): As of December 31, 2023 Gross Gross Cash and Fair Value Adjusted Unrealized Unrealized Cash Marketable Hierarchy Cost Gains Losses Fair Value Equivalents Securities Fair value changes recorded in other comprehensive income Time deposits Level 2 $ 2,628 $ 0 $ 0 $ 2,628 $ 2,628 $ 0 Government bonds Level 2 38,106 233 (679) 37,660 1,993 35,667 Corporate debt securities Level 2 22,457 112 (637) 21,932 0 21,932 Mortgage-backed and asset-backed securities Level 2 17,243 88 (634) 16,697 0 16,697 Total investments with fair value change reflected in other comprehensive income(1) $ 80,434 $ 433 $ (1,950) $ 78,917 $ 4,621 $ 74,296 Fair value adjustments recorded in net income Money market funds Level 1 $ 6,480 $ 6,480 $ 0 Current marketable Level 1 equity securities(2) 4,282 0 4,282 Mutual funds Level 2 311 0 311 Government bonds Level 2 1,952 347 1,605 Corporate debt securities Level 2 3,782 91 3,691 Mortgage-backed and asset-backed securities Level 2 2,683 0 2,683 Total investments with fair value change recorded in net income $ 19,490 $ 6,918 $ 12,572 Cash 0 12,509 0 Total $ 80,434 $ 433 $ (1,950) $ 98,407 $ 24,048 $ 86,868 (1) Represents gross unrealized gains and losses for debt securities recorded to accumulated other comprehensive income (AOCI). (2) The long-term portion of marketable equity securities (subject to long-term lock-up restrictions) of $1.4 billion as of December 31, 2023 is included within other non-current assets. 13",
-        "metadata": {
-            "document": "goog-10-q-q2-2024.pdf",
-            "page_number": "13",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1139,6 +1585,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2024.pdf",
             "page_number": "14",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1148,6 +1595,27 @@
         "metadata": {
             "document": "goog-10-q-q2-2024.pdf",
             "page_number": "15",
+            "chunk_index": 0,
+            "page_section": "notes_to_financial_statements"
+        }
+    },
+    {
+        "id": "goog-10-q-q2-2024.pdf_page_17_chunk_0",
+        "text": "Table of Contents Alphabet Inc. Equity Securities Accounted for Under the Equity Method As of December 31, 2023 and June 30, 2024, equity securities accounted for under the equity method had a carrying value of approximately $1.7 billion and $2.1 billion, respectively. Our share of gains and losses, including impairments, are included as a component of OI&E, in the Consolidated Statements of Income. See Note 6 for further details on OI&E. Derivative Financial Instruments We use derivative instruments to manage risks relating to our ongoing business operations. The primary risk managed is foreign exchange risk. We use foreign currency contracts to reduce the risk that our cash flows, earnings, and investment in foreign subsidiaries will be adversely affected by foreign currency exchange rate fluctuations. We also enter into derivative instruments to partially offset our exposure to other risks and enhance investment returns. We recognize derivative instruments in the Consolidated Balance Sheets at fair value and classify the derivatives primarily within Level 2 in the fair value hierarchy. We present our collar contracts (an option strategy comprised of a combination of purchased and written options) at net fair values and present all other derivatives at gross fair values. The accounting treatment for derivatives is based on the intended use and hedge designation. Cash Flow Hedges We designate foreign currency forward and option contracts (including collars) as cash flow hedges to hedge certain forecasted revenue transactions denominated in currencies other than the United States (U.S.) dollar. These contracts have maturities of 24 months or less. Cash flow hedge amounts included in the assessment of hedge effectiveness are deferred in AOCI and subsequently reclassified to revenue when the hedged item is recognized in earnings. We exclude forward points and time value from our assessment of hedge effectiveness and amortize them on a straight-line basis over the life of the hedging instrument in revenues. The difference between fair value changes of the excluded component and the amount amortized to revenues is recorded in AOCI. As of June 30, 2024, the net accumulated gain on our foreign currency cash flow hedges before tax effect was $300 million, which is expected to be reclassified from AOCI into revenues within the next 12 months. Fair Value Hedges We designate foreign currency forward contracts as fair value hedges to hedge foreign currency risks for our marketable securities denominated in currencies other than the U.S. dollar. Fair value hedge amounts included in the assessment of hedge effectiveness are recognized in OI&E, along with the offsetting gains and losses of the related hedged items. We exclude forward points from the assessment of hedge effectiveness and recognize changes in the excluded component in OI&E. Net Investment Hedges We designate foreign currency forward contracts as net investment hedges to hedge the foreign currency risks related to our investment in foreign subsidiaries. Net investment hedge amounts included in the assessment of hedge effectiveness are recognized in AOCI along with the foreign currency translation adjustment. We exclude forward points from the assessment of hedge",
+        "metadata": {
+            "document": "goog-10-q-q2-2024.pdf",
+            "page_number": "17",
+            "chunk_index": 0,
+            "page_section": "notes_to_financial_statements"
+        }
+    },
+    {
+        "id": "goog-10-q-q2-2024.pdf_page_17_chunk_1",
+        "text": "effectiveness and recognize changes in the excluded component in OI&E. Other Derivatives We enter into foreign currency forward and option contracts that are not designated as hedging instruments to hedge intercompany transactions and other monetary assets or liabilities denominated in currencies other than the functional currency of a subsidiary. Gains and losses on these derivatives that are not designated as accounting hedges are primarily recorded in OI&E along with the foreign currency gains and losses on monetary assets and liabilities. We also use derivatives not designated as hedging instruments to manage risks relating to interest rates, commodity prices, and credit exposures, and to enhance investment returns. From time to time, we enter into derivatives to hedge the market price risk on certain of our marketable equity securities. Gains and losses arising from other derivatives are primarily reflected within the \u201cother\u201d component of OI&E. See Note 6 for further details. 17",
+        "metadata": {
+            "document": "goog-10-q-q2-2024.pdf",
+            "page_number": "17",
+            "chunk_index": 1,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1157,6 +1625,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2024.pdf",
             "page_number": "20",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1166,6 +1635,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2024.pdf",
             "page_number": "21",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1175,6 +1645,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2024.pdf",
             "page_number": "21",
+            "chunk_index": 1,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1184,6 +1655,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2024.pdf",
             "page_number": "22",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1193,6 +1665,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2024.pdf",
             "page_number": "24",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1202,6 +1675,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2024.pdf",
             "page_number": "31",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1211,6 +1685,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2024.pdf",
             "page_number": "31",
+            "chunk_index": 1,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1220,6 +1695,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2025.pdf",
             "page_number": "13",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1229,6 +1705,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2025.pdf",
             "page_number": "14",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1238,6 +1715,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2025.pdf",
             "page_number": "15",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1247,6 +1725,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2025.pdf",
             "page_number": "16",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1256,6 +1735,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2025.pdf",
             "page_number": "18",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1265,6 +1745,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2025.pdf",
             "page_number": "18",
+            "chunk_index": 1,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1274,6 +1755,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2025.pdf",
             "page_number": "19",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1283,6 +1765,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2025.pdf",
             "page_number": "21",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1292,6 +1775,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2025.pdf",
             "page_number": "22",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1301,6 +1785,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2025.pdf",
             "page_number": "23",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1310,6 +1795,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2025.pdf",
             "page_number": "24",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1319,6 +1805,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2025.pdf",
             "page_number": "24",
+            "chunk_index": 1,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1328,6 +1815,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2025.pdf",
             "page_number": "25",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1337,6 +1825,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2025.pdf",
             "page_number": "27",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1346,6 +1835,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2025.pdf",
             "page_number": "28",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1355,6 +1845,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2025.pdf",
             "page_number": "28",
+            "chunk_index": 1,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1364,6 +1855,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2025.pdf",
             "page_number": "34",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1373,15 +1865,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2025.pdf",
             "page_number": "34",
-            "page_section": "notes_to_financial_statements"
-        }
-    },
-    {
-        "id": "goog-10-q-q2-2025.pdf_page_36_chunk_0",
-        "text": "Google Services and Google Cloud employee compensation expenses include the costs associated with direct and allocated employees. Google Services and Google Cloud other costs and expenses primarily include direct costs, such as advertising and promotional activities and third party services fees as well as allocated costs, such as technical infrastructure and office facilities usage costs. Additionally, Google Services other costs and expenses include content and traffic acquisition costs and device costs. See Note 2 for information relating to revenues by geography. The following table presents long-lived assets by geographic area, which includes property and equipment, net and operating lease assets (in millions): As of As of December 31, 2024 June 30, 2025 Long-lived assets: United States $ 138,993 $ 160,877 International 45,631 56,609 Total long-lived assets $ 184,624 $ 217,486 36",
-        "metadata": {
-            "document": "goog-10-q-q2-2025.pdf",
-            "page_number": "36",
+            "chunk_index": 1,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1391,6 +1875,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2022.pdf",
             "page_number": "11",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1400,6 +1885,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2022.pdf",
             "page_number": "12",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1409,6 +1895,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2022.pdf",
             "page_number": "13",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1418,6 +1905,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2022.pdf",
             "page_number": "13",
+            "chunk_index": 1,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1427,6 +1915,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2022.pdf",
             "page_number": "17",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1436,6 +1925,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2022.pdf",
             "page_number": "17",
+            "chunk_index": 1,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1445,6 +1935,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2022.pdf",
             "page_number": "18",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1454,6 +1945,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2022.pdf",
             "page_number": "19",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1463,6 +1955,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2022.pdf",
             "page_number": "20",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1472,6 +1965,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2022.pdf",
             "page_number": "21",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1481,6 +1975,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2022.pdf",
             "page_number": "22",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1490,6 +1985,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2022.pdf",
             "page_number": "22",
+            "chunk_index": 1,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1499,6 +1995,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2022.pdf",
             "page_number": "25",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1508,6 +2005,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2022.pdf",
             "page_number": "26",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1517,6 +2015,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2022.pdf",
             "page_number": "31",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1526,6 +2025,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2022.pdf",
             "page_number": "32",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1535,6 +2035,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2023.pdf",
             "page_number": "11",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1544,6 +2045,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2023.pdf",
             "page_number": "12",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1553,6 +2055,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2023.pdf",
             "page_number": "13",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1562,6 +2065,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2023.pdf",
             "page_number": "14",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1571,6 +2075,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2023.pdf",
             "page_number": "15",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1580,6 +2085,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2023.pdf",
             "page_number": "17",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1589,6 +2095,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2023.pdf",
             "page_number": "17",
+            "chunk_index": 1,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1598,6 +2105,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2023.pdf",
             "page_number": "18",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1607,6 +2115,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2023.pdf",
             "page_number": "20",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1616,6 +2125,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2023.pdf",
             "page_number": "24",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1625,6 +2135,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2023.pdf",
             "page_number": "25",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1634,6 +2145,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2023.pdf",
             "page_number": "26",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1643,6 +2155,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2023.pdf",
             "page_number": "31",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1652,6 +2165,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2023.pdf",
             "page_number": "38",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1661,6 +2175,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2023.pdf",
             "page_number": "48",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1670,6 +2185,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2023.pdf",
             "page_number": "48",
+            "chunk_index": 1,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1679,6 +2195,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2024.pdf",
             "page_number": "12",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1688,6 +2205,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2024.pdf",
             "page_number": "13",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1697,6 +2215,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2024.pdf",
             "page_number": "14",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1706,6 +2225,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2024.pdf",
             "page_number": "15",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1715,6 +2235,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2024.pdf",
             "page_number": "17",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1724,6 +2245,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2024.pdf",
             "page_number": "17",
+            "chunk_index": 1,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1733,6 +2255,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2024.pdf",
             "page_number": "20",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1742,6 +2265,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2024.pdf",
             "page_number": "21",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1751,6 +2275,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2024.pdf",
             "page_number": "21",
+            "chunk_index": 1,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1760,15 +2285,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2024.pdf",
             "page_number": "22",
-            "page_section": "notes_to_financial_statements"
-        }
-    },
-    {
-        "id": "goog-10-q-q3-2024.pdf_page_24_chunk_0",
-        "text": "Unrealized Gains Unrealized Foreign (Losses) on Gains Currency Available-for- (Losses) on Translation Sale Cash Flow Adjustments Investments Hedges Total Balance as of December 31, 2023 $ (3,407) $ (965) $ (30) $ (4,402) Other comprehensive income (loss) before reclassifications 234 755 (228) 761 Amounts excluded from the assessment of hedge effectiveness recorded in AOCI 0 0 (52) (52) Amounts reclassified from AOCI 0 629 (164) 465 Other comprehensive income (loss) 234 1,384 (444) 1,174 Balance as of September 30, 2024 $ (3,173) $ 419 $ (474) $ (3,228) The effects on net income of amounts reclassified from AOCI were as follows (in millions): Three Months Ended Nine Months Ended September 30, September 30, AOCI Components Location 2023 2024 2023 2024 Unrealized gains (losses) on available-for-sale investments Other income (expense), net $ (327) $ (113) $ (955) $ (807) Benefit (provision) for income taxes 72 25 210 178 Net of income tax (255) (88) (745) (629) Unrealized gains (losses) on cash flow hedges Foreign exchange contracts Revenue (15) (6) 71 174 Interest rate contracts Other income (expense), net 2 0 5 1 Benefit (provision) for income taxes 16 4 9 (11) Net of income tax 3 (2) 85 164 Total amount reclassified, net of income tax $ (252) $ (90) $ (660) $ (465) Other Income (Expense), Net Components of OI&E were as follows (in millions): Three Months Ended Nine Months Ended September 30, September 30, 2023 2024 2023 2024 Interest income $ 1,066 $ 1,243 $ 2,755 $ 3,394 Interest expense(1) (116) (54) (239) (215) Foreign currency exchange gain (loss), net (311) 23 (789) (388) Gain (loss) on debt securities, net (503) 160 (1,100) (612) Gain (loss) on equity securities, net (366) 1,821 (194) 3,350 Performance fees 179 29 302 261 Income (loss) and impairment from equity method investments, net (215) (107) (372) (101) Other 120 70 346 465 Other income (expense), net $ (146) $ 3,185 $ 709 $ 6,154 (1) Interest expense is net of interest capitalized of $47 million and $57 million for the three months ended September 30, 2023 and 2024, respectively, and $134 million and $143 million for the nine months ended September 30, 2023 and 2024, respectively. 24",
-        "metadata": {
-            "document": "goog-10-q-q3-2024.pdf",
-            "page_number": "24",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1778,6 +2295,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2024.pdf",
             "page_number": "25",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1787,6 +2305,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2024.pdf",
             "page_number": "25",
+            "chunk_index": 1,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1796,6 +2315,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2024.pdf",
             "page_number": "29",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1805,6 +2325,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2024.pdf",
             "page_number": "31",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1814,6 +2335,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2024.pdf",
             "page_number": "31",
+            "chunk_index": 1,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1823,6 +2345,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2024.pdf",
             "page_number": "47",
+            "chunk_index": 0,
             "page_section": "notes_to_financial_statements"
         }
     },
@@ -1832,6 +2355,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2024.pdf",
             "page_number": "47",
+            "chunk_index": 1,
             "page_section": "notes_to_financial_statements"
         }
     }
