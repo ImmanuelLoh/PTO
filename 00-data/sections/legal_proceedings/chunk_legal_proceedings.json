@@ -5,6 +5,7 @@
         "metadata": {
             "document": "goog-10-k-2022.pdf",
             "page_number": "19",
+            "chunk_index": 0,
             "page_section": "legal_proceedings"
         }
     },
@@ -14,6 +15,7 @@
         "metadata": {
             "document": "goog-10-k-2022.pdf",
             "page_number": "19",
+            "chunk_index": 1,
             "page_section": "legal_proceedings"
         }
     },
@@ -23,6 +25,7 @@
         "metadata": {
             "document": "goog-10-k-2022.pdf",
             "page_number": "75",
+            "chunk_index": 0,
             "page_section": "legal_proceedings"
         }
     },
@@ -32,6 +35,7 @@
         "metadata": {
             "document": "goog-10-k-2022.pdf",
             "page_number": "75",
+            "chunk_index": 1,
             "page_section": "legal_proceedings"
         }
     },
@@ -41,6 +45,7 @@
         "metadata": {
             "document": "goog-10-k-2022.pdf",
             "page_number": "76",
+            "chunk_index": 0,
             "page_section": "legal_proceedings"
         }
     },
@@ -50,24 +55,7 @@
         "metadata": {
             "document": "goog-10-k-2022.pdf",
             "page_number": "76",
-            "page_section": "legal_proceedings"
-        }
-    },
-    {
-        "id": "goog-10-k-2022.pdf_page_83_chunk_0",
-        "text": "Table of Contents Alphabet Inc. Uncertain Tax Positions The following table summarizes the activity related to our gross unrecognized tax benefits (in millions): Year Ended December 31, 2020 2021 2022 Beginning gross unrecognized tax benefits $ 3,377 $ 3,837 $ 5,158 Increases related to prior year tax positions 372 529 253 Decreases related to prior year tax positions (557) (263) (437) Decreases related to settlement with tax authorities (45) (329) (140) Increases related to current year tax positions 690 1,384 2,221 Ending gross unrecognized tax benefits $ 3,837 $ 5,158 $ 7,055 We are subject to income taxes in the U.S. and foreign jurisdictions. Significant judgment is required in evaluating our uncertain tax positions and determining our provision for income taxes. The total amount of gross unrecognized tax benefits was $3.8 billion, $5.2 billion, and $7.1 billion as of December 31, 2020, 2021, and 2022, respectively, of which $2.6 billion, $3.7 billion, and $5.3 billion, if recognized, would affect our effective tax rate, respectively. As of December 31, 2021 and 2022, we accrued $270 million and $346 million in interest and penalties in provision for income taxes, respectively. We file income tax returns in the U.S. federal jurisdiction and in many state and foreign jurisdictions. Our two major tax jurisdictions are the U.S. federal and Ireland. We are subject to the continuous examination of our income tax returns by the IRS and other tax authorities. The IRS is currently examining our 2016 through 2018 tax returns. We have also received tax assessments in multiple foreign jurisdictions asserting transfer pricing adjustments or permanent establishment. We continue to defend any and all such claims as presented. The tax years 2015 through 2021 remain subject to examination by the appropriate governmental agencies for Irish tax purposes. There are other ongoing audits in various other jurisdictions that are not material to our financial statements. We regularly assess the likelihood of adverse outcomes resulting from these examinations to determine the adequacy of our provision for income taxes. We continue to monitor the progress of ongoing discussions with tax authorities and the effect, if any, of the expected expiration of the statute of limitations in various taxing jurisdictions. We believe that an adequate provision has been made for any adjustments that may result from tax examinations. However, the outcome of tax audits cannot be predicted with certainty. If any issues addressed in our tax audits are resolved in a manner not consistent with management's expectations, we could be required to adjust our provision for income taxes in the period such resolutions occur. Although the timing of resolution, settlement, and closure of audits is not certain, it is reasonably possible that our unrecognized tax benefits from certain U.S. federal, state, and non U.S. tax positions could decrease by approximately $1.8 billion in the next 12 months. Positions that may be resolved include various U.S. and non-U.S. matters. Note 15. Information about Segments and Geographic Areas We report our segment results as Google Services, Google Cloud, and Other",
-        "metadata": {
-            "document": "goog-10-k-2022.pdf",
-            "page_number": "83",
-            "page_section": "legal_proceedings"
-        }
-    },
-    {
-        "id": "goog-10-k-2022.pdf_page_83_chunk_1",
-        "text": "Bets: \u2022 Google Services includes products and services such as ads, Android, Chrome, hardware, Google Maps, Google Play, Search, and YouTube. Google Services generates revenues primarily from advertising; sales of apps and in-app purchases, and hardware; and fees received for subscription-based products such as YouTube Premium and YouTube TV. \u2022 Google Cloud includes infrastructure and platform services, collaboration tools, and other services for enterprise customers. Google Cloud generates revenues from fees received for Google Cloud Platform services, Google Workspace communication and collaboration tools, and other enterprise services. \u2022 Other Bets is a combination of multiple operating segments that are not individually material. Revenues from Other Bets are generated primarily from the sale of health technology and internet services. Revenues, certain costs, such as costs associated with content and traffic acquisition, certain engineering activities, and hardware, as well as certain operating expenses are directly attributable to our segments. Due to the integrated nature of Alphabet, other costs and expenses, such as technical infrastructure and office facilities, are managed centrally at a consolidated level. The associated costs, including depreciation and impairment, are allocated to operating segments as a service cost generally based on usage or headcount. 82",
-        "metadata": {
-            "document": "goog-10-k-2022.pdf",
-            "page_number": "83",
+            "chunk_index": 1,
             "page_section": "legal_proceedings"
         }
     },
@@ -77,6 +65,7 @@
         "metadata": {
             "document": "goog-10-k-2023-final.pdf",
             "page_number": "11",
+            "chunk_index": 0,
             "page_section": "legal_proceedings"
         }
     },
@@ -86,6 +75,7 @@
         "metadata": {
             "document": "goog-10-k-2023-final.pdf",
             "page_number": "11",
+            "chunk_index": 1,
             "page_section": "legal_proceedings"
         }
     },
@@ -95,6 +85,7 @@
         "metadata": {
             "document": "goog-10-k-2023-final.pdf",
             "page_number": "20",
+            "chunk_index": 0,
             "page_section": "legal_proceedings"
         }
     },
@@ -104,6 +95,7 @@
         "metadata": {
             "document": "goog-10-k-2023-final.pdf",
             "page_number": "20",
+            "chunk_index": 1,
             "page_section": "legal_proceedings"
         }
     },
@@ -113,6 +105,7 @@
         "metadata": {
             "document": "goog-10-k-2023-final.pdf",
             "page_number": "21",
+            "chunk_index": 0,
             "page_section": "legal_proceedings"
         }
     },
@@ -122,6 +115,7 @@
         "metadata": {
             "document": "goog-10-k-2023-final.pdf",
             "page_number": "21",
+            "chunk_index": 1,
             "page_section": "legal_proceedings"
         }
     },
@@ -131,6 +125,7 @@
         "metadata": {
             "document": "goog-10-k-2023-final.pdf",
             "page_number": "79",
+            "chunk_index": 0,
             "page_section": "legal_proceedings"
         }
     },
@@ -140,6 +135,7 @@
         "metadata": {
             "document": "goog-10-k-2023-final.pdf",
             "page_number": "79",
+            "chunk_index": 1,
             "page_section": "legal_proceedings"
         }
     },
@@ -149,6 +145,7 @@
         "metadata": {
             "document": "goog-10-k-2023-final.pdf",
             "page_number": "80",
+            "chunk_index": 0,
             "page_section": "legal_proceedings"
         }
     },
@@ -158,6 +155,7 @@
         "metadata": {
             "document": "goog-10-k-2023-final.pdf",
             "page_number": "80",
+            "chunk_index": 1,
             "page_section": "legal_proceedings"
         }
     },
@@ -167,6 +165,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "21",
+            "chunk_index": 0,
             "page_section": "legal_proceedings"
         }
     },
@@ -176,6 +175,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "21",
+            "chunk_index": 1,
             "page_section": "legal_proceedings"
         }
     },
@@ -185,6 +185,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "22",
+            "chunk_index": 0,
             "page_section": "legal_proceedings"
         }
     },
@@ -194,6 +195,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "22",
+            "chunk_index": 1,
             "page_section": "legal_proceedings"
         }
     },
@@ -203,6 +205,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "79",
+            "chunk_index": 0,
             "page_section": "legal_proceedings"
         }
     },
@@ -212,6 +215,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "79",
+            "chunk_index": 1,
             "page_section": "legal_proceedings"
         }
     },
@@ -221,6 +225,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "80",
+            "chunk_index": 0,
             "page_section": "legal_proceedings"
         }
     },
@@ -230,6 +235,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "80",
+            "chunk_index": 1,
             "page_section": "legal_proceedings"
         }
     },
@@ -239,6 +245,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "81",
+            "chunk_index": 0,
             "page_section": "legal_proceedings"
         }
     },
@@ -248,6 +255,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "81",
+            "chunk_index": 1,
             "page_section": "legal_proceedings"
         }
     },
@@ -257,6 +265,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "92",
+            "chunk_index": 0,
             "page_section": "legal_proceedings"
         }
     },
@@ -266,6 +275,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2022.pdf",
             "page_number": "24",
+            "chunk_index": 0,
             "page_section": "legal_proceedings"
         }
     },
@@ -275,6 +285,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2022.pdf",
             "page_number": "24",
+            "chunk_index": 1,
             "page_section": "legal_proceedings"
         }
     },
@@ -284,6 +295,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2022.pdf",
             "page_number": "25",
+            "chunk_index": 0,
             "page_section": "legal_proceedings"
         }
     },
@@ -293,6 +305,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2022.pdf",
             "page_number": "25",
+            "chunk_index": 1,
             "page_section": "legal_proceedings"
         }
     },
@@ -302,6 +315,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2023.pdf",
             "page_number": "25",
+            "chunk_index": 0,
             "page_section": "legal_proceedings"
         }
     },
@@ -311,6 +325,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2023.pdf",
             "page_number": "25",
+            "chunk_index": 1,
             "page_section": "legal_proceedings"
         }
     },
@@ -320,6 +335,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2023.pdf",
             "page_number": "26",
+            "chunk_index": 0,
             "page_section": "legal_proceedings"
         }
     },
@@ -329,6 +345,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2023.pdf",
             "page_number": "26",
+            "chunk_index": 1,
             "page_section": "legal_proceedings"
         }
     },
@@ -338,6 +355,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2024.pdf",
             "page_number": "23",
+            "chunk_index": 0,
             "page_section": "legal_proceedings"
         }
     },
@@ -347,6 +365,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2024.pdf",
             "page_number": "23",
+            "chunk_index": 1,
             "page_section": "legal_proceedings"
         }
     },
@@ -356,6 +375,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2024.pdf",
             "page_number": "24",
+            "chunk_index": 0,
             "page_section": "legal_proceedings"
         }
     },
@@ -365,6 +385,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2024.pdf",
             "page_number": "24",
+            "chunk_index": 1,
             "page_section": "legal_proceedings"
         }
     },
@@ -374,6 +395,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2024.pdf",
             "page_number": "25",
+            "chunk_index": 0,
             "page_section": "legal_proceedings"
         }
     },
@@ -383,6 +405,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2024.pdf",
             "page_number": "25",
+            "chunk_index": 1,
             "page_section": "legal_proceedings"
         }
     },
@@ -392,6 +415,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2025.pdf",
             "page_number": "26",
+            "chunk_index": 0,
             "page_section": "legal_proceedings"
         }
     },
@@ -401,6 +425,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2025.pdf",
             "page_number": "26",
+            "chunk_index": 1,
             "page_section": "legal_proceedings"
         }
     },
@@ -410,6 +435,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2025.pdf",
             "page_number": "27",
+            "chunk_index": 0,
             "page_section": "legal_proceedings"
         }
     },
@@ -419,6 +445,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2025.pdf",
             "page_number": "27",
+            "chunk_index": 1,
             "page_section": "legal_proceedings"
         }
     },
@@ -428,6 +455,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2022.pdf",
             "page_number": "27",
+            "chunk_index": 0,
             "page_section": "legal_proceedings"
         }
     },
@@ -437,6 +465,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2022.pdf",
             "page_number": "27",
+            "chunk_index": 1,
             "page_section": "legal_proceedings"
         }
     },
@@ -446,6 +475,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2022.pdf",
             "page_number": "28",
+            "chunk_index": 0,
             "page_section": "legal_proceedings"
         }
     },
@@ -455,6 +485,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2022.pdf",
             "page_number": "28",
+            "chunk_index": 1,
             "page_section": "legal_proceedings"
         }
     },
@@ -464,6 +495,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2023.pdf",
             "page_number": "27",
+            "chunk_index": 0,
             "page_section": "legal_proceedings"
         }
     },
@@ -473,6 +505,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2023.pdf",
             "page_number": "27",
+            "chunk_index": 1,
             "page_section": "legal_proceedings"
         }
     },
@@ -482,6 +515,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2023.pdf",
             "page_number": "28",
+            "chunk_index": 0,
             "page_section": "legal_proceedings"
         }
     },
@@ -491,6 +525,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2023.pdf",
             "page_number": "28",
+            "chunk_index": 1,
             "page_section": "legal_proceedings"
         }
     },
@@ -500,6 +535,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2024.pdf",
             "page_number": "25",
+            "chunk_index": 0,
             "page_section": "legal_proceedings"
         }
     },
@@ -509,6 +545,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2024.pdf",
             "page_number": "25",
+            "chunk_index": 1,
             "page_section": "legal_proceedings"
         }
     },
@@ -518,6 +555,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2024.pdf",
             "page_number": "26",
+            "chunk_index": 0,
             "page_section": "legal_proceedings"
         }
     },
@@ -527,6 +565,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2024.pdf",
             "page_number": "26",
+            "chunk_index": 1,
             "page_section": "legal_proceedings"
         }
     },
@@ -536,6 +575,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2024.pdf",
             "page_number": "27",
+            "chunk_index": 0,
             "page_section": "legal_proceedings"
         }
     },
@@ -545,24 +585,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2024.pdf",
             "page_number": "27",
-            "page_section": "legal_proceedings"
-        }
-    },
-    {
-        "id": "goog-10-q-q2-2024.pdf_page_46_chunk_0",
-        "text": "During the three and six months ended June 30, 2024, we repurchased and subsequently retired 92 million and 203 million shares for $15.6 billion and $31.7 billion, respectively. In April 2023, the Board of Directors of Alphabet authorized the company to repurchase up to $70.0 billion of its Class A and Class C shares. In April 2024, the Board of Directors of Alphabet authorized the company to repurchase up to an additional $70.0 billion of its Class A and Class C shares. As of June 30, 2024, $74.9 billion remained available for Class A and Class C share repurchases. The following table presents Class A and Class C shares repurchased and subsequently retired (in millions): Three Months Ended June 30, 2024 Six Months Ended June 30, 2024 Shares Amount Shares Amount Class A share repurchases 19 $ 3,265 43 $ 6,615 Class C share repurchases 73 12,333 160 25,040 Total share repurchases(1) 92 $ 15,598 203 $ 31,655 (1) Shares repurchased include unsettled repurchases as of June 30, 2024. For additional information, see Note 9 of the Notes to Consolidated Financial Statements included in Item 1 of this Quarterly Report on Form 10-Q. Dividend Program On April 25, 2024, the Board of Directors of Alphabet declared a cash dividend of $0.20 per share to stockholders of record as of June 10, 2024, on each of the company\u2019s Class A, Class B, and Class C shares. These dividends were paid on June 17, 2024, totaling to $1.2 billion, $173 million, and $1.1 billion for Class A, Class B, and Class C shares, respectively. The company intends to pay quarterly cash dividends in the future, subject to review and approval by the company\u2019s Board of Directors in its sole discretion. European Commission Fines In 2017, 2018, and 2019, the EC announced decisions that certain actions taken by Google infringed European competition law and imposed fines of \u20ac2.4 billion ($2.7 billion as of June 27, 2017), \u20ac4.3 billion ($5.1 billion as of June 30, 2018), and \u20ac1.5 billion ($1.7 billion as of March 20, 2019), respectively. On September 14, 2022, the General Court reduced the 2018 fine from \u20ac4.3 billion to \u20ac4.1 billion. We subsequently filed an appeal to the European Court of Justice. While each EC decision is under appeal, we included the fines in accrued expenses and other current liabilities on our Consolidated Balance Sheets, as we provided bank guarantees (in lieu of a cash payment) for the fines. For additional information, see Note 8 of the Notes to Consolidated Financial Statements included in Item 1 of this Quarterly Report on Form 10-Q. Taxes As of June 30, 2024, we had short-term income taxes payable of $2.7 billion, related to a one-time transition tax payable incurred as a result of the U.S. Tax Cuts and Jobs Act (\"Tax Act\"). As permitted by the Tax Act, we will pay the transition tax in annual interest-free installments through 2025. We also have long-term taxes payable of $7.7 billion primarily related to uncertain tax",
-        "metadata": {
-            "document": "goog-10-q-q2-2024.pdf",
-            "page_number": "46",
-            "page_section": "legal_proceedings"
-        }
-    },
-    {
-        "id": "goog-10-q-q2-2024.pdf_page_46_chunk_1",
-        "text": "positions as of June 30, 2024. 46",
-        "metadata": {
-            "document": "goog-10-q-q2-2024.pdf",
-            "page_number": "46",
+            "chunk_index": 1,
             "page_section": "legal_proceedings"
         }
     },
@@ -572,6 +595,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2025.pdf",
             "page_number": "29",
+            "chunk_index": 0,
             "page_section": "legal_proceedings"
         }
     },
@@ -581,6 +605,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2025.pdf",
             "page_number": "29",
+            "chunk_index": 1,
             "page_section": "legal_proceedings"
         }
     },
@@ -590,6 +615,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2025.pdf",
             "page_number": "30",
+            "chunk_index": 0,
             "page_section": "legal_proceedings"
         }
     },
@@ -599,6 +625,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2025.pdf",
             "page_number": "30",
+            "chunk_index": 1,
             "page_section": "legal_proceedings"
         }
     },
@@ -608,6 +635,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2022.pdf",
             "page_number": "27",
+            "chunk_index": 0,
             "page_section": "legal_proceedings"
         }
     },
@@ -617,6 +645,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2022.pdf",
             "page_number": "27",
+            "chunk_index": 1,
             "page_section": "legal_proceedings"
         }
     },
@@ -626,6 +655,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2022.pdf",
             "page_number": "28",
+            "chunk_index": 0,
             "page_section": "legal_proceedings"
         }
     },
@@ -635,6 +665,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2022.pdf",
             "page_number": "28",
+            "chunk_index": 1,
             "page_section": "legal_proceedings"
         }
     },
@@ -644,6 +675,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2022.pdf",
             "page_number": "49",
+            "chunk_index": 0,
             "page_section": "legal_proceedings"
         }
     },
@@ -653,6 +685,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2022.pdf",
             "page_number": "49",
+            "chunk_index": 1,
             "page_section": "legal_proceedings"
         }
     },
@@ -662,6 +695,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2022.pdf",
             "page_number": "51",
+            "chunk_index": 0,
             "page_section": "legal_proceedings"
         }
     },
@@ -671,6 +705,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2023.pdf",
             "page_number": "27",
+            "chunk_index": 0,
             "page_section": "legal_proceedings"
         }
     },
@@ -680,6 +715,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2023.pdf",
             "page_number": "27",
+            "chunk_index": 1,
             "page_section": "legal_proceedings"
         }
     },
@@ -689,6 +725,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2023.pdf",
             "page_number": "28",
+            "chunk_index": 0,
             "page_section": "legal_proceedings"
         }
     },
@@ -698,6 +735,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2023.pdf",
             "page_number": "28",
+            "chunk_index": 1,
             "page_section": "legal_proceedings"
         }
     },
@@ -707,6 +745,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2024.pdf",
             "page_number": "26",
+            "chunk_index": 0,
             "page_section": "legal_proceedings"
         }
     },
@@ -716,6 +755,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2024.pdf",
             "page_number": "26",
+            "chunk_index": 1,
             "page_section": "legal_proceedings"
         }
     },
@@ -725,6 +765,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2024.pdf",
             "page_number": "27",
+            "chunk_index": 0,
             "page_section": "legal_proceedings"
         }
     },
@@ -734,6 +775,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2024.pdf",
             "page_number": "27",
+            "chunk_index": 1,
             "page_section": "legal_proceedings"
         }
     },
@@ -743,6 +785,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2024.pdf",
             "page_number": "28",
+            "chunk_index": 0,
             "page_section": "legal_proceedings"
         }
     },
@@ -752,6 +795,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2024.pdf",
             "page_number": "28",
+            "chunk_index": 1,
             "page_section": "legal_proceedings"
         }
     },
@@ -761,6 +805,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2024.pdf",
             "page_number": "49",
+            "chunk_index": 0,
             "page_section": "legal_proceedings"
         }
     },
@@ -770,6 +815,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2024.pdf",
             "page_number": "49",
+            "chunk_index": 1,
             "page_section": "legal_proceedings"
         }
     },
@@ -779,6 +825,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2024.pdf",
             "page_number": "50",
+            "chunk_index": 0,
             "page_section": "legal_proceedings"
         }
     },
@@ -788,6 +835,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2024.pdf",
             "page_number": "50",
+            "chunk_index": 1,
             "page_section": "legal_proceedings"
         }
     },
@@ -797,6 +845,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2024.pdf",
             "page_number": "51",
+            "chunk_index": 0,
             "page_section": "legal_proceedings"
         }
     }

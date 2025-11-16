@@ -5,6 +5,7 @@
         "metadata": {
             "document": "goog-10-k-2022.pdf",
             "page_number": "25",
+            "chunk_index": 0,
             "page_section": "summary_financial_data"
         }
     },
@@ -14,24 +15,7 @@
         "metadata": {
             "document": "goog-10-k-2022.pdf",
             "page_number": "31",
-            "page_section": "summary_financial_data"
-        }
-    },
-    {
-        "id": "goog-10-k-2022.pdf_page_63_chunk_0",
-        "text": "Table of Contents Alphabet Inc. Debt Securities The following table summarizes the estimated fair value of investments in available-for-sale marketable debt securities by effective contractual maturity dates (in millions): As of December 31, 2022 Due in 1 year or less $ 8,170 Due in 1 year through 5 years 51,698 Due in 5 years through 10 years 16,083 Due after 10 years 11,580 Total $ 87,531 The following tables present fair values and gross unrealized losses recorded to AOCI, aggregated by investment category and the length of time that individual securities have been in a continuous loss position (in millions): As of December 31, 2021 Less than 12 Months 12 Months or Greater Total Unrealized Unrealized Unrealized Fair Value Loss Fair Value Loss Fair Value Loss Government bonds $ 32,843 $ (236) $ 71 $ (2) $ 32,914 $ (238) Corporate debt securities 22,737 (152) 303 (5) 23,040 (157) Mortgage-backed and asset-backed securities 11,502 (106) 248 (6) 11,750 (112) Total $ 67,082 $ (494) $ 622 $ (13) $ 67,704 $ (507) As of December 31, 2022 Less than 12 Months 12 Months or Greater Total Unrealized Unrealized Unrealized Fair Value Loss Fair Value Loss Fair Value Loss Government bonds $ 21,039 $ (1,004) $ 13,438 $ (1,041) $ 34,477 $ (2,045) Corporate debt securities 11,228 (440) 15,125 (1,052) 26,353 (1,492) Mortgage-backed and asset-backed securities 7,725 (585) 6,964 (657) 14,689 (1,242) Total $ 39,992 $ (2,029) $ 35,527 $ (2,750) $ 75,519 $ (4,779) We determine realized gains or losses on the sale or extinguishment of debt securities on a specific identification method.The following table summarizes gains and losses for debt securities, reflected as a component of other income (expense), net (in millions): Year Ended December 31, 2020 2021 2022 Unrealized gain (loss) on fair value option debt securities(1) $ 86 $ (122) $ (557) Gross realized gain on debt securities 899 432 103 Gross realized loss on debt securities (184) (329) (1,588) (Increase)/decrease in allowance for credit losses (76) (91) (22) Total gain (loss) on debt securities recognized in other income (expense), net $ 725 $ (110) $ (2,064) (1) Accumulated unrealized net gains (losses) related to debt securities still held where we have elected the fair value option were $87 million, $(35) million, and $(592) million as of December 31, 2020, 2021, and 2022, respectively. 62",
-        "metadata": {
-            "document": "goog-10-k-2022.pdf",
-            "page_number": "63",
-            "page_section": "summary_financial_data"
-        }
-    },
-    {
-        "id": "goog-10-k-2023-final.pdf_page_28_chunk_0",
-        "text": "Table of Contents Alphabet Inc. Stock Performance Graphs The graph below matches Alphabet Inc. Class A's cumulative five-year total stockholder return on common stock with the cumulative total returns of the S&P 500 index, the NASDAQ Composite index, and the RDG Internet Composite index. The graph tracks the performance of a $100 investment in our common stock and in each index (with the reinvestment of all dividends) from December 31, 2018, to December 31, 2023. The returns shown are based on historical results and are not intended to suggest future performance. COMPARISON OF CUMULATIVE 5-YEAR TOTAL RETURN* ALPHABET INC. CLASS A COMMON STOCK Among Alphabet Inc., the S&P 500 Index, the NASDAQ Composite Index, and the RDG Internet Composite Index $400 $350 $300 $250 $200 $150 $100 $50 $0 8 9 9 9 9 0 0 0 0 1 1 1 1 2 2 2 2 3 3 3 3 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2/ 3/ 6/ 9/ 2/ 3/ 6/ 9/ 2/ 3/ 6/ 9/ 2/ 3/ 6/ 9/ 2/ 3/ 6/ 9/ 2/ 1 1 1 1 1 1 Alphabet Inc. Class A S&P 500 NASDAQ Composite RDG Internet Composite *$100 invested on December 31, 2018, in stock or index, including reinvestment of dividends. \u00a9 Copyright 2024 S&P, a division of The McGraw-Hill Companies Inc. All rights reserved. 27.",
-        "metadata": {
-            "document": "goog-10-k-2023-final.pdf",
-            "page_number": "28",
+            "chunk_index": 0,
             "page_section": "summary_financial_data"
         }
     },
@@ -41,6 +25,7 @@
         "metadata": {
             "document": "goog-10-k-2023-final.pdf",
             "page_number": "35",
+            "chunk_index": 0,
             "page_section": "summary_financial_data"
         }
     },
@@ -50,6 +35,7 @@
         "metadata": {
             "document": "goog-10-k-2023-final.pdf",
             "page_number": "35",
+            "chunk_index": 1,
             "page_section": "summary_financial_data"
         }
     },
@@ -59,33 +45,7 @@
         "metadata": {
             "document": "goog-10-k-2023-final.pdf",
             "page_number": "36",
-            "page_section": "summary_financial_data"
-        }
-    },
-    {
-        "id": "goog-10-k-2023-final.pdf_page_38_chunk_0",
-        "text": "Table of Contents Alphabet Inc. Use of Non-GAAP Constant Currency Information International revenues, which represent a significant portion of our revenues, are generally transacted in multiple currencies and therefore are affected by fluctuations in foreign currency exchange rates. The effect of currency exchange rates on our business is an important factor in understanding period-to-period comparisons. We use non-GAAP constant currency revenues (\"constant currency revenues\") and non-GAAP percentage change in constant currency revenues (\"percentage change in constant currency revenues\") for financial and operational decision-making and as a means to evaluate period-to-period comparisons. We believe the presentation of results on a constant currency basis in addition to U.S. Generally Accepted Accounting Principles (GAAP) results helps improve the ability to understand our performance, because it excludes the effects of foreign currency volatility that are not indicative of our core operating results. Constant currency information compares results between periods as if exchange rates had remained constant period over period. We define constant currency revenues as revenues excluding the effect of foreign currency exchange rate movements (\"FX Effect\") as well as hedging activities, which are recognized at the consolidated level. We use constant currency revenues to determine the constant currency revenue percentage change on a year-on-year basis. Constant currency revenues are calculated by translating current period revenues using prior year comparable period exchange rates, as well as excluding any hedging effects realized in the current period. Constant currency revenue percentage change is calculated by determining the change in current period revenues over prior year comparable period revenues where current period foreign currency revenues are translated using prior year comparable period exchange rates and hedging effects are excluded from revenues of both periods. These results should be considered in addition to, not as a substitute for, results reported in accordance with GAAP. Results on a constant currency basis, as we present them, may not be comparable to similarly titled measures used by other companies and are not a measure of performance presented in accordance with GAAP. The following table presents the foreign currency exchange effect on international revenues and total revenues (in millions, except percentages): Year Ended December 31, 2023 % Change from Prior Period Year Ended December 31, Constant Less Constant Less FX Currency As Hedging Less FX Currency 2022 2023 Effect Revenues Reported Effect Effect Revenues United States $ 134,814 $ 146,286 $ 0 $ 146,286 9 % 0 % 9 % EMEA 82,062 91,038 460 90,578 11 % 1 % 10 % APAC 47,024 51,514 (1,759) 53,273 10 % (3) % 13 % Other Americas 16,976 18,320 (654) 18,974 8 % (4) % 12 % Revenues, excluding hedging effect 280,876 307,158 (1,953) 309,111 9 % (1) % 10 % Hedging gains (losses) 1,960 236 Total revenues(1) $ 282,836 $ 307,394 $ 309,111 9 % 0 % (1) % 10 % (1) Total constant currency revenues of $309.1 billion for 2023 increased $28.2 billion compared to $280.9 billion in revenues, excluding hedging effect, for 2022. EMEA revenue growth was favorably affected by changes in",
-        "metadata": {
-            "document": "goog-10-k-2023-final.pdf",
-            "page_number": "38",
-            "page_section": "summary_financial_data"
-        }
-    },
-    {
-        "id": "goog-10-k-2023-final.pdf_page_38_chunk_1",
-        "text": "foreign currency exchange rates, primarily due to the U.S. dollar weakening relative to the Euro, partially offset by the U.S. dollar strengthening relative to the Turkish lira. APAC revenue growth was unfavorably affected by changes in foreign currency exchange rates, primarily due to the U.S. dollar strengthening relative to the Japanese yen. Other Americas revenue growth was unfavorably affected by changes in foreign currency exchange rates, primarily due to the U.S. dollar strengthening relative to the Argentine peso. 37.",
-        "metadata": {
-            "document": "goog-10-k-2023-final.pdf",
-            "page_number": "38",
-            "page_section": "summary_financial_data"
-        }
-    },
-    {
-        "id": "goog-10-k-2023-final.pdf_page_65_chunk_0",
-        "text": "Table of Contents Alphabet Inc. and Level 2 in the fair value hierarchy, because we use quoted prices for identical assets in active markets or inputs that are based upon quoted prices for similar instruments in active markets. Debt securities are measured at fair value and classified within Level 2 in the fair value hierarchy, because we use quoted market prices to the extent available or alternative pricing sources and models utilizing market observable inputs to determine fair value. For certain marketable debt securities, we have elected the fair value option for which changes in fair value are recorded in OI&E. The fair value option was elected for these securities to align with the unrealized gains and losses from related derivative contracts. The following tables summarize our cash, cash equivalents, and marketable securities measured at fair value on a recurring basis (in millions): As of December 31, 2022 Gross Gross Cash and Fair Value Adjusted Unrealized Unrealized Cash Marketable Hierarchy Cost Gains Losses Fair Value Equivalents Securities Fair value changes recorded in other comprehensive income Time deposits Level 2 $ 5,297 $ 0 $ 0 $ 5,297 $ 5,293 $ 4 Government bonds Level 2 41,036 64 (2,045) 39,055 283 38,772 Corporate debt securities Level 2 28,578 8 (1,569) 27,017 1 27,016 Mortgage-backed and asset-backed securities Level 2 16,176 5 (1,242) 14,939 0 14,939 Total investments with fair value change reflected in other comprehensive income(1) $ 91,087 $ 77 $ (4,856) $ 86,308 $ 5,577 $ 80,731 Fair value adjustments recorded in net income Money market funds Level 1 $ 7,234 $ 7,234 $ 0 Current marketable Level 1 equity securities(2) 4,013 0 4,013 Mutual funds Level 2 339 0 339 Government bonds Level 2 1,877 440 1,437 Corporate debt securities Level 2 3,744 65 3,679 Mortgage-backed and Level 2 asset-backed securities 1,686 2 1,684 Total investments with fair value change recorded in net income $ 18,893 $ 7,741 $ 11,152 Cash 0 8,561 0 Total $ 91,087 $ 77 $ (4,856) $ 105,201 $ 21,879 $ 91,883 (1) Represents gross unrealized gains and losses for debt securities recorded to AOCI. (2) The long-term portion of marketable equity securities (subject to long-term lock-up restrictions) of $803 million as of December 31, 2022 is included within other non-current assets. 64.",
-        "metadata": {
-            "document": "goog-10-k-2023-final.pdf",
-            "page_number": "65",
+            "chunk_index": 0,
             "page_section": "summary_financial_data"
         }
     },
@@ -95,6 +55,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "29",
+            "chunk_index": 0,
             "page_section": "summary_financial_data"
         }
     },
@@ -104,6 +65,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "36",
+            "chunk_index": 0,
             "page_section": "summary_financial_data"
         }
     },
@@ -113,6 +75,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "36",
+            "chunk_index": 1,
             "page_section": "summary_financial_data"
         }
     },
@@ -122,6 +85,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "37",
+            "chunk_index": 0,
             "page_section": "summary_financial_data"
         }
     },
@@ -131,6 +95,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2022.pdf",
             "page_number": "33",
+            "chunk_index": 0,
             "page_section": "summary_financial_data"
         }
     },
@@ -140,6 +105,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2022.pdf",
             "page_number": "33",
+            "chunk_index": 1,
             "page_section": "summary_financial_data"
         }
     },
@@ -149,6 +115,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2023.pdf",
             "page_number": "33",
+            "chunk_index": 0,
             "page_section": "summary_financial_data"
         }
     },
@@ -158,6 +125,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2023.pdf",
             "page_number": "33",
+            "chunk_index": 1,
             "page_section": "summary_financial_data"
         }
     },
@@ -167,6 +135,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2024.pdf",
             "page_number": "32",
+            "chunk_index": 0,
             "page_section": "summary_financial_data"
         }
     },
@@ -176,6 +145,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2024.pdf",
             "page_number": "32",
+            "chunk_index": 1,
             "page_section": "summary_financial_data"
         }
     },
@@ -185,6 +155,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2025.pdf",
             "page_number": "35",
+            "chunk_index": 0,
             "page_section": "summary_financial_data"
         }
     },
@@ -194,6 +165,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2025.pdf",
             "page_number": "35",
+            "chunk_index": 1,
             "page_section": "summary_financial_data"
         }
     },
@@ -203,6 +175,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2022.pdf",
             "page_number": "36",
+            "chunk_index": 0,
             "page_section": "summary_financial_data"
         }
     },
@@ -212,6 +185,17 @@
         "metadata": {
             "document": "goog-10-q-q2-2022.pdf",
             "page_number": "36",
+            "chunk_index": 1,
+            "page_section": "summary_financial_data"
+        }
+    },
+    {
+        "id": "goog-10-q-q2-2024.pdf_page_13_chunk_0",
+        "text": "Table of Contents Alphabet Inc. or inputs that are based upon quoted prices for similar instruments in active markets. Debt securities are measured at fair value and classified within Level 2 in the fair value hierarchy, because we use quoted market prices to the extent available or alternative pricing sources and models utilizing market observable inputs to determine fair value. For certain marketable debt securities, we have elected the fair value option for which changes in fair value are recorded in OI&E. The fair value option was elected for these securities to align with the unrealized gains and losses from related derivative contracts. The following tables summarize our cash, cash equivalents, and marketable securities measured at fair value on a recurring basis (in millions): As of December 31, 2023 Gross Gross Cash and Fair Value Adjusted Unrealized Unrealized Cash Marketable Hierarchy Cost Gains Losses Fair Value Equivalents Securities Fair value changes recorded in other comprehensive income Time deposits Level 2 $ 2,628 $ 0 $ 0 $ 2,628 $ 2,628 $ 0 Government bonds Level 2 38,106 233 (679) 37,660 1,993 35,667 Corporate debt securities Level 2 22,457 112 (637) 21,932 0 21,932 Mortgage-backed and asset-backed securities Level 2 17,243 88 (634) 16,697 0 16,697 Total investments with fair value change reflected in other comprehensive income(1) $ 80,434 $ 433 $ (1,950) $ 78,917 $ 4,621 $ 74,296 Fair value adjustments recorded in net income Money market funds Level 1 $ 6,480 $ 6,480 $ 0 Current marketable Level 1 equity securities(2) 4,282 0 4,282 Mutual funds Level 2 311 0 311 Government bonds Level 2 1,952 347 1,605 Corporate debt securities Level 2 3,782 91 3,691 Mortgage-backed and asset-backed securities Level 2 2,683 0 2,683 Total investments with fair value change recorded in net income $ 19,490 $ 6,918 $ 12,572 Cash 0 12,509 0 Total $ 80,434 $ 433 $ (1,950) $ 98,407 $ 24,048 $ 86,868 (1) Represents gross unrealized gains and losses for debt securities recorded to accumulated other comprehensive income (AOCI). (2) The long-term portion of marketable equity securities (subject to long-term lock-up restrictions) of $1.4 billion as of December 31, 2023 is included within other non-current assets. 13",
+        "metadata": {
+            "document": "goog-10-q-q2-2024.pdf",
+            "page_number": "13",
+            "chunk_index": 0,
             "page_section": "summary_financial_data"
         }
     },
@@ -221,6 +205,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2024.pdf",
             "page_number": "36",
+            "chunk_index": 0,
             "page_section": "summary_financial_data"
         }
     },
@@ -230,6 +215,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2024.pdf",
             "page_number": "36",
+            "chunk_index": 1,
             "page_section": "summary_financial_data"
         }
     },
@@ -239,6 +225,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2025.pdf",
             "page_number": "40",
+            "chunk_index": 0,
             "page_section": "summary_financial_data"
         }
     },
@@ -248,24 +235,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2025.pdf",
             "page_number": "40",
-            "page_section": "summary_financial_data"
-        }
-    },
-    {
-        "id": "goog-10-q-q2-2025.pdf_page_44_chunk_0",
-        "text": "The following table presents the foreign currency exchange effect on international revenues and total revenues (in millions, except percentages): Three Months Ended June 30, 2025 % Change from Prior Period Three Months Ended June 30, Constant Less Constant Less FX Currency As Hedging Less FX Currency 2024 2025 Effect Revenues Reported Effect Effect Revenues United States $ 41,196 $ 46,063 $ 0 $ 46,063 12 % 0 % 12 % EMEA 24,683 28,262 780 27,482 14 % 3 % 11 % APAC 13,823 16,480 115 16,365 19 % 1 % 18 % Other Americas 4,938 5,735 (352) 6,087 16 % (7) % 23 % Revenues, excluding hedging effect 84,640 96,540 543 95,997 14 % 1 % 13 % Hedging gains (losses) 102 (112) Total revenues(1) $ 84,742 $ 96,428 $ 95,997 14 % 0 % 1 % 13 % (1) Total constant currency revenues of $96.0 billion for the three months ended June 30, 2025 increased $11.4 billion compared to $84.6 billion in revenues, excluding hedging effect, for the three months ended June 30, 2024. EMEA revenue growth was favorably affected by changes in foreign currency exchange rates, primarily due to the U.S. dollar weakening relative to the euro and British pound. APAC revenue growth was favorably affected by changes in foreign currency exchange rates, primarily due to the U.S. dollar weakening relative to the Japanese yen, partially offset by the U.S. dollar strengthening relative to the South Korean won and Australian dollar. Other Americas revenue growth was unfavorably affected by changes in foreign currency exchange rates, primarily due to the U.S. dollar strengthening relative to the Brazilian real and Mexican peso. Six Months Ended June 30, 2025 % Change from Prior Period Six months ended June 30, Constant Less Constant Less FX Currency As Hedging Less FX Currency 2024 2025 Effect Revenues Reported Effect Effect Revenues United States $ 79,933 $ 90,027 $ 0 $ 90,027 13 % 0 % 13 % EMEA 48,471 54,185 56 54,129 12 % 0 % 12 % APAC 27,112 31,334 (266) 31,600 16 % (1) % 17 % Other Americas 9,591 10,968 (852) 11,820 14 % (9) % 23 % Revenues, excluding hedging effect 165,107 186,514 (1,062) 187,576 13 % (1) % 14 % Hedging gains (losses) 174 148 Total revenues(1) $ 165,281 $ 186,662 $ 187,576 13 % 0 % (1) % 14 % (1) Total constant currency revenues of $187.6 billion for the six months ended June 30, 2025 increased $22.5 billion compared to $165.1 billion in revenues, excluding hedging effect, for the six months ended June 30, 2024. EMEA revenue growth was not materially affected by changes in foreign currency exchange rates, as the effect of the U.S. dollar weakening relative to the British pound was largely offset by the U.S. dollar strengthening relative to the Turkish lira. APAC revenue growth was unfavorably affected by changes in foreign currency exchange rates, primarily due to the U.S. dollar strengthening relative to the Australian dollar, South Korean won, and Indian rupee. Other",
-        "metadata": {
-            "document": "goog-10-q-q2-2025.pdf",
-            "page_number": "44",
-            "page_section": "summary_financial_data"
-        }
-    },
-    {
-        "id": "goog-10-q-q2-2025.pdf_page_44_chunk_1",
-        "text": "Americas revenue growth was unfavorably affected by changes in foreign currency exchange rates, primarily due to the U.S. dollar strengthening relative to the Brazilian real and Mexican peso. Costs and Expenses 44",
-        "metadata": {
-            "document": "goog-10-q-q2-2025.pdf",
-            "page_number": "44",
+            "chunk_index": 1,
             "page_section": "summary_financial_data"
         }
     },
@@ -275,6 +245,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2022.pdf",
             "page_number": "37",
+            "chunk_index": 0,
             "page_section": "summary_financial_data"
         }
     },
@@ -284,6 +255,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2023.pdf",
             "page_number": "37",
+            "chunk_index": 0,
             "page_section": "summary_financial_data"
         }
     },
@@ -293,24 +265,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2023.pdf",
             "page_number": "37",
-            "page_section": "summary_financial_data"
-        }
-    },
-    {
-        "id": "goog-10-q-q3-2023.pdf_page_46_chunk_0",
-        "text": "Table of Contents Alphabet Inc. See Note 6 of the Notes to Consolidated Financial Statements included in Item 1 of this Quarterly Report on Form 10-Q for further information. Provision for Income Taxes The following table presents provision for income taxes (in millions, except effective tax rate): Three Months Ended Nine Months Ended September 30, September 30, 2022 2023 2022 2023 Income before provision for income taxes $ 16,233 $ 21,197 $ 54,181 $ 61,305 Provision for income taxes $ 2,323 $ 1,508 $ 7,833 $ 8,197 Effective tax rate 14.3 % 7.1 % 14.5 % 13.4 % On July 21, 2023 the IRS issued a rule change allowing taxpayers to temporarily apply the regulations in effect prior to 2022 related to U.S. federal foreign tax credits. This announcement only applies to foreign taxes paid or accrued in our fiscal years 2022 and 2023. Additionally, on September 8, 2023, the IRS issued a separate rule change with interim guidance on the capitalization and amortization of R&D expenses. A cumulative one-time adjustment applicable to prior periods for these tax rule changes was recorded in the third quarter of 2023. The effective tax rate decreased from the three months ended September 30, 2022 to the three months ended September 30, 2023, reflecting the effect of the two tax rule changes, particularly the change related to foreign tax credits. The effect of these tax rule changes was partially offset by a decrease in the U.S. federal Foreign Derived Intangible Income tax deduction. The effective tax rate decreased from the nine months ended September 30, 2022 to the nine months ended September 30, 2023, reflecting the effect of the two tax rule changes, particularly the change related to foreign tax credits. The effect of these tax rule changes was partially offset by changes in uncertain tax benefits, a decrease in the stock-based compensation-related tax benefit, and a decrease in the U.S. federal Foreign Derived Intangible Income tax deduction. Financial Condition Cash, Cash Equivalents, and Marketable Securities As of September 30, 2023, we had $119.9 billion in cash, cash equivalents, and short-term marketable securities. Cash equivalents and marketable securities are comprised of time deposits, money market funds, highly liquid government bonds, corporate debt securities, mortgage-backed and asset-backed securities, and marketable equity securities. Sources, Uses of Cash and Related Trends Our principal sources of liquidity are cash, cash equivalents, and marketable securities, as well as the cash flow that we generate from operations. The primary use of capital continues to be to invest for the long-term growth of the business. We regularly evaluate our cash and capital structure, including the size, pace, and form of capital return to stockholders. The following table presents our cash flows (in millions): Nine Months Ended September 30, 2022 2023 Net cash provided by operating activities $ 67,881 $ 82,831 Net cash used in investing activities $ (14,071) $ (20,896) Net cash used in financing activities $ (52,128) $ (52,785) Cash Provided by Operating Activities Our largest source of cash provided",
-        "metadata": {
-            "document": "goog-10-q-q3-2023.pdf",
-            "page_number": "46",
-            "page_section": "summary_financial_data"
-        }
-    },
-    {
-        "id": "goog-10-q-q3-2023.pdf_page_46_chunk_1",
-        "text": "by operations are advertising revenues generated by Google Search & other properties, Google Network properties, and YouTube properties. Additionally, we generate cash through sales of apps and in-app purchases, and hardware; and licensing and service fees, including fees received for Google Cloud offerings and subscription-based products. 46",
-        "metadata": {
-            "document": "goog-10-q-q3-2023.pdf",
-            "page_number": "46",
+            "chunk_index": 1,
             "page_section": "summary_financial_data"
         }
     },
@@ -320,6 +275,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2024.pdf",
             "page_number": "36",
+            "chunk_index": 0,
             "page_section": "summary_financial_data"
         }
     },
@@ -329,6 +285,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2024.pdf",
             "page_number": "36",
+            "chunk_index": 1,
             "page_section": "summary_financial_data"
         }
     }

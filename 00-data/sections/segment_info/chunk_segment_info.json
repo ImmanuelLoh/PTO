@@ -5,6 +5,7 @@
         "metadata": {
             "document": "goog-10-k-2022.pdf",
             "page_number": "60",
+            "chunk_index": 0,
             "page_section": "segment_info"
         }
     },
@@ -14,24 +15,7 @@
         "metadata": {
             "document": "goog-10-k-2022.pdf",
             "page_number": "84",
-            "page_section": "segment_info"
-        }
-    },
-    {
-        "id": "goog-10-k-2023-final.pdf_page_40_chunk_0",
-        "text": "Table of Contents Alphabet Inc. General and Administrative The following table presents general and administrative expenses (in millions, except percentages): Year Ended December 31, 2022 2023 General and administrative expenses $ 15,724 $ 16,425 General and administrative expenses as a percentage of revenues 6 % 5 % General and administrative expenses increased $701 million from 2022 to 2023, primarily driven by an increase in compensation expenses of $416 million, which was largely the result of $264 million in employee severance charges associated with the reduction in our workforce in addition to a combination of other factors, none of which were individually significant. Segment Profitability The following table presents segment operating income (loss) (in millions). Year Ended December 31, 2022 2023 Operating income (loss): Google Services $ 82,699 $ 95,858 Google Cloud (1,922) 1,716 Other Bets (4,636) (4,095) Alphabet-level activities(1) (1,299) (9,186) Total income from operations $ 74,842 $ 84,293 (1) In addition to the costs included in Alphabet-level activities, hedging gains (losses) related to revenue were $2.0 billion and $236 million in 2022 and 2023, respectively. For the year ended December 31, 2023, Alphabet-level activities include charges related to the reduction in force and our office space optimization efforts totaling $3.9 billion. In addition, for the year ended December 31, 2023, we incurred $269 million in accelerated rent and accelerated depreciation. For additional information relating to our workforce reduction and other initiatives, see Note 8 of the Notes to Consolidated Financial Statements included in Item 8 of this Annual Report on Form 10-K. For additional information relating to our segments, see Note 15 of the Notes to Consolidated Financial Statements included in Item 8 of this Annual Report on Form 10-K. Google Services Google Services operating income increased $13.2 billion from 2022 to 2023. The increase in operating income was primarily driven by an increase in revenues, partially offset by an increase in content acquisition costs and compensation expenses including an increase in SBC expense. Additionally, operating income benefited from a reduction in costs driven by the change in the estimated useful lives of our servers and certain network equipment. Google Cloud Google Cloud operating income of $1.7 billion for 2023 compared to an operating loss of $1.9 billion for 2022 represents an increase of $3.6 billion. The increase in operating income was primarily driven by an increase in revenues, partially offset by an increase in compensation expenses largely driven by headcount growth. Additionally, operating income benefited from a reduction in costs driven by the change in the estimated useful lives of our servers and certain network equipment. Other Bets Other Bets operating loss decreased $541 million from 2022 to 2023 primarily due to growth in revenues as well as a reduction in valuation-based compensation liabilities related to Other Bet companies. Other Income (Expense), Net The following table presents OI&E, (in millions): 39.",
-        "metadata": {
-            "document": "goog-10-k-2023-final.pdf",
-            "page_number": "40",
-            "page_section": "segment_info"
-        }
-    },
-    {
-        "id": "goog-10-k-2023-final.pdf_page_64_chunk_0",
-        "text": "Table of Contents Alphabet Inc. Note 2. Revenues Disaggregated Revenues The following table presents revenues disaggregated by type (in millions): Year Ended December 31, 2021 2022 2023 Google Search & other $ 148,951 $ 162,450 $ 175,033 YouTube ads 28,845 29,243 31,510 Google Network 31,701 32,780 31,312 Google advertising 209,497 224,473 237,855 Google subscriptions, platforms, and devices 28,032 29,055 34,688 Google Services total 237,529 253,528 272,543 Google Cloud 19,206 26,280 33,088 Other Bets 753 1,068 1,527 Hedging gains (losses) 149 1,960 236 Total revenues $ 257,637 $ 282,836 $ 307,394 No individual customer or groups of affiliated customers represented more than 10% of our revenues in 2021, 2022, or 2023. The following table presents revenues disaggregated by geography, based on the addresses of our customers (in millions): Year Ended December 31, 2021 2022 2023 United States $ 117,854 46 % $ 134,814 48 % $ 146,286 47 % EMEA(1) 79,107 31 82,062 29 91,038 30 APAC(1) 46,123 18 47,024 16 51,514 17 Other Americas(1) 14,404 5 16,976 6 18,320 6 Hedging gains (losses) 149 0 1,960 1 236 0 Total revenues $ 257,637 100 % $ 282,836 100 % $ 307,394 100 % (1) Regions represent Europe, the Middle East, and Africa (EMEA); Asia-Pacific (APAC); and Canada and Latin America (\"Other Americas\"). Revenue Backlog As of December 31, 2023, we had $74.1 billion of remaining performance obligations (\u201crevenue backlog\u201d), primarily related to Google Cloud. Our revenue backlog represents commitments in customer contracts for future services that have not yet been recognized as revenue. The estimated revenue backlog and timing of revenue recognition for these commitments is largely driven by our ability to deliver in accordance with relevant contract terms and when our customers utilize services. We expect to recognize approximately half of the revenue backlog as revenues over the next 24 months with the remaining to be recognized thereafter. Revenue backlog includes related deferred revenue currently recorded as well as amounts that will be invoiced in future periods, and excludes contracts with an original expected term of one year or less and cancellable contracts. Deferred Revenues We record deferred revenues when cash payments are received or due in advance of our performance, including amounts which are refundable. Deferred revenues primarily relate to Google Cloud and Google subscriptions, platforms, and devices. Total deferred revenue as of December 31, 2022 was $4.5 billion, of which $2.4 billion was recognized as revenues for the year ended December 31, 2023. Note 3. Financial Instruments Fair Value Measurements Investments Measured at Fair Value on a Recurring Basis Cash, cash equivalents, and marketable equity securities are measured at fair value and classified within Level 1 63.",
-        "metadata": {
-            "document": "goog-10-k-2023-final.pdf",
-            "page_number": "64",
+            "chunk_index": 0,
             "page_section": "segment_info"
         }
     },
@@ -41,6 +25,7 @@
         "metadata": {
             "document": "goog-10-k-2023-final.pdf",
             "page_number": "87",
+            "chunk_index": 0,
             "page_section": "segment_info"
         }
     },
@@ -50,6 +35,7 @@
         "metadata": {
             "document": "goog-10-k-2023-final.pdf",
             "page_number": "87",
+            "chunk_index": 1,
             "page_section": "segment_info"
         }
     },
@@ -59,6 +45,7 @@
         "metadata": {
             "document": "goog-10-k-2023-final.pdf",
             "page_number": "88",
+            "chunk_index": 0,
             "page_section": "segment_info"
         }
     },
@@ -68,6 +55,7 @@
         "metadata": {
             "document": "goog-10-k-2024.pdf",
             "page_number": "89",
+            "chunk_index": 0,
             "page_section": "segment_info"
         }
     },
@@ -77,6 +65,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2022.pdf",
             "page_number": "29",
+            "chunk_index": 0,
             "page_section": "segment_info"
         }
     },
@@ -86,6 +75,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2022.pdf",
             "page_number": "38",
+            "chunk_index": 0,
             "page_section": "segment_info"
         }
     },
@@ -95,6 +85,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2023.pdf",
             "page_number": "29",
+            "chunk_index": 0,
             "page_section": "segment_info"
         }
     },
@@ -104,6 +95,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2023.pdf",
             "page_number": "39",
+            "chunk_index": 0,
             "page_section": "segment_info"
         }
     },
@@ -113,6 +105,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2024.pdf",
             "page_number": "28",
+            "chunk_index": 0,
             "page_section": "segment_info"
         }
     },
@@ -122,6 +115,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2025.pdf",
             "page_number": "31",
+            "chunk_index": 0,
             "page_section": "segment_info"
         }
     },
@@ -131,6 +125,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2025.pdf",
             "page_number": "38",
+            "chunk_index": 0,
             "page_section": "segment_info"
         }
     },
@@ -140,24 +135,7 @@
         "metadata": {
             "document": "goog-10-q-q1-2025.pdf",
             "page_number": "41",
-            "page_section": "segment_info"
-        }
-    },
-    {
-        "id": "goog-10-q-q2-2022.pdf_page_12_chunk_0",
-        "text": "Table of Contents Alphabet Inc. The following table presents revenues disaggregated by geography, based on the addresses of our customers (in millions): Three Months Ended Six Months Ended June 30, June 30, 2021 2022 2021 2022 United States $ 28,208 46 % $ 32,727 47 % $ 53,240 45 % $ 64,460 47 % EMEA(1) 19,084 31 20,533 29 36,115 31 40,850 30 APAC(1) 11,231 18 11,710 17 21,686 19 23,551 17 Other Americas(1) 3,364 5 4,340 6 6,269 5 8,182 6 Hedging gains (losses) (7) 0 375 1 (116) 0 653 0 Total revenues $ 61,880 100 % $ 69,685 100 % $ 117,194 100 % $ 137,696 100 % (1) Regions represent Europe, the Middle East, and Africa (EMEA); Asia-Pacific (APAC); and Canada and Latin America (\"Other Americas\"). Revenue Backlog and Deferred Revenues As of June 30, 2022, we had $51.2 billion of remaining performance obligations (\u201crevenue backlog\u201d), primarily related to Google Cloud, and expect to recognize approximately half of this amount as revenues over the next 24 months with the remaining to be recognized thereafter. Our revenue backlog represents commitments in customer contracts for future services that have not yet been recognized as revenues. The amount and timing of revenue recognition for these commitments is largely driven by when our customers utilize services and our ability to deliver in accordance with relevant contract terms, which could affect our estimate of revenue backlog and when we expect to recognize such as revenues. Revenue backlog includes related deferred revenue currently recorded as well as amounts that will be invoiced in future periods and excludes contracts with an original expected term of one year or less and cancellable contracts. We record deferred revenues when cash payments are received or due in advance of our performance, including amounts which are refundable. Deferred revenues primarily relate to Google Cloud and Google other. Total deferred revenue as of December 31, 2021 was $3.8 billion, of which $2.1 billion was recognized as revenues during the six months ended June 30, 2022. Note 3. Financial Instruments Debt Securities We classify our marketable debt securities, which are accounted for as available-for-sale, within Level 2 in the fair value hierarchy because we use quoted market prices to the extent available or alternative pricing sources and models utilizing market observable inputs to determine fair value. For certain marketable debt securities, we have elected the fair value option for which changes in fair value are recorded in other income (expense), net. The fair value option was elected for these securities to align with the unrealized gains and losses from related derivative contracts. Unrealized net losses related to debt securities still held where we have elected the fair value option were $35 million and $602 million as of December 31, 2021 and June 30, 2022, respectively. As of December 31, 2021 and June 30, 2022, the fair value of these debt securities was $4.7 billion and $6.4 billion, respectively. The following tables summarize debt securities, for which we did not",
-        "metadata": {
-            "document": "goog-10-q-q2-2022.pdf",
-            "page_number": "12",
-            "page_section": "segment_info"
-        }
-    },
-    {
-        "id": "goog-10-q-q2-2022.pdf_page_12_chunk_1",
-        "text": "elect the fair value option, by significant investment categories (in millions): As of December 31, 2021 Gross Gross Cash and Adjusted Unrealized Unrealized Fair Cash Marketable Cost Gains Losses Value Equivalents Securities Level 2: Time deposits(1) $ 5,133 $ 0 $ 0 $ 5,133 $ 5,133 $ 0 Government bonds 53,288 258 (238) 53,308 5 53,303 Corporate debt securities 35,605 194 (223) 35,576 12 35,564 Mortgage-backed and asset-backed securities 18,829 96 (112) 18,813 0 18,813 Total $ 112,855 $ 548 $ (573) $ 112,830 $ 5,150 $ 107,680 12",
-        "metadata": {
-            "document": "goog-10-q-q2-2022.pdf",
-            "page_number": "12",
+            "chunk_index": 0,
             "page_section": "segment_info"
         }
     },
@@ -167,24 +145,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2022.pdf",
             "page_number": "32",
-            "page_section": "segment_info"
-        }
-    },
-    {
-        "id": "goog-10-q-q2-2022.pdf_page_41_chunk_0",
-        "text": "Table of Contents Alphabet Inc. Sales and Marketing The following table presents sales and marketing expenses (in millions, except percentages): Three Months Ended Six Months Ended June 30, June 30, 2021 2022 2021 2022 Sales and marketing expenses $ 5,276 $ 6,630 $ 9,792 $ 12,455 Sales and marketing expenses as a percentage of revenues 8.5 % 9.5 % 8.4 % 9.0 % Sales and marketing expenses increased $1.4 billion from the three months ended June 30, 2021 to the three months ended June 30, 2022. The increase was primarily driven by an increase in advertising and promotional activities of $603 million and an increase in compensation expenses of $536 million, largely resulting from a 20% increase in headcount. Sales and marketing expenses increased $2.7 billion from the six months ended June 30, 2021 to the six months ended June 30, 2022 primarily driven by an increase in compensation expenses of $1.1 billion and an increase in advertising and promotional activities of $1.1 billion. The increase in compensation expenses was largely due to a 20% increase in headcount. The increase in advertising and promotional activities was driven by both increased spending in the current period and a reduction in spending in the prior year comparable period due to COVID-19. General and Administrative The following table presents general and administrative expenses (in millions, except percentages): Three Months Ended Six Months Ended June 30, June 30, 2021 2022 2021 2022 General and administrative expenses $ 3,341 $ 3,657 $ 6,114 $ 7,031 General and administrative expenses as a percentage of revenues 5.4 % 5.2 % 5.2 % 5.1 % General and administrative expenses increased $316 million from the three months ended June 30, 2021 to the three months ended June 30, 2022. The increase was primarily driven by an increase in professional services fees of $311 million and an increase in compensation expenses of $309 million, largely resulting from a 23% increase in headcount. The overall increase was partially offset by a decrease in charges related to legal matters of $623 million. General and administrative expenses increased $917 million from the six months ended June 30, 2021 to the six months ended June 30, 2022. The increase was primarily driven by an increase in compensation expenses of $600 million, largely resulting from a 21% increase in headcount, and an increase in professional services fees of $597 million. The overall increase was partially offset by a decrease in charges related to legal matters of $792 million. Segment Profitability The following table presents segment operating income (loss) (in millions). Three Months Ended Six Months Ended June 30, June 30, 2021 2022 2021 2022 Operating income (loss): Google Services $ 22,343 $ 22,770 $ 41,889 $ 45,690 Google Cloud (591) (858) (1,565) (1,789) Other Bets (1,398) (1,686) (2,543) (2,841) Corporate costs, unallocated(1) (993) (773) (1,983) (1,513) Total income from operations $ 19,361 $ 19,453 $ 35,798 $ 39,547 (1) Unallocated corporate costs primarily include corporate initiatives, corporate shared costs, such as finance and legal, including",
-        "metadata": {
-            "document": "goog-10-q-q2-2022.pdf",
-            "page_number": "41",
-            "page_section": "segment_info"
-        }
-    },
-    {
-        "id": "goog-10-q-q2-2022.pdf_page_41_chunk_1",
-        "text": "certain fines and settlements, as well as costs associated with certain shared R&D activities. Additionally, hedging gains (losses) related to revenue are included in corporate costs. 41",
-        "metadata": {
-            "document": "goog-10-q-q2-2022.pdf",
-            "page_number": "41",
+            "chunk_index": 0,
             "page_section": "segment_info"
         }
     },
@@ -194,6 +155,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2022.pdf",
             "page_number": "42",
+            "chunk_index": 0,
             "page_section": "segment_info"
         }
     },
@@ -203,24 +165,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2022.pdf",
             "page_number": "42",
-            "page_section": "segment_info"
-        }
-    },
-    {
-        "id": "goog-10-q-q2-2023.pdf_page_31_chunk_0",
-        "text": "Table of Contents Alphabet Inc. As of June 30, 2023, there was $43.6 billion of unrecognized compensation cost related to unvested RSUs. This amount is expected to be recognized over a weighted-average period of 2.8 years. Note 13. Income Taxes The following table presents provision for income taxes (in millions, except for effective tax rate): Three Months Ended Six Months Ended June 30, June 30, 2022 2023 2022 2023 Income before provision for income taxes $ 19,014 $ 21,903 $ 37,948 $ 40,108 Provision for income taxes $ 3,012 $ 3,535 $ 5,510 $ 6,689 Effective tax rate 15.8 % 16.1 % 14.5 % 16.7 % We are subject to income taxes in the U.S. and foreign jurisdictions. Significant judgment is required in evaluating our uncertain tax positions and determining our provision for income taxes. The total amount of gross unrecognized tax benefits was $7.1 billion and $8.8 billion as of December 31, 2022 and June 30, 2023, respectively, of which $5.3 billion and $6.7 billion, if recognized, would affect our effective tax rate, respectively. Note 14. Information about Segments and Geographic Areas We report our segment results as Google Services, Google Cloud, and Other Bets: \u2022 Google Services includes products and services such as ads, Android, Chrome, hardware, Google Maps, Google Play, Search, and YouTube. Google Services generates revenues primarily from advertising; sales of apps and in-app purchases, and hardware; and fees received for subscription-based products such as YouTube Premium and YouTube TV. \u2022 Google Cloud includes infrastructure and platform services, collaboration tools, and other services for enterprise customers. Google Cloud generates revenues from fees received for Google Cloud Platform services, Google Workspace communication and collaboration tools, and other enterprise services. \u2022 Other Bets is a combination of multiple operating segments that are not individually material. Revenues from Other Bets are generated primarily from the sale of health technology and internet services. Revenues, certain costs, such as costs associated with content and traffic acquisition, certain engineering activities, and hardware, as well as certain operating expenses are directly attributable to our segments. Due to the integrated nature of Alphabet, other costs and expenses, such as technical infrastructure and office facilities, are managed centrally at a consolidated level. These costs, including the associated depreciation and impairment, are allocated to operating segments as a service cost generally based on usage, headcount, or revenue. Reflecting DeepMind's increasing collaboration with Google Services, Google Cloud, and Other Bets, beginning in the first quarter of 2023 DeepMind is reported as part of Alphabet's unallocated corporate costs instead of within Other Bets. Additionally, beginning in the first quarter of 2023, we updated and simplified our cost allocation methodologies to provide our business leaders with increased transparency for decision-making. Prior periods have been recast to conform to the current presentation. As announced on April 20, 2023, we brought together part of Google Research (the Brain team) and DeepMind to significantly accelerate our progress in artificial intelligence (AI). The group, called Google DeepMind, is reported within Alphabet's unallocated corporate",
-        "metadata": {
-            "document": "goog-10-q-q2-2023.pdf",
-            "page_number": "31",
-            "page_section": "segment_info"
-        }
-    },
-    {
-        "id": "goog-10-q-q2-2023.pdf_page_31_chunk_1",
-        "text": "costs prospectively beginning in the second quarter of 2023. Previously, the Brain team was included within Google Services. Certain costs are not allocated to our segments because they represent Alphabet-level activities. These costs primarily include AI-focused shared R&D activities; corporate initiatives such as our philanthropic activities; corporate shared costs such as certain finance, human resource, and legal costs, including certain fines and settlements. Charges associated with reductions in our workforce and office space announced in January 2023 are not allocated to our segments. Additionally, hedging gains (losses) related to revenue are not allocated to our segments. Our operating segments are not evaluated using asset information. 31",
-        "metadata": {
-            "document": "goog-10-q-q2-2023.pdf",
-            "page_number": "31",
+            "chunk_index": 1,
             "page_section": "segment_info"
         }
     },
@@ -230,6 +175,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2023.pdf",
             "page_number": "32",
+            "chunk_index": 0,
             "page_section": "segment_info"
         }
     },
@@ -239,6 +185,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2023.pdf",
             "page_number": "40",
+            "chunk_index": 0,
             "page_section": "segment_info"
         }
     },
@@ -248,6 +195,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2023.pdf",
             "page_number": "41",
+            "chunk_index": 0,
             "page_section": "segment_info"
         }
     },
@@ -257,6 +205,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2024.pdf",
             "page_number": "32",
+            "chunk_index": 0,
             "page_section": "segment_info"
         }
     },
@@ -266,6 +215,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2024.pdf",
             "page_number": "42",
+            "chunk_index": 0,
             "page_section": "segment_info"
         }
     },
@@ -275,6 +225,17 @@
         "metadata": {
             "document": "goog-10-q-q2-2025.pdf",
             "page_number": "35",
+            "chunk_index": 0,
+            "page_section": "segment_info"
+        }
+    },
+    {
+        "id": "goog-10-q-q2-2025.pdf_page_36_chunk_0",
+        "text": "Google Services and Google Cloud employee compensation expenses include the costs associated with direct and allocated employees. Google Services and Google Cloud other costs and expenses primarily include direct costs, such as advertising and promotional activities and third party services fees as well as allocated costs, such as technical infrastructure and office facilities usage costs. Additionally, Google Services other costs and expenses include content and traffic acquisition costs and device costs. See Note 2 for information relating to revenues by geography. The following table presents long-lived assets by geographic area, which includes property and equipment, net and operating lease assets (in millions): As of As of December 31, 2024 June 30, 2025 Long-lived assets: United States $ 138,993 $ 160,877 International 45,631 56,609 Total long-lived assets $ 184,624 $ 217,486 36",
+        "metadata": {
+            "document": "goog-10-q-q2-2025.pdf",
+            "page_number": "36",
+            "chunk_index": 0,
             "page_section": "segment_info"
         }
     },
@@ -284,6 +245,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2025.pdf",
             "page_number": "42",
+            "chunk_index": 0,
             "page_section": "segment_info"
         }
     },
@@ -293,6 +255,27 @@
         "metadata": {
             "document": "goog-10-q-q2-2025.pdf",
             "page_number": "43",
+            "chunk_index": 0,
+            "page_section": "segment_info"
+        }
+    },
+    {
+        "id": "goog-10-q-q2-2025.pdf_page_44_chunk_0",
+        "text": "The following table presents the foreign currency exchange effect on international revenues and total revenues (in millions, except percentages): Three Months Ended June 30, 2025 % Change from Prior Period Three Months Ended June 30, Constant Less Constant Less FX Currency As Hedging Less FX Currency 2024 2025 Effect Revenues Reported Effect Effect Revenues United States $ 41,196 $ 46,063 $ 0 $ 46,063 12 % 0 % 12 % EMEA 24,683 28,262 780 27,482 14 % 3 % 11 % APAC 13,823 16,480 115 16,365 19 % 1 % 18 % Other Americas 4,938 5,735 (352) 6,087 16 % (7) % 23 % Revenues, excluding hedging effect 84,640 96,540 543 95,997 14 % 1 % 13 % Hedging gains (losses) 102 (112) Total revenues(1) $ 84,742 $ 96,428 $ 95,997 14 % 0 % 1 % 13 % (1) Total constant currency revenues of $96.0 billion for the three months ended June 30, 2025 increased $11.4 billion compared to $84.6 billion in revenues, excluding hedging effect, for the three months ended June 30, 2024. EMEA revenue growth was favorably affected by changes in foreign currency exchange rates, primarily due to the U.S. dollar weakening relative to the euro and British pound. APAC revenue growth was favorably affected by changes in foreign currency exchange rates, primarily due to the U.S. dollar weakening relative to the Japanese yen, partially offset by the U.S. dollar strengthening relative to the South Korean won and Australian dollar. Other Americas revenue growth was unfavorably affected by changes in foreign currency exchange rates, primarily due to the U.S. dollar strengthening relative to the Brazilian real and Mexican peso. Six Months Ended June 30, 2025 % Change from Prior Period Six months ended June 30, Constant Less Constant Less FX Currency As Hedging Less FX Currency 2024 2025 Effect Revenues Reported Effect Effect Revenues United States $ 79,933 $ 90,027 $ 0 $ 90,027 13 % 0 % 13 % EMEA 48,471 54,185 56 54,129 12 % 0 % 12 % APAC 27,112 31,334 (266) 31,600 16 % (1) % 17 % Other Americas 9,591 10,968 (852) 11,820 14 % (9) % 23 % Revenues, excluding hedging effect 165,107 186,514 (1,062) 187,576 13 % (1) % 14 % Hedging gains (losses) 174 148 Total revenues(1) $ 165,281 $ 186,662 $ 187,576 13 % 0 % (1) % 14 % (1) Total constant currency revenues of $187.6 billion for the six months ended June 30, 2025 increased $22.5 billion compared to $165.1 billion in revenues, excluding hedging effect, for the six months ended June 30, 2024. EMEA revenue growth was not materially affected by changes in foreign currency exchange rates, as the effect of the U.S. dollar weakening relative to the British pound was largely offset by the U.S. dollar strengthening relative to the Turkish lira. APAC revenue growth was unfavorably affected by changes in foreign currency exchange rates, primarily due to the U.S. dollar strengthening relative to the Australian dollar, South Korean won, and Indian rupee. Other",
+        "metadata": {
+            "document": "goog-10-q-q2-2025.pdf",
+            "page_number": "44",
+            "chunk_index": 0,
+            "page_section": "segment_info"
+        }
+    },
+    {
+        "id": "goog-10-q-q2-2025.pdf_page_44_chunk_1",
+        "text": "Americas revenue growth was unfavorably affected by changes in foreign currency exchange rates, primarily due to the U.S. dollar strengthening relative to the Brazilian real and Mexican peso. Costs and Expenses 44",
+        "metadata": {
+            "document": "goog-10-q-q2-2025.pdf",
+            "page_number": "44",
+            "chunk_index": 1,
             "page_section": "segment_info"
         }
     },
@@ -302,6 +285,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2025.pdf",
             "page_number": "46",
+            "chunk_index": 0,
             "page_section": "segment_info"
         }
     },
@@ -311,6 +295,7 @@
         "metadata": {
             "document": "goog-10-q-q2-2025.pdf",
             "page_number": "46",
+            "chunk_index": 1,
             "page_section": "segment_info"
         }
     },
@@ -320,6 +305,17 @@
         "metadata": {
             "document": "goog-10-q-q3-2022.pdf",
             "page_number": "33",
+            "chunk_index": 0,
+            "page_section": "segment_info"
+        }
+    },
+    {
+        "id": "goog-10-q-q3-2022.pdf_page_38_chunk_0",
+        "text": "Table of Contents Alphabet Inc. Financial Results Revenues The following table presents revenues by type (in millions): Three Months Ended Nine Months Ended September 30, September 30, 2021 2022 2021 2022 Google Search & other $ 37,926 $ 39,539 $ 105,650 $ 119,846 YouTube ads 7,205 7,071 20,212 21,280 Google Network 7,999 7,872 22,396 24,305 Google advertising 53,130 54,482 148,258 165,431 Google other 6,754 6,895 19,871 20,259 Google Services total 59,884 61,377 168,129 185,690 Google Cloud 4,990 6,868 13,665 18,965 Other Bets 182 209 572 842 Hedging gains (losses) 62 638 (54) 1,291 Total revenues $ 65,118 $ 69,092 $ 182,312 $ 206,788 Google Services Google advertising revenues Google Search & other Google Search & other revenues increased $1.6 billion and $14.2 billion from the three and nine months ended September 30, 2021 to the three and nine months ended September 30, 2022, respectively. The overall growth was driven by interrelated factors including increases in search queries resulting from growth in user adoption and usage, primarily on mobile devices, growth in advertiser spending, and improvements we have made in ad formats and delivery. Growth was partially offset by the unfavorable effect of foreign currency exchange rates. YouTube ads YouTube ads revenues decreased $134 million from the three months ended September 30, 2021 to the three months ended September 30, 2022, as the unfavorable effect of foreign currency exchange rates more than offset growth in our brand and direct response advertising products. YouTube ads revenues increased $1.1 billion from the nine months ended September 30, 2021 to the nine months ended September 30, 2022. The growth was driven by our brand and direct response advertising products, both of which benefited from increased spending by our advertisers as well as improvements to ad formats and delivery. Growth was partially offset by the unfavorable effect of foreign currency exchange rates. Google Network Google Network revenues decreased $127 million from the three months ended September 30, 2021 to the three months ended September 30, 2022, as the unfavorable effect of foreign currency exchange rates more than offset strength in AdSense. Google Network revenues increased $1.9 billion from the nine months ended September 30, 2021 to the nine months ended September 30, 2022. The growth was primarily driven by strength in AdSense and AdMob, partially offset by the unfavorable effect of foreign currency exchange rates. 38",
+        "metadata": {
+            "document": "goog-10-q-q3-2022.pdf",
+            "page_number": "38",
+            "chunk_index": 0,
             "page_section": "segment_info"
         }
     },
@@ -329,6 +325,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2022.pdf",
             "page_number": "43",
+            "chunk_index": 0,
             "page_section": "segment_info"
         }
     },
@@ -338,6 +335,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2022.pdf",
             "page_number": "43",
+            "chunk_index": 1,
             "page_section": "segment_info"
         }
     },
@@ -347,6 +345,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2023.pdf",
             "page_number": "32",
+            "chunk_index": 0,
             "page_section": "segment_info"
         }
     },
@@ -356,6 +355,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2023.pdf",
             "page_number": "32",
+            "chunk_index": 1,
             "page_section": "segment_info"
         }
     },
@@ -365,15 +365,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2023.pdf",
             "page_number": "33",
-            "page_section": "segment_info"
-        }
-    },
-    {
-        "id": "goog-10-q-q3-2023.pdf_page_41_chunk_0",
-        "text": "Table of Contents Alphabet Inc. Revenues by Geography The following table presents revenues by geography as a percentage of revenues, determined based on the addresses of our customers: Three Months Ended Nine Months Ended September 30, September 30, 2022 2023 2022 2023 United States 48 % 47 % 47 % 47 % EMEA 28 % 30 % 29 % 30 % APAC 17 % 17 % 17 % 17 % Other Americas 6 % 6 % 6 % 6 % Hedging gains (losses) 1 % 0 % 1 % 0 % For further details on revenues by geography, see Note 2 of the Notes to Consolidated Financial Statements included in Item 1 of this Quarterly Report on Form 10-Q. Use of Non-GAAP Constant Currency Information International revenues, which represent a significant portion of our revenues, are generally transacted in multiple currencies and therefore are affected by fluctuations in foreign currency exchange rates. The effect of currency exchange rates on our business is an important factor in understanding period-to-period comparisons. We use non-GAAP constant currency revenues (\"constant currency revenues\") and non-GAAP percentage change in constant currency revenues (\"percentage change in constant currency revenues\") for financial and operational decision-making and as a means to evaluate period-to-period comparisons. We believe the presentation of results on a constant currency basis in addition to GAAP results helps improve the ability to understand our performance, because it excludes the effects of foreign currency volatility that are not indicative of our core operating results. Constant currency information compares results between periods as if exchange rates had remained constant period over period. We define constant currency revenues as revenues excluding the effect of foreign currency exchange rate movements (\"FX Effect\") as well as hedging activities, which are recognized at the consolidated level. We use constant currency revenues to determine the constant currency revenue percentage change on a year-on-year basis. Constant currency revenues are calculated by translating current period revenues using prior year comparable period exchange rates, as well as excluding any hedging effects realized in the current period. Constant currency revenue percentage change is calculated by determining the change in current period revenues over prior year comparable period revenues where current period foreign currency revenues are translated using prior year comparable period exchange rates and hedging effects are excluded from revenues of both periods. These results should be considered in addition to, not as a substitute for, results reported in accordance with GAAP. Results on a constant currency basis, as we present them, may not be comparable to similarly titled measures used by other companies and are not a measure of performance presented in accordance with GAAP. 41",
-        "metadata": {
-            "document": "goog-10-q-q3-2023.pdf",
-            "page_number": "41",
+            "chunk_index": 0,
             "page_section": "segment_info"
         }
     },
@@ -383,6 +375,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2023.pdf",
             "page_number": "42",
+            "chunk_index": 0,
             "page_section": "segment_info"
         }
     },
@@ -392,6 +385,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2023.pdf",
             "page_number": "42",
+            "chunk_index": 1,
             "page_section": "segment_info"
         }
     },
@@ -401,6 +395,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2024.pdf",
             "page_number": "32",
+            "chunk_index": 0,
             "page_section": "segment_info"
         }
     },
@@ -410,6 +405,27 @@
         "metadata": {
             "document": "goog-10-q-q3-2024.pdf",
             "page_number": "39",
+            "chunk_index": 0,
+            "page_section": "segment_info"
+        }
+    },
+    {
+        "id": "goog-10-q-q3-2024.pdf_page_40_chunk_0",
+        "text": "The following table presents the foreign currency exchange effect on international revenues and total revenues (in millions, except percentages): Three Months Ended September 30, 2024 % Change from Prior Period Three Months Ended September 30, Constant Less Constant Less FX Currency As Hedging Less FX Currency 2023 2024 Effect Revenues Reported Effect Effect Revenues United States $ 36,354 $ 43,139 $ 0 $ 43,139 19 % 0 % 19 % EMEA 22,661 25,472 (146) 25,618 12 % (1) % 13 % APAC 13,126 14,547 (285) 14,832 11 % (2) % 13 % Other Americas 4,553 5,093 (586) 5,679 12 % (13) % 25 % Revenues, excluding hedging effect 76,694 88,251 (1,017) 89,268 15 % (1) % 16 % Hedging gains (losses) (1) 17 Total revenues(1) $ 76,693 $ 88,268 $ 89,268 15 % 0 % (1) % 16 % (1) Total constant currency revenues of $89.3 billion for the three months ended September 30, 2024 increased $12.6 billion compared to $76.7 billion in revenues, excluding hedging effect, for the three months ended September 30, 2023. EMEA revenue growth was unfavorably affected by changes in foreign currency exchange rates, primarily due to the U.S. dollar strengthening relative to the Turkish lira. APAC revenue growth was unfavorably affected by changes in foreign currency exchange rates, primarily due to the U.S. dollar strengthening relative to the Japanese yen. Other Americas revenue growth was unfavorably affected by changes in foreign currency exchange rates, primarily due to the U.S. dollar strengthening relative to the Argentine peso and the Brazilian real. Nine Months Ended September 30, 2024 % Change from Prior Period Nine Months Ended September 30, Constant Less Constant Less FX Currency As Hedging Less FX Currency 2023 2024 Effect Revenues Reported Effect Effect Revenues United States $ 104,291 $ 123,072 $ 0 $ 123,072 18 % 0 % 18 % EMEA 66,028 73,943 (309) 74,252 12 % 0 % 12 % APAC 37,535 41,659 (1,319) 42,978 11 % (4) % 15 % Other Americas 13,144 14,684 (1,043) 15,727 12 % (8) % 20 % Revenues, excluding hedging effect 220,998 253,358 (2,671) 256,029 15 % (1) % 16 % Hedging gains (losses) 86 191 Total revenues(1) $ 221,084 $ 253,549 $ 256,029 15 % 0 % (1) % 16 % (1) Total constant currency revenues of $256.0 billion for the nine months ended September 30, 2024 increased $35.0 billion compared to $221.1 billion in revenues, excluding hedging effect, for the nine months ended September 30, 2023. EMEA revenue growth was not materially affected by changes in foreign currency exchange rates, as the effect of the U.S. dollar strengthening relative to the Turkish lira was largely offset by the U.S. dollar weakening relative to the British pound. APAC revenue growth was unfavorably affected by changes in foreign currency exchange rates, primarily due to the U.S. dollar strengthening relative to the Japanese yen. Other Americas revenue growth was unfavorably affected by changes in foreign currency exchange rates, primarily due to the U.S. dollar strengthening relative to the",
+        "metadata": {
+            "document": "goog-10-q-q3-2024.pdf",
+            "page_number": "40",
+            "chunk_index": 0,
+            "page_section": "segment_info"
+        }
+    },
+    {
+        "id": "goog-10-q-q3-2024.pdf_page_40_chunk_1",
+        "text": "Argentine peso. Costs and Expenses 40",
+        "metadata": {
+            "document": "goog-10-q-q3-2024.pdf",
+            "page_number": "40",
+            "chunk_index": 1,
             "page_section": "segment_info"
         }
     },
@@ -419,6 +435,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2024.pdf",
             "page_number": "42",
+            "chunk_index": 0,
             "page_section": "segment_info"
         }
     },
@@ -428,6 +445,7 @@
         "metadata": {
             "document": "goog-10-q-q3-2024.pdf",
             "page_number": "43",
+            "chunk_index": 0,
             "page_section": "segment_info"
         }
     }

@@ -1,10 +1,21 @@
-from config import DATA_DIR 
+try:
+    from config import DATA_DIR 
+except ImportError: 
+    from TextRetrieval.config import DATA_DIR 
 import os
 import faiss 
 import json 
-from Embedding import embed_text_query 
+try:
+    from Embedding import embed_text_query 
+except ImportError: 
+    from TextRetrieval.Embedding import embed_text_query 
+
 import numpy as np 
-from logger import log_search_results
+
+try:
+    from logger import log_search_results
+except ImportError: 
+    from TextRetrieval.logger import log_search_results
 
 """
 This is after you build the FAISS indices per section. 
@@ -114,7 +125,7 @@ def search_query(
             print(f"[WARN] Section '{sec}' not found in indexes.") 
 
     print (f"[INFO] Completed search across sections.")
-    print (f"results preview : {results[:1]} ... ")
+    #print (f"results preview : {results[:1]} ... ")
     log_search_results( 
         query=query,
         expanded_query=expanded_query, 

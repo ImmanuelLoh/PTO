@@ -1,15 +1,29 @@
 
-from langchain.agents import initialize_agent, AgentType
+
 from langchain.tools import tool
 from langchain_openai import ChatOpenAI
-from langchain.agents import AgentExecutor
-from langchain.chains import LLMMathChain
+import asyncio 
 
-from IndexSearch import init_indexes, search_query 
-from AgentHelpers import safe_json_loads, choose_sections_for_query, expand_query_for_retrieval, determine_k 
-from logger import format_context 
+try:
+    from IndexSearch import init_indexes, search_query 
+except ImportError: 
+    from TextRetrieval.IndexSearch import init_indexes, search_query 
 
+try:
+    from AgentHelpers import safe_json_loads, choose_sections_for_query, expand_query_for_retrieval, determine_k 
+except ImportError: 
+    from TextRetrieval.AgentHelpers import safe_json_loads, choose_sections_for_query, expand_query_for_retrieval, determine_k 
+try:
+    from logger import format_context_async
+except ImportError: 
+    from TextRetrieval.logger import format_context_async 
 
+try :
+    from asyncHelper import run_async 
+except ImportError: 
+    from TextRetrieval.asyncHelper import run_async 
+
+    
 @tool("retriever", return_direct=False)
 def retriever_tool(query : str ) -> str: 
     """
@@ -56,7 +70,7 @@ def retriever_tool(query : str ) -> str:
         print (f"[INFO] Auto selected sections: {sections}") 
         if not sections:
             sections = available_sections  # fallback to all sections 
-    k = determine_k(query, llm) 
+    k = determine_k(query) 
     print (f"[INFO] Determined k={k} for retrieval.") 
     # 3️⃣ Perform retrieval
     results = search_query(
@@ -65,7 +79,10 @@ def retriever_tool(query : str ) -> str:
         k=k,
         query=query 
     ) 
-    return format_context(results) 
+
+    #return format_context(results) 
+    formatted = run_async(format_context_async(results))
+    return formatted
 
 @tool("available_sections_retriever", return_direct=False) 
 def available_sections_retriever(query: str = "") -> list:
@@ -88,3 +105,6 @@ def calculator_tool(expression: str) -> str:
         return str(result)
     except Exception as e:
         return f"Error evaluating: {e}"
+
+
+
