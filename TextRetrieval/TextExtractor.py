@@ -1,5 +1,4 @@
 from dotenv import load_dotenv
-\
 import os
 import pdfplumber
 import openai
@@ -19,7 +18,7 @@ except ImportError:
     from TextRetrieval.examples import SECTION_EXAMPLES 
 
 
-from TextRetrieval.config import DATA_DIR, annual_files, quarterly_files 
+from TextRetrieval.config import RETRIEVED_DATA_DIR, annual_files, quarterly_files 
 
 """
 
@@ -63,8 +62,8 @@ def classify_section_hybrid(text, section_embs):
     Sections: {list(section_embs.keys()) + ['other']}
     Text:
     {text}
-    If none of the sections match and you deem it to be relatviely important, give a new section name.
-    return STRICTLY the name with no explanation.
+    If none match, respond ONLY with "other".
+    Return ONLY the exact section name. No explanation.
     """
     response = openai.chat.completions.create(
         model="gpt-4.1-mini",
@@ -85,7 +84,26 @@ def classify_section_hybrid(text, section_embs):
 
     # pick winner
     best_final = max(final_scores, key=final_scores.get)
+    if best_final not in section_embs:
+        best_final = "other" 
     return best_final
+
+
+
+def classify_section_cosine_only(text, section_embs):
+    emb = embed_text_query(_normalize(text))
+
+    scores = {
+        sec: max((util.cos_sim(emb, e).item() for e in embs), default=0.0)
+        for sec, embs in section_embs.items()
+    }
+
+    best_sec = max(scores, key=scores.get)
+
+    if best_sec not in section_embs:
+        return "other"
+
+    return best_sec
 
 
 
@@ -121,9 +139,7 @@ def extract_text_from_pdf(
         with pdfplumber.open(pdfFile) as pdf:
             for i, page in enumerate(pdf.pages, start=1):
                 text = page.extract_text() or ""
-                section_text = classify_section_hybrid(text, section_embs)  # classifying page text only without tables
-                if section_text not in section_embs:
-                    section_embs[section_text] = [];
+                section_text = classify_section_cosine_only(text, section_embs)  # classifying page text only without tables
                 sections[section_text] = sections.get(section_text, 0) + 1
 
             
@@ -136,13 +152,13 @@ def extract_text_from_pdf(
     print ("Section distribution:", sections)
 
     # Step 3: Create directory if it doesn't exist and dump to JSON
-    output_path = f"{DATA_DIR}/optimizedText.json"
-    os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
-    with open(output_path, "w") as f:
+    os.makedirs(os.path.dirname(RETRIEVED_DATA_DIR), exist_ok=True)
+
+    with open(RETRIEVED_DATA_DIR, "w") as f:
         json.dump(output, f, indent=4)
 
-    print(f"\nOutput saved to: {output_path}")
+    print(f"\nOutput saved to: {RETRIEVED_DATA_DIR}")
 
 
 if __name__ == "__main__": 

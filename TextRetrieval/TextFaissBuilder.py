@@ -12,9 +12,9 @@ except ImportError:
     from TextRetrieval.Embedding import embed_text_passage 
 
 try:
-    from config import DATA_DIR , CHUNK_SIZE 
+    from config import DATA_DIR , CHUNK_SIZE , RETRIEVED_DATA_DIR
 except ImportError: 
-    from TextRetrieval.config import DATA_DIR , CHUNK_SIZE 
+    from TextRetrieval.config import DATA_DIR , CHUNK_SIZE , RETRIEVED_DATA_DIR
 
 
 
@@ -36,7 +36,7 @@ def create_chunks():
     '''
     
     # load the json file
-    with open(f"{DATA_DIR}/optimizedText.json", "r") as f:
+    with open(RETRIEVED_DATA_DIR, "r") as f:
         doc = json.load(f)
 
     # create chunks

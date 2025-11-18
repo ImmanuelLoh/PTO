@@ -3,6 +3,7 @@ import glob
 COMPANY_NAME = "Google"
 
 DATA_DIR = "00-data"
+RETRIEVED_DATA_DIR = f"{DATA_DIR}/extracted_text.json" 
 CHUNK_SIZE = 500  # number of words per chunk 
 
 

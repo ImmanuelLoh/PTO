@@ -61,6 +61,11 @@ async def format_context_async(results):
     for rows in results_list:
         output["extracted_values"].extend(rows)
 
+    # Collect unique sources used
+    # unique_sources = {entry["source"] for entry in output["extracted_values"]} 
+    # output["sources_used"] = list(unique_sources)
+
+
     append_json_entry(f"{DATA_DIR}/logs/text_context_debug.json", output)
 
     return json.dumps(output, indent=2)
