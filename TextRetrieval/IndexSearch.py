@@ -57,11 +57,11 @@ def init_indexes() -> dict[str, dict]:
     print ("[INFO] Initializing FAISS indices from disk...") 
     documents_base_dir = f"{DATA_DIR}/sections" 
     sections_path = [os.path.join(documents_base_dir, f) for f in os.listdir(documents_base_dir) if os.path.isdir(os.path.join(documents_base_dir, f)) ]
-    print ("Sections found:", sections_path) 
+    #print ("Sections found:", sections_path) 
 
     for sec_path in sections_path: 
         section = os.path.basename(sec_path) 
-        print (f"Loading section: {section}") 
+        #print (f"Loading section: {section}") 
 
         # load faiss 
         idx = faiss.read_index(f"{sec_path}/faiss_index_{section}.idx") 
