@@ -82,7 +82,7 @@ def build_retrieval_tools():
             return json.dumps({"results": [], "sources": []})
 
         # Build pairs for reranker
-        pairs = [(query, item["content"]) for item in flattened]
+        pairs = [(query, item["text"]) for item in flattened]
 
         # Cross-Encoder scoring
         scores = reranker.predict(pairs)
@@ -98,6 +98,11 @@ def build_retrieval_tools():
 
         # Top 5 after reranking
         top5 = flattened_sorted[:5]
+        print("[RERANK] Top 5 reranked chunks selected.")
+        for idx, chunk in enumerate(top5):
+            print(
+                f"   [TOP {idx+1}] score={chunk['rerank_score']}, doc={chunk['metadata'].get('document')}"
+            )
 
         # Extract unique sources
         sources = list({doc["metadata"].get("document", "unknown") for doc in top5})
@@ -107,13 +112,14 @@ def build_retrieval_tools():
             "results": convert_to_serializable(top5),
             "sources": sources,
         }
-
+        
+        print("[RETRIEVE_TEXT] Completed text retrieval with reranking.\n")
         return json.dumps(output)
 
     def retrieve_table(query: str):
         # return table_retriever.query(query, verbose=False)
         result = table_retriever.query(query, verbose=False)
-
+        
         # Ensure result is a dict with sources
         if not isinstance(result, dict):
             result = {"answer": str(result), "sources": []}
@@ -122,6 +128,7 @@ def build_retrieval_tools():
         if "sources" not in result:
             result["sources"] = []
 
+        print("[RETRIEVE_TABLE] Completed table retrieval.\n")
         # Return as JSON string so LangChain preserves it
         return json.dumps(result)
 
@@ -147,6 +154,7 @@ def build_retrieval_tools():
             "image_paths": image_paths,
         }
 
+        print(f"[RETRIEVE_IMAGE] Retrieved {len(result)} images.\n")
         # Return as JSON string so LangChain preserves it
         return json.dumps(output)
 
