@@ -7,12 +7,16 @@ from langchain.agents import (
 from langchain_openai import ChatOpenAI
 from langchain_core.messages import SystemMessage
 
+
 import numpy as np
 import json
 from TextRetrieval.Embedding import embed_text_query
 from CacheOptimization.query_cache import search_semantic_cache, store_in_semantic_cache
 from retrieval_tools import build_retrieval_tools
+import asyncio
+import nest_asyncio
 
+nest_asyncio.apply()
 
 # SYSTEM_PROMPT = """
 # You are the CFO AI Agent.
@@ -57,7 +61,8 @@ PHASE 2 — PLAN PRUNING
 • Pruning must be deliberate, not automatic or skipped.
 
 PHASE 3 — EXECUTION  
-• Run every retrieval tool that remains after pruning.  
+• Run every retrieval tool that remains after pruning.
+• If "parallel_context" is provided, you may use it instead of calling retrieval tools again.
 • Cite all sources from tool outputs.  
 • Use retrieved values only—never hallucinate.  
 • Perform explicit numerical computations (YoY, margins, deltas).  
@@ -69,6 +74,52 @@ Additional rules:
 • Always try to retrieve images unless slides are guaranteed irrelevant.  
 • Final output is ONLY the CFO-level answer.
 """
+
+
+# Asyncio runner
+def run_async(coro):
+    try:
+        loop = asyncio.get_running_loop()
+    except RuntimeError:
+        # No running loop → normal python
+        return asyncio.run(coro)
+
+    # Running inside Jupyter/IPython (loop already running)
+    task = asyncio.ensure_future(coro)
+    loop.run_until_complete(task)
+    return task.result()
+
+
+# Async wrappers (for parallel execution)
+async def async_retrieve_text(retrieve_func, query):
+    return await asyncio.to_thread(retrieve_func, query)
+
+
+async def async_retrieve_table(retrieve_func, query):
+    return await asyncio.to_thread(retrieve_func, query)
+
+
+async def async_retrieve_image(retrieve_func, query):
+    return await asyncio.to_thread(retrieve_func, query)
+
+
+# Parallel runner
+async def run_parallel_retrievals(retrieval, query):
+    print("\n[PARALLEL] Starting parallel retrieval...")
+    tasks = [
+        async_retrieve_text(retrieval["retrieve_text"], query),
+        async_retrieve_table(retrieval["retrieve_table"], query),
+        async_retrieve_image(retrieval["retrieve_image"], query),
+    ]
+    results = await asyncio.gather(*tasks)
+    print("[PARALLEL] Completed parallel retrieval.\n")
+
+    return {
+        "parallel_text": results[0],
+        "parallel_table": results[1],
+        "parallel_image": results[2],
+    }
+
 
 class SourceCapturingCallback(BaseCallbackHandler):
     """Callback to capture tool outputs and extract sources"""
@@ -87,17 +138,18 @@ class SourceCapturingCallback(BaseCallbackHandler):
             if isinstance(output, str):
                 output_dict = json.loads(output)
                 if isinstance(output_dict, dict):
-                    if 'sources' in output_dict:
-                        self.sources.extend(output_dict['sources'])
-                    if 'image_paths' in output_dict:  # ADD THIS
-                        self.image_paths.extend(output_dict['image_paths'])
+                    if "sources" in output_dict:
+                        self.sources.extend(output_dict["sources"])
+                    if "image_paths" in output_dict:  # ADD THIS
+                        self.image_paths.extend(output_dict["image_paths"])
         except json.JSONDecodeError:
             # Not JSON, skip
             pass
         except Exception as e:
             print(f"[CALLBACK] Error extracting sources: {e}")
 
-def create_cfo_agent():
+
+def create_cfo_agent(parallel_context=None):
     # Load retrieval functions
     retrieval = build_retrieval_tools()
 
@@ -125,19 +177,29 @@ def create_cfo_agent():
         temperature=0,
     )
 
-    # Create the OLD-STYLE AGENT (same as your previous pipeline)
+    system_messages = [SystemMessage(content=SYSTEM_PROMPT)]
+
+    # Inject parallel context as system message
+    if parallel_context is not None:
+        system_messages.append(
+            SystemMessage(content=f"PARALLEL_CONTEXT:\n{json.dumps(parallel_context)}")
+        )
+
     agent = initialize_agent(
         tools=tools,
         llm=llm,
         agent_type=AgentType.OPENAI_FUNCTIONS,
         verbose=True,
         handle_parsing_errors=True,
-        agent_kwargs={"system_message": SystemMessage(content=SYSTEM_PROMPT)},
+        agent_kwargs={"system_message": system_messages},
     )
 
     return agent
 
-def query_cfo_agent(question:str, cache_threshold: float = 0.85, use_cache: bool = True):
+
+def query_cfo_agent(
+    question: str, cache_threshold: float = 0.85, use_cache: bool = True
+):
     """
     Main entry point for querying the CFO agent with semantic caching.
 
@@ -148,19 +210,19 @@ def query_cfo_agent(question:str, cache_threshold: float = 0.85, use_cache: bool
     """
     # Check cache first
     if use_cache:
-        query_embedded = np.array(embed_text_query(question), dtype='float32')
+        query_embedded = np.array(embed_text_query(question), dtype="float32")
         cache_result = search_semantic_cache(query_embedded, threshold=cache_threshold)
         if cache_result["hit"]:
-                print("Cache HIT:")
-                print(f"  Similarity: {cache_result['similarity']:.4f}")
-                print(f"  Cached Query: {cache_result['cache_query']}")
-                print()
-                return {
-                    "query": question,
-                    "answer": cache_result["response"],
-                    "metadata": cache_result["metadata"],
-                    "cache_hit": True
-                }
+            print("Cache HIT:")
+            print(f"  Similarity: {cache_result['similarity']:.4f}")
+            print(f"  Cached Query: {cache_result['cache_query']}")
+            print()
+            return {
+                "query": question,
+                "answer": cache_result["response"],
+                "metadata": cache_result["metadata"],
+                "cache_hit": True,
+            }
         else:
             print("Cache MISS")
             print()
@@ -169,36 +231,47 @@ def query_cfo_agent(question:str, cache_threshold: float = 0.85, use_cache: bool
     source_callback = SourceCapturingCallback()
 
     # If no cache hit, query the agent
-    agent = create_cfo_agent()
+
+    ######################## Non-parallel version ########################################
+    # agent = create_cfo_agent()
+    # response = agent.invoke(
+    #     {"input": question},
+    #     config={"callbacks": [source_callback]}
+    # )
+
+    # Run parallel retrievals invoking the agent
+    retrieval = build_retrieval_tools()
+    # parallel_context = asyncio.run(run_parallel_retrievals(retrieval, question))
+    parallel_context = run_async(run_parallel_retrievals(retrieval, question))
+
+    # Build agent with parallel context embedded in system prompt
+    agent = create_cfo_agent(parallel_context=parallel_context)
+
+    # Only pass the actual question to the agent
     response = agent.invoke(
-        {"input": question},
-        config={"callbacks": [source_callback]}
+        {"input": question}, config={"callbacks": [source_callback]}
     )
 
     # Extract final answer and sources
-    answer = response['output']
+    answer = response["output"]
     sources = list(set(source_callback.sources))
     image_paths = list(set(source_callback.image_paths))
 
-    metadata_sources = {
-        "sources": sources,
-        "image_paths": image_paths
-    }
+    metadata_sources = {"sources": sources, "image_paths": image_paths}
 
     # Store in cache
     if use_cache:
-        query_embedded = np.array(embed_text_query(question), dtype='float32')
+        query_embedded = np.array(embed_text_query(question), dtype="float32")
 
         store_in_semantic_cache(
             query=question,
             embedding=query_embedded,
             results=answer,
-            metadata=metadata_sources
+            metadata=metadata_sources,
         )
     return {
         "query": question,
         "answer": answer,
         "metadata": metadata_sources,
-        "cache_hit": False
+        "cache_hit": False,
     }
-
