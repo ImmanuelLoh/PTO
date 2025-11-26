@@ -30,7 +30,13 @@ def generate_context_relevance_score(question, context):
 
 
 def generate_answer_relevance_score(question, answer):
-    prompt = f"On a scale of 0 to 1, how relevant is the following context to the question?\n\nQuestion: {question}\n\nContext: {answer}\n\nRelevance Score:"
+    prompt = f"""
+    On a scale of 0 to 1, how relevant is the following context to the question?\n\n
+    RETURNS only the Score as a float between 0 and 1.
+    Question: {question}\n\n
+    Context: {answer}\n\n
+    Relevance Score:
+    """
     client = OpenAI()
 
     response = client.chat.completions.create(
@@ -54,7 +60,11 @@ def generate_answer_relevance_score(question, answer):
     
 
 def generate_faithfulness_score(context, answer):
-    prompt = f"On a scale of 0 to 1, how faithful is the following answer to the context?\n\nContext: {context}\n\nAnswer: {answer}\n\nFaithfulness Score:" 
+    prompt = f"""
+    On a scale of 0 to 1, how faithful is the following answer to the context?\n\nContext: {context}\n\nAnswer: {answer}\n\n
+    Returns only the Score as a float between 0 and 1. 
+    Faithfulness Score:
+    """ 
     client = OpenAI()
 
     response = client.chat.completions.create(
@@ -77,11 +87,15 @@ def generate_faithfulness_score(context, answer):
         raise ValueError(f"Invalid score received: {score_text}")
 
 # load the json file 
-original_query = "Summarize management's discussion about operating cost trends. Display any relevant images, text and tables."
-answer = "Management discusses operating cost trends by explaining Alphabet’s cost structure, which includes cost of revenues (TAC, content acquisition, depreciation, compensation) and operating expenses (R&D, sales and marketing, G&A). Some costs are less variable and do not directly correlate with revenue changes. Recent trends show that General and Administrative expenses increased through 2023 but decreased in 2024, both in absolute terms and as a percentage of revenues, indicating improved cost management and operational efficiency. The table above summarizes G&A expense trends over recent years and quarters."
+original_query = "Calculate the Operating Efficiency Ratio (Opex ÷ Operating Income) for the last 3 fiscal years, showing the working."
+answer = """
+The Operating Efficiency Ratio (Opex ÷ Operating Income) for the last 3 fiscal years is:  
+- 2021: 17.17% (13,510 ÷ 78,714)  
+- 2022: 21.00% (15,724 ÷ 74,842)  
+- 2023: 19.48% (16,425 ÷ 84,293)
+"""
 
-
-logs = ["5", "6", "7", "8"] #! because this query actually created 4 logs
+logs = ["9"] #! because this query actually created 4 logs
 context_rel = [] 
 for log in logs: 
 
