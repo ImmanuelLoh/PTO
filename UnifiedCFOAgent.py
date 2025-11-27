@@ -7,6 +7,7 @@ from langchain.agents import (
 from langchain_openai import ChatOpenAI
 from langchain_core.messages import SystemMessage
 
+import os
 import time
 import numpy as np
 import json
@@ -233,6 +234,56 @@ def create_cfo_agent(parallel_context=None):
 
     return agent
 
+def log_rag_evaluation(question, all_contexts, answer, retrieval_time, total_time, cache_hit=False):
+    """Log retrieval results for RAG Triad evaluation"""
+    log_entry = {
+        "query": question,
+        "contexts": all_contexts,
+        "final_answer": answer,
+        "retrieval_time": retrieval_time,
+        "total_time": total_time,
+        "cache_hit": cache_hit,
+    }
+    
+    log_path = os.path.join("00-data", "logs", "rag_evaluation_logs.json")
+    with open(log_path, "a", encoding="utf-8") as f:
+        f.write(json.dumps(log_entry, ensure_ascii=False) + "\n")
+
+def parse_retrieval_contexts(text_results, table_results, image_results):
+    """Parse and combine all retrieval results into unified format"""
+    all_contexts = []
+    
+    # Text chunks
+    for i, item in enumerate(text_results.get("results", [])):
+        all_contexts.append({
+            "type": "text",
+            "rank": i+1,
+            "score": item.get("rerank_score", item.get("score", 0)),
+            "content": item.get("text", ""),
+            "metadata": item.get("metadata", {})
+        })
+    
+    # Table chunks  
+    for i, item in enumerate(table_results.get("results", [])):
+        all_contexts.append({
+            "type": "table",
+            "rank": i+1,
+            "score": item.get("score", 0),
+            "content": item.get("content", ""),
+            "metadata": item.get("metadata", {})
+        })
+    
+    # Image chunks
+    for i, item in enumerate(image_results.get("results", [])):
+        all_contexts.append({
+            "type": "image",
+            "rank": i+1,
+            "score": item.get("score", 0),
+            "content": item.get("text", ""),
+            "metadata": item.get("metadata", {})
+        })
+    
+    return all_contexts
 
 def query_cfo_agent(
     question: str, cache_threshold: float = 0.85, use_cache: bool = True
@@ -256,6 +307,7 @@ def query_cfo_agent(
             print()
             #build timing json
             build_timing_json(question, None, 0.0, 0.0, 0.0, True)
+            log_rag_evaluation(question, [], cache_result["response"], 0.0, 0.0, cache_hit=True)
             return {
                 "query": question,
                 "answer": cache_result["response"],
@@ -292,6 +344,11 @@ def query_cfo_agent(
     text_results = json.loads(text_results_json)
     rerank_time = text_results.get("rerank_time", 0.0)  # fallback to 0.0 if missing
 
+    table_results = json.loads(parallel_context.get("parallel_table", "{}"))
+    image_results = json.loads(parallel_context.get("parallel_image", "{}"))
+    # Unified context for logging
+    all_contexts = parse_retrieval_contexts(text_results, table_results, image_results)
+
     # Only pass the actual question to the agent
     response = agent.invoke(
         {"input": question}, config={"callbacks": [source_callback]}
@@ -318,6 +375,9 @@ def query_cfo_agent(
         )
     
     build_timing_json(question, source_callback, retrieval_time, rerank_time, total_time, False)
+
+    # Log RAG evaluation data
+    log_rag_evaluation(question, all_contexts, answer, retrieval_time, total_time, cache_hit=False)
     
     return {
         "query": question,

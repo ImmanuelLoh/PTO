@@ -95,10 +95,20 @@ class TableAgenticRAG:
                 
         # Extract sources
         sources = list(set([chunk.source for chunk in all_chunks]))
-        
+
+        chunk_results = [
+            {
+                "content": chunk.content,
+                "score": chunk.score,
+                "metadata": chunk.metadata
+            }
+            for chunk in all_chunks
+        ]
+
         result = {
             "query": user_query,
             "answer": answer,
+            "results": chunk_results,
             "sources": sources,
             "metadata": {
                 "num_retrievals": len(retrieval_plan.get("searches", [])),
