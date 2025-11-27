@@ -312,7 +312,8 @@ def store_in_faiss(embedded_chunks, faiss_index_path="faiss_table_index"):
     embeddings = np.array([chunk['embedding'] for chunk in embedded_chunks]).astype('float32')
 
     # Create inner product index (cosine similarity after normalization)
-    index = faiss.IndexFlatIP(dimension)
+    # index = faiss.IndexFlatIP(dimension)
+    index = faiss.IndexFlatL2(dimension)
     index.add(embeddings)
 
     # Save index to disk

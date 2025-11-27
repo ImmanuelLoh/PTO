@@ -31,7 +31,7 @@ class FAISSRetriever:
 
     def search(self, embedding, n_results=5):
         vec = embedding.astype("float32")
-        faiss.normalize_L2(vec.reshape(1, -1))  # Normalize for cosine similarity
+        # faiss.normalize_L2(vec.reshape(1, -1))  # Normalize for cosine similarity
 
         # Perform FAISS search
         distances, indices = self.index.search(vec.reshape(1, -1), n_results)
