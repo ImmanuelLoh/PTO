@@ -278,7 +278,7 @@ def parse_retrieval_contexts(text_results, table_results, image_results):
         all_contexts.append({
             "type": "image",
             "rank": i+1,
-            "score": item.get("score", 0),
+            "score": item.get("distance", item.get("score", 0)),
             "content": item.get("text", ""),
             "metadata": item.get("metadata", {})
         })
