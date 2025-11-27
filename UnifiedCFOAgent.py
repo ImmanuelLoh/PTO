@@ -7,7 +7,7 @@ from langchain.agents import (
 from langchain_openai import ChatOpenAI
 from langchain_core.messages import SystemMessage
 
-
+import time
 import numpy as np
 import json
 from TextRetrieval.Embedding import embed_text_query
@@ -15,6 +15,8 @@ from CacheOptimization.query_cache import search_semantic_cache, store_in_semant
 from retrieval_tools import build_retrieval_tools
 import asyncio
 import nest_asyncio
+
+from timing_logger import build_timing_json
 
 nest_asyncio.apply()
 
@@ -128,6 +130,40 @@ class SourceCapturingCallback(BaseCallbackHandler):
         self.sources = []
         self.image_paths = []
         self.tool_outputs = []
+        self.llm_calls = []
+        self.prompt_tokens = []
+        self.completion_tokens = []
+        self.total_tokens = []
+
+    def on_llm_start(self, serialized, prompts, *, run_id, parent_run_id = None, tags = None, metadata = None, **kwargs):
+        self.current_start = time.time()
+
+    def on_llm_end(self, response, **kwargs) -> None:
+        if hasattr(self, 'current_start'):
+            self.llm_calls.append(time.time() - self.current_start) # get the end time 
+        if hasattr(response, "llm_output") and response.llm_output: # retrieve token usage
+            usage = response.llm_output.get("token_usage", {})
+            self.prompt_tokens.append(usage.get("prompt_tokens", 0))
+            self.completion_tokens.append(usage.get("completion_tokens", 0))
+            self.total_tokens.append(usage.get("total_tokens", 0))
+
+    def get_timing_and_token_summary(self):
+        if len(self.llm_calls) == 0:
+            return {"reasoning_time": 0, "generation_time": 0}
+        
+        # Last call is generation, everything else is reasoning
+        reasoning_time = sum(self.llm_calls[:-1])
+        generation_time = self.llm_calls[-1]
+
+        return {
+            "reasoning_time" : reasoning_time,
+            "generation_time": generation_time,
+            "total_llm_time" : reasoning_time + generation_time,
+            "llm_calls"      : len(self.llm_calls),
+            "prompt_tokens"  : sum(self.prompt_tokens),
+            "completion_tokens": sum(self.completion_tokens),
+            "total_tokens"   : sum(self.total_tokens)
+        }
 
     def on_tool_end(self, output: str, **kwargs) -> None:
         """Called when a tool finishes execution"""
@@ -175,6 +211,7 @@ def create_cfo_agent(parallel_context=None):
     llm = ChatOpenAI(
         model="gpt-4.1-mini",
         temperature=0,
+        verbose = True
     )
 
     system_messages = [SystemMessage(content=SYSTEM_PROMPT)]
@@ -217,6 +254,8 @@ def query_cfo_agent(
             print(f"  Similarity: {cache_result['similarity']:.4f}")
             print(f"  Cached Query: {cache_result['cache_query']}")
             print()
+            #build timing json
+            build_timing_json(question, None, 0.0, 0.0, 0.0, True)
             return {
                 "query": question,
                 "answer": cache_result["response"],
@@ -230,6 +269,7 @@ def query_cfo_agent(
     # Create callback to capture sources
     source_callback = SourceCapturingCallback()
 
+    overall_start = time.time()
     # If no cache hit, query the agent
 
     ######################## Non-parallel version ########################################
@@ -238,14 +278,19 @@ def query_cfo_agent(
     #     {"input": question},
     #     config={"callbacks": [source_callback]}
     # )
-
+    retrieval_start = time.time()
     # Run parallel retrievals invoking the agent
     retrieval = build_retrieval_tools()
     # parallel_context = asyncio.run(run_parallel_retrievals(retrieval, question))
     parallel_context = run_async(run_parallel_retrievals(retrieval, question))
-
+    retrieval_time = time.time() - retrieval_start
     # Build agent with parallel context embedded in system prompt
     agent = create_cfo_agent(parallel_context=parallel_context)
+
+    # Extract rerank_time from the text retrieval
+    text_results_json = parallel_context.get("parallel_text", "{}")  # default empty JSON
+    text_results = json.loads(text_results_json)
+    rerank_time = text_results.get("rerank_time", 0.0)  # fallback to 0.0 if missing
 
     # Only pass the actual question to the agent
     response = agent.invoke(
@@ -259,6 +304,8 @@ def query_cfo_agent(
 
     metadata_sources = {"sources": sources, "image_paths": image_paths}
 
+    total_time = time.time() - overall_start
+
     # Store in cache
     if use_cache:
         query_embedded = np.array(embed_text_query(question), dtype="float32")
@@ -269,6 +316,9 @@ def query_cfo_agent(
             results=answer,
             metadata=metadata_sources,
         )
+    
+    build_timing_json(question, source_callback, retrieval_time, rerank_time, total_time, False)
+    
     return {
         "query": question,
         "answer": answer,

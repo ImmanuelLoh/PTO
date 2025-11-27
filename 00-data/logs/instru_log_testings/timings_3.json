@@ -1,0 +1,13 @@
+{
+    "Query": "Report the Gross Margin over the last 5 quarters, with values.",
+    "T_ingest": null,
+    "T_retrieve": 36.55177688598633,
+    "T_rerank": 3.3585071563720703,
+    "T_reason": 1.0362162590026855,
+    "T_generate": 5.224578619003296,
+    "T_total": 73.11699795722961,
+    "prompt_tokens": 1607,
+    "completion_tokens": 296,
+    "total_tokens": 1903,
+    "cache_hit": false
+}

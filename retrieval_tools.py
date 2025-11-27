@@ -2,7 +2,7 @@ import os
 import json
 import faiss
 import numpy as np
-
+import time 
 from TextRetrieval.Embedding import embed_text_query
 from TextRetrieval.config import DATA_DIR
 from TableRetrieval.table_agentic_rag import TableAgenticRAG
@@ -83,7 +83,7 @@ def build_retrieval_tools():
 
         # Build pairs for reranker
         pairs = [(query, item["text"]) for item in flattened]
-
+        rerank_start = time.time()
         # Cross-Encoder scoring
         scores = reranker.predict(pairs)
 
@@ -103,7 +103,8 @@ def build_retrieval_tools():
             print(
                 f"   [TOP {idx+1}] score={chunk['rerank_score']}, doc={chunk['metadata'].get('document')}"
             )
-
+        rerank_time = time.time() - rerank_start
+        print(f"[RERANK] Reranking time: {rerank_time:.4f} seconds.")
         # Extract unique sources
         sources = list({doc["metadata"].get("document", "unknown") for doc in top5})
 
@@ -111,6 +112,7 @@ def build_retrieval_tools():
         output = {
             "results": convert_to_serializable(top5),
             "sources": sources,
+            "rerank_time": rerank_time,
         }
         
         print("[RETRIEVE_TEXT] Completed text retrieval with reranking.\n")
