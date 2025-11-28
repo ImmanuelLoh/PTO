@@ -2,6 +2,8 @@
 
 import time
 import pandas as pd
+import json
+
 import numpy as np
 from openai import OpenAI
 from UnifiedCFOAgent import query_cfo_agent
@@ -139,3 +141,125 @@ def run_full_rag_benchmark(benchmark_queries, manual_ctx):
     save_run_logs(results, answers)
 
     return pd.DataFrame(results), pd.DataFrame(answers)
+
+def run_full_rag_benchmark_text_and_table_only(benchmark_queries):
+
+    previous_test_logs = set(list_log_numbers())   # For test_xx.json
+
+    results = []
+    answers = []
+
+    rag_eval_path = "00-data/logs/rag_evaluation_logs.json"
+
+    for q in benchmark_queries:
+        print("\n" + "="*100)
+        print(f"📊 {q['id']} — {q['name']}")
+        print("="*100)
+
+        user_query = q["query"]
+        start_time = time.time()
+
+        # Run CFO agent (no cache)
+        response = query_cfo_agent(
+            user_query,
+            cache_threshold=0.85,
+            use_cache=False
+        )
+
+        latency = round(time.time() - start_time, 2)
+        answer_text = response["answer"].strip()
+
+        # ==================================================
+        # 1. GET NEW TEXT CONTEXT (from test_xx.json)
+        # ==================================================
+        current_test_logs = set(list_log_numbers())
+        new_test_logs = list(current_test_logs - previous_test_logs)
+        previous_test_logs = current_test_logs.copy()
+
+        text_chunks = []
+        for n in new_test_logs:
+            log = load_log(n)
+            text_chunks.extend(extract_texts_from_log(log))  # your old text extractor
+
+        # ==================================================
+        # 2. GET NEW TABLE CONTEXT (from rag_evaluation_logs.json)
+        # ==================================================
+        table_chunks = []
+        with open(rag_eval_path, "r", encoding="utf-8") as f:
+            lines = f.readlines()
+
+        # Last appended log entry corresponds to THIS query
+        latest_entry = json.loads(lines[-1])
+
+        for ctx in latest_entry["contexts"]:
+            if ctx.get("type") == "table":
+                content = ctx.get("content", "").strip()
+                if content:
+                    table_chunks.append(content)
+
+        # ==================================================
+        # 3. COMBINE TEXT + TABLE ONLY
+        # ==================================================
+        combined_context = text_chunks + table_chunks
+
+        if not combined_context:
+            combined_context = [""]
+
+        # ==================================================
+        # 4. CONTEXT RELEVANCE (COSINE + LLM)
+        # ==================================================
+        ctx_cos = compute_context_relevance(user_query, combined_context)
+        ctx_llm = context_relevance_score(user_query, "\n\n".join(combined_context))
+        ctx_merged = (ctx_cos + ctx_llm) / 2
+
+        # ==================================================
+        # 5. ANSWER RELEVANCE
+        # ==================================================
+        ans_cos = compute_answer_relevance(user_query, answer_text)
+        ans_llm = answer_relevance_score(user_query, answer_text)
+        ans_merged = (ans_cos + ans_llm) / 2
+
+        # ==================================================
+        # 6. FAITHFULNESS
+        # ==================================================
+        faith = compute_faithfulness(answer_text, combined_context)
+
+        # ==================================================
+        # 7. FINAL TRIAD MERGED
+        # ==================================================
+        triad_merged = float(np.mean([ctx_merged, ans_merged, faith]))
+
+        # ==================================================
+        # 8. RECORD RESULTS
+        # ==================================================
+        results.append({
+            "Query ID": q["id"],
+            "Query Name": q["name"],
+            "Latency (s)": latency,
+
+            "Context Relevance (cosine)": round(ctx_cos, 3),
+            "Context Relevance (LLM)": round(ctx_llm, 3),
+            "Context Relevance (Merged)": round(ctx_merged, 3),
+
+            "Answer Relevance (cosine)": round(ans_cos, 3),
+            "Answer Relevance (LLM)": round(ans_llm, 3),
+            "Answer Relevance (Merged)": round(ans_merged, 3),
+
+            "Faithfulness": round(faith, 3),
+            "Avg Triad (Merged)": round(triad_merged, 3),
+
+            "Num Logs": len(new_test_logs),
+            "Log Files": new_test_logs,
+        })
+
+        answers.append({
+            "Query ID": q["id"],
+            "Query Name": q["name"],
+            "Full Answer": answer_text,
+            "Sources": response.get("metadata", {})
+        })
+
+    save_run_logs(results, answers)
+
+    return pd.DataFrame(results), pd.DataFrame(answers)
+
