@@ -1,0 +1,123 @@
+{
+  "run_index": 1,
+  "timestamp": "2025-11-28_11-17-02",
+  "num_queries": 3,
+  "total_latency_s": 127.53,
+  "queries": [
+    {
+      "Query ID": "Q1",
+      "Query Name": "Gross Margin Trend",
+      "Scores": {
+        "Latency (s)": 30.93,
+        "Context Relevance": {
+          "cosine": 0.323,
+          "llm": 0.1,
+          "merged": 0.212
+        },
+        "Answer Relevance": {
+          "cosine": 0.656,
+          "llm": 0.9,
+          "merged": 0.778
+        },
+        "Faithfulness": 0.765,
+        "Avg Triad (Merged)": 0.585
+      },
+      "Answer": {
+        "text": "The Gross Margin over the last 5 quarters is as follows:\n\n| Quarter   | Gross Margin (%) |\n|-----------|------------------|\n| Q1 2025   | 59.7%            |\n| Q4 2024   | Data Missing     |\n| Q3 2024   | 58.7%            |\n| Q2 2024   | 58.1%            |\n| Q1 2024   | 58.1%            |\n\nNote: The gross margin for Q4 2024 is not available due to missing data.",
+        "Sources": {
+          "sources": [
+            "goog-10-q-q2-2025",
+            "goog-10-q-q3-2024",
+            "goog-10-q-q2-2024",
+            "goog-10-q-q1-2024",
+            "goog-10-q-q1-2025"
+          ],
+          "image_paths": []
+        }
+      },
+      "Logs Used": [
+        56
+      ]
+    },
+    {
+      "Query ID": "Q2",
+      "Query Name": "Operating Expenses YoY",
+      "Scores": {
+        "Latency (s)": 27.07,
+        "Context Relevance": {
+          "cosine": 0.419,
+          "llm": 0.9,
+          "merged": 0.659
+        },
+        "Answer Relevance": {
+          "cosine": 0.711,
+          "llm": 1.0,
+          "merged": 0.855
+        },
+        "Faithfulness": 0.731,
+        "Avg Triad (Merged)": 0.749
+      },
+      "Answer": {
+        "text": "### Operating Expenses (General and Administrative) for the Last 3 Fiscal Years\n\n| Fiscal Year | Operating Expenses (G&A) in millions | Year-on-Year Change | Growth %   |\n|-------------|-------------------------------------|--------------------|------------|\n| 2021        | $13,510                             | -                  | -          |\n| 2022        | $15,724                             | +$2,214            | +16.39%    |\n| 2023        | $16,425                             | +$701              | +4.46%     |\n\n### Summary:\n- Operating expenses (G&A) increased from $13.51 billion in 2021 to $15.72 billion in 2022, a 16.39% increase.\n- From 2022 to 2023, operating expenses grew by 4.46% to $16.43 billion.\n- The growth rate slowed in 2023 compared to 2022, indicating possible cost control or stabilization efforts.",
+        "Sources": {
+          "sources": [
+            "goog-10-k-2022",
+            "goog-10-q-q3-2022",
+            "goog-10-k-2023-final",
+            "goog-10-q-q1-2023",
+            "goog-10-q-q2-2025",
+            "goog-10-q-q2-2024",
+            "goog-10-q-q1-2024",
+            "goog-10-k-2024",
+            "goog-10-q-q1-2025"
+          ],
+          "image_paths": []
+        }
+      },
+      "Logs Used": [
+        57
+      ]
+    },
+    {
+      "Query ID": "Q3",
+      "Query Name": "Operating Efficiency Ratio",
+      "Scores": {
+        "Latency (s)": 69.53,
+        "Context Relevance": {
+          "cosine": 0.37,
+          "llm": 0.8,
+          "merged": 0.585
+        },
+        "Answer Relevance": {
+          "cosine": 0.733,
+          "llm": 0.9,
+          "merged": 0.816
+        },
+        "Faithfulness": 0.769,
+        "Avg Triad (Merged)": 0.723
+      },
+      "Answer": {
+        "text": "The Operating Efficiency Ratio (Opex ÷ Operating Income) for the last 3 fiscal years, using General and Administrative expenses as a proxy for Operating Expenses, is calculated as follows:  \n\n| Fiscal Year | G&A Expenses (in millions) | Operating Income (in millions) | Operating Efficiency Ratio (G&A ÷ Operating Income) |  \n|-------------|----------------------------|-------------------------------|-----------------------------------------------------|  \n| 2021        | $13,510                    | $78,714                       | 0.1717 (17.17%)                                     |  \n| 2022        | $15,724                    | $74,842                       | 0.2100 (21.00%)                                     |  \n| 2023        | $16,425                    | $84,293                       | 0.1948 (19.48%)                                     |  \n\nThis shows that the ratio increased from 2021 to 2022, then decreased in 2023, indicating some improvement in operating efficiency relative to G&A expenses in 2023. However, since total Operating Expenses were not available, these ratios are based on G&A expenses only and may not fully represent total operating efficiency.",
+        "Sources": {
+          "sources": [
+            "goog-10-k-2022",
+            "goog-10-q-q3-2022",
+            "goog-10-k-2023-final",
+            "goog-10-q-q1-2023",
+            "goog-10-q-q2-2025",
+            "goog-10-q-q3-2023",
+            "goog-10-q-q2-2024",
+            "goog-10-q-q1-2024",
+            "goog-10-k-2024",
+            "goog-10-q-q1-2025",
+            "goog-10-q-q2-2023"
+          ],
+          "image_paths": []
+        }
+      },
+      "Logs Used": [
+        58
+      ]
+    }
+  ]
+}

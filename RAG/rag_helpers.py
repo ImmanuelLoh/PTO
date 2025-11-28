@@ -1,5 +1,6 @@
 # rag_eval.py
 import os, re, json, time
+from datetime import datetime
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 from openai import OpenAI
@@ -149,3 +150,86 @@ def evaluate_rag_for_query(original_question, **agent_kwargs):
         "faithfulness": faith,
         "answer_relevance": ans_rel
     }
+    
+# ============================
+#   SAVE RAG RUN LOGS
+# ============================
+
+LOG_DIR = "00-data/logs/rag"
+os.makedirs(LOG_DIR, exist_ok=True)
+
+def next_log_index():
+    """Return next available log index (integer)."""
+    os.makedirs(LOG_DIR, exist_ok=True)
+
+    files = [f for f in os.listdir(LOG_DIR) if f.startswith("rag_")]
+    if not files:
+        return 1
+
+    indices = []
+    for f in files:
+        # expecting format rag_001_2025-...
+        parts = f.split("_")
+        try:
+            idx = int(parts[1])
+            indices.append(idx)
+        except:
+            pass
+
+    return max(indices) + 1
+
+
+def save_run_logs(results, answers):
+    """Save single optimized RAG log with index + timestamp."""
+    os.makedirs(LOG_DIR, exist_ok=True)
+
+    idx = next_log_index()
+    timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+
+    file_name = f"rag_{idx}_{timestamp}.json"
+    out_path = os.path.join(LOG_DIR, file_name)
+
+    # Build merged log object
+    merged = {
+        "run_index": idx,
+        "timestamp": timestamp,
+        "num_queries": len(results),
+        "total_latency_s": sum(r["Latency (s)"] for r in results),
+        "queries": []
+    }
+
+    for r, a in zip(results, answers):
+        entry = {
+            "Query ID": r["Query ID"],
+            "Query Name": r["Query Name"],
+            "Scores": {
+                "Latency (s)": r["Latency (s)"],
+                "Context Relevance": {
+                    "cosine": r["Context Relevance (cosine)"],
+                    "llm": r["Context Relevance (LLM)"],
+                    "merged": r["Context Relevance (Merged)"]
+                },
+                "Answer Relevance": {
+                    "cosine": r["Answer Relevance (cosine)"],
+                    "llm": r["Answer Relevance (LLM)"],
+                    "merged": r["Answer Relevance (Merged)"]
+                },
+                "Faithfulness": r["Faithfulness"],
+                "Avg Triad (Merged)": r["Avg Triad (Merged)"]
+            },
+            "Answer": {
+                "text": a["Full Answer"],
+                "Sources": a["Sources"]
+            },
+            "Logs Used": r["Log Files"]
+        }
+        merged["queries"].append(entry)
+
+    # Save
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(merged, f, indent=2, ensure_ascii=False)
+
+    print(f"\n📁 Saved combined log:\n - {out_path}")
+
+
+

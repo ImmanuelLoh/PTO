@@ -18,7 +18,8 @@ from rag_helpers import (
     compute_answer_relevance,
     compute_faithfulness,
     list_log_numbers,
-    load_log
+    load_log,
+    save_run_logs
 )
 
 # Your notebook’s custom extractor
@@ -134,5 +135,7 @@ def run_full_rag_benchmark(benchmark_queries, manual_ctx):
             "Full Answer": answer_text,
             "Sources": response.get("metadata", {})
         })
+        
+    save_run_logs(results, answers)
 
     return pd.DataFrame(results), pd.DataFrame(answers)
