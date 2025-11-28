@@ -1,0 +1,22 @@
+{
+    "query": "Report the Gross Margin over the last 5 quarters, with values.",
+    "latency": 57.45952749252319,
+    "retrieval_time": 24.439639568328857,
+    "rerank_time": 5.957412481307983,
+    "callback_summary": {
+        "total_agent_time": 5.8407,
+        "total_llm_time": 9.397,
+        "reasoning_time": 3.5583,
+        "generation_time": 5.8387,
+        "llm_calls": 3,
+        "tool_calls": 2,
+        "tools_used": [
+            "retrieve_table",
+            "_Exception"
+        ],
+        "prompt_tokens": 14531,
+        "completion_tokens": 486,
+        "total_tokens": 15017
+    },
+    "cache_hit": false
+}

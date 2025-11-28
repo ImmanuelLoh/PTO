@@ -2,6 +2,31 @@ import os
 import json
 import re
 
+def store_timings_json(data):
+    dir_path = "00-data/logs/instru_log_testings"
+    os.makedirs(dir_path, exist_ok=True)
+
+    # Find existing files
+    existing = [
+        f for f in os.listdir(dir_path)
+        if re.match(r"timings_(\d+)\.json$", f)
+    ]
+
+    # Determine next number to set as the file name
+    if existing:
+        nums = [int(re.findall(r"timings_(\d+)\.json$", f)[0]) for f in existing]
+        next_num = max(nums) + 1
+    else:
+        next_num = 1
+
+    file_name = f"timings_{next_num}.json"
+
+    # Save
+    with open(os.path.join(dir_path, file_name), "w") as f:
+        json.dump(data, f, indent=4)
+    
+    print("Saved timings to :", file_name)
+
 def build_timing_json(question, callback, retrieval_time, rerank_time, total_time, cache_hits=False):
     
     # skip LLM timing if cache hit

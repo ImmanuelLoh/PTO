@@ -1,0 +1,20 @@
+{
+    "query": "Calculate the Operating Efficiency Ratio (Opex \u00f7 Operating Income) for the last 3 fiscal years, showing the working.",
+    "latency": 31.2024,
+    "callback_summary": {
+        "total_agent_time": 7.0345,
+        "total_llm_time": 98.0093,
+        "retrieval_time": 1.6241,
+        "reasoning_time": 90.9768,
+        "generation_time": 7.0325,
+        "llm_calls": 32,
+        "tool_calls": 2,
+        "tools_used": [
+            "retriever",
+            "calculator"
+        ],
+        "prompt_tokens": 90893,
+        "completion_tokens": 5104,
+        "total_tokens": 95997
+    }
+}

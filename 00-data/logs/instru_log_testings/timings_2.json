@@ -1,13 +1,22 @@
 {
-    "Query": "Report the Gross Margin over the last 5 quarters, with values.",
-    "T_ingest": null,
-    "T_retrieve": 0.0,
-    "T_rerank": 0.0,
-    "T_reason": 0.0,
-    "T_generate": 0.0,
-    "T_total": 0.0,
-    "prompt_tokens": 0,
-    "completion_tokens": 0,
-    "total_tokens": 0,
-    "cache_hit": true
+    "query": "Show Operating Expenses for the last 3 fiscal years, year-on-year comparison.",
+    "latency": 54.56280827522278,
+    "retrieval_time": 18.241129875183105,
+    "rerank_time": 12.81305193901062,
+    "callback_summary": {
+        "total_agent_time": 6.7878,
+        "total_llm_time": 12.4565,
+        "reasoning_time": 5.6697,
+        "generation_time": 6.7868,
+        "llm_calls": 4,
+        "tool_calls": 2,
+        "tools_used": [
+            "retrieve_table",
+            "_Exception"
+        ],
+        "prompt_tokens": 14657,
+        "completion_tokens": 629,
+        "total_tokens": 15286
+    },
+    "cache_hit": false
 }

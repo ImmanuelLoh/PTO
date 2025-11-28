@@ -17,7 +17,7 @@ from retrieval_tools import build_retrieval_tools
 import asyncio
 import nest_asyncio
 
-from timing_logger import build_timing_json
+from timing_logger import build_timing_json, store_timings_json
 
 nest_asyncio.apply()
 
@@ -131,43 +131,74 @@ class SourceCapturingCallback(BaseCallbackHandler):
         self.sources = []
         self.image_paths = []
         self.tool_outputs = []
+
+        # Instrumentation logs
         self.llm_calls = []
         self.prompt_tokens = []
         self.completion_tokens = []
         self.total_tokens = []
+        self.tool_names = []
+        self.current_tool_name = None
 
-    def on_llm_start(self, serialized, prompts, *, run_id, parent_run_id = None, tags = None, metadata = None, **kwargs):
-        self.current_start = time.time()
+        self.agent_start = None
+        self.agent_end = None
 
-    def on_llm_end(self, response, **kwargs) -> None:
-        if hasattr(self, 'current_start'):
-            self.llm_calls.append(time.time() - self.current_start) # get the end time 
-        if hasattr(response, "llm_output") and response.llm_output: # retrieve token usage
+    # Agent
+    def on_chain_start(self, *args, **kwargs):
+        self.agent_start = time.time()
+    def on_chain_end(self, *args, **kwargs):
+        self.agent_end = time.time()
+
+    # LLM
+    def on_llm_start(self, *args, **kwargs):
+        self.llm_start = time.time()
+    def on_llm_end(self, response, *args, **kwargs):
+        if hasattr(self, 'llm_start'):
+            self.llm_calls.append(time.time() - self.llm_start)
+        if hasattr(response, "llm_output") and response.llm_output:
             usage = response.llm_output.get("token_usage", {})
             self.prompt_tokens.append(usage.get("prompt_tokens", 0))
             self.completion_tokens.append(usage.get("completion_tokens", 0))
             self.total_tokens.append(usage.get("total_tokens", 0))
 
-    def get_timing_and_token_summary(self):
-        if len(self.llm_calls) == 0:
-            return {"reasoning_time": 0, "generation_time": 0}
-        
-        # Last call is generation, everything else is reasoning
-        reasoning_time = sum(self.llm_calls[:-1])
-        generation_time = self.llm_calls[-1]
+    # Tool
+    def on_tool_start(self, tool, *args, **kwargs):
+        # Extract only the tool name
+        if hasattr(tool, "name"):
+            self.current_tool_name = tool.name
+        elif isinstance(tool, dict) and "name" in tool:
+            self.current_tool_name = tool["name"]
+        else:
+            self.current_tool_name = str(tool)
+
+    # Summary
+    def summary(self):
+        total_agent = (self.agent_end - self.agent_start) if self.agent_end else 0
+        total_llm = sum(self.llm_calls)
+        # last call is generation call
+        reasoning_time = sum(self.llm_calls[:-1]) if self.llm_calls else 0
+        generation_time = self.llm_calls[-1] if self.llm_calls else 0
 
         return {
-            "reasoning_time" : reasoning_time,
-            "generation_time": generation_time,
-            "total_llm_time" : reasoning_time + generation_time,
-            "llm_calls"      : len(self.llm_calls),
-            "prompt_tokens"  : sum(self.prompt_tokens),
+            "total_agent_time": round(total_agent, 4),
+            "total_llm_time": round(total_llm, 4),
+            "reasoning_time": round(reasoning_time, 4),
+            "generation_time": round(generation_time, 4),
+            "llm_calls": len(self.llm_calls),
+            "tool_calls": len(self.tool_names),
+            "tools_used": self.tool_names,
+            "prompt_tokens": sum(self.prompt_tokens),
             "completion_tokens": sum(self.completion_tokens),
-            "total_tokens"   : sum(self.total_tokens)
+            "total_tokens": sum(self.total_tokens)
         }
 
     def on_tool_end(self, output: str, **kwargs) -> None:
         """Called when a tool finishes execution"""
+        # Append only if not already in the list (instrumentation Logging)
+        if self.current_tool_name and self.current_tool_name not in self.tool_names:
+            self.tool_names.append(self.current_tool_name)
+        self.current_tool_name = None
+
         self.tool_outputs.append(output)
 
         # Try to parse as JSON and extract sources
@@ -298,15 +329,44 @@ def query_cfo_agent(
     """
     # Check cache first
     if use_cache:
+        cache_start = time.time()
         query_embedded = np.array(embed_text_query(question), dtype="float32")
         cache_result = search_semantic_cache(query_embedded, threshold=cache_threshold)
+        cache_end = time.time() - cache_start
         if cache_result["hit"]:
             print("Cache HIT:")
             print(f"  Similarity: {cache_result['similarity']:.4f}")
             print(f"  Cached Query: {cache_result['cache_query']}")
             print()
-            #build timing json
-            build_timing_json(question, None, 0.0, 0.0, 0.0, True)
+            # build_timing_json(question, None, 0.0, 0.0, 0.0, True)
+            # Build a timing JSON that matches the non-cache structure
+            default_callback_summary = {
+                "total_agent_time": 0.0,
+                "total_llm_time": 0.0,
+                "reasoning_time": 0.0,
+                "generation_time": 0.0,
+                "llm_calls": 0,
+                "tool_calls": 0,
+                "tools_used": [],
+                "prompt_tokens": 0,
+                "completion_tokens": 0,
+                "total_tokens": 0,
+            }
+
+            timing_json = {
+                "query": question,
+                "latency": cache_end,
+                "retrieval_time": 0.0,
+                "rerank_time": 0.0,
+                "callback_summary": default_callback_summary,
+                "cache_hit": True,
+                # optional: include cache diagnostics
+                "cache_similarity": float(cache_result.get("similarity", 0.0)),
+                "cache_query": cache_result.get("cache_query"),
+            }
+
+            # persist timing the same way as non-cache path
+            store_timings_json(timing_json)
             log_rag_evaluation(question, [], cache_result["response"], 0.0, 0.0, cache_hit=True)
             return {
                 "query": question,
@@ -374,7 +434,18 @@ def query_cfo_agent(
             metadata=metadata_sources,
         )
     
-    build_timing_json(question, source_callback, retrieval_time, rerank_time, total_time, False)
+    timing_summary = source_callback.summary()
+
+    store_timings_json({
+        "query": question,
+        "latency": total_time,
+        "retrieval_time": retrieval_time,
+        "rerank_time": rerank_time,
+        "callback_summary": timing_summary,
+        "cache_hit" : False
+    })
+
+    # build_timing_json(question, source_callback, retrieval_time, rerank_time, total_time, False)
 
     # Log RAG evaluation data
     log_rag_evaluation(question, all_contexts, answer, retrieval_time, total_time, cache_hit=False)

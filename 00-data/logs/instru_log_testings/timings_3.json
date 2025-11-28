@@ -1,13 +1,21 @@
 {
-    "Query": "Report the Gross Margin over the last 5 quarters, with values.",
-    "T_ingest": null,
-    "T_retrieve": 36.55177688598633,
-    "T_rerank": 3.3585071563720703,
-    "T_reason": 1.0362162590026855,
-    "T_generate": 5.224578619003296,
-    "T_total": 73.11699795722961,
-    "prompt_tokens": 1607,
-    "completion_tokens": 296,
-    "total_tokens": 1903,
+    "query": "Calculate the Operating Efficiency Ratio (Opex \u00f7 Operating Income) for the last 3 fiscal years, showing the working.",
+    "latency": 47.321341037750244,
+    "retrieval_time": 17.520177602767944,
+    "rerank_time": 11.164403438568115,
+    "callback_summary": {
+        "total_agent_time": 7.0205,
+        "total_llm_time": 9.1459,
+        "reasoning_time": 2.1274,
+        "generation_time": 7.0185,
+        "llm_calls": 2,
+        "tool_calls": 1,
+        "tools_used": [
+            "retrieve_table"
+        ],
+        "prompt_tokens": 7719,
+        "completion_tokens": 494,
+        "total_tokens": 8213
+    },
     "cache_hit": false
 }
