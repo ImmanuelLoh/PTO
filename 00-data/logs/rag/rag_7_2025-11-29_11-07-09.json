@@ -1,0 +1,126 @@
+{
+  "run_index": 7,
+  "timestamp": "2025-11-29_11-07-09",
+  "num_queries": 3,
+  "total_latency_s": 110.03999999999999,
+  "queries": [
+    {
+      "Query ID": 1,
+      "Query Name": "Gross Margin Trend",
+      "Scores": {
+        "Latency (s)": 30.95,
+        "Context Relevance": {
+          "cosine": 0.477,
+          "llm": 0.7,
+          "merged": 0.633
+        },
+        "Answer Relevance": {
+          "cosine": 0.729,
+          "llm": 0.8,
+          "merged": 0.779
+        },
+        "Faithfulness": 0.667,
+        "Avg Triad (Merged)": 0.693
+      },
+      "Answer": {
+        "text": "The gross margin increased from approximately 55.37% in 2022 to 56.63% in 2023, showing an improving trend. However, the cost of revenues for 2024 is not available, so the gross margin for 2024 cannot be calculated, and the trend for the last year is undetermined.",
+        "Sources": {
+          "sources": [
+            "goog-10-q-q2-2024",
+            "goog-10-k-2024",
+            "goog-10-k-2023-final",
+            "goog-10-q-q2-2025",
+            "goog-10-q-q1-2023",
+            "goog-10-q-q1-2025",
+            "goog-10-q-q3-2023"
+          ],
+          "image_paths": []
+        }
+      },
+      "Logs Used": [
+        24
+      ]
+    },
+    {
+      "Query ID": 2,
+      "Query Name": "Operating Expenses YoY",
+      "Scores": {
+        "Latency (s)": 31.26,
+        "Context Relevance": {
+          "cosine": 0.491,
+          "llm": 0.95,
+          "merged": 0.812
+        },
+        "Answer Relevance": {
+          "cosine": 0.747,
+          "llm": 1.0,
+          "merged": 0.924
+        },
+        "Faithfulness": 0.875,
+        "Avg Triad (Merged)": 0.871
+      },
+      "Answer": {
+        "text": "Operating Expenses (General and Administrative Expenses) for the last 3 fiscal years are as follows:\n\n| Year | Operating Expenses (in millions) | Year-on-Year Change (%) |\n|-------|---------------------------------|------------------------|\n| 2021  | $13,510                         | -                      |\n| 2022  | $15,724                         | +16.39%                |\n| 2023  | $16,425                         | +4.46%                 |\n\nThis shows a consistent increase in operating expenses over the last three years, with a significant rise from 2021 to 2022 and a slower increase from 2022 to 2023.",
+        "Sources": {
+          "sources": [
+            "goog-10-q-q3-2022",
+            "goog-10-q-q2-2024",
+            "goog-10-k-2022",
+            "goog-10-k-2024",
+            "goog-10-k-2023-final",
+            "goog-10-q-q2-2025",
+            "goog-10-q-q1-2023",
+            "goog-10-q-q1-2025",
+            "goog-10-q-q1-2024"
+          ],
+          "image_paths": []
+        }
+      },
+      "Logs Used": [
+        25
+      ]
+    },
+    {
+      "Query ID": 3,
+      "Query Name": "Operating Efficiency Ratio",
+      "Scores": {
+        "Latency (s)": 47.83,
+        "Context Relevance": {
+          "cosine": 0.439,
+          "llm": 0.995,
+          "merged": 0.828
+        },
+        "Answer Relevance": {
+          "cosine": 0.844,
+          "llm": 1.0,
+          "merged": 0.953
+        },
+        "Faithfulness": 0.571,
+        "Avg Triad (Merged)": 0.784
+      },
+      "Answer": {
+        "text": "Operating Efficiency Ratio (Opex ÷ Operating Income) for the last 3 fiscal years:  \n- 2021: 2.27  \n- 2022: 2.78  \n- 2023: 2.65",
+        "Sources": {
+          "sources": [
+            "goog-10-q-q3-2022",
+            "goog-10-q-q2-2024",
+            "goog-10-q-q2-2022",
+            "goog-10-k-2022",
+            "goog-10-k-2024",
+            "goog-10-k-2023-final",
+            "goog-10-q-q2-2025",
+            "goog-10-q-q2-2023",
+            "goog-10-q-q1-2023",
+            "goog-10-q-q1-2025",
+            "goog-10-q-q3-2023",
+            "goog-10-q-q1-2024"
+          ],
+          "image_paths": []
+        }
+      },
+      "Logs Used": [
+        26
+      ]
+    }
+  ]
+}

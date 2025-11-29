@@ -7,6 +7,7 @@ from openai import OpenAI
 
 from UnifiedCFOAgent import query_cfo_agent
 
+
 # Global OpenAI client
 client = OpenAI()
 
@@ -24,22 +25,67 @@ def embed_texts(texts):
 # ============================
 #   RAG TRIAD (COSINE)
 # ============================
-def compute_context_relevance(query, retrieved_texts):
-    """How relevant retrieved docs are to query using cosine similarity."""
-    texts = [query] + retrieved_texts
-    embeddings = embed_texts(texts)
-    query_vec, doc_vecs = embeddings[0], embeddings[1:]
-    sims = cosine_similarity([query_vec], doc_vecs)[0]
-    return float(np.mean(sims))
+def compute_context_relevance(user_query, text_ctx, table_ctx):
+    scores = []
+
+    # Pre-embed user query to avoid repeated embeddings
+    user_vec = embed_texts([user_query])[0]
+
+    # ---- TEXT CONTEXT ----
+    if text_ctx:
+        for expanded_query, chunks in text_ctx.items():
+            if chunks:
+                expanded_query_vec = embed_texts([expanded_query])[0]
+                doc_vecs = embed_texts(chunks)
+                sims = cosine_similarity([expanded_query_vec], doc_vecs)[0]
+                scores.append(float(np.mean(sims)))
+
+    # ---- TABLE CONTEXT ----
+    if table_ctx:
+        doc_vecs = embed_texts(table_ctx)
+        sims = cosine_similarity([user_vec], doc_vecs)[0]
+        scores.append(float(np.mean(sims)))
+
+    if not scores:
+        return 0.0
+
+    return float(np.mean(scores))
+
+
+    # texts = [query] + retrieved_texts
+    # embeddings = embed_texts(texts)
+    # query_vec, doc_vecs = embeddings[0], embeddings[1:]
+    # sims = cosine_similarity([query_vec], doc_vecs)[0]
+    # return float(np.mean(sims))
 
 def compute_answer_relevance(query, answer):
     """How relevant final answer is to query."""
     query_vec, answer_vec = embed_texts([query, answer])
     return float(cosine_similarity([query_vec], [answer_vec])[0][0])
 
-def compute_faithfulness(answer, retrieved_texts):
+# def compute_faithfulness(answer, retrieved_texts):
+#     """How much the answer is supported by retrieval content."""
+#     all_text = " ".join(retrieved_texts)
+#     nums_ans = re.findall(r"\d+\.?\d*", answer)
+#     nums_ctx = re.findall(r"\d+\.?\d*", all_text)
+#     if not nums_ans:
+#         return 1.0
+#     match_count = sum(1 for n in nums_ans if n in nums_ctx)
+#     return match_count / len(nums_ans)
+
+def compute_faithfulness(answer, text_ctx, table_ctx):
     """How much the answer is supported by retrieval content."""
-    all_text = " ".join(retrieved_texts)
+    all_text = ""
+
+    # ---- TEXT CONTEXT ----
+    if text_ctx:
+        for chunks in text_ctx.values():
+            all_text += " " + " ".join(chunks)
+
+    # ---- TABLE CONTEXT ----
+    if table_ctx:
+        all_text += " " + " ".join(table_ctx)
+
     nums_ans = re.findall(r"\d+\.?\d*", answer)
     nums_ctx = re.findall(r"\d+\.?\d*", all_text)
     if not nums_ans:
@@ -63,18 +109,59 @@ def llm_float_score(prompt: str):
     score = float(raw)
     return max(0, min(score, 1))  # clamp to [0,1]
 
-def context_relevance_score(question, context):
-    prompt = f"Rate how relevant the CONTEXT is to the QUESTION from 0 to 1.\n\nQUESTION:\n{question}\n\nCONTEXT:\n{context}\n\nScore:"
-    return llm_float_score(prompt)
+# def context_relevance_score(question, context):
+#     prompt = f"Rate how relevant the CONTEXT is to the QUESTION from 0 to 1.\n\nQUESTION:\n{question}\n\nCONTEXT:\n{context}\n\nScore:"
+#     return llm_float_score(prompt)
+
+def context_relevance_score(query, text_ctx, table_ctx):
+    scores = []
+
+    # ---- TEXT CONTEXT ----
+    if text_ctx:
+        for expanded_query, chunks in text_ctx.items():
+            if chunks:
+                prompt = f"Rate how relevant the CONTEXT is to the QUESTION from 0 to 1.\n\nQUESTION:\n{expanded_query}\n\nCONTEXT:\n{' '.join(chunks)}\n\nScore:"
+                score = llm_float_score(prompt)
+                scores.append(score)
+
+    # ---- TABLE CONTEXT ----
+    if table_ctx:
+        prompt = f"Rate how relevant the CONTEXT is to the QUESTION from 0 to 1.\n\nQUESTION:\n{query}\n\nCONTEXT:\n{' '.join(table_ctx)}\n\nScore:"
+        score = llm_float_score(prompt)
+        scores.append(score)
+
+
+    if not scores:
+        return 0.0
+    print (f" - Context Relevance Scores (LLM): {scores}")
+    return float(np.mean(scores))
 
 def answer_relevance_score(original_question, answer):
     prompt = f"Rate how relevant the ANSWER is to the QUESTION from 0 to 1.\n\nQUESTION:\n{original_question}\n\nANSWER:\n{answer}\n\nScore:"
     return llm_float_score(prompt)
 
-def faithfulness_score(context, answer):
-    prompt = f"Rate how faithful the ANSWER is to the CONTEXT from 0 to 1.\n\nCONTEXT:\n{context}\n\nANSWER:\n{answer}\n\nScore:"
-    return llm_float_score(prompt)
+# def faithfulness_score(context, answer):
+#     prompt = f"Rate how faithful the ANSWER is to the CONTEXT from 0 to 1.\n\nCONTEXT:\n{context}\n\nANSWER:\n{answer}\n\nScore:"
+#     return llm_float_score(prompt)
 
+def faithfulness_score(answer, text_ctx, table_ctx):
+    all_text = ""
+
+    # ---- TEXT CONTEXT ----
+    if text_ctx:
+        for chunks in text_ctx.values():
+            all_text += " " + " ".join(chunks)
+
+    # ---- TABLE CONTEXT ----
+    if table_ctx:
+        all_text += " " + " ".join(table_ctx)
+    # print ("Text_ctx", text_ctx)
+    # print ("Table_ctx", table_ctx)
+    print ("All_text", all_text[:500])
+    print ("Answer", answer[:500])
+
+    prompt = f"Rate how faithful the ANSWER is to the CONTEXT from 0 to 1.\n\nCONTEXT:\n{all_text}\n\nANSWER:\n{answer}\n\nScore:"
+    return llm_float_score(prompt)
 # ============================
 #   LOG HANDLING
 # ============================
@@ -150,7 +237,7 @@ def evaluate_rag_for_query(original_question, **agent_kwargs):
         "faithfulness": faith,
         "answer_relevance": ans_rel
     }
-    
+
 # ============================
 #   SAVE RAG RUN LOGS
 # ============================

@@ -1,0 +1,45 @@
+{
+  "run_index": 6,
+  "timestamp": "2025-11-29_11-01-36",
+  "num_queries": 1,
+  "total_latency_s": 35.81,
+  "queries": [
+    {
+      "Query ID": "Q1",
+      "Query Name": "Gross Margin Trend",
+      "Scores": {
+        "Latency (s)": 35.81,
+        "Context Relevance": {
+          "cosine": 0.476,
+          "llm": 0.675,
+          "merged": 0.615
+        },
+        "Answer Relevance": {
+          "cosine": 0.699,
+          "llm": 0.9,
+          "merged": 0.84
+        },
+        "Faithfulness": 0.18,
+        "Avg Triad (Merged)": 0.545
+      },
+      "Answer": {
+        "text": "The gross margin increased from approximately 55.37% in 2022 to 56.63% in 2023, indicating an improving trend. However, the gross margin for 2024 cannot be determined due to missing cost of revenues data.",
+        "Sources": {
+          "sources": [
+            "goog-10-q-q1-2023",
+            "goog-10-q-q3-2023",
+            "goog-10-k-2023-final",
+            "goog-10-q-q2-2025",
+            "goog-10-k-2024",
+            "goog-10-q-q2-2024",
+            "goog-10-q-q1-2025"
+          ],
+          "image_paths": []
+        }
+      },
+      "Logs Used": [
+        23
+      ]
+    }
+  ]
+}

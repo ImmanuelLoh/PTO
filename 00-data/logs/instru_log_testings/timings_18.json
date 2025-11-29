@@ -1,0 +1,23 @@
+{
+    "query": "What is the gross margin trend for the last 3 years?",
+    "latency": 36.81920790672302,
+    "retrieval_time": 15.477564573287964,
+    "rerank_time": 3.4755709171295166,
+    "callback_summary": {
+        "total_agent_time": 2.988,
+        "total_llm_time": 11.7196,
+        "reasoning_time": 8.7316,
+        "generation_time": 2.988,
+        "llm_calls": 6,
+        "tool_calls": 3,
+        "tools_used": [
+            "retrieve_table",
+            "_Exception",
+            "invalid_tool"
+        ],
+        "prompt_tokens": 39623,
+        "completion_tokens": 807,
+        "total_tokens": 40430
+    },
+    "cache_hit": false
+}
