@@ -1,0 +1,21 @@
+{
+    "query": "Show Operating Expenses for the last 3 fiscal years, year-on-year comparison.",
+    "latency": 35.346941232681274,
+    "retrieval_time": 18.544702291488647,
+    "rerank_time": 14.546358108520508,
+    "callback_summary": {
+        "total_agent_time": 4.6898,
+        "total_llm_time": 6.0672,
+        "reasoning_time": 1.3775,
+        "generation_time": 4.6898,
+        "llm_calls": 2,
+        "tool_calls": 1,
+        "tools_used": [
+            "retrieve_table"
+        ],
+        "prompt_tokens": 3825,
+        "completion_tokens": 340,
+        "total_tokens": 4165
+    },
+    "cache_hit": false
+}
