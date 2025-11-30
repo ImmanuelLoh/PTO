@@ -7,6 +7,8 @@ Driven by the central orchestrator Agent_CFO_Project.ipynb, this system does not
 
 The current knowledge base consists of Alphabet Inc. (Google) financial filings (10-K, 10-Q) and investor presentation decks.
 
+The baseline version can be found at baseline.ipynb
+
 ## ⚙️ Architecture & Pipeline 
 
 ### 1. The Data Strategy (Google Financials)
@@ -46,3 +48,25 @@ The agent reviews the potential utility of the tools. If the query is purely qua
 Retrieval: The system searches vector stores populated with Google's financial chunks using embedding similarity.  
 Computation: The agent performs explicit numerical computations (calculating margins, deltas) based on retrieved data.  
 Citation: It merges the evidence into a final response, strictly citing the source documents (e.g., Source: 2024 10-K, Table 4).
+
+## BENCHMARKING & EVALUATION
+
+To ensure the system meets production standards, we implemented a rigorous benchmarking framework comparing three distinct configurations.
+
+Test Scenarios We evaluate performance across three system states:
+
+*Baseline*: Rule Base Retrieval with Naive Chunking  
+*Optimized (Current)*: Async parallel multi-modal retrieval + Agentic "Plan-Prune-Execute" workflow.  
+*Cached*: Optimized agent + Semantic Caching layer enabled.
+
+Performance Metrics (Timing) We instrumented the code to log detailed latency breakdowns for every query. We track p50 (Median) and p95 (Tail Latency) for:  
+
+*Total Latency: End-to-end time from user query to final answer.  
+*Retrieval Time: Time taken to fetch data from Vector Stores (Text/Table/Image).  
+*Reasoning Time: Time spent by the Agent in the Planning and Pruning phases.  
+*Generation Time: Time spent generating the final prose response.  
+
+RAG Quality Metrics The log_rag_evaluation function captures data to assess the "RAG Triad":  
+*Context Precision: Is the retrieved evidence relevant to the query?  
+*Faithfulness: Is the answer supported by the retrieved contexts?  
+*Answer Relevance: Does the final answer actually address the user's specific question?
