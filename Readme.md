@@ -61,12 +61,12 @@ Test Scenarios We evaluate performance across three system states:
 
 Performance Metrics (Timing) We instrumented the code to log detailed latency breakdowns for every query. We track p50 (Median) and p95 (Tail Latency) for:  
 
-*Total Latency: End-to-end time from user query to final answer.  
-*Retrieval Time: Time taken to fetch data from Vector Stores (Text/Table/Image).  
-*Reasoning Time: Time spent by the Agent in the Planning and Pruning phases.  
-*Generation Time: Time spent generating the final prose response.  
+    - Total Latency: End-to-end time from user query to final answer.  
+    - Retrieval Time: Time taken to fetch data from Vector Stores (Text/Table/Image).  
+    - Reasoning Time: Time spent by the Agent in the Planning and Pruning phases.  
+    - Generation Time: Time spent generating the final prose response.  
 
 RAG Quality Metrics The log_rag_evaluation function captures data to assess the "RAG Triad":  
-*Context Precision: Is the retrieved evidence relevant to the query?  
-*Faithfulness: Is the answer supported by the retrieved contexts?  
-*Answer Relevance: Does the final answer actually address the user's specific question?
+    - Context Precision: Is the retrieved evidence relevant to the query?  
+    - Faithfulness: Is the answer supported by the retrieved contexts?  
+    - Answer Relevance: Does the final answer actually address the user's specific question?
