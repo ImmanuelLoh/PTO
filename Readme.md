@@ -54,10 +54,11 @@ Citation: It merges the evidence into a final response, strictly citing the sour
 To ensure the system meets production standards, we implemented a rigorous benchmarking framework comparing three distinct configurations.
 
 ### Test Scenarios 
-We evaluate performance across three system states
-    - *Baseline*: Rule Base Retrieval with Naive Chunking  
-    - *Optimized (Current)*: Async parallel multi-modal retrieval + Agentic "Plan-Prune-Execute" workflow.  
-    - *Cached*: Optimized agent + Semantic Caching layer enabled.
+We evaluate performance across three system states:
+
+    - Baseline: Rule Base Retrieval with Naive Chunking  
+    - Optimized (Current): Async parallel multi-modal retrieval + Agentic "Plan-Prune-Execute" workflow.  
+    - Cached: Optimized agent + Semantic Caching layer enabled.
 
 ### Performance Metrics (Timing)  
 We instrumented the code to log detailed latency breakdowns for every query. We track p50 (Median) and p95 (Tail Latency) for:  
