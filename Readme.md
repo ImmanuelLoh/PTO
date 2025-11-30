@@ -16,17 +16,17 @@ Unlike standard RAG systems that treat all data as flat text, this pipeline segr
 * **Visual Store:** Presentation slides are processed via OCR to capture visual data (charts, graphs) often missed by text parsers.
 
 ### 2. Execution Workflow
-The system follows a high-performance **Async Parallel Pipeline**:
+The system follows a high-performance **Async Parallel Pipeline**
 
-[Flow Description]  
+#### Flow Description
 1. User Query enters the system.  
 2. System checks the Semantic Cache.  
-- If Hit: Returns cached answer immediately.  
-- If Miss: Initiates Parallel Retrieval Engine.  
+    - If Hit: Returns cached answer immediately.  
+    - If Miss: Initiates Parallel Retrieval Engine.  
 3. The Async Retrieval Layer fetches data simultaneously from:
-- Text Vector Store  
-- Table Store
-- Image/OCR Store
+    - Text Vector Store  
+    - Table Store
+    - Image/OCR Store
 4. All data is merged into a Unified Context Window.
 5. The CFO Agent receives the context and begins reasoning (see below).  
 6. Agent generates a Final Answer with citations and updates the Semantic Cache.
