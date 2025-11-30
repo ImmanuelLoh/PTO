@@ -50,23 +50,6 @@ def build_retrieval_tools():
         "00-data/base/faiss_image_index", "00-data/base/faiss_image_metadata.json"
     )
 
-    # Wrap tools for agent
-    ############### Text retrieval (without reranking) SWITCH BETWEEN THIS AND RERANKING FOR TESTING IF YOU WANT ###################################
-    # def retrieve_text(query: str):
-    #     result = text_retriever.search(query, k=5)
-    #     sources = []
-    #     for section_result in result:
-    #         for item in section_result.get("ranking", []):
-    #             source = item["metadata"].get("document", "unknown")
-    #             if source not in sources:
-    #                 sources.append(source)
-
-    #     output = {
-    #         "results": result,
-    #         "sources": list(set(sources))
-    #     }
-    #     return json.dumps(output)
-
     # Text retrieval (with reranking)
     def retrieve_text(query: str):
         # Dynamic-K FAISS search
