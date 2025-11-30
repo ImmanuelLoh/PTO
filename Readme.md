@@ -33,7 +33,7 @@ The system follows a high-performance **Async Parallel Pipeline**
 5. The CFO Agent receives the context and begins reasoning (see below).  
 6. Agent generates a Final Answer with citations and updates the Semantic Cache.
 
-## HOW THE AGENT WORKS
+## 🧠 HOW THE AGENT WORKS
 
 The Agent is governed by a specialized Chain-of-Thought (CoT) system prompt that enforces a strict 3-phase reasoning process. This ensures the model behaves like a financial analyst rather than a generic chatbot.  
 
@@ -49,7 +49,7 @@ Retrieval: The system searches vector stores populated with Google's financial c
 Computation: The agent performs explicit numerical computations (calculating margins, deltas) based on retrieved data.  
 Citation: It merges the evidence into a final response, strictly citing the source documents (e.g., Source: 2024 10-K, Table 4).
 
-## BENCHMARKING & EVALUATION
+## 📊 BENCHMARKING & EVALUATION
 
 To ensure the system meets production standards, we implemented a rigorous benchmarking framework comparing three distinct configurations.
 
